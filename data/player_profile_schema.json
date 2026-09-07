@@ -1,0 +1,20 @@
+{
+  "schema": "lpg-player-profile-v1",
+  "storage_key": "lpg.profile.v1",
+  "fields": {
+    "player_id": "immutable local UUID",
+    "username": "optional local handle; server uniqueness not implied",
+    "created_at": "ISO-8601 timestamp",
+    "updated_at": "ISO-8601 timestamp when modified",
+    "schema_version": 1,
+    "score_version": "version of scoring model used for derived totals",
+    "social_sync": "local_only until explicit future account binding"
+  },
+  "future_server_rules": {
+    "account_id_is_primary_key": true,
+    "username_is_mutable": true,
+    "username_requires_server_uniqueness": true,
+    "exact_sighting_coordinates_public_by_default": false,
+    "private_photos_public_by_default": false
+  }
+}

@@ -1,0 +1,82 @@
+name: Validate app
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate app package
+        id: validate
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -e
+          for f in index.html styles.css v8.css v9.css app.js v8-patch.js sw.js manifest.webmanifest icon.svg data/catalog.part0.b64 data/catalog.part1.b64 data/catalog.part2.b64 data/catalog.part3.b64 data/catalog.part4.b64; do test -s "$f"; done
+          node --check app.js
+          node --check v8-patch.js
+          node --check sw.js
+          python - <<'PY'
+          from pathlib import Path
+          sw=Path('sw.js').read_text()
+          patch=Path('v8-patch.js').read_text()
+          assert 'v9.css' in sw and 'lpg-v9' in sw
+          assert 'lpg.profile.v1' in patch
+          assert 'serviceWorker' in patch and 'reg.update()' in patch
+          assert Path('docs/PROCESS_STANDARD.md').exists()
+          assert Path('tools/check_process_notes.py').exists()
+          print('Static package assertions passed')
+          PY
+      - name: Write validation process notes
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p process-output
+          if [ "${{ steps.validate.outcome }}" = "success" ]; then STATUS="COMPLETE"; EXCEPTIONS="No validation failure detected."; else STATUS="INCOMPLETE"; EXCEPTIONS="Validation failed. Inspect logs and do not merge until corrected."; fi
+          cat > process-output/PROCESS_NOTES.md <<EOF
+          # Process Notes
+
+          ## Purpose
+          Validate a proposed app change before merge and record exactly what the automated gate checked.
+
+          ## Inputs
+          - Commit: ${{ github.sha }}
+          - Ref: ${{ github.ref }}
+          - Workflow run: ${{ github.run_id }}
+
+          ## Step notes
+          - Step 1: Checked out the proposed repository revision.
+          - Step 2: Confirmed required PWA, UI skin, app, service-worker, and catalog chunk files exist and are non-empty. Result: ${{ steps.validate.outcome }}.
+          - Step 3: Syntax-checked app.js, v8-patch.js, and sw.js with Node. Result: ${{ steps.validate.outcome }}.
+          - Step 4: Checked v9 cache/style references, local profile schema hook, update-check hook, and process-standard files. Result: ${{ steps.validate.outcome }}.
+          - Step 5: Wrote this validation record before merge approval.
+
+          ## Exceptions / failures
+          ${EXCEPTIONS}
+
+          ## Outputs
+          - Automated validation result
+          - process-output/PROCESS_NOTES.md
+
+          ## Final recheck
+          Rechecked that required files, JavaScript syntax, v9 service-worker wiring, profile/update foundations, and process-note requirements were covered by the validation gate. A failing validation is not complete work.
+
+          ## Completion status
+          ${STATUS}
+          EOF
+      - name: Final recheck before accepting validation
+        if: always()
+        shell: bash
+        run: |
+          python tools/check_process_notes.py process-output/PROCESS_NOTES.md
+          if [ "${{ steps.validate.outcome }}" != "success" ]; then exit 1; fi
+      - name: Preserve validation notes
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-notes-${{ github.run_id }}
+          path: process-output/PROCESS_NOTES.md
+          retention-days: 30
