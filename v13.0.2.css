@@ -1,0 +1,84 @@
+/* v13.0.2 hotfix: do NOT mask the element itself.
+   The SVG artwork already contains its own torn alpha edge. Applying CSS mask-image
+   to the parent was masking text/controls too, producing the translucent/map-filled UI
+   seen on Android. This file removes those masks and makes paper/text fully opaque. */
+
+/* Map stays underneath everything. */
+.regional-map-bg{z-index:0!important;isolation:isolate!important}
+.regional-map-wear{z-index:1!important;pointer-events:none!important}
+.app{position:relative!important;z-index:10!important;isolation:isolate!important}
+.map-credit{z-index:11!important}
+
+/* Remove the parent masks from v13.0.1. The SVG background itself supplies the torn alpha edge. */
+.topbar,.bottom-nav,.home-hero,.launch,.research-launch,.setting,.collection-head>div,.badge-summary,.tabs,
+.research-toolbar,.cloud-card,.craft-panel,.sheet,.capture-card,.map-stats,.stat,.v12-home-identify,
+.identify-toolbox,.v12-example{
+  -webkit-mask-image:none!important;
+  mask-image:none!important;
+  opacity:1!important;
+  mix-blend-mode:normal!important;
+  isolation:isolate!important;
+  background-repeat:no-repeat!important;
+  background-position:center!important;
+  background-size:100% 100%!important;
+}
+
+.topbar,.bottom-nav{
+  background-color:transparent!important;
+  background-image:url('./assets/paper-kraft-strip-v13.svg')!important;
+}
+.home-hero{
+  background-color:transparent!important;
+  background-image:url('./assets/paper-kraft-card-v13.svg')!important;
+}
+.launch,.research-launch,.setting,.collection-head>div,.badge-summary,.tabs,.research-toolbar,.cloud-card,
+.craft-panel,.sheet,.capture-card,.map-stats,.stat{
+  background-color:transparent!important;
+  background-image:url('./assets/paper-white-card-v13.svg')!important;
+}
+.v12-home-identify,.identify-toolbox{
+  background-color:transparent!important;
+  background-image:url('./assets/paper-notebook-card-v13.svg')!important;
+}
+.v12-example{
+  background-color:transparent!important;
+  background-image:url('./assets/paper-yellow-card-v13.svg')!important;
+}
+
+/* Force readable ink after the failed mask made inherited theme colors effectively disappear. */
+.home-hero,.launch,.research-launch,.setting,.collection-head>div,.badge-summary,.tabs,.research-toolbar,
+.cloud-card,.craft-panel,.sheet,.capture-card,.map-stats,.stat,.v12-home-identify,.identify-toolbox,.v12-example{
+  color:#20272d!important;
+}
+.home-hero *, .launch *, .research-launch *, .setting *, .collection-head>div *, .badge-summary *, .tabs *,
+.research-toolbar *, .cloud-card *, .craft-panel *, .sheet *, .capture-card *, .map-stats *, .stat *,
+.v12-home-identify *, .identify-toolbox *, .v12-example *{
+  opacity:1!important;
+  mix-blend-mode:normal!important;
+}
+.launch-title,.launch-sub,.research-launch>span,.research-launch>small,.home-hero h1,.home-hero p,
+.setting h3,.setting p,.collection-head,.result-title,.result-meta,.identify-toolbox label,.dial-value,
+.v13-slider-value{
+  color:#20272d!important;
+  text-shadow:none!important;
+}
+
+/* Header/footer text should be dark ink on kraft paper. */
+.topbar,.bottom-nav,.topbar *,.bottom-nav *{color:#2a2925!important;opacity:1!important;text-shadow:none!important}
+.nav-btn.active{color:#a9392e!important}
+
+/* Ensure the paper art is visible enough to cover the map on browsers that rasterize SVG backgrounds oddly. */
+.home-hero::after,.launch::after,.research-launch::after,.setting::after,.craft-panel::after,.sheet::after,
+.capture-card::after,.v12-home-identify::after,.identify-toolbox::after,.v12-example::after{
+  pointer-events:none!important;
+}
+
+/* Mobile sizing repair observed in the screenshot: title and action cards must not clip. */
+@media(max-width:520px){
+  .home-hero{margin-inline:0!important;padding:18px 18px 16px!important;min-height:132px!important}
+  .home-hero h1{max-width:none!important;font-size:clamp(1.75rem,9vw,2.35rem)!important;line-height:1!important;overflow:visible!important}
+  .home-actions{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:7px!important}
+  .launch,.research-launch{min-width:0!important;overflow:visible!important}
+  .launch-title,.research-launch>span{font-size:.88rem!important;line-height:1.03!important}
+  .launch-sub,.research-launch>small{font-size:.70rem!important;line-height:1.15!important}
+}
