@@ -15,28 +15,31 @@ jobs:
         shell: bash
         run: |
           set -e
-          for f in index.html styles.css v8.css v9.css v10.css app.js v8-patch.js v10-patch.js sw.js manifest.webmanifest icon.svg data/reference-renders-v10.js data/catalog.part0.b64 data/catalog.part1.b64 data/catalog.part2.b64 data/catalog.part3.b64 data/catalog.part4.b64 docs/PROCESS_STANDARD.md docs/V10_PROCESS_NOTES.md docs/V10_IMAGE_RELEASE_NOTES.md; do test -s "$f"; done
+          for f in index.html styles.css v8.css v9.css v10.css v11.css app.js v8-patch.js v10-patch.js v11-patch.js sw.js manifest.webmanifest icon.svg data/reference-renders-v10.js data/reference-renders-tx-v10.1.js data/catalog.part0.b64 data/catalog.part1.b64 data/catalog.part2.b64 data/catalog.part3.b64 data/catalog.part4.b64 docs/PROCESS_STANDARD.md docs/V11_PROCESS_NOTES.md docs/CLOUD_SYNC_FOUNDATION.md; do test -s "$f"; done
           node --check app.js
           node --check v8-patch.js
           node --check v10-patch.js
+          node --check v11-patch.js
           node --check sw.js
           node --check data/reference-renders-v10.js
+          node --check data/reference-renders-tx-v10.1.js
           python -m py_compile tools/*.py
           node <<'JS'
           const fs=require('fs'),vm=require('vm');
-          const ctx={window:{}};vm.createContext(ctx);vm.runInContext(fs.readFileSync('data/reference-renders-v10.js','utf8'),ctx);
-          const r=ctx.window.LPG_R||{};const keys=Object.keys(r);
-          if(keys.length!==130)throw new Error(`Expected 130 reference renders, got ${keys.length}`);
-          if(new Set(keys).size!==keys.length)throw new Error('Duplicate reference-render UID');
-          if(keys.some(k=>!/^LPG-[A-Z]{2}-[A-Z0-9-]+-\d{5}$/.test(k)))throw new Error('Malformed plate UID in reference-render manifest');
-          const patch=fs.readFileSync('v10-patch.js','utf8'),sw=fs.readFileSync('sw.js','utf8'),loader=fs.readFileSync('app.js','utf8');
-          for(const token of ['LPG 000','REF','Identify this photo','lpg-camera-mode','attached-photo'])if(!patch.includes(token))throw new Error(`Missing v10 behavior token: ${token}`);
-          for(const token of ['lpg-v10','v10.css','v10-patch.js','reference-renders-v10.js'])if(!sw.includes(token))throw new Error(`Missing v10 cache token: ${token}`);
-          for(const token of ['v10.css','reference-renders-v10.js','v10-patch.js'])if(!loader.includes(token))throw new Error(`Loader missing ${token}`);
-          console.log(`v10 assertions passed; ${keys.length} clean reference renders`);
+          const ctx={window:{}};vm.createContext(ctx);
+          vm.runInContext(fs.readFileSync('data/reference-renders-v10.js','utf8'),ctx);
+          vm.runInContext(fs.readFileSync('data/reference-renders-tx-v10.1.js','utf8'),ctx);
+          const keys=Object.keys(ctx.window.LPG_R||{});
+          if(keys.length!==291)throw new Error(`Expected 291 combined public reference renders, got ${keys.length}`);
+          if(new Set(keys).size!==keys.length)throw new Error('Duplicate public render UID');
+          const patch=fs.readFileSync('v11-patch.js','utf8'),css=fs.readFileSync('v11.css','utf8'),sw=fs.readFileSync('sw.js','utf8'),loader=fs.readFileSync('app.js','utf8');
+          for(const token of ['Main background','Second color','Letters','No wall of rectangles','researchResults','pendingPhotoBanner','catalog.part4.b64'])if(!patch.includes(token))throw new Error(`Missing v11 behavior token: ${token}`);
+          for(const token of ['overflow:hidden!important','research-results','v11-results','--v11-kraft','repeating-linear-gradient'])if(!css.includes(token))throw new Error(`Missing v11 layout token: ${token}`);
+          for(const token of ['lpg-v11','v11.css','v11-patch.js','reference-renders-tx-v10.1.js'])if(!sw.includes(token))throw new Error(`Missing v11 cache token: ${token}`);
+          for(const token of ['v11.css','v11-patch.js','reference-renders-tx-v10.1.js'])if(!loader.includes(token))throw new Error(`Loader missing ${token}`);
+          console.log(`v11 assertions passed; ${keys.length} combined public reference renders`);
           JS
-          python tools/check_process_notes.py docs/V10_PROCESS_NOTES.md
-          python tools/check_process_notes.py docs/V10_IMAGE_RELEASE_NOTES.md
+          python tools/check_process_notes.py docs/V11_PROCESS_NOTES.md
       - name: Write validation process notes
         if: always()
         shell: bash
@@ -47,7 +50,7 @@ jobs:
           # Process Notes
 
           ## Purpose
-          Validate proposed v10 app, image-render, camera/photo-flow, process-note, and tool changes before merge.
+          Validate proposed v11 notebook, color-first Identify, Research, image-render, viewport, process-note and loader/service-worker changes before merge.
 
           ## Inputs
           - Commit: ${{ github.sha }}
@@ -56,22 +59,22 @@ jobs:
 
           ## Step notes
           - Step 1: Checked out the proposed repository revision.
-          - Step 2: Confirmed required PWA, v8/v9/v10 UI layers, app, service-worker, reference-render manifest, catalog chunks, and v10 process-note files exist and are non-empty. Result: ${{ steps.validate.outcome }}.
-          - Step 3: Syntax-checked app.js, v8-patch.js, v10-patch.js, reference-renders-v10.js, and sw.js with Node. Result: ${{ steps.validate.outcome }}.
-          - Step 4: Compiled every Python tool with py_compile. Result: ${{ steps.validate.outcome }}.
-          - Step 5: Reconciled exactly 130 unique public reference-render UIDs and checked fictitious serial/REF markers, fixed-camera/photo-attachment hooks, v10 cache wiring, and app-loader wiring. Result: ${{ steps.validate.outcome }}.
-          - Step 6: Ran the process-note checker against both v10 process records. Result: ${{ steps.validate.outcome }}.
-          - Step 7: Wrote this validation record before merge approval.
+          - Step 2: Confirmed required v8-v11 UI layers, app, service worker, both reference-render files, catalog chunks and v11 process documentation exist and are non-empty. Result: ${{ steps.validate.outcome }}.
+          - Step 3: Syntax-checked app.js, v8/v10/v11 patches, both render manifests and sw.js with Node. Result: ${{ steps.validate.outcome }}.
+          - Step 4: Compiled Python tooling with py_compile. Result: ${{ steps.validate.outcome }}.
+          - Step 5: Reconciled exactly 291 combined public render UIDs. Result: ${{ steps.validate.outcome }}.
+          - Step 6: Checked v11 tokens for three color controls, hidden unfiltered matches, Research, photo-attachment target, internal scrolling, ruled/kraft styling and v11 loader/cache wiring. Result: ${{ steps.validate.outcome }}.
+          - Step 7: Ran the process-note checker against the v11 implementation record. Result: ${{ steps.validate.outcome }}.
 
           ## Exceptions / failures
           ${EXCEPTIONS}
 
           ## Outputs
-          - Automated v10 validation result
+          - Automated v11 validation result
           - process-output/PROCESS_NOTES.md
 
           ## Final recheck
-          Rechecked required files, JavaScript/Python syntax, 130-render count/uniqueness, reference-render safety tokens, camera/photo-to-identify hooks, v10 service-worker/loader wiring, and process-note completeness. A failing validation is not complete work.
+          Rechecked required files, JavaScript/Python syntax, 291-render reconciliation, v11 no-page-scroll/internal-scroll rules, color-first Identify, Research, photo target, service-worker cache and process-note completeness. A failing validation is not complete work.
 
           ## Completion status
           ${STATUS}
