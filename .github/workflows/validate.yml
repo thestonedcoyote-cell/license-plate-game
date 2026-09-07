@@ -1,107 +1,25 @@
 name: Validate app
 on:
   pull_request:
-  workflow_dispatch:
-permissions:
-  contents: read
+  push:
+    branches: [main]
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate app package and tools
-        id: validate
-        continue-on-error: true
-        shell: bash
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Validate current runtime
         run: |
-          set -e
-          for f in index.html styles.css v8.css v9.css v10.css v11.css cloud-sync.css v12.css v12.1.css app.js v8-patch.js v10-patch.js v11-patch.js cloud-sync.js v12-patch.js v12.1-patch.js sw.js manifest.webmanifest icon.svg assets/roadmap-v12.svg assets/roadmap-crumpled-v12.1.webp data/reference-renders-v10.js data/reference-renders-tx-v10.1.js data/catalog.part0.b64 data/catalog.part1.b64 data/catalog.part2.b64 data/catalog.part3.b64 data/catalog.part4.b64 docs/PROCESS_STANDARD.md docs/V11_PROCESS_NOTES.md docs/CLOUD_SYNC_FOUNDATION.md docs/V12_1_PROCESS_NOTES.md; do test -s "$f"; done
+          python tools/take_out_trash.py --strict
+          python tools/build_runtime.py build/web
           node --check app.js
-          node --check v8-patch.js
-          node --check v10-patch.js
-          node --check v11-patch.js
+          node --check ui-current.js
           node --check cloud-sync.js
-          node --check v12-patch.js
-          node --check v12.1-patch.js
-          node --check sw.js
-          node --check data/reference-renders-v10.js
-          node --check data/reference-renders-tx-v10.1.js
-          python -m py_compile tools/*.py
-          node <<'JS'
-          const fs=require('fs'),vm=require('vm');
-          const ctx={window:{}};vm.createContext(ctx);
-          vm.runInContext(fs.readFileSync('data/reference-renders-v10.js','utf8'),ctx);
-          vm.runInContext(fs.readFileSync('data/reference-renders-tx-v10.1.js','utf8'),ctx);
-          const keys=Object.keys(ctx.window.LPG_R||{});
-          if(keys.length!==291)throw new Error(`Expected 291 combined public reference renders, got ${keys.length}`);
-          if(new Set(keys).size!==keys.length)throw new Error('Duplicate public render UID');
-          const patch=fs.readFileSync('v11-patch.js','utf8');
-          const css=fs.readFileSync('v11.css','utf8');
-          const v12css=fs.readFileSync('v12.css','utf8');
-          const v121css=fs.readFileSync('v12.1.css','utf8');
-          const v121js=fs.readFileSync('v12.1-patch.js','utf8');
-          const sw=fs.readFileSync('sw.js','utf8');
-          const loader=fs.readFileSync('app.js','utf8');
-          for(const token of ['Main background','Second color','Letters','No wall of rectangles','researchResults','pendingPhotoBanner','catalog.part4.b64'])if(!patch.includes(token))throw new Error(`Missing v11 behavior token: ${token}`);
-          for(const token of ['overflow:hidden!important','research-results','v11-results','--v11-kraft'])if(!css.includes(token))throw new Error(`Missing baseline layout token: ${token}`);
-          for(const token of ['roadmap-v12.svg','--rt-kraft','v12-home-identify'])if(!v12css.includes(token))throw new Error(`Missing v12 visual token: ${token}`);
-          for(const token of ['roadmap-crumpled-v12.1.webp','touch-action:none','conic-gradient','radial-gradient(circle at 13px 28px','clip-path:polygon'])if(!v121css.includes(token))throw new Error(`Missing v12.1 tactile token: ${token}`);
-          for(const token of ['pointerdown','pointermove','setPointerCapture','releasePointerCapture','drag dials active'])if(!v121js.includes(token))throw new Error(`Missing v12.1 dial token: ${token}`);
-          for(const token of ['v12.1.css','v12.1-patch.js'])if(!loader.includes(token))throw new Error(`Loader missing ${token}`);
-          for(const token of ['lpg-v12.1','v12.1.css','v12.1-patch.js','roadmap-crumpled-v12.1.webp'])if(!sw.includes(token))throw new Error(`Cache missing ${token}`);
-          console.log(`v12.1 assertions passed; ${keys.length} public reference renders`);
-          JS
-          python tools/check_process_notes.py docs/V11_PROCESS_NOTES.md
-          python tools/check_process_notes.py docs/V12_1_PROCESS_NOTES.md
-      - name: Write validation process notes
-        if: always()
-        shell: bash
-        run: |
-          mkdir -p process-output
-          if [ "${{ steps.validate.outcome }}" = "success" ]; then STATUS="COMPLETE"; EXCEPTIONS="No validation failure detected."; else STATUS="INCOMPLETE"; EXCEPTIONS="Validation failed. Inspect logs and do not merge until corrected."; fi
-          cat > process-output/PROCESS_NOTES.md <<EOF
-          # Process Notes
-
-          ## Purpose
-          Validate the stable app baseline plus v12.1 crumpled-map, torn-paper and drag-dial changes before merge.
-
-          ## Inputs
-          - Commit: ${{ github.sha }}
-          - Ref: ${{ github.ref }}
-          - Workflow run: ${{ github.run_id }}
-
-          ## Step notes
-          - Step 1: Checked out the proposed repository revision.
-          - Step 2: Confirmed baseline files plus v12.1 map, CSS, JavaScript and process notes exist and are non-empty. Result: ${{ steps.validate.outcome }}.
-          - Step 3: Syntax-checked all JavaScript layers including v12.1 and compiled Python tooling. Result: ${{ steps.validate.outcome }}.
-          - Step 4: Reconciled exactly 291 public render UIDs. Result: ${{ steps.validate.outcome }}.
-          - Step 5: Checked v12.1 for crumpled map reference, ripped ruled-paper styling and Pointer Events drag controls. Result: ${{ steps.validate.outcome }}.
-          - Step 6: Checked app loader and service-worker cache for v12.1 assets. Result: ${{ steps.validate.outcome }}.
-          - Step 7: Ran process-note checks against stable and v12.1 implementation records. Result: ${{ steps.validate.outcome }}.
-
-          ## Exceptions / failures
-          ${EXCEPTIONS}
-
-          ## Outputs
-          - Automated v12.1 validation result
-          - process-output/PROCESS_NOTES.md
-
-          ## Final recheck
-          Rechecked required files, JavaScript/Python syntax, 291-render reconciliation, v12.1 crumpled map, torn paper, touch-drag dials, loader/cache wiring and process-note completeness. A failing validation is not complete work.
-
-          ## Completion status
-          ${STATUS}
-          EOF
-      - name: Final recheck before accepting validation
-        if: always()
-        shell: bash
-        run: |
-          python tools/check_process_notes.py process-output/PROCESS_NOTES.md
-          if [ "${{ steps.validate.outcome }}" != "success" ]; then exit 1; fi
-      - name: Preserve validation notes
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: validation-notes-${{ github.run_id }}
-          path: process-output/PROCESS_NOTES.md
-          retention-days: 30
+          test -s build/web/index.html
+          grep -q 'ui-current.css' app.js
+          grep -q 'ui-current.js' app.js
+          grep -q 'lpg-current-' sw.js

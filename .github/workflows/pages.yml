@@ -2,8 +2,6 @@ name: Deploy Pages
 on:
   push:
     branches: [main]
-    paths-ignore:
-      - data/harvest_trigger.json
   workflow_dispatch:
 permissions:
   contents: read
@@ -13,113 +11,26 @@ concurrency:
   group: pages
   cancel-in-progress: true
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Audit and build runtime
+        run: |
+          python tools/take_out_trash.py --strict
+          python tools/build_runtime.py build/web
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: {path: build/web}
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    needs: build
     steps:
-      - uses: actions/checkout@v4
-      - name: Verify release files and JavaScript
-        id: verify
-        continue-on-error: true
-        shell: bash
-        run: |
-          set -e
-          for f in index.html styles.css v8.css v9.css v10.css v11.css v12.css cloud-sync.css app.js v8-patch.js v10-patch.js v11-patch.js v12-patch.js cloud-sync.js sw.js manifest.webmanifest icon.svg assets/roadmap-v12.svg data/reference-renders-v10.js data/reference-renders-tx-v10.1.js data/catalog.part0.b64 data/catalog.part1.b64 data/catalog.part2.b64 data/catalog.part3.b64 data/catalog.part4.b64 docs/V11_PROCESS_NOTES.md docs/V12_PROCESS_NOTES.md docs/CLOUD_SYNC_FOUNDATION.md; do test -s "$f"; done
-          node --check app.js
-          node --check v8-patch.js
-          node --check v10-patch.js
-          node --check v11-patch.js
-          node --check v12-patch.js
-          node --check cloud-sync.js
-          node --check data/reference-renders-v10.js
-          node --check data/reference-renders-tx-v10.1.js
-          node --check sw.js
-          node <<'JS'
-          const fs=require('fs'),vm=require('vm');const ctx={window:{}};vm.createContext(ctx);
-          vm.runInContext(fs.readFileSync('data/reference-renders-v10.js','utf8'),ctx);
-          vm.runInContext(fs.readFileSync('data/reference-renders-tx-v10.1.js','utf8'),ctx);
-          const keys=Object.keys(ctx.window.LPG_R||{});if(keys.length!==291)throw new Error(`Public reference-render count is ${keys.length}, expected 291`);
-          const p11=fs.readFileSync('v11-patch.js','utf8'),c11=fs.readFileSync('v11.css','utf8'),p12=fs.readFileSync('v12-patch.js','utf8'),c12=fs.readFileSync('v12.css','utf8'),s=fs.readFileSync('sw.js','utf8'),loader=fs.readFileSync('app.js','utf8');
-          for(const t of ['Main background','Second color','Letters','No wall of rectangles','researchResults','pendingPhotoBanner'])if(!p11.includes(t))throw new Error(`Missing baseline token ${t}`);
-          for(const t of ['overflow:hidden!important','v11-results','research-results'])if(!c11.includes(t))throw new Error(`Missing baseline layout token ${t}`);
-          for(const t of ['Take a picture','Identify a plate','Browse collection','IDENTIFY A PLATE','Main color','Accent','Letters'])if(!p12.includes(t))throw new Error(`Missing v12 behavior token ${t}`);
-          for(const t of ['roadmap-v12.svg','--rt-kraft','--rt-paper','v12-home-identify','bottom-nav'])if(!c12.includes(t))throw new Error(`Missing v12 style token ${t}`);
-          for(const t of ['v11.css','v11-patch.js','v12.css','v12-patch.js','cloud-sync.js','roadmap-v12.svg','reference-renders-tx-v10.1.js'])if(!s.includes(t))throw new Error(`Missing cache token ${t}`);
-          for(const t of ['v12.css','v12-patch.js','cloud-sync.js'])if(!loader.includes(t))throw new Error(`Loader missing ${t}`);
-          if(/Segoe Print|Bradley Hand|Marker Felt|cursive/.test(c12))throw new Error('Script-style font leaked into v12 visual layer');
-          console.log(`Pages v12 verification passed; ${keys.length} public references`);
-          JS
-          python tools/check_process_notes.py docs/V11_PROCESS_NOTES.md
-          python tools/check_process_notes.py docs/V12_PROCESS_NOTES.md
-      - name: Write deployment process notes
-        if: always()
-        shell: bash
-        run: |
-          mkdir -p process-output
-          if [ "${{ steps.verify.outcome }}" = "success" ]; then STATUS="COMPLETE"; EXCEPTIONS="No release-validation failure detected."; else STATUS="INCOMPLETE"; EXCEPTIONS="Release validation failed. Deployment must not be accepted as complete; inspect the workflow logs."; fi
-          cat > process-output/PROCESS_NOTES.md <<EOF
-          # Process Notes
-
-          ## Purpose
-          Validate and publish the current License Plate Game PWA/web companion to GitHub Pages while preserving an auditable release record.
-
-          ## Inputs
-          - Commit: ${{ github.sha }}
-          - Branch: ${{ github.ref_name }}
-          - Workflow run: ${{ github.run_id }}
-          - Deployment target: GitHub Pages
-
-          ## Step notes
-          - Step 1: Checked out the exact source revision. Result: deployment input fixed to commit ${{ github.sha }}.
-          - Step 2: Verified baseline, v12 road-trip, cloud, render, catalog and PWA files are present and non-empty. Result: ${{ steps.verify.outcome }}.
-          - Step 3: Ran JavaScript syntax checks across loader, patches, cloud client, render manifests and service worker. Result: ${{ steps.verify.outcome }}.
-          - Step 4: Reconciled 291 public visual references and checked Identify/Research/photo integration, v12 road-trip visual tokens, typography guard and current cache wiring. Result: ${{ steps.verify.outcome }}.
-          - Step 5: Checked baseline and v12 process records with the process-note validator. Result: ${{ steps.verify.outcome }}.
-
-          ## Exceptions / failures
-          ${EXCEPTIONS}
-
-          ## Outputs
-          - Checked static PWA/web source tree
-          - GitHub Pages deployment artifact (only when final recheck succeeds)
-          - process-output/PROCESS_NOTES.md retained as a workflow artifact
-
-          ## Rights / privacy / safety notes
-          Publication includes the project-owned atlas SVG and public-safe reference renders only; private cloud-photo data is not packaged into the site artifact.
-
-          ## Final recheck
-          Rechecked required app files, JavaScript syntax, 291-render count, Identify/Research/photo integration, fixed viewport and bounded scrolling, v12 loader/cache wiring, typography guard and process-note completeness. Publication is permitted only when verification and the note checker pass.
-
-          ## Completion status
-          ${STATUS}
-          EOF
-      - name: Final recheck before publication
-        if: always()
-        shell: bash
-        run: |
-          python tools/check_process_notes.py process-output/PROCESS_NOTES.md
-          if [ "${{ steps.verify.outcome }}" != "success" ]; then exit 1; fi
-      - name: Preserve deployment notes
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: pages-process-notes-${{ github.run_id }}
-          path: process-output/PROCESS_NOTES.md
-          retention-days: 30
-      - name: Remove private process artifact from public site package
-        if: success()
-        run: rm -rf process-output
-      - uses: actions/configure-pages@v5
-        if: success()
-        with:
-          enablement: true
-      - uses: actions/upload-pages-artifact@v3
-        if: success()
-        with:
-          path: .
-      - name: Deploy checked release
-        if: success()
+      - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
