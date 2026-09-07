@@ -47,7 +47,8 @@ def main() -> int:
     if steps and not re.search(r"^-\s*Step\b", steps, re.M | re.I):
         errors.append("Step notes must contain at least one '- Step ...' entry")
     final = section(text, "Final recheck")
-    if final and not re.search(r"\b(recheck|checked|verified|verify)\b", final, re.I):
+    # Accept natural forms such as recheck, rechecked, checking, verified, verification.
+    if final and not re.search(r"\b(?:recheck(?:ed|ing)?|check(?:ed|ing)?|verif(?:y|ied|ication))\b", final, re.I):
         errors.append("Final recheck does not state a verification/recheck")
     status_body = section(text, "Completion status")
     status = next((s for s in VALID_STATUS if re.search(rf"\b{re.escape(s)}\b", status_body)), None)
