@@ -15,22 +15,28 @@ jobs:
         shell: bash
         run: |
           set -e
-          for f in index.html styles.css v8.css v9.css app.js v8-patch.js sw.js manifest.webmanifest icon.svg data/catalog.part0.b64 data/catalog.part1.b64 data/catalog.part2.b64 data/catalog.part3.b64 data/catalog.part4.b64; do test -s "$f"; done
+          for f in index.html styles.css v8.css v9.css v10.css app.js v8-patch.js v10-patch.js sw.js manifest.webmanifest icon.svg data/reference-renders-v10.js data/catalog.part0.b64 data/catalog.part1.b64 data/catalog.part2.b64 data/catalog.part3.b64 data/catalog.part4.b64 docs/PROCESS_STANDARD.md docs/V10_PROCESS_NOTES.md docs/V10_IMAGE_RELEASE_NOTES.md; do test -s "$f"; done
           node --check app.js
           node --check v8-patch.js
+          node --check v10-patch.js
           node --check sw.js
+          node --check data/reference-renders-v10.js
           python -m py_compile tools/*.py
-          python - <<'PY'
-          from pathlib import Path
-          sw=Path('sw.js').read_text()
-          patch=Path('v8-patch.js').read_text()
-          assert 'v9.css' in sw and 'lpg-v9' in sw
-          assert 'lpg.profile.v1' in patch
-          assert 'serviceWorker' in patch and 'reg.update()' in patch
-          assert Path('docs/PROCESS_STANDARD.md').exists()
-          assert Path('tools/check_process_notes.py').exists()
-          print('Static package and Python-tool assertions passed')
-          PY
+          node <<'JS'
+          const fs=require('fs'),vm=require('vm');
+          const ctx={window:{}};vm.createContext(ctx);vm.runInContext(fs.readFileSync('data/reference-renders-v10.js','utf8'),ctx);
+          const r=ctx.window.LPG_R||{};const keys=Object.keys(r);
+          if(keys.length!==130)throw new Error(`Expected 130 reference renders, got ${keys.length}`);
+          if(new Set(keys).size!==keys.length)throw new Error('Duplicate reference-render UID');
+          if(keys.some(k=>!/^LPG-[A-Z]{2}-[A-Z0-9-]+-\d{5}$/.test(k)))throw new Error('Malformed plate UID in reference-render manifest');
+          const patch=fs.readFileSync('v10-patch.js','utf8'),sw=fs.readFileSync('sw.js','utf8'),loader=fs.readFileSync('app.js','utf8');
+          for(const token of ['LPG 000','REF','Identify this photo','lpg-camera-mode','attached-photo'])if(!patch.includes(token))throw new Error(`Missing v10 behavior token: ${token}`);
+          for(const token of ['lpg-v10','v10.css','v10-patch.js','reference-renders-v10.js'])if(!sw.includes(token))throw new Error(`Missing v10 cache token: ${token}`);
+          for(const token of ['v10.css','reference-renders-v10.js','v10-patch.js'])if(!loader.includes(token))throw new Error(`Loader missing ${token}`);
+          console.log(`v10 assertions passed; ${keys.length} clean reference renders`);
+          JS
+          python tools/check_process_notes.py docs/V10_PROCESS_NOTES.md
+          python tools/check_process_notes.py docs/V10_IMAGE_RELEASE_NOTES.md
       - name: Write validation process notes
         if: always()
         shell: bash
@@ -41,7 +47,7 @@ jobs:
           # Process Notes
 
           ## Purpose
-          Validate proposed app/tool changes before merge and record exactly what the automated gate checked.
+          Validate proposed v10 app, image-render, camera/photo-flow, process-note, and tool changes before merge.
 
           ## Inputs
           - Commit: ${{ github.sha }}
@@ -50,21 +56,22 @@ jobs:
 
           ## Step notes
           - Step 1: Checked out the proposed repository revision.
-          - Step 2: Confirmed required PWA, UI skin, app, service-worker, and catalog chunk files exist and are non-empty. Result: ${{ steps.validate.outcome }}.
-          - Step 3: Syntax-checked app.js, v8-patch.js, and sw.js with Node. Result: ${{ steps.validate.outcome }}.
-          - Step 4: Compiled every Python tool with py_compile so harvest/research tooling cannot merge with a syntax error. Result: ${{ steps.validate.outcome }}.
-          - Step 5: Checked v9 cache/style references, local profile schema hook, update-check hook, and process-standard files. Result: ${{ steps.validate.outcome }}.
-          - Step 6: Wrote this validation record before merge approval.
+          - Step 2: Confirmed required PWA, v8/v9/v10 UI layers, app, service-worker, reference-render manifest, catalog chunks, and v10 process-note files exist and are non-empty. Result: ${{ steps.validate.outcome }}.
+          - Step 3: Syntax-checked app.js, v8-patch.js, v10-patch.js, reference-renders-v10.js, and sw.js with Node. Result: ${{ steps.validate.outcome }}.
+          - Step 4: Compiled every Python tool with py_compile. Result: ${{ steps.validate.outcome }}.
+          - Step 5: Reconciled exactly 130 unique public reference-render UIDs and checked fictitious serial/REF markers, fixed-camera/photo-attachment hooks, v10 cache wiring, and app-loader wiring. Result: ${{ steps.validate.outcome }}.
+          - Step 6: Ran the process-note checker against both v10 process records. Result: ${{ steps.validate.outcome }}.
+          - Step 7: Wrote this validation record before merge approval.
 
           ## Exceptions / failures
           ${EXCEPTIONS}
 
           ## Outputs
-          - Automated validation result
+          - Automated v10 validation result
           - process-output/PROCESS_NOTES.md
 
           ## Final recheck
-          Rechecked required files, JavaScript and Python syntax, v9 service-worker wiring, profile/update foundations, and process-note requirements. A failing validation is not complete work.
+          Rechecked required files, JavaScript/Python syntax, 130-render count/uniqueness, reference-render safety tokens, camera/photo-to-identify hooks, v10 service-worker/loader wiring, and process-note completeness. A failing validation is not complete work.
 
           ## Completion status
           ${STATUS}
