@@ -1,0 +1,104 @@
+name: Validate v13 real-map UI
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate-v13:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate v13 package
+        id: validate
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -e
+          for f in \
+            v13.css v13-assets.css v13-patch.js manifest.webmanifest sw.js app.js \
+            assets/paper-kraft-card-v13.svg assets/paper-kraft-strip-v13.svg \
+            assets/paper-white-card-v13.svg assets/paper-notebook-card-v13.svg \
+            assets/paper-yellow-card-v13.svg assets/paper-crumple-overlay-v13.svg \
+            docs/V13_PROCESS_NOTES.md; do test -s "$f"; done
+          node --check v13-patch.js
+          node --check app.js
+          node --check sw.js
+          python -m json.tool manifest.webmanifest >/dev/null
+          grep -q "tile.openstreetmap.org" v13-patch.js
+          grep -q "Math.round(lat\*4)/4" v13-patch.js
+          grep -q "lpg.regionWear.v1" v13-patch.js
+          grep -q "type='range'\|type=\"range\"\|input.type='range'" v13-patch.js
+          grep -q "addEventListener('input'" v13-patch.js
+          grep -q "lpg-desktop" v13-patch.js
+          grep -q "lpg-standalone" v13-patch.js
+          grep -q "paper-notebook-card-v13.svg" v13-assets.css
+          grep -q "paper-kraft-card-v13.svg" v13-assets.css
+          grep -q "paper-crumple-overlay-v13.svg" v13-assets.css
+          grep -q "v13.css" app.js
+          grep -q "v13-assets.css" app.js
+          grep -q "v13-patch.js" app.js
+          grep -q "lpg-v13-" sw.js
+          grep -q "paper-notebook-card-v13.svg" sw.js
+          grep -q "display_override" manifest.webmanifest
+          grep -q "launch_handler" manifest.webmanifest
+          node <<'JS'
+          const fs=require('fs'),vm=require('vm');
+          const ctx={window:{}};vm.createContext(ctx);
+          vm.runInContext(fs.readFileSync('data/reference-renders-v10.js','utf8'),ctx);
+          vm.runInContext(fs.readFileSync('data/reference-renders-tx-v10.1.js','utf8'),ctx);
+          const keys=Object.keys(ctx.window.LPG_R||{});
+          if(keys.length!==291)throw new Error(`Expected 291 public plate references, got ${keys.length}`);
+          console.log(`v13 assertions passed; ${keys.length} plate references preserved`);
+          JS
+          python tools/check_process_notes.py docs/V13_PROCESS_NOTES.md
+      - name: Write validation process notes
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p process-output
+          if [ "${{ steps.validate.outcome }}" = "success" ]; then STATUS="COMPLETE"; EXCEPTIONS="No automated v13 failure detected."; else STATUS="INCOMPLETE"; EXCEPTIONS="v13 validation failed. Inspect logs and do not merge."; fi
+          cat > process-output/PROCESS_NOTES.md <<EOF
+          # Process Notes
+
+          ## Purpose
+          Validate the v13 regional map, paper-image UI, large drag sliders, standalone app mode and desktop desk before merge.
+
+          ## Inputs
+          - Commit: ${{ github.sha }}
+          - Workflow run: ${{ github.run_id }}
+
+          ## Step notes
+          - Step 1: Checked all v13 CSS, JS, manifest, paper-image and process-note files exist.
+          - Step 2: Syntax-checked JavaScript and parsed manifest JSON. Result: ${{ steps.validate.outcome }}.
+          - Step 3: Verified regional OSM map, coarse GPS, persisted wear, slider input, standalone and desktop behavior tokens. Result: ${{ steps.validate.outcome }}.
+          - Step 4: Verified standalone paper image bindings and service-worker cache wiring. Result: ${{ steps.validate.outcome }}.
+          - Step 5: Reconciled the existing 291 public plate references. Result: ${{ steps.validate.outcome }}.
+          - Step 6: Ran the repository process-note checker. Result: ${{ steps.validate.outcome }}.
+
+          ## Exceptions / failures
+          ${EXCEPTIONS}
+
+          ## Outputs
+          - Automated v13 validation result
+          - process-output/PROCESS_NOTES.md
+
+          ## Final recheck
+          Rechecked regional map attribution, coarse GPS keying, regional wear persistence, real drag sliders, raster/SVG paper image assets, desktop/standalone modes, loader/cache integration, preserved plate references and process-note completeness.
+
+          ## Completion status
+          ${STATUS}
+          EOF
+      - name: Final recheck
+        if: always()
+        shell: bash
+        run: |
+          python tools/check_process_notes.py process-output/PROCESS_NOTES.md
+          if [ "${{ steps.validate.outcome }}" != "success" ]; then exit 1; fi
+      - name: Preserve notes
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v13-validation-notes-${{ github.run_id }}
+          path: process-output/PROCESS_NOTES.md
+          retention-days: 30

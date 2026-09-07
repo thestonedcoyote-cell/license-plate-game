@@ -5,10 +5,17 @@
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
   "orientation": "any",
-  "background_color": "#f6f2e9",
-  "theme_color": "#172126",
+  "background_color": "#d8cfb8",
+  "theme_color": "#7f6848",
   "description": "Fast passenger-first license plate identification and collection game.",
   "categories": ["games", "travel"],
+  "launch_handler": {"client_mode": "focus-existing"},
+  "shortcuts": [
+    {"name":"Camera","short_name":"Camera","url":"./?screen=camera","icons":[{"src":"./icon.svg","sizes":"any","type":"image/svg+xml"}]},
+    {"name":"Identify a plate","short_name":"Identify","url":"./?screen=identify","icons":[{"src":"./icon.svg","sizes":"any","type":"image/svg+xml"}]},
+    {"name":"Collection","short_name":"Collection","url":"./?screen=collection","icons":[{"src":"./icon.svg","sizes":"any","type":"image/svg+xml"}]}
+  ],
   "icons": [{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
 }

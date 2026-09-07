@@ -1,0 +1,7 @@
+/* v13 paper image bindings: standalone image assets, not CSS-drawn paper. */
+.regional-map-wear{background-image:url('./assets/paper-crumple-overlay-v13.svg')!important}
+.topbar,.bottom-nav{background-image:url('./assets/paper-kraft-strip-v13.svg')!important}
+.home-hero{background-image:url('./assets/paper-kraft-card-v13.svg')!important}
+.launch,.research-launch,.setting,.collection-head>div,.badge-summary,.tabs,.research-toolbar,.cloud-card,.craft-panel,.sheet,.capture-card,.map-stats,.stat{background-image:url('./assets/paper-white-card-v13.svg')!important}
+.v12-home-identify,.identify-toolbox{background-image:url('./assets/paper-notebook-card-v13.svg')!important}
+.v12-example{background-image:url('./assets/paper-yellow-card-v13.svg')!important}
