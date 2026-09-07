@@ -50,7 +50,16 @@ jobs:
           FILES=$(find harvest-output -type f 2>/dev/null | wc -l | tr -d ' ')
           SOURCES=$(python -c 'import json,pathlib; p=pathlib.Path("harvest-output/manifest.json"); print(len(json.loads(p.read_text())) if p.exists() else 0)')
           ERRORS=$(python -c 'import json,pathlib; p=pathlib.Path("harvest-output/manifest.json"); d=json.loads(p.read_text()) if p.exists() else []; print(sum(x.get("status")=="error" for x in d))')
-          if [ "${{ steps.harvest.outcome }}" = "success" ]; then STATUS="COMPLETE"; EXCEPTIONS="Workflow command completed. Source-level HTTP, extraction, duplicate, and non-image exceptions remain recorded in manifest.json/assets.json. Sources with status=error: ${ERRORS}."; else STATUS="INCOMPLETE"; EXCEPTIONS="Harvest command failed. Preserve output and logs for diagnosis; do not treat this batch as complete."; fi
+          if [ "${{ steps.harvest.outcome }}" != "success" ]; then
+            STATUS="INCOMPLETE"
+            EXCEPTIONS="Harvest command failed. Preserve output and logs for diagnosis; do not treat this batch as complete."
+          elif [ "$ERRORS" -gt 0 ]; then
+            STATUS="COMPLETE_WITH_EXCEPTIONS"
+            EXCEPTIONS="Harvest command completed but ${ERRORS} source record(s) failed. HTTP/extraction failures and affected URLs remain recorded in manifest.json/assets.json for explicit follow-up."
+          else
+            STATUS="COMPLETE"
+            EXCEPTIONS="No source-level error records. Duplicate and non-image skips, if any, remain documented in per-source assets.json."
+          fi
           cat > harvest-output/PROCESS_NOTES.md <<EOF
           # Process Notes
 
@@ -71,7 +80,8 @@ jobs:
           - Step 4: Ran tools/harvest_official_assets.py against only URLs listed in the reviewed source manifest. HTML mode downloads image assets directly referenced by the reviewed page but does not crawl arbitrary external pages. Result: ${{ steps.harvest.outcome }}.
           - Step 5: Counted ${SOURCES} attempted source records, ${ERRORS} source-level errors, and ${FILES} output files after extraction.
           - Step 6: Preserved URLs, page/image assets, alt text where available, dimensions, source/asset host relationship, hashes, and extraction metadata. Result: research evidence remains traceable to the official source page.
-          - Step 7: Wrote these notes before packaging so the artifact carries its own process history.
+          - Step 7: Classified completion honestly from both command outcome and source-level errors; source failures cannot be labeled plain COMPLETE.
+          - Step 8: Wrote these notes before packaging so the artifact carries its own process history.
 
           ## Exceptions / failures
           ${EXCEPTIONS}
@@ -97,7 +107,7 @@ jobs:
           python tools/check_process_notes.py harvest-output/PROCESS_NOTES.md
           test -s harvest-output/manifest.json
           if [ "${{ steps.harvest.outcome }}" != "success" ]; then
-            echo "Harvest failed; notes were preserved and checked." >&2
+            echo "Harvest command failed; notes were preserved and checked." >&2
             exit 1
           fi
       - name: Publish checked harvest artifact
