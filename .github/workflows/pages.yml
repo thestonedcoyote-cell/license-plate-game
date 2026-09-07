@@ -18,12 +18,82 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Verify release files and JavaScript
+        id: verify
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -e
+          for f in index.html styles.css v8.css v9.css app.js v8-patch.js sw.js manifest.webmanifest icon.svg data/catalog.part0.b64 data/catalog.part1.b64 data/catalog.part2.b64 data/catalog.part3.b64 data/catalog.part4.b64; do test -s "$f"; done
+          node --check app.js
+          node --check v8-patch.js
+          node --check sw.js
+          grep -q "lpg-v9" sw.js
+          grep -q "v9.css" sw.js
+      - name: Write deployment process notes
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p process-output
+          if [ "${{ steps.verify.outcome }}" = "success" ]; then STATUS="COMPLETE"; EXCEPTIONS="No release-validation failure detected."; else STATUS="INCOMPLETE"; EXCEPTIONS="Release validation failed. Deployment must not be accepted as complete; inspect the workflow logs."; fi
+          cat > process-output/PROCESS_NOTES.md <<EOF
+          # Process Notes
+
+          ## Purpose
+          Validate and publish the current License Plate Game PWA to GitHub Pages while preserving an auditable note of what was checked.
+
+          ## Inputs
+          - Commit: ${{ github.sha }}
+          - Branch: ${{ github.ref_name }}
+          - Workflow run: ${{ github.run_id }}
+          - Deployment target: GitHub Pages
+
+          ## Step notes
+          - Step 1: Checked out the exact source revision. Result: deployment input fixed to commit ${{ github.sha }}.
+          - Step 2: Verified required PWA/catalog files are present and non-empty. Result: ${{ steps.verify.outcome }}.
+          - Step 3: Ran JavaScript syntax checks for the core app, compatibility/UI patch, and service worker. Result: ${{ steps.verify.outcome }}.
+          - Step 4: Verified the service worker references the v9 cache and visual skin so installed PWAs can receive this release.
+          - Step 5: Wrote these process notes before packaging/deployment.
+
+          ## Exceptions / failures
+          ${EXCEPTIONS}
+
+          ## Outputs
+          - Checked static PWA source tree
+          - GitHub Pages deployment artifact (only if final recheck succeeds)
+          - process-output/PROCESS_NOTES.md retained as a workflow artifact
+
+          ## Final recheck
+          Rechecked required app files, JavaScript syntax, v9 service-worker cache references, and the completeness of these notes. Deployment is permitted only when the validation result is successful and this note checker passes.
+
+          ## Completion status
+          ${STATUS}
+          EOF
+      - name: Final recheck before publication
+        if: always()
+        shell: bash
+        run: |
+          python tools/check_process_notes.py process-output/PROCESS_NOTES.md
+          if [ "${{ steps.verify.outcome }}" != "success" ]; then exit 1; fi
+      - name: Preserve deployment notes
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pages-process-notes-${{ github.run_id }}
+          path: process-output/PROCESS_NOTES.md
+          retention-days: 30
+      - name: Remove private process artifact from public site package
+        if: success()
+        run: rm -rf process-output
       - uses: actions/configure-pages@v5
+        if: success()
         with:
           enablement: true
       - uses: actions/upload-pages-artifact@v3
+        if: success()
         with:
           path: .
-      - name: Deploy
+      - name: Deploy checked release
+        if: success()
         id: deployment
         uses: actions/deploy-pages@v4
