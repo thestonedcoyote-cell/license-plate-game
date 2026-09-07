@@ -1,0 +1,27 @@
+name: Validate v13.0.2 paper opacity repair
+on:
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate v13.0.2 integration
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s v13.0.2.css
+          grep -q "mask-image:none!important" v13.0.2.css
+          grep -q "opacity:1!important" v13.0.2.css
+          grep -q "paper-kraft-card-v13.svg" v13.0.2.css
+          grep -q "paper-notebook-card-v13.svg" v13.0.2.css
+          grep -q "v13.0.2.css" app.js
+          grep -q "v13.0.2.css" sw.js
+          grep -q "lpg-v13-0-2" sw.js
+          test -s docs/V13_0_2_PROCESS_NOTES.md
+          test -s docs/V13_0_2_SCREENSHOT_DIAGNOSIS.md
+          grep -q "## Final recheck" docs/V13_0_2_PROCESS_NOTES.md
+          grep -q "COMPLETE_WITH_EXCEPTIONS" docs/V13_0_2_PROCESS_NOTES.md
+          echo "v13.0.2 paper opacity repair validated"
