@@ -1,5 +1,5 @@
 {
-  "codes": "OR,ID,TX",
-  "max_sources": 4,
-  "purpose": "Initial network harvest: highest-value bulk official sources for image matching, reconstruction verification, and rights classification. Research artifact only; do not auto-publish."
+  "codes": "FL,MN,NE,MA",
+  "max_sources": 5,
+  "purpose": "Bulk harvest batch 2: Florida, Minnesota, Nebraska current/legacy, Massachusetts. Research artifact only; do not auto-publish."
 }
