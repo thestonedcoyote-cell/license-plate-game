@@ -1,0 +1,46 @@
+name: Harvest reviewed official plate assets
+on:
+  workflow_dispatch:
+    inputs:
+      codes:
+        description: Comma-separated state codes, e.g. OR,ID,TX
+        required: false
+        default: OR,ID,TX,FL,MN
+        type: string
+      max_sources:
+        description: Maximum source files in this run
+        required: false
+        default: '8'
+        type: string
+  push:
+    paths:
+      - data/harvest_trigger.json
+permissions:
+  contents: read
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests pymupdf pillow
+      - name: Resolve harvest request
+        id: request
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "codes=${{ inputs.codes }}" >> "$GITHUB_OUTPUT"
+            echo "max=${{ inputs.max_sources }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "codes=$(python -c 'import json;print(json.load(open("data/harvest_trigger.json"))["codes"])')" >> "$GITHUB_OUTPUT"
+            echo "max=$(python -c 'import json;print(json.load(open("data/harvest_trigger.json")).get("max_sources",8))')" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Harvest official sources
+        run: python tools/harvest_official_assets.py --manifest data/harvest_sources.csv --output harvest-output --codes "${{ steps.request.outputs.codes }}" --max-sources "${{ steps.request.outputs.max }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: official-plate-harvest-${{ github.run_id }}
+          path: harvest-output/
+          retention-days: 14
