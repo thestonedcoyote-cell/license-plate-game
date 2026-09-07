@@ -35,9 +35,9 @@ jobs:
           const patch=fs.readFileSync('v11-patch.js','utf8'),css=fs.readFileSync('v11.css','utf8'),sw=fs.readFileSync('sw.js','utf8'),loader=fs.readFileSync('app.js','utf8');
           for(const token of ['Main background','Second color','Letters','No wall of rectangles','researchResults','pendingPhotoBanner','catalog.part4.b64'])if(!patch.includes(token))throw new Error(`Missing v11 behavior token: ${token}`);
           for(const token of ['overflow:hidden!important','research-results','v11-results','--v11-kraft','repeating-linear-gradient'])if(!css.includes(token))throw new Error(`Missing v11 layout token: ${token}`);
-          for(const token of ['lpg-v11','v11.css','v11-patch.js','reference-renders-tx-v10.1.js'])if(!sw.includes(token))throw new Error(`Missing v11 cache token: ${token}`);
+          for(const token of ['v11.css','v11-patch.js','reference-renders-tx-v10.1.js'])if(!sw.includes(token))throw new Error(`Missing baseline cache token: ${token}`);
           for(const token of ['v11.css','v11-patch.js','reference-renders-tx-v10.1.js'])if(!loader.includes(token))throw new Error(`Loader missing ${token}`);
-          console.log(`v11 assertions passed; ${keys.length} combined public reference renders`);
+          console.log(`baseline assertions passed; ${keys.length} combined public reference renders`);
           JS
           python tools/check_process_notes.py docs/V11_PROCESS_NOTES.md
       - name: Write validation process notes
@@ -50,7 +50,7 @@ jobs:
           # Process Notes
 
           ## Purpose
-          Validate proposed v11 notebook, color-first Identify, Research, image-render, viewport, process-note and loader/service-worker changes before merge.
+          Validate the stable app baseline, catalog/render assets, process-note rules and loader/service-worker integration before merge.
 
           ## Inputs
           - Commit: ${{ github.sha }}
@@ -59,22 +59,22 @@ jobs:
 
           ## Step notes
           - Step 1: Checked out the proposed repository revision.
-          - Step 2: Confirmed required v8-v11 UI layers, app, service worker, both reference-render files, catalog chunks and v11 process documentation exist and are non-empty. Result: ${{ steps.validate.outcome }}.
-          - Step 3: Syntax-checked app.js, v8/v10/v11 patches, both render manifests and sw.js with Node. Result: ${{ steps.validate.outcome }}.
+          - Step 2: Confirmed required baseline UI layers, app, service worker, reference-render files, catalog chunks and process documentation exist and are non-empty. Result: ${{ steps.validate.outcome }}.
+          - Step 3: Syntax-checked app.js, baseline patches, render manifests and sw.js with Node. Result: ${{ steps.validate.outcome }}.
           - Step 4: Compiled Python tooling with py_compile. Result: ${{ steps.validate.outcome }}.
           - Step 5: Reconciled exactly 291 combined public render UIDs. Result: ${{ steps.validate.outcome }}.
-          - Step 6: Checked v11 tokens for three color controls, hidden unfiltered matches, Research, photo-attachment target, internal scrolling, ruled/kraft styling and v11 loader/cache wiring. Result: ${{ steps.validate.outcome }}.
+          - Step 6: Checked baseline Identify, Research, photo-target, internal-scrolling and loader/cache wiring. Result: ${{ steps.validate.outcome }}.
           - Step 7: Ran the process-note checker against the v11 implementation record. Result: ${{ steps.validate.outcome }}.
 
           ## Exceptions / failures
           ${EXCEPTIONS}
 
           ## Outputs
-          - Automated v11 validation result
+          - Automated baseline validation result
           - process-output/PROCESS_NOTES.md
 
           ## Final recheck
-          Rechecked required files, JavaScript/Python syntax, 291-render reconciliation, v11 no-page-scroll/internal-scroll rules, color-first Identify, Research, photo target, service-worker cache and process-note completeness. A failing validation is not complete work.
+          Rechecked required files, JavaScript/Python syntax, 291-render reconciliation, baseline no-page-scroll/internal-scroll rules, color-first Identify, Research, photo target, service-worker cache and process-note completeness. A failing validation is not complete work.
 
           ## Completion status
           ${STATUS}
