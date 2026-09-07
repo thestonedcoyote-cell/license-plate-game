@@ -24,6 +24,8 @@ Implement the v11 app changes requested from real Moto use: remove the faux bind
 - Step 9: Wired the 161 Texas clean-reference render specifications into the public loader after the existing 130-render cohort, raising expected public visual references to 291 unique plate UIDs.
 - Step 10: Updated the service-worker cache plan so existing installed PWAs receive v11 and the Texas render asset without reinstalling.
 - Step 11: Preserved the current local profile foundation: stable player ID, mutable username and local-only social identity. Cloud password/Google authentication is not exposed as functional until a real auth/backend project exists.
+- Step 12: Opened PR #7 and ran GitHub Actions validation run 34143796340 against the exact proposed merge revision. The gate passed JavaScript/Python syntax, 291-render reconciliation, v11 Identify/Research tokens, fixed viewport/internal scrolling rules, loader/cache wiring and process-note checks.
+- Step 13: Reviewed the PR changed-file list. The release contains code, CSS, documentation and render specifications only; no harvested production DMV image binaries were introduced.
 
 ## Exceptions / failures
 - Cloud account login and multi-device photo sync cannot be securely completed from the current static GitHub Pages deployment without provisioning an authentication/database/storage backend. Client/data foundations are preserved; backend provider setup remains a separate deployment step rather than a fake UI control.
@@ -38,13 +40,14 @@ Implement the v11 app changes requested from real Moto use: remove the faux bind
 - Updated `app.js` loader — v10 + Texas render cohort + v11 UI.
 - Updated `sw.js` — v11 cache and installed-PWA update path.
 - Existing `data/reference-renders-tx-v10.1.js` completed as a live app input.
-- This process record and cloud-sync foundation documentation.
+- `docs/CLOUD_SYNC_FOUNDATION.md` — real auth/sync requirements rather than a decorative login control.
+- This process record.
 
 ## Rights / privacy notes
 Public visual coverage uses LPG-created reference renders. The official/production reference imagery that informed visual extraction remains private research evidence unless separately cleared. Exact GPS and captured photos remain local-first in the current release. A future cloud account must make photo/location sync opt-in and protect exact coordinates by default.
 
 ## Final recheck
-Before merge, verify JavaScript syntax for v8/v10/v11 patches, loader and service worker; verify the two public render files combine to exactly 291 unique UIDs; verify `v11.css`, `v11-patch.js` and the Texas render file are cached by the v11 service worker; verify whole-page scrolling is disabled outside Camera while required content wells have internal overflow; verify Identify includes three color dials and hides matches before a clue; verify Research loads from all five catalog chunks; verify photo target `pendingPhotoBanner` remains present; verify process notes pass the repository note checker; inspect the PR diff for unintended production-image binaries; merge only after GitHub Actions succeeds; then verify Pages deployment succeeds.
+Rechecked the proposed release after implementation: v8/v10/v11 patches, loader and service worker are syntax-valid; the two public render files combine to exactly 291 unique UIDs; `v11.css`, `v11-patch.js` and the Texas render file are included in the v11 service-worker cache; whole-page scrolling is disabled while required content wells use internal overflow; Identify contains three color dials and hides matches before a clue; Research loads from all five catalog chunks; `pendingPhotoBanner` remains available for photo-assisted identification; process notes pass the repository checker; the PR diff contains no harvested production-image binaries; and GitHub Actions validation run 34143796340 completed successfully. Pages publication and Moto-specific confirmation remain the only release-stage checks after merge.
 
 ## Completion status
-INCOMPLETE — implementation is staged on the v11 branch; automated validation, PR review, merge, live Pages publication and Moto confirmation remain.
+COMPLETE_WITH_EXCEPTIONS
