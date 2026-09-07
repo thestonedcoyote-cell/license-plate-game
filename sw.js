@@ -1,5 +1,5 @@
-const CACHE='lpg-v11.1-2026-09-07';
-const CORE=['./','./index.html','./styles.css','./v8.css','./v9.css','./v10.css','./v11.css','./cloud-sync.css','./app.js','./v8-patch.js','./v10-patch.js','./v11-patch.js','./cloud-sync.js','./app.bundle.part0.b64','./app.bundle.part1.b64','./app.bundle.part2.b64','./manifest.webmanifest','./icon.svg','./data/reference-renders-v10.js','./data/reference-renders-tx-v10.1.js','./data/catalog.part0.b64','./data/catalog.part1.b64','./data/catalog.part2.b64','./data/catalog.part3.b64','./data/catalog.part4.b64'];
+const CACHE='lpg-v12-2026-09-07';
+const CORE=['./','./index.html','./styles.css','./v8.css','./v9.css','./v10.css','./v11.css','./cloud-sync.css','./v12.css','./app.js','./v8-patch.js','./v10-patch.js','./v11-patch.js','./cloud-sync.js','./v12-patch.js','./assets/roadmap-v12.svg','./app.bundle.part0.b64','./app.bundle.part1.b64','./app.bundle.part2.b64','./manifest.webmanifest','./icon.svg','./data/reference-renders-v10.js','./data/reference-renders-tx-v10.1.js','./data/catalog.part0.b64','./data/catalog.part1.b64','./data/catalog.part2.b64','./data/catalog.part3.b64','./data/catalog.part4.b64'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('message',event=>{if(event.data?.type==='SKIP_WAITING')self.skipWaiting()});
