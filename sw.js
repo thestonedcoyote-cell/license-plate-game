@@ -1,5 +1,6 @@
-const CACHE='lpg-v8-2026-09-06';
-const CORE=['./', './index.html', './styles.css','./v8.css', './app.js','./v8-patch.js','./app.bundle.part0.b64','./app.bundle.part1.b64','./app.bundle.part2.b64', './manifest.webmanifest', './icon.svg', './data/catalog.part0.b64', './data/catalog.part1.b64', './data/catalog.part2.b64', './data/catalog.part3.b64', './data/catalog.part4.b64'];
+const CACHE='lpg-v9-2026-09-06';
+const CORE=['./', './index.html', './styles.css','./v8.css','./v9.css','./app.js','./v8-patch.js','./app.bundle.part0.b64','./app.bundle.part1.b64','./app.bundle.part2.b64','./manifest.webmanifest','./icon.svg','./data/catalog.part0.b64','./data/catalog.part1.b64','./data/catalog.part2.b64','./data/catalog.part3.b64','./data/catalog.part4.b64'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
+self.addEventListener('message',event=>{if(event.data?.type==='SKIP_WAITING')self.skipWaiting()});
 self.addEventListener('fetch',event=>{if(event.request.method!=='GET')return;const u=new URL(event.request.url);if(u.origin!==self.location.origin){event.respondWith(fetch(event.request).catch(()=>caches.match(event.request)));return}event.respondWith(caches.match(event.request).then(hit=>hit||fetch(event.request).then(resp=>{const copy=resp.clone();caches.open(CACHE).then(c=>c.put(event.request,copy));return resp}).catch(()=>caches.match('./index.html'))))});
