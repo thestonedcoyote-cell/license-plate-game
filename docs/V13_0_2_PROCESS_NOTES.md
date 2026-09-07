@@ -20,6 +20,7 @@ Repair the v13.0.1 Android rendering regression shown in the user-provided scree
 - Step 9: Updated app.js so v13.0.2.css loads after all earlier visual layers.
 - Step 10: Bumped the PWA service-worker cache to v13.0.2 and added the new CSS to the precache list.
 - Step 11: Added a release validator specifically checking that the parent-mask regression cannot return silently.
+- Step 12: Opened PR #13 and pushed this final notes update to force a fresh pull-request validation cycle on the corrected branch.
 
 ## Exceptions / failures
 - Final visual verification still requires the live Android browser/PWA because CSS/SVG rasterization can differ between browser engines.
@@ -30,6 +31,7 @@ Repair the v13.0.1 Android rendering regression shown in the user-provided scree
 - updated app.js loader
 - updated sw.js cache
 - .github/workflows/validate-v13-0-2.yml
+- docs/V13_0_2_SCREENSHOT_DIAGNOSIS.md
 - this process record
 
 ## Rights / privacy / safety notes
