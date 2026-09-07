@@ -1,0 +1,26 @@
+{
+  "plate_uid": "LPG-US-ID-STANDARD-SCENIC",
+  "title": "Idaho Scenic / Famous Potatoes standard - reconstruction study",
+  "width": 1200,
+  "height": 600,
+  "background": "#f3f3ef",
+  "text_color": "#244b86",
+  "border_color": "#244b86",
+  "state_name": "IDAHO",
+  "bottom_text": "FAMOUS POTATOES · SCENIC IDAHO",
+  "serial_example": "1A 00000",
+  "bands": [
+    {"y": 0.02, "height": 0.16, "color": "#b64a43"},
+    {"y": 0.18, "height": 0.64, "color": "#f3f3ef"},
+    {"y": 0.82, "height": 0.16, "color": "#4a6ea5"}
+  ],
+  "legal_sources": [
+    "Idaho Code 49-443: red/white/blue background; blue numerals/letters; Famous Potatoes; Scenic Idaho; county designator"
+  ],
+  "verification_references": [
+    "Idaho Transportation Department current standard plate sample"
+  ],
+  "human_verification_status": "pending",
+  "public_use_class": "A-candidate",
+  "notes": "This is intentionally not claimed accurate yet. Idaho law says the standard design is comparable to the 1991 centennial issue; exact band shapes, typography, mountain scenery, and other artistic choices require additional factual/spec evidence or independent non-copying design decisions before publication."
+}
