@@ -1,0 +1,58 @@
+/* v13.0.1 hotfix: map belongs behind paper, never through it. */
+.regional-map-wear{background-image:url('./assets/paper-crumple-overlay-v13.svg')!important}
+
+/* Use the paper artwork as BOTH texture and alpha mask, with an opaque backing color.
+   This makes the torn perimeter transparent while the paper interior stays opaque. */
+.topbar,.bottom-nav{
+  background-color:#c9a66e!important;
+  background-image:url('./assets/paper-kraft-strip-v13.svg')!important;
+  background-size:100% 100%!important;background-repeat:no-repeat!important;background-position:center!important;
+  -webkit-mask-image:url('./assets/paper-kraft-strip-v13.svg');mask-image:url('./assets/paper-kraft-strip-v13.svg');
+  -webkit-mask-size:100% 100%;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
+  isolation:isolate!important;
+}
+.home-hero{
+  background-color:#c9a66e!important;
+  background-image:url('./assets/paper-kraft-card-v13.svg')!important;
+  background-size:100% 100%!important;background-repeat:no-repeat!important;background-position:center!important;
+  -webkit-mask-image:url('./assets/paper-kraft-card-v13.svg');mask-image:url('./assets/paper-kraft-card-v13.svg');
+  -webkit-mask-size:100% 100%;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
+  isolation:isolate!important;
+}
+.launch,.research-launch,.setting,.collection-head>div,.badge-summary,.tabs,.research-toolbar,.cloud-card,.craft-panel,.sheet,.capture-card,.map-stats,.stat{
+  background-color:#f2ead9!important;
+  background-image:url('./assets/paper-white-card-v13.svg')!important;
+  background-size:100% 100%!important;background-repeat:no-repeat!important;background-position:center!important;
+  -webkit-mask-image:url('./assets/paper-white-card-v13.svg');mask-image:url('./assets/paper-white-card-v13.svg');
+  -webkit-mask-size:100% 100%;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
+  isolation:isolate!important;
+}
+.v12-home-identify,.identify-toolbox{
+  background-color:#f5efdf!important;
+  background-image:url('./assets/paper-notebook-card-v13.svg')!important;
+  background-size:100% 100%!important;background-repeat:no-repeat!important;background-position:center!important;
+  -webkit-mask-image:url('./assets/paper-notebook-card-v13.svg');mask-image:url('./assets/paper-notebook-card-v13.svg');
+  -webkit-mask-size:100% 100%;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
+  isolation:isolate!important;
+}
+.v12-example{
+  background-color:#e8c46d!important;
+  background-image:url('./assets/paper-yellow-card-v13.svg')!important;
+  background-size:100% 100%!important;background-repeat:no-repeat!important;background-position:center!important;
+  -webkit-mask-image:url('./assets/paper-yellow-card-v13.svg');mask-image:url('./assets/paper-yellow-card-v13.svg');
+  -webkit-mask-size:100% 100%;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
+  isolation:isolate!important;
+}
+
+/* Nested ordinary controls should stay ordinary controls, not inherit visual blending. */
+.topbar *, .bottom-nav *, .home-hero *, .launch *, .research-launch *, .setting *, .collection-head>div *,
+.badge-summary *, .tabs *, .research-toolbar *, .cloud-card *, .craft-panel *, .sheet *, .capture-card *,
+.map-stats *, .stat *, .v12-home-identify *, .identify-toolbox *, .v12-example *{
+  mix-blend-mode:normal!important;
+}
+
+/* Prevent the decorative background layers from ever entering the app stacking context. */
+.regional-map-bg{z-index:0!important;isolation:isolate!important}
+.regional-map-wear{z-index:1!important}
+.app{z-index:10!important;isolation:isolate!important}
+.map-credit{z-index:11!important}
