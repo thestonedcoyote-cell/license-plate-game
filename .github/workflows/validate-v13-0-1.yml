@@ -33,7 +33,7 @@ jobs:
           grep -q "mask-image" v13.0.1.css
           grep -q "isolation:isolate" v13.0.1.css
           grep -q "v13.0.1.css" app.js
-          grep -q "lpg-v13.0.1-2026-09-07" sw.js
+          grep -q "lpg-v13-0-1-2026-09-07" sw.js
           grep -q "v13.0.1.css" sw.js
           for f in assets/paper-kraft-strip-v13.svg assets/paper-kraft-card-v13.svg assets/paper-white-card-v13.svg assets/paper-notebook-card-v13.svg assets/paper-yellow-card-v13.svg assets/paper-crumple-overlay-v13.svg; do test -s "$f"; done
       - name: Verify process notes
