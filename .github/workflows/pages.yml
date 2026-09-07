@@ -26,23 +26,26 @@ jobs:
         shell: bash
         run: |
           set -e
-          for f in index.html styles.css v8.css v9.css v10.css app.js v8-patch.js v10-patch.js sw.js manifest.webmanifest icon.svg data/reference-renders-v10.js data/catalog.part0.b64 data/catalog.part1.b64 data/catalog.part2.b64 data/catalog.part3.b64 data/catalog.part4.b64 docs/V10_PROCESS_NOTES.md docs/V10_IMAGE_RELEASE_NOTES.md; do test -s "$f"; done
+          for f in index.html styles.css v8.css v9.css v10.css v11.css app.js v8-patch.js v10-patch.js v11-patch.js sw.js manifest.webmanifest icon.svg data/reference-renders-v10.js data/reference-renders-tx-v10.1.js data/catalog.part0.b64 data/catalog.part1.b64 data/catalog.part2.b64 data/catalog.part3.b64 data/catalog.part4.b64 docs/V11_PROCESS_NOTES.md docs/CLOUD_SYNC_FOUNDATION.md; do test -s "$f"; done
           node --check app.js
           node --check v8-patch.js
           node --check v10-patch.js
+          node --check v11-patch.js
           node --check data/reference-renders-v10.js
+          node --check data/reference-renders-tx-v10.1.js
           node --check sw.js
-          grep -q "lpg-v10" sw.js
-          grep -q "v10.css" sw.js
-          grep -q "v10-patch.js" sw.js
-          grep -q "reference-renders-v10.js" sw.js
           node <<'JS'
-          const fs=require('fs'),vm=require('vm');const ctx={window:{}};vm.createContext(ctx);vm.runInContext(fs.readFileSync('data/reference-renders-v10.js','utf8'),ctx);
-          if(Object.keys(ctx.window.LPG_R||{}).length!==130)throw new Error('Public reference-render count is not 130');
-          const p=fs.readFileSync('v10-patch.js','utf8');for(const s of ['LPG 000','REF','Identify this photo','attached-photo','lpg-camera-mode'])if(!p.includes(s))throw new Error(`Missing ${s}`);
+          const fs=require('fs'),vm=require('vm');const ctx={window:{}};vm.createContext(ctx);
+          vm.runInContext(fs.readFileSync('data/reference-renders-v10.js','utf8'),ctx);
+          vm.runInContext(fs.readFileSync('data/reference-renders-tx-v10.1.js','utf8'),ctx);
+          const keys=Object.keys(ctx.window.LPG_R||{});if(keys.length!==291)throw new Error(`Public reference-render count is ${keys.length}, expected 291`);
+          const p=fs.readFileSync('v11-patch.js','utf8'),c=fs.readFileSync('v11.css','utf8'),s=fs.readFileSync('sw.js','utf8');
+          for(const t of ['Main background','Second color','Letters','No wall of rectangles','researchResults','pendingPhotoBanner'])if(!p.includes(t))throw new Error(`Missing ${t}`);
+          for(const t of ['overflow:hidden!important','v11-results','research-results','--v11-kraft'])if(!c.includes(t))throw new Error(`Missing layout token ${t}`);
+          for(const t of ['lpg-v11','v11.css','v11-patch.js','reference-renders-tx-v10.1.js'])if(!s.includes(t))throw new Error(`Missing cache token ${t}`);
+          console.log(`Pages v11 verification passed; ${keys.length} public references`);
           JS
-          python tools/check_process_notes.py docs/V10_PROCESS_NOTES.md
-          python tools/check_process_notes.py docs/V10_IMAGE_RELEASE_NOTES.md
+          python tools/check_process_notes.py docs/V11_PROCESS_NOTES.md
       - name: Write deployment process notes
         if: always()
         shell: bash
@@ -53,7 +56,7 @@ jobs:
           # Process Notes
 
           ## Purpose
-          Validate and publish the v10 License Plate Game PWA to GitHub Pages while preserving an auditable note of what was checked.
+          Validate and publish the v11 License Plate Game PWA/web companion to GitHub Pages while preserving an auditable release record.
 
           ## Inputs
           - Commit: ${{ github.sha }}
@@ -63,22 +66,21 @@ jobs:
 
           ## Step notes
           - Step 1: Checked out the exact source revision. Result: deployment input fixed to commit ${{ github.sha }}.
-          - Step 2: Verified required PWA/catalog/v10 notebook/reference-render files are present and non-empty. Result: ${{ steps.verify.outcome }}.
-          - Step 3: Ran JavaScript syntax checks for the core app, compatibility patch, v10 photo/render patch, reference manifest, and service worker. Result: ${{ steps.verify.outcome }}.
-          - Step 4: Reconciled 130 public reference renders and checked fictitious serial/REF, fixed-camera/photo-to-identify hooks, and v10 cache references. Result: ${{ steps.verify.outcome }}.
-          - Step 5: Checked v10 process/image-release notes with the process-note validator. Result: ${{ steps.verify.outcome }}.
-          - Step 6: Wrote these process notes before packaging/deployment.
+          - Step 2: Verified required v11 UI, Research, render, catalog, process-note and PWA files are present and non-empty. Result: ${{ steps.verify.outcome }}.
+          - Step 3: Ran JavaScript syntax checks across the loader, UI patches, render manifests and service worker. Result: ${{ steps.verify.outcome }}.
+          - Step 4: Reconciled 291 public visual references and checked color-first Identify, hidden unfiltered results, Research, photo target, no-page-scroll/internal-scroll rules and v11 cache wiring. Result: ${{ steps.verify.outcome }}.
+          - Step 5: Checked the v11 process record with the process-note validator. Result: ${{ steps.verify.outcome }}.
 
           ## Exceptions / failures
           ${EXCEPTIONS}
 
           ## Outputs
-          - Checked static PWA source tree
-          - GitHub Pages deployment artifact (only if final recheck succeeds)
+          - Checked static PWA/web source tree
+          - GitHub Pages deployment artifact (only when final recheck succeeds)
           - process-output/PROCESS_NOTES.md retained as a workflow artifact
 
           ## Final recheck
-          Rechecked required app files, JavaScript syntax, 130 clean reference-render count, reference-render safety tokens, fixed camera/photo-to-identify hooks, v10 service-worker cache references, and the completeness of these notes. Deployment is permitted only when validation and the note checker pass.
+          Rechecked required v11 app files, JavaScript syntax, 291-render count, Identify/Research/photo integration, fixed viewport and bounded scrolling, service-worker cache wiring and process-note completeness. Publication is permitted only when verification and the note checker pass.
 
           ## Completion status
           ${STATUS}
