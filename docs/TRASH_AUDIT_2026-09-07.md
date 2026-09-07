@@ -16,18 +16,21 @@ Current `main` runtime, versioned CSS/JS patches, service-worker cache, Pages va
 - Step 7: Removed obsolete versioned UI layers, old version-specific validators and superseded map assets from the working tree.
 - Step 8: Added an automated Trash audit that blocks future releases if those classes of debris return.
 - Step 9: Added a native Android packaging project and build workflow using the same runtime manifest.
+- Step 10: Ran the automated Trash audit after cleanup: 0 legacy runtime files, 0 obsolete map assets, 0 missing runtime files, 0 stale references and 0 unreferenced assets.
+- Step 11: Ran current app validation and cloud validation; both passed.
+- Step 12: Built the Android debug APK successfully from the cleaned runtime.
 
 ## Exceptions / failures
 Historical process notes remain in `docs/` because they are documentation, not executable runtime. Git history remains the authoritative implementation history.
 
 ## Outputs
-One current presentation layer, one active runtime manifest, generic release validation, automated Trash gate and Android packaging path.
+One current presentation layer, one active runtime manifest, generic release validation, automated Trash gate, a native Android packaging path and a successfully built installable debug APK.
 
 ## Rights / privacy / safety notes
-No user data or credentials are introduced by this cleanup. Android packaging uses the same privacy model as the web app.
+No user data or credentials are introduced by this cleanup. Android packaging uses the same privacy model as the web app. The Android shell requests camera and location permissions only to support the existing Camera and GPS functions.
 
 ## Final recheck
-Run `python tools/take_out_trash.py --strict`, build the runtime, validate JavaScript syntax, build the web release, then build the Android debug APK. Do not merge if any of those fail.
+Automated audit result: COMPLETE. App validation: PASS. Cloud validation: PASS. Android debug APK build: PASS. The active runtime contains 26 source files and no versioned UI layer remains in the working tree.
 
 ## Completion status
-INCOMPLETE
+COMPLETE
