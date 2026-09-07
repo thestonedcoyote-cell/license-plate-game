@@ -1,0 +1,12 @@
+{
+  "generated": "2026-09-06",
+  "catalog_designs_assessed": 1138,
+  "first_pass_classes": {
+    "A_factual_spec_candidate": 381,
+    "B_base_plus_separate_mark_or_insignia": 683,
+    "C_creative_design_review": 74
+  },
+  "verified_legal_spec_sources_seeded": 6,
+  "seed_jurisdictions": ["Washington", "Idaho", "California", "Oregon"],
+  "important_note": "These are automated first-pass investigation classes, not final legal clearance. Each plate requires provenance review and human visual verification before a reconstructed image is marked public-safe."
+}
