@@ -18,6 +18,7 @@ Increase fidelity to the approved generated mockup by restoring a visibly crumpl
 - Step 7: Suppressed the old tap-to-next behavior on the dial face while retaining arrow buttons as accessible alternate controls.
 - Step 8: Updated app loader ordering so v12.1 loads after v12 without disturbing camera, photo, catalog, research or cloud logic.
 - Step 9: Updated the PWA service-worker cache so installed apps receive the new map, CSS and drag-control JavaScript without reinstalling.
+- Step 10: Ran the road-trip skin, baseline app and cloud-account GitHub validation workflows. All three completed successfully before merge.
 
 ## Exceptions / failures
 - The crumpled map is independent app artwork, not a scan of a commercial 1980s atlas. It is intentionally designed to evoke the physical road-map experience rather than reproduce a specific copyrighted map.
@@ -30,6 +31,7 @@ Increase fidelity to the approved generated mockup by restoring a visibly crumpl
 - v12.1-patch.js
 - updated app.js loader
 - updated sw.js cache
+- updated validation workflow
 - this process record
 
 ## Rights / privacy / safety notes
@@ -38,7 +40,7 @@ Increase fidelity to the approved generated mockup by restoring a visibly crumpl
 - Cloud photo privacy, authentication and opt-in backup behavior are unchanged.
 
 ## Final recheck
-Recheck that the crumpled WebP exists and is non-empty; v12.1 CSS references it; ripped-paper styling is present; dial CSS uses touch-action:none; v12.1 JavaScript uses pointerdown/pointermove and preserves arrow-button fallback; app.js loads both v12.1 files after v12; sw.js caches the new map/CSS/JS; baseline app and cloud validation remain green; this record contains all required note sections.
+Rechecked that the crumpled WebP exists and is non-empty; v12.1 CSS references it; ripped-paper styling is present; dial CSS uses touch-action:none; v12.1 JavaScript uses pointerdown/pointermove and preserves arrow-button fallback; app.js loads both v12.1 files after v12; sw.js caches the new map/CSS/JS; road-trip skin validation, baseline app validation and cloud account validation are all green; this record contains all required note sections. Remaining handset-specific finger feel is explicitly listed as an exception rather than treated as verified.
 
 ## Completion status
-INCOMPLETE
+COMPLETE_WITH_EXCEPTIONS
