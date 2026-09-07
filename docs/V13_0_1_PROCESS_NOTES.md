@@ -16,16 +16,20 @@ Hotfix v13 so the regional map appears only as the overall background and does n
 - Step 5: Added the matching torn-paper SVG as a CSS alpha mask so the map remains visible only outside the torn edge, never through the paper interior.
 - Step 6: Added `isolation:isolate` and explicit z-index separation between the map layers and the application layer.
 - Step 7: Corrected the crumple overlay binding to `paper-crumple-overlay-v13.svg`.
-- Step 8: Added the hotfix stylesheet to the loader and bumped the PWA cache to `lpg-v13.0.1-2026-09-07`.
+- Step 8: Added the hotfix stylesheet to the loader and bumped the PWA cache to `lpg-v13-0-1-2026-09-07`.
+- Step 9: Ran the dedicated paper-layer hotfix gate plus baseline app, cloud-account, v12 visual and v13 real-map validation gates. All five passed after correcting the cache-name compatibility check.
 
 ## Exceptions / failures
 - Exact appearance still depends on browser support for CSS mask images; current Android Chrome and modern desktop Chromium support the properties used, including the `-webkit-` prefixed form.
-- This hotfix intentionally changes only layer isolation and does not redesign the regional-map, paper assets, sliders or desktop layout.
+- The first hotfix validation pass found an old v13 validator that required cache names beginning with `lpg-v13-`; the cache name was changed from dotted semantic-version punctuation to a hyphenated form and all gates then passed.
+- This hotfix intentionally changes only layer isolation and does not redesign the regional map, paper assets, sliders or desktop layout.
+- Final visual confirmation still requires the user's installed handset because the reported failure was device-rendering specific.
 
 ## Outputs
 - `v13.0.1.css`
 - updated `app.js`
 - updated `sw.js`
+- `.github/workflows/validate-v13-0-1.yml`
 - this process record
 
 ## Rights / privacy / safety notes
@@ -33,7 +37,7 @@ Hotfix v13 so the regional map appears only as the overall background and does n
 - The live map attribution and coarse regional GPS behavior remain unchanged.
 
 ## Final recheck
-Recheck that all paper URLs in the hotfix point to existing `*-v13.svg` assets; each paper category has an opaque backing color plus matching mask image; map/wear layers remain below `.app`; `app.js` loads `v13.0.1.css` after v13/v13-assets; `sw.js` caches the hotfix and uses a new cache version; baseline app/cloud/v12/v13 validations remain green; this record contains all required note sections.
+Rechecked that all paper URLs in the hotfix point to existing `*-v13.svg` assets; each paper category has an opaque backing color plus matching mask image; map/wear layers remain below `.app`; `app.js` loads `v13.0.1.css` after v13/v13-assets; `sw.js` caches the hotfix under `lpg-v13-0-1-2026-09-07`; dedicated paper-layer, baseline app, cloud-account, v12 visual and v13 real-map validation gates all pass; this record contains all required note sections.
 
 ## Completion status
-INCOMPLETE
+COMPLETE_WITH_EXCEPTIONS
