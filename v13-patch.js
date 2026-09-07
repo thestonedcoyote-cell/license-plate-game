@@ -12,6 +12,7 @@
   document.body.classList.toggle('lpg-desktop',!!desktop);
 
   const bg=document.createElement('div');bg.id='regionalMapBg';bg.className='regional-map-bg';
+  bg.style.background="url('./assets/roadmap-crumpled-v12.1.webp') center/cover";
   const wear=document.createElement('div');wear.id='regionalMapWear';wear.className='regional-map-wear';
   const credit=document.createElement('div');credit.className='map-credit';credit.textContent='© OpenStreetMap contributors';
   document.body.prepend(credit);document.body.prepend(wear);document.body.prepend(bg);
@@ -78,9 +79,7 @@
     const swatch=document.createElement('div');swatch.className='v13-slider-swatch';swatch.style.background=COLORS[value][1];
     const input=document.createElement('input');input.type='range';input.min='0';input.max=String(COLORS.length-1);input.step='1';input.value=String(value);input.className='v13-color-slider';
     const label=document.createElement('div');label.className='v13-slider-value';label.textContent=COLORS[value][0];
-    const sync=()=>{
-      const i=Number(input.value);swatch.style.background=COLORS[i][1];label.textContent=COLORS[i][0];moveUnderlying(card,i);
-    };
+    const sync=()=>{const i=Number(input.value);swatch.style.background=COLORS[i][1];label.textContent=COLORS[i][0];moveUnderlying(card,i)};
     input.addEventListener('input',sync);input.addEventListener('change',sync);
     card.appendChild(swatch);card.appendChild(input);card.appendChild(label);
   });
@@ -90,9 +89,11 @@
   }
   const refreshSliders=()=>document.querySelectorAll('#identify .color-dial').forEach(card=>{
     const i=indexFor(card),input=card.querySelector('.v13-color-slider'),swatch=card.querySelector('.v13-slider-swatch'),label=card.querySelector('.v13-slider-value');
-    if(input&&document.activeElement!==input)input.value=String(i);if(swatch)swatch.style.background=COLORS[i][1];if(label)label.textContent=COLORS[i][0];
+    if(input&&document.activeElement!==input&&input.value!==String(i))input.value=String(i);
+    if(swatch&&swatch.style.background!==COLORS[i][1])swatch.style.background=COLORS[i][1];
+    if(label&&label.textContent!==COLORS[i][0])label.textContent=COLORS[i][0];
   });
-  new MutationObserver(refreshSliders).observe($('identify')||document.body,{subtree:true,characterData:true,childList:true});
+  document.querySelectorAll('#identify .dial-value').forEach(el=>new MutationObserver(refreshSliders).observe(el,{subtree:true,childList:true,characterData:true}));
   $('v11IdentifyReset')?.addEventListener('click',()=>setTimeout(refreshSliders,0));
 
   const updateMode=()=>{
@@ -102,8 +103,10 @@
     setTimeout(()=>map?.invalidateSize(),60);
   };
   window.addEventListener('resize',updateMode);updateMode();
+  const requested=new URLSearchParams(location.search).get('screen');
+  if(requested)setTimeout(()=>document.querySelector(`.nav-btn[data-screen="${CSS.escape(requested)}"]`)?.click(),80);
   document.documentElement.dataset.lpgAppMode=standalone?'standalone':(desktop?'desktop-browser':'mobile-browser');
   document.documentElement.dataset.lpgVisual='real-map-paper-v13';
   window.LPG_VISUAL_VERSION=VERSION;
-  console.info('License Plate Game 13: regional map + raster paper + drag sliders + desktop desk');
+  console.info('License Plate Game 13: regional map + paper images + drag sliders + desktop desk');
 })();
