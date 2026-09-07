@@ -1,0 +1,13 @@
+priority,jurisdiction,code,source_kind,title,url,extraction_mode,difficulty,image_rich,historical_coverage,local_binary_status,notes
+1,Oregon,OR,bulk_pdf,Oregon License Plate Manual,https://www.oregon.gov/odot/Forms/DMV/6726.pdf,bulk_pdf,A,1,1,remote_only,Current and still-valid retired designs.
+1,Oregon,OR,direct_image_asset,Oregon Salmon Plate Official Image,https://www.oregon.gov/oprd/PCB/PublishingImages/Salmon%20License%20Plate.png,direct_asset,A,1,0,remote_only,Direct official PNG.
+2,Idaho,ID,bulk_pdf,Idaho Special License Plate Designs Poster,https://itd.idaho.gov/wp-content/uploads/2016/06/plates.pdf,bulk_pdf,A,1,0,remote_only,Official specialty design poster.
+10,Texas,TX,bulk_pdf,Texas Specialty Plate Guide,https://www.txdmv.gov/sites/default/files/body-files/Special-Plate-Guide.pdf,bulk_pdf,A,1,0,remote_only,Official illustrated specialty guide.
+12,Florida,FL,bulk_pdf,Florida License Plate Brochure 2026,https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf,bulk_pdf,A,1,0,remote_only,Current official illustrated brochure.
+15,Minnesota,MN,bulk_pdf,Minnesota Special License Plates Brochure,https://assets.dps.mn.gov/files/dvs/dvs-special-license-plates-brochure.pdf,bulk_pdf,A,1,0,remote_only,Official illustrated brochure.
+17,Nebraska,NE,bulk_pdf,Nebraska 2023-2029 License Plates,https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf,bulk_pdf,A,1,0,remote_only,Current illustrated manual.
+17,Nebraska,NE,bulk_pdf_historical,Nebraska 2017-2023 License Plates,https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2017_Series_Plates-updated.pdf,bulk_pdf,A,1,1,remote_only,Previous illustrated series manual.
+33,Massachusetts,MA,bulk_pdf,Massachusetts Passenger Plates Manual,https://www.mass.gov/doc/passenger-plates-manual-0/download,bulk_pdf,A,1,1,remote_only,Official passenger plate manual.
+44,New Hampshire,NH,bulk_pdf,New Hampshire Complete List of Plate Types,https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/list-of-plates-table.pdf,bulk_pdf,A,1,0,remote_only,Official complete plate-type PDF.
+48,West Virginia,WV,bulk_pdf,West Virginia License Plate Posters,https://webapps.transportation.wv.gov/TWS/WVDOTDocumentStorageMigration/PDF/Transportation/DMV/DMVFormSearch/PLATE-POSTERS.pdf,bulk_pdf,A,1,0,remote_only,Official illustrated plate posters.
+49,Oklahoma,OK,bulk_pdf,Service Oklahoma Specialty Plates Catalog,https://oklahoma.gov/content/dam/service-oklahoma/Documents/mv-forms/SpecialtyPlatesCatalog.pdf,bulk_pdf,A,1,0,remote_only,Official illustrated specialty catalog.
