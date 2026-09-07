@@ -1,6 +1,11 @@
 (()=>{
   const KEY='lpg.v8.onboarded';
   const $=id=>document.getElementById(id);
+  // Keep the v8 visual skin separable from the stable v7 core.
+  if(!document.querySelector('link[data-lpg-v8]')){
+    const link=document.createElement('link');
+    link.rel='stylesheet';link.href='./v8.css';link.dataset.lpgV8='1';document.head.appendChild(link);
+  }
   const wait=()=>{
     if(!$('launchIdentify')?.onclick || !$('useGps')?.onclick){setTimeout(wait,80);return}
 
