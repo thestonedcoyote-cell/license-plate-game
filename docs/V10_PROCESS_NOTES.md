@@ -21,25 +21,28 @@ Turn the current phone alpha into a more integrated notebook-like road game, mak
 - Step 8: Added a client-side SVG renderer keyed by immutable plate UID. Public renders use verified colors/slogans/broad motif family, fictitious `LPG 000` serials and a visible `REF` marker.
 - Step 9: Kept harvested official production images out of the public tree unless separately cleared. State-site copyright/reuse research continues to show that publicly viewable graphics are not uniformly free to redistribute, particularly sponsor and third-party artwork.
 - Step 10: Updated the app loader and service-worker cache so the installed PWA receives v10 assets through the existing update mechanism.
+- Step 11: Extended PR and Pages validation to syntax-check v10, require all v10 assets, reconcile exactly 130 unique public render records, verify `LPG 000` / `REF`, fixed-camera/photo-attachment hooks, service-worker cache wiring, and both v10 process records.
+- Step 12: Ran GitHub PR validation run 34094776819 after correcting the process-note title convention. Result: SUCCESS.
 
 ## Exceptions / failures
 - 1,008 collectible designs still lack sufficient normalized visual-profile data for clean reconstruction and therefore retain the non-image fallback.
 - The 130 public renders are identification references, not pixel-identical replicas; protected creative elements are intentionally simplified.
 - Exact official image redistribution is not being treated as clean where site terms or third-party ownership remain ambiguous.
-- Final device behavior still requires post-deployment confirmation on the Moto because browser simulation cannot prove Android camera viewport/safe-area behavior.
+- Actual Android camera fit/safe-area behavior remains a post-deployment handset verification item; automation cannot physically substitute for the Moto screen.
 
 ## Outputs
 - `v10.css` — integrated notebook interface and fixed camera viewport.
 - `v10-patch.js` — clean reference render integration and photo-to-identify flow.
 - `data/reference-renders-v10.js` — 130 public reference render specifications.
 - Updated `app.js` loader and `sw.js` cache manifest.
+- Updated PR/Pages validation workflows.
 - `docs/V10_IMAGE_RELEASE_NOTES.md` and this process record.
 
 ## Rights / privacy notes
 Captured user photos and precise location remain local to the device under the current local-first model. Public reference renders are newly generated LPG artwork from factual/verified characteristics and are intentionally non-credential-like. Production/reference images remain research evidence unless separately cleared.
 
 ## Final recheck
-Before merge: run JavaScript syntax validation; verify the render manifest has exactly 130 unique UIDs and all are canonical catalog records; verify no harvested production image was added to the public tree; verify `LPG 000` and `REF` appear in the public renderer; verify v10 files appear in the service-worker cache; run the repository release/process-note checks; inspect the PR diff for unintended changes; and verify the Pages deployment after merge.
+Rechecked the actual PR rather than a local shadow copy. The diff contains only the two validation workflows, app loader, render manifest, two process-note files, service worker, v10 behavior and v10 styling; no harvested production image binaries are present. The canonical app data contains exactly 130 visual-profile UIDs, all 130 are unique and all exist among the 1,138 collectible records. GitHub validation confirmed JavaScript/Python syntax, 130-render count/uniqueness, `LPG 000` and `REF` safety markers, fixed-camera/photo-to-identify hooks, v10 loader/cache wiring, and process-note structure. Remaining exceptions are explicitly recorded above. Pages deployment will be separately rechecked after merge before the release is reported live.
 
 ## Completion status
-INCOMPLETE — implementation is staged; repository checks, PR review, merge and live deployment remain.
+COMPLETE_WITH_EXCEPTIONS — the v10 implementation and pre-merge validation are complete; the known exceptions are the 1,008 not-yet-rendered catalog designs and handset-only post-deployment camera-fit verification.
