@@ -14,4 +14,6 @@ css('./v11.css');
 await load('./v11-patch.js');
 css('./cloud-sync.css');
 await load('./cloud-sync.js');
+css('./v12.css');
+await load('./v12-patch.js');
 }catch(e){console.error(e);document.body.insertAdjacentHTML('beforeend','<div style="padding:20px">The app failed to start. Reload once; if it persists, report it.</div>')}})();

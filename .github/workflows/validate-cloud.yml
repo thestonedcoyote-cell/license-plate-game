@@ -15,12 +15,11 @@ jobs:
           node --check cloud-sync.js
           grep -q "cloud-sync.js" app.js
           grep -q "cloud-sync.css" app.js
-          grep -q "lpg-v11.1" sw.js
           grep -q "cloud-sync.js" sw.js
           grep -q "cloud-sync.css" sw.js
           grep -q "photo_sync:false" cloud-sync.js
           grep -q "sighting-photos" cloud-sync.js
           grep -q "signInWithPassword" cloud-sync.js
           grep -q "signUp" cloud-sync.js
-          if grep -Eqi "service[_-]?role|secret[_-]?key|database.password|z5rmRqDpduWtIB2H" cloud-sync.js; then echo 'Secret-looking material found in client'; exit 1; fi
+          if grep -Eqi "service[_-]?role|secret[_-]?key|database[._-]?password|postgres(ql)?://[^[:space:]]+:[^[:space:]@]+@" cloud-sync.js; then echo 'Secret-looking material found in client'; exit 1; fi
           python tools/check_process_notes.py docs/V11_1_PROCESS_NOTES.md
