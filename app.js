@@ -23,4 +23,6 @@ css('./v13-assets.css');
 css('./v13.0.1.css');
 css('./v13.0.2.css');
 await load('./v13-patch.js');
+css('./v13.0.3.css');
+await load('./v13.0.3-patch.js');
 }catch(e){console.error(e);document.body.insertAdjacentHTML('beforeend','<div style="padding:20px">The app failed to start. Reload once; if it persists, report it.</div>')}})();
