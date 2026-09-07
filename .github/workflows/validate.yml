@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate app package
+      - name: Validate app package and tools
         id: validate
         continue-on-error: true
         shell: bash
@@ -19,6 +19,7 @@ jobs:
           node --check app.js
           node --check v8-patch.js
           node --check sw.js
+          python -m py_compile tools/*.py
           python - <<'PY'
           from pathlib import Path
           sw=Path('sw.js').read_text()
@@ -28,7 +29,7 @@ jobs:
           assert 'serviceWorker' in patch and 'reg.update()' in patch
           assert Path('docs/PROCESS_STANDARD.md').exists()
           assert Path('tools/check_process_notes.py').exists()
-          print('Static package assertions passed')
+          print('Static package and Python-tool assertions passed')
           PY
       - name: Write validation process notes
         if: always()
@@ -40,7 +41,7 @@ jobs:
           # Process Notes
 
           ## Purpose
-          Validate a proposed app change before merge and record exactly what the automated gate checked.
+          Validate proposed app/tool changes before merge and record exactly what the automated gate checked.
 
           ## Inputs
           - Commit: ${{ github.sha }}
@@ -51,8 +52,9 @@ jobs:
           - Step 1: Checked out the proposed repository revision.
           - Step 2: Confirmed required PWA, UI skin, app, service-worker, and catalog chunk files exist and are non-empty. Result: ${{ steps.validate.outcome }}.
           - Step 3: Syntax-checked app.js, v8-patch.js, and sw.js with Node. Result: ${{ steps.validate.outcome }}.
-          - Step 4: Checked v9 cache/style references, local profile schema hook, update-check hook, and process-standard files. Result: ${{ steps.validate.outcome }}.
-          - Step 5: Wrote this validation record before merge approval.
+          - Step 4: Compiled every Python tool with py_compile so harvest/research tooling cannot merge with a syntax error. Result: ${{ steps.validate.outcome }}.
+          - Step 5: Checked v9 cache/style references, local profile schema hook, update-check hook, and process-standard files. Result: ${{ steps.validate.outcome }}.
+          - Step 6: Wrote this validation record before merge approval.
 
           ## Exceptions / failures
           ${EXCEPTIONS}
@@ -62,7 +64,7 @@ jobs:
           - process-output/PROCESS_NOTES.md
 
           ## Final recheck
-          Rechecked that required files, JavaScript syntax, v9 service-worker wiring, profile/update foundations, and process-note requirements were covered by the validation gate. A failing validation is not complete work.
+          Rechecked required files, JavaScript and Python syntax, v9 service-worker wiring, profile/update foundations, and process-note requirements. A failing validation is not complete work.
 
           ## Completion status
           ${STATUS}
