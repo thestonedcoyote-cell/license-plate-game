@@ -2,6 +2,8 @@ name: Deploy Pages
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - data/harvest_trigger.json
   workflow_dispatch:
 permissions:
   contents: read
