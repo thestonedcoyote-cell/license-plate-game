@@ -1,0 +1,14 @@
+{
+  "name": "License Plate Game",
+  "short_name": "Plate Game",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f6f2e9",
+  "theme_color": "#172126",
+  "description": "Fast passenger-first license plate identification and collection game.",
+  "categories": ["games", "travel"],
+  "icons": [{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
