@@ -1,5 +1,5 @@
 {
-  "codes": "FL,MN,NE,MA",
-  "max_sources": 5,
-  "purpose": "Bulk harvest batch 2: Florida, Minnesota, Nebraska current/legacy, Massachusetts. Research artifact only; do not auto-publish."
+  "codes": "NH,WV,OK",
+  "max_sources": 3,
+  "purpose": "Bulk harvest batch 3: New Hampshire, West Virginia, Oklahoma. Research artifact only; do not auto-publish."
 }
