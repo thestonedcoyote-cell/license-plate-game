@@ -10,13 +10,13 @@ Publish every plate reference image we can currently defend as a clean public ap
 - Prior image-rights research and reconstruction classification.
 
 ## Step notes
-1. Selected the current evidence-backed visual-profile cohort rather than inventing appearance for records that have not been visually researched yet.
-2. Converted each profile into an LPG-owned compact render specification: background, text color, short slogan, origin code and broad motif family.
-3. Protected logos/characters/sponsor artwork are not traced. The public renderer substitutes original generic symbols for broad concepts such as animal, mountain, water, school, service, flag, vehicle or protected mark.
-4. Public renders use the fictitious serial `LPG 000`, omit validation stickers/security features and include a small `REF` mark.
-5. The app maps renders by immutable plate UID, so the illustration cannot drift to another plate merely because names change.
-6. The public release cohort currently contains 130 plate designs. All other designs retain their non-image fallback until their visual evidence is sufficient for reconstruction or their source art is separately cleared.
-7. Production/source images remain private evidence for comparison and human validation.
+- Step 1: Selected the current evidence-backed visual-profile cohort rather than inventing appearance for records that have not been visually researched yet.
+- Step 2: Converted each profile into an LPG-owned compact render specification: background, text color, short slogan, origin code and broad motif family.
+- Step 3: Protected logos/characters/sponsor artwork are not traced. The public renderer substitutes original generic symbols for broad concepts such as animal, mountain, water, school, service, flag, vehicle or protected mark.
+- Step 4: Public renders use the fictitious serial `LPG 000`, omit validation stickers/security features and include a small `REF` mark.
+- Step 5: The app maps renders by immutable plate UID, so the illustration cannot drift to another plate merely because names change.
+- Step 6: The public release cohort currently contains 130 plate designs. All other designs retain their non-image fallback until their visual evidence is sufficient for reconstruction or their source art is separately cleared.
+- Step 7: Production/source images remain private evidence for comparison and human validation.
 
 ## Exceptions / failures
 - This does not claim that 130 renders are pixel-identical reproductions. They are identification references built from verified facts and independently drawn broad visual cues.
