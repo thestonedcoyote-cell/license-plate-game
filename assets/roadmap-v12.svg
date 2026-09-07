@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1600" role="img" aria-label="Vintage road atlas background">
+<defs>
+  <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="2" seed="8" result="n"/><feColorMatrix in="n" type="matrix" values="1 0 0 0 0.2  0 1 0 0 0.16  0 0 1 0 0.08  0 0 0 .16 0"/><feBlend in="SourceGraphic" mode="multiply"/></filter>
+  <style>.state{font:700 29px Arial,sans-serif;letter-spacing:8px;fill:#46545a;opacity:.86}.city{font:16px Arial,sans-serif;fill:#46505a}.route{fill:#2f5f89}.rtext{font:700 16px Arial,sans-serif;fill:#fff}.road{fill:none;stroke:#b94e43;stroke-width:5;opacity:.75}.minor{fill:none;stroke:#6f95a7;stroke-width:2.6;opacity:.58}.border{fill:none;stroke:#9a8c73;stroke-width:2.2;stroke-dasharray:6 4;opacity:.65}.river{fill:none;stroke:#7ba7b5;stroke-width:4;opacity:.46}</style>
+</defs>
+<rect width="900" height="1600" fill="#eadfbe"/>
+<g filter="url(#paper)">
+<path d="M0 178 C148 140 278 232 430 184 S705 132 900 182" class="minor"/>
+<path d="M0 416 C145 382 268 474 440 420 S710 370 900 428" class="minor"/>
+<path d="M0 663 C161 631 304 716 468 671 S744 620 900 682" class="minor"/>
+<path d="M0 1034 C150 1000 314 1080 470 1036 S735 976 900 1045" class="minor"/>
+<path d="M0 1372 C140 1340 287 1412 445 1375 S736 1316 900 1390" class="minor"/>
+<path d="M210 0 L224 1600 M468 0 L480 1600 M690 0 L704 1600" class="border"/>
+<path d="M0 285 L900 297 M0 586 L900 600 M0 927 L900 943 M0 1281 L900 1298" class="border"/>
+<path d="M110 42 C150 244 120 420 170 615 S150 1050 205 1560" class="river"/>
+<path d="M770 0 C730 205 790 410 742 645 S805 1030 730 1600" class="river"/>
+<path d="M32 124 C210 175 344 142 486 176 S742 250 880 212" class="road"/>
+<path d="M38 494 C190 450 318 516 478 490 S716 420 865 465" class="road"/>
+<path d="M68 802 C254 744 356 848 536 811 S735 754 864 807" class="road"/>
+<path d="M42 1190 C205 1128 362 1235 534 1188 S734 1112 872 1170" class="road"/>
+<path d="M134 16 C115 272 182 460 154 735 S190 1202 162 1570" class="road"/>
+<path d="M532 22 C500 288 554 482 522 750 S570 1190 540 1575" class="road"/>
+<path d="M810 42 C772 250 833 468 792 748 S836 1230 805 1575" class="road"/>
+<g opacity=".22" fill="#95a767"><path d="M45 345 l80-92 78 81-41 95-86 34z"/><path d="M556 352 l93-80 92 94-45 108-110 18z"/><path d="M318 1090 l78-79 112 66-22 124-115 28z"/></g>
+</g>
+<g>
+<text x="292" y="110" class="state">MONTANA</text><text x="52" y="352" class="state">IDAHO</text><text x="306" y="445" class="state">WYOMING</text><text x="625" y="300" class="state">SOUTH DAKOTA</text><text x="305" y="920" class="state">NEBRASKA</text><text x="700" y="1040" class="state">IOWA</text><text x="80" y="1215" class="state">UTAH</text><text x="556" y="1355" class="state">COLORADO</text>
+<text x="337" y="847" class="city">Scottsbluff</text><text x="414" y="974" class="city">North Platte</text><text x="228" y="1005" class="city">Ogallala</text><text x="674" y="736" class="city">Rapid City</text><text x="100" y="530" class="city">Pocatello</text><text x="577" y="1478" class="city">Denver</text>
+<g transform="translate(170 150)"><path d="M0 0h48l10 15-10 25H0L-10 15z" class="route"/><text x="24" y="27" text-anchor="middle" class="rtext">90</text></g>
+<g transform="translate(88 590)"><path d="M0 0h48l10 15-10 25H0L-10 15z" class="route"/><text x="24" y="27" text-anchor="middle" class="rtext">15</text></g>
+<g transform="translate(382 1125)"><path d="M0 0h48l10 15-10 25H0L-10 15z" class="route"/><text x="24" y="27" text-anchor="middle" class="rtext">80</text></g>
+<g transform="translate(760 1025)"><path d="M0 0h48l10 15-10 25H0L-10 15z" class="route"/><text x="24" y="27" text-anchor="middle" class="rtext">29</text></g>
+<g transform="translate(508 480)"><path d="M0 0h48l10 15-10 25H0L-10 15z" class="route"/><text x="24" y="27" text-anchor="middle" class="rtext">25</text></g>
+</g>
+</svg>
