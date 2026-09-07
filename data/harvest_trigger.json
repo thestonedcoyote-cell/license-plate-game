@@ -1,0 +1,5 @@
+{
+  "codes": "OR,ID,TX",
+  "max_sources": 4,
+  "purpose": "Initial network harvest: highest-value bulk official sources for image matching, reconstruction verification, and rights classification. Research artifact only; do not auto-publish."
+}
