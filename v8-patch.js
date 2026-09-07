@@ -105,12 +105,14 @@
 
     const syncProfileCounts=()=>{
       const txt=id=>parseInt($(id)?.textContent||'0',10)||0;
-      $('profileUnique')&&($('profileUnique').textContent=txt('homeUnique'));
-      $('profileOrigins')&&($('profileOrigins').textContent=txt('homeOrigins'));
-      $('profileWins')&&($('profileWins').textContent=txt('earnedCount'));
+      const set=(id,v)=>{const el=$(id),s=String(v);if(el&&el.textContent!==s)el.textContent=s};
+      set('profileUnique',txt('homeUnique'));
+      set('profileOrigins',txt('homeOrigins'));
+      set('profileWins',txt('earnedCount'));
     };
     syncProfileCounts();
-    new MutationObserver(syncProfileCounts).observe(document.body,{subtree:true,childList:true,characterData:true});
+    const countObserver=new MutationObserver(syncProfileCounts);
+    ['homeUnique','homeOrigins','earnedCount'].map($).filter(Boolean).forEach(el=>countObserver.observe(el,{subtree:true,childList:true,characterData:true}));
 
     // Installed PWA update behavior: same icon/link forever. Check on every launch and expose a
     // manual button. We avoid surprise mid-camera reloads; when a new worker takes over, offer refresh.
