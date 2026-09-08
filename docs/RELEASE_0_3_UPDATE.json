@@ -1,0 +1,9 @@
+{
+  "applicationId": "com.thelostharbor.licenseplategame",
+  "versionCode": 3,
+  "versionName": "0.3.0-alpha",
+  "minSdk": 26,
+  "url": "https://github.com/thestonedcoyote-cell/license-plate-game/releases/download/v0.3.0/license-plate-game-0.3.0-candidate.apk",
+  "sha256": "d81c4b6d026e6b2edb26c6132c345c73d330594bee91264750e7a4735251a7d1",
+  "notes": "Vintage radio color controls, SLR camera, photo crop and zoom, Mile markers, camera lifecycle fixes and in-app update support."
+}
