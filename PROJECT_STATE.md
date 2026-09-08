@@ -7,7 +7,7 @@ Read docs/RELEASE_0_3_PROCESS_NOTES.md for checks and limitations, docs/APP_UPDA
 
 Build with tools/build_android_local.py using Android 35 android.jar, official Android tools and the privately preserved distribution key. Never commit the key. Browser regression is tests/release-ui.cjs, lifecycle regression tests/camera-lifecycle.cjs. Strict trash audit and process-note checker are release gates.
 
-The full plate-image acquisition, reconstruction and verification campaign is specified in `docs/PLATE_IMAGE_CAMPAIGN_PLAN.md`. It audits all 1,138 designs, including the existing 291 public references, and contains the copyable heavy-resource execution prompt.
+The full plate-image acquisition, reconstruction and verification campaign is specified in `docs/PLATE_IMAGE_CAMPAIGN_PLAN.md`. It audits all 1,138 designs, including the existing 291 public references, and contains the copyable heavy-resource execution prompt. Human side-by-side review is the final substantive image gate and will use a Find the Differences interface with synchronized zoom/pan, split/overlay/flicker comparison, clickable discrepancy regions and automatic correction tickets.
 
 ## Next update requirements
 

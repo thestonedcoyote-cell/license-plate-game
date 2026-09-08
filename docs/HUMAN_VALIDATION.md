@@ -2,19 +2,30 @@
 
 Human reviewers should spend their time on judgment, not catalog mechanics.
 
-## Standard review screen
+## Review timing
+
+Human review is the final substantive image gate. Source collection, catalog mapping, rendering, rights/safety screening, automated difference detection and an integration rehearsal should all finish first. Reviewers should see only candidates that survived those stages, plus explicitly escalated conflicts requiring human judgment.
+
+## Find the Differences review screen
 
 Each item should show:
 
 - the proposed canonical plate name;
 - the proposed image/reconstruction;
 - when useful, the authoritative production-reference image beside it;
+- equal-size synchronized zoom and pan;
+- draggable split, overlay and flicker comparison modes;
+- an actual-size in-app thumbnail preview;
 - source/provenance summary;
 - machine confidence/match score when available;
-- three large decisions: **Looks right**, **Wrong / needs correction**, **Unsure**;
+- four large decisions: **Looks right**, **Wrong / needs correction**, **Unsure**, **Legal review needed**;
 - an optional note field.
 
-The reviewer should not have to rename files, find official pages, edit database IDs, or understand the ingestion pipeline.
+The reviewer can mark a differing region directly on either image, then classify it as color, words, layout, border/band, motif/art, logo/mark, wrong design/era, missing element or extra element. The program converts those marks into structured correction tickets. Machine-suggested differences remain hidden until after the reviewer's initial inspection to reduce anchoring.
+
+Progress or game feedback rewards completed careful reviews and confirmed discrepancies. It must never reward rapid approval, approval streaks or agreement with the machine.
+
+The reviewer should not have to rename files, find official pages, edit database IDs, write correction tickets manually or understand the ingestion pipeline. The program supports touch and mouse input, keyboard controls, save/resume, skipped items and session progress.
 
 ## Review types
 

@@ -134,34 +134,64 @@ Gate: a reconstruction cannot begin until its minimum recognition features and u
 
 Gate: asset schema, fictitious serial, safety treatment, dimensions and UID filename must validate automatically.
 
-### Phase 6 — Two-stage visual review
-
-Stage A is a mechanical comparison: plate name, UID, years, aspect, dominant colors, text, layout, required elements and source freshness.
-
-Stage B is a human side-by-side review showing the candidate beside the best authoritative production reference. The decision is **Looks right**, **Wrong / needs correction**, **Unsure**, or **Legal review needed**. Wrong decisions require a note when possible.
-
-High-complexity scenic, character, tribal, university, sports, sponsor and cause plates require a second review pass after correction. Minimal standard plates may pass with one authoritative source and one human review.
-
-Gate: every public candidate has a recorded human decision; no bulk “approve all” action is accepted.
-
-### Phase 7 — Rights and safety review
+### Phase 6 — Rights and safety screening
 
 - Apply public-use classes A/B/C/D per element and per final asset.
 - Keep exact-thumbnail fair-use analysis source-specific and outside automated approval.
 - Check protected art, logos, seals, marks, sponsor terms and implied endorsement separately.
 - Confirm fictitious serial, absence of security/validation details, screen-oriented resolution and reference labeling.
 
-Gate: only `public_use=approved` and `credential_safety=approved` assets enter the public manifest.
+Gate: only candidates with a proposed public-use route and an approved credential-safety result proceed. Unsettled rights questions go to a separate legal/permission queue before consuming human visual-review time.
 
-### Phase 8 — Integration and reconciliation
+### Phase 7 — Automated visual preflight
 
-- Generate the UID-to-asset manifest and visual-filter metadata from approved records.
+- Compare source and candidate aspect, palette regions, OCR text, edge/layout maps and expected motif regions.
+- Confirm plate name, UID, design years, source freshness and required elements mechanically.
+- Reject obvious mismatches, missing text, incorrect colors, broken renders and duplicate mappings automatically.
+- Rank surviving candidates by uncertainty and visual complexity so difficult cases appear first in final human review.
+- Generate a machine-authored difference checklist for each candidate, while clearly labeling it as guidance rather than fact.
+
+Gate: only candidates that pass mechanical checks reach human review. Machines may reject or flag a candidate but may not grant final visual approval.
+
+### Phase 8 — Pre-review integration rehearsal
+
+- Generate a provisional UID-to-asset manifest and visual-filter metadata from candidates.
 - Run catalog membership, duplicate UID, orphan asset, missing asset, source citation and cache/runtime checks.
 - Test thumbnails and enlarged views in day/night themes and on phone/desktop layouts.
-- Produce final counts by disposition, jurisdiction, source class, confidence and review status.
-- Package private evidence, public assets, review exports, process notes and a machine-readable unresolved queue separately.
+- Build the exact release presentation so human reviewers inspect the image at both comparison size and actual in-app size.
+- Freeze reviewed candidate bytes and hashes so the asset cannot change between review and release.
 
-Gate: all counts reconcile to 1,138 and each user-facing image resolves to the intended UID.
+Gate: the provisional package reconciles to 1,138, every candidate resolves to its intended UID, and no candidate changes after this point without returning to review.
+
+### Phase 9 — Final human review: Find the Differences
+
+Human side-by-side review is deliberately the final substantive gate. All harvesting, mapping, rendering, rights screening, automated comparisons and integration rehearsal happen first.
+
+Update the verification program to behave like a visual **Find the Differences** game:
+
+- show the authoritative reference and proposed public image at equal size;
+- provide synchronized zoom and pan, a draggable split view, overlay/flicker mode and the actual in-app thumbnail preview;
+- invite the reviewer to tap or click differing regions;
+- offer difference categories: color, words, layout, border/band, motif/art, logo/mark, wrong design/era, missing element and extra element;
+- reveal the machine-suggested difference checklist only after the reviewer makes an initial inspection, reducing anchoring;
+- translate marked regions and categories into structured correction tickets automatically;
+- retain **Looks right**, **Wrong / needs correction**, **Unsure**, and **Legal review needed** as final decisions;
+- award progress for careful review and confirmed differences, never for approving images quickly;
+- support save/resume, keyboard and touch controls, session progress, skipped items and a clean unresolved queue;
+- keep private production references inside the local review package and out of the public application.
+
+High-complexity scenic, character, tribal, university, sports, sponsor and cause plates require a second human pass after correction. Minimal standard plates may pass with one authoritative source and one human review. Corrected bytes or specs must repeat automated preflight, integration rehearsal and final human review.
+
+Gate: every public candidate has a recorded human decision, review data reconciles to the queue, and no bulk approval action exists.
+
+### Phase 10 — Final release reconciliation
+
+- Promote only human-approved, rights-approved and credential-safe frozen assets into the public manifest.
+- Produce final counts by disposition, jurisdiction, source class, confidence and review status.
+- Package private evidence, public assets, review exports, process notes and machine-readable unresolved queues separately.
+- Repeat catalog membership, asset hash, runtime and cache checks against the final promoted manifest.
+
+Gate: all counts reconcile to 1,138 and each user-facing image resolves to the intended UID and reviewed hash.
 
 ## Work batching
 
@@ -173,8 +203,9 @@ Within each batch, keep responsibilities separate:
 - catalog mapping;
 - visual extraction;
 - rendering;
-- visual review;
 - rights/safety decision;
+- automated visual preflight;
+- final human difference review;
 - final reconciliation.
 
 Workers may write only their stage output. One coordinator merges stage results and maintains the canonical manifest. This prevents concurrent work from silently changing UIDs, names or statuses.
@@ -218,5 +249,4 @@ A standard verified public reference needs no zero component, identity/era 3, an
 
 Use the following as the launch instruction for the dedicated campaign:
 
-> Execute the License Plate Game Plate Image Accuracy Campaign in `docs/PLATE_IMAGE_CAMPAIGN_PLAN.md`. Work through every phase and persist checkpoints after each jurisdiction batch. Audit all 1,138 catalog UIDs, including the existing 291 references; do not treat current artwork as automatically verified. Use authoritative official evidence first, retain raw production imagery only in private research artifacts unless separately cleared, and keep identity verification, visual accuracy, public-use clearance and credential safety as independent statuses. Use parallel workers for source discovery, mapping, visual extraction and rendering, but allow only the coordinator to modify the canonical manifest. Build local side-by-side human-review packages and place uncertain, conflicting or rights-sensitive items in explicit queues. Do not invent missing plate details or silently drop records. Continue until every UID has a reconciled disposition, all approved assets pass automated and human gates, and final counts equal 1,138. Save source code and public manifests to the project repository; save private evidence and review packages only in approved private storage. Produce process notes, a final coverage dashboard, unresolved queues and a release-ready public asset bundle. Do not publish or deploy the resulting bundle until the user has reviewed the final dashboard and representative samples.
-
+> Execute the License Plate Game Plate Image Accuracy Campaign in `docs/PLATE_IMAGE_CAMPAIGN_PLAN.md`. Work through every phase and persist checkpoints after each jurisdiction batch. Audit all 1,138 catalog UIDs, including the existing 291 references; do not treat current artwork as automatically verified. Use authoritative official evidence first, retain raw production imagery only in private research artifacts unless separately cleared, and keep identity verification, visual accuracy, public-use clearance and credential safety as independent statuses. Use parallel workers for source discovery, mapping, visual extraction and rendering, but allow only the coordinator to modify the canonical manifest. Complete rights screening, automated visual comparison and a full integration rehearsal before asking for human visual review. Build the final local review program as a Find the Differences game with equal-size reference/candidate images, synchronized zoom and pan, split/overlay/flicker views, clickable difference regions, categorized correction tickets, actual-size thumbnail preview and save/resume. Reward detected discrepancies and completed careful reviews rather than fast approvals. Place uncertain, conflicting or rights-sensitive items in explicit queues. Do not invent missing plate details or silently drop records. Continue until every UID has a reconciled disposition, all approved assets pass automated and human gates, and final counts equal 1,138. Save source code and public manifests to the project repository; save private evidence and review packages only in approved private storage. Produce process notes, a final coverage dashboard, unresolved queues and a release-ready public asset bundle. Do not publish or deploy the resulting bundle until the user has reviewed the final dashboard and representative samples.
