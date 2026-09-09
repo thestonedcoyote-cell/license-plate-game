@@ -41,3 +41,6 @@ Certificate SHA-256: 6c858b7a667848c1243985743dbc0c315f47636507aec241b042af284b5
 Private recovery archive: license-plate-game-private-signing-recovery.zip. Never commit key/password/archive.
 
 Run tests/camera-lifecycle.cjs, tests/phone-studio.cjs, strict Trash audit, process-note checker and native signature/alignment checks. Keep source and this handoff committed so chat limits cannot strand progress.
+
+## Image campaign launch checkpoint
+Read docs/IMAGE_CAMPAIGN_STATUS.md first for campaign work. Phase 0 completed; 88 Washington gallery assets privately archived and 54 catalog designs have candidate mappings. Zero images approved. Raw evidence archive is plate-image-evidence-batch01-WA.zip. The current APK already supports More → Check for updates; the feed awaits a stable signed release.

@@ -1,0 +1,750 @@
+[
+  {
+    "jurisdiction_id": "CA-AB",
+    "name": "Alberta",
+    "plate_count": 8,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Alberta official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "CA-BC",
+    "name": "British Columbia",
+    "plate_count": 5,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "British Columbia official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "CA-MB",
+    "name": "Manitoba",
+    "plate_count": 5,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Manitoba official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "CA-NS",
+    "name": "Nova Scotia",
+    "plate_count": 10,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Nova Scotia official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "CA-ON",
+    "name": "Ontario",
+    "plate_count": 39,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Ontario official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "CA-PE",
+    "name": "Prince Edward Island",
+    "plate_count": 1,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Prince Edward Island official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "CA-SK",
+    "name": "Saskatchewan",
+    "plate_count": 10,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Saskatchewan official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-AK",
+    "name": "Alaska",
+    "plate_count": 46,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Alaska official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-AL",
+    "name": "Alabama",
+    "plate_count": 30,
+    "source_leads": [
+      {
+        "priority": "38",
+        "jurisdiction": "Alabama",
+        "code": "AL",
+        "source_kind": "official_gallery",
+        "title": "Alabama License Plates Archive",
+        "url": "https://www.revenue.alabama.gov/license-plates/",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "1",
+        "local_binary_status": "remote_only",
+        "notes": "Official searchable archive reports hundreds of plates with images and plate titles; first-page extraction is a starting point before pagination/API work."
+      }
+    ],
+    "status": "leads_need_retrieval",
+    "fallback_search": "Alabama official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-AR",
+    "name": "Arkansas",
+    "plate_count": 5,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Arkansas official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-AZ",
+    "name": "Arizona",
+    "plate_count": 1,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Arizona official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-CA",
+    "name": "California",
+    "plate_count": 48,
+    "source_leads": [
+      {
+        "priority": "3",
+        "jurisdiction": "California",
+        "code": "CA",
+        "source_kind": "official_gallery",
+        "title": "California DMV License Plate Designs",
+        "url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official page contains sample images and descriptive alt text for special-interest and recognition plates."
+      }
+    ],
+    "status": "leads_need_retrieval",
+    "fallback_search": "California official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-CO",
+    "name": "Colorado",
+    "plate_count": 6,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Colorado official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-CT",
+    "name": "Connecticut",
+    "plate_count": 1,
+    "source_leads": [
+      {
+        "priority": "42",
+        "jurisdiction": "Connecticut",
+        "code": "CT",
+        "source_kind": "official_gallery",
+        "title": "Connecticut Special and Vanity Plates",
+        "url": "https://portal.ct.gov/dmv/vehicle-services/get-vanity-special-plates",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "1",
+        "local_binary_status": "remote_only",
+        "notes": "Official image-rich expandable catalog grouped by plate type and organization."
+      }
+    ],
+    "status": "leads_need_retrieval",
+    "fallback_search": "Connecticut official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-DC",
+    "name": "District of Columbia",
+    "plate_count": 16,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "District of Columbia official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-DE",
+    "name": "Delaware",
+    "plate_count": 1,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Delaware official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-FL",
+    "name": "Florida",
+    "plate_count": 132,
+    "source_leads": [
+      {
+        "priority": "12",
+        "jurisdiction": "Florida",
+        "code": "FL",
+        "source_kind": "bulk_pdf",
+        "title": "Florida License Plate Brochure 2026",
+        "url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+        "extraction_mode": "bulk_pdf",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Current official illustrated brochure."
+      }
+    ],
+    "status": "leads_need_retrieval",
+    "fallback_search": "Florida official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-GA",
+    "name": "Georgia",
+    "plate_count": 3,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Georgia official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-HI",
+    "name": "Hawaii",
+    "plate_count": 27,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Hawaii official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-IA",
+    "name": "Iowa",
+    "plate_count": 13,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Iowa official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-ID",
+    "name": "Idaho",
+    "plate_count": 68,
+    "source_leads": [
+      {
+        "priority": "2",
+        "jurisdiction": "Idaho",
+        "code": "ID",
+        "source_kind": "bulk_pdf",
+        "title": "Idaho Special License Plate Designs Poster",
+        "url": "https://itd.idaho.gov/wp-content/uploads/2016/06/plates.pdf",
+        "extraction_mode": "bulk_pdf",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official specialty design poster; prior GitHub harvest returned 404 and requires source refresh."
+      }
+    ],
+    "status": "leads_need_retrieval",
+    "fallback_search": "Idaho official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-IL",
+    "name": "Illinois",
+    "plate_count": 1,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Illinois official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-IN",
+    "name": "Indiana",
+    "plate_count": 7,
+    "source_leads": [
+      {
+        "priority": "32",
+        "jurisdiction": "Indiana",
+        "code": "IN",
+        "source_kind": "official_gallery",
+        "title": "Indiana BMV License Plate Designs",
+        "url": "https://www.in.gov/bmv/registration-plates/license-plates-overview/license-plate-designs",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official categorized gallery with plate names sample-image alt text and detail links."
+      }
+    ],
+    "status": "leads_need_retrieval",
+    "fallback_search": "Indiana official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-KS",
+    "name": "Kansas",
+    "plate_count": 1,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Kansas official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-KY",
+    "name": "Kentucky",
+    "plate_count": 2,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Kentucky official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-LA",
+    "name": "Louisiana",
+    "plate_count": 1,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Louisiana official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-MA",
+    "name": "Massachusetts",
+    "plate_count": 2,
+    "source_leads": [
+      {
+        "priority": "33",
+        "jurisdiction": "Massachusetts",
+        "code": "MA",
+        "source_kind": "bulk_pdf",
+        "title": "Massachusetts Passenger Plates Manual",
+        "url": "https://www.mass.gov/doc/passenger-plates-manual-0/download",
+        "extraction_mode": "bulk_pdf",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "1",
+        "local_binary_status": "remote_only",
+        "notes": "Official passenger plate manual; GitHub runner returned 403 in initial batch."
+      }
+    ],
+    "status": "leads_need_retrieval",
+    "fallback_search": "Massachusetts official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-MD",
+    "name": "Maryland",
+    "plate_count": 6,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Maryland official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-ME",
+    "name": "Maine",
+    "plate_count": 12,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Maine official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-MI",
+    "name": "Michigan",
+    "plate_count": 22,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Michigan official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-MN",
+    "name": "Minnesota",
+    "plate_count": 1,
+    "source_leads": [
+      {
+        "priority": "15",
+        "jurisdiction": "Minnesota",
+        "code": "MN",
+        "source_kind": "bulk_pdf",
+        "title": "Minnesota Special License Plates Brochure",
+        "url": "https://assets.dps.mn.gov/files/dvs/dvs-special-license-plates-brochure.pdf",
+        "extraction_mode": "bulk_pdf",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official illustrated brochure."
+      }
+    ],
+    "status": "leads_need_retrieval",
+    "fallback_search": "Minnesota official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-MO",
+    "name": "Missouri",
+    "plate_count": 10,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Missouri official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-MS",
+    "name": "Mississippi",
+    "plate_count": 37,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Mississippi official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-MT",
+    "name": "Montana",
+    "plate_count": 5,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Montana official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-NC",
+    "name": "North Carolina",
+    "plate_count": 3,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "North Carolina official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-ND",
+    "name": "North Dakota",
+    "plate_count": 12,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "North Dakota official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-NE",
+    "name": "Nebraska",
+    "plate_count": 23,
+    "source_leads": [
+      {
+        "priority": "17",
+        "jurisdiction": "Nebraska",
+        "code": "NE",
+        "source_kind": "bulk_pdf",
+        "title": "Nebraska 2023-2029 License Plates",
+        "url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+        "extraction_mode": "bulk_pdf",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Current illustrated manual."
+      },
+      {
+        "priority": "17",
+        "jurisdiction": "Nebraska",
+        "code": "NE",
+        "source_kind": "bulk_pdf_historical",
+        "title": "Nebraska 2017-2023 License Plates",
+        "url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2017_Series_Plates-updated.pdf",
+        "extraction_mode": "bulk_pdf",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "1",
+        "local_binary_status": "remote_only",
+        "notes": "Previous illustrated series manual."
+      }
+    ],
+    "status": "leads_need_retrieval",
+    "fallback_search": "Nebraska official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-NH",
+    "name": "New Hampshire",
+    "plate_count": 1,
+    "source_leads": [
+      {
+        "priority": "44",
+        "jurisdiction": "New Hampshire",
+        "code": "NH",
+        "source_kind": "bulk_pdf",
+        "title": "New Hampshire Complete List of Plate Types",
+        "url": "https://www.dmv.nh.gov/sites/g/files/ehbemt416/files/inline-documents/list-of-plates-table.pdf",
+        "extraction_mode": "bulk_pdf",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official complete plate-type PDF; GitHub runner returned 403 in initial batch."
+      }
+    ],
+    "status": "leads_need_retrieval",
+    "fallback_search": "New Hampshire official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-NJ",
+    "name": "New Jersey",
+    "plate_count": 38,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "New Jersey official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-NM",
+    "name": "New Mexico",
+    "plate_count": 16,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "New Mexico official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-NV",
+    "name": "Nevada",
+    "plate_count": 84,
+    "source_leads": [
+      {
+        "priority": "5",
+        "jurisdiction": "Nevada",
+        "code": "NV",
+        "source_kind": "official_gallery",
+        "title": "Nevada DMV License Plates",
+        "url": "https://dmv.nv.gov/platesmain.htm",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official plate-design page; more than 30 specialty designs and standard categories."
+      }
+    ],
+    "status": "leads_need_retrieval",
+    "fallback_search": "Nevada official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-NY",
+    "name": "New York",
+    "plate_count": 1,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "New York official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-OH",
+    "name": "Ohio",
+    "plate_count": 1,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Ohio official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-OK",
+    "name": "Oklahoma",
+    "plate_count": 1,
+    "source_leads": [
+      {
+        "priority": "49",
+        "jurisdiction": "Oklahoma",
+        "code": "OK",
+        "source_kind": "bulk_pdf",
+        "title": "Service Oklahoma Specialty Plates Catalog",
+        "url": "https://oklahoma.gov/content/dam/service-oklahoma/Documents/mv-forms/SpecialtyPlatesCatalog.pdf",
+        "extraction_mode": "bulk_pdf",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official illustrated specialty catalog."
+      }
+    ],
+    "status": "leads_need_retrieval",
+    "fallback_search": "Oklahoma official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-OR",
+    "name": "Oregon",
+    "plate_count": 19,
+    "source_leads": [
+      {
+        "priority": "1",
+        "jurisdiction": "Oregon",
+        "code": "OR",
+        "source_kind": "bulk_pdf",
+        "title": "Oregon License Plate Manual",
+        "url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+        "extraction_mode": "bulk_pdf",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "1",
+        "local_binary_status": "remote_only",
+        "notes": "Current and still-valid retired designs."
+      },
+      {
+        "priority": "1",
+        "jurisdiction": "Oregon",
+        "code": "OR",
+        "source_kind": "direct_image_asset",
+        "title": "Oregon Salmon Plate Official Image",
+        "url": "https://www.oregon.gov/oprd/PCB/PublishingImages/Salmon%20License%20Plate.png",
+        "extraction_mode": "direct_asset",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Direct official PNG."
+      }
+    ],
+    "status": "leads_need_retrieval",
+    "fallback_search": "Oregon official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-PA",
+    "name": "Pennsylvania",
+    "plate_count": 1,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Pennsylvania official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-RI",
+    "name": "Rhode Island",
+    "plate_count": 5,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Rhode Island official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-SC",
+    "name": "South Carolina",
+    "plate_count": 2,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "South Carolina official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-SD",
+    "name": "South Dakota",
+    "plate_count": 7,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "South Dakota official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-TN",
+    "name": "Tennessee",
+    "plate_count": 2,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Tennessee official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-TX",
+    "name": "Texas",
+    "plate_count": 164,
+    "source_leads": [
+      {
+        "priority": "10",
+        "jurisdiction": "Texas",
+        "code": "TX",
+        "source_kind": "bulk_pdf",
+        "title": "Texas Specialty Plate Guide",
+        "url": "https://www.txdmv.gov/sites/default/files/body-files/Special-Plate-Guide.pdf",
+        "extraction_mode": "bulk_pdf",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official illustrated specialty guide."
+      }
+    ],
+    "status": "leads_need_retrieval",
+    "fallback_search": "Texas official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-UT",
+    "name": "Utah",
+    "plate_count": 9,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Utah official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-VA",
+    "name": "Virginia",
+    "plate_count": 11,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Virginia official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-VT",
+    "name": "Vermont",
+    "plate_count": 13,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Vermont official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-WA",
+    "name": "Washington",
+    "plate_count": 72,
+    "source_leads": [
+      {
+        "priority": "0",
+        "jurisdiction": "Washington",
+        "code": "WA",
+        "source_kind": "official_gallery",
+        "title": "Washington DOL Special Design Plates",
+        "url": "https://dol.wa.gov/vehicles-and-boats/vehicles/license-plates/get-custom-plates/special-design-plates",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "pending",
+        "notes": "Campaign pilot: official live gallery; design era and public use require separate review."
+      }
+    ],
+    "status": "pilot_retrieved",
+    "fallback_search": "Washington official vehicle registration license plate designs government",
+    "last_attempt": "2026-09-09T12:52:06.603846+00:00"
+  },
+  {
+    "jurisdiction_id": "US-WI",
+    "name": "Wisconsin",
+    "plate_count": 49,
+    "source_leads": [
+      {
+        "priority": "16",
+        "jurisdiction": "Wisconsin",
+        "code": "WI",
+        "source_kind": "official_gallery",
+        "title": "Wisconsin DOT Special License Plates",
+        "url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "1",
+        "local_binary_status": "remote_only",
+        "notes": "Image-rich official page with design images issue dates colors statutory references and multiple still-valid historical variants."
+      }
+    ],
+    "status": "leads_need_retrieval",
+    "fallback_search": "Wisconsin official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-WV",
+    "name": "West Virginia",
+    "plate_count": 1,
+    "source_leads": [
+      {
+        "priority": "48",
+        "jurisdiction": "West Virginia",
+        "code": "WV",
+        "source_kind": "bulk_pdf",
+        "title": "West Virginia License Plate Posters",
+        "url": "https://webapps.transportation.wv.gov/TWS/WVDOTDocumentStorageMigration/PDF/Transportation/DMV/DMVFormSearch/PLATE-POSTERS.pdf",
+        "extraction_mode": "bulk_pdf",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official illustrated plate posters."
+      }
+    ],
+    "status": "leads_need_retrieval",
+    "fallback_search": "West Virginia official vehicle registration license plate designs government"
+  },
+  {
+    "jurisdiction_id": "US-WY",
+    "name": "Wyoming",
+    "plate_count": 21,
+    "source_leads": [],
+    "status": "discovery_pending",
+    "fallback_search": "Wyoming official vehicle registration license plate designs government"
+  }
+]

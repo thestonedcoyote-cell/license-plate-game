@@ -1,4 +1,5 @@
 priority,jurisdiction,code,source_kind,title,url,extraction_mode,difficulty,image_rich,historical_coverage,local_binary_status,notes
+0,Washington,WA,official_gallery,Washington DOL Special Design Plates,https://dol.wa.gov/vehicles-and-boats/vehicles/license-plates/get-custom-plates/special-design-plates,html_gallery,A,1,0,pending,Campaign pilot: official live gallery; design era and public use require separate review.
 1,Oregon,OR,bulk_pdf,Oregon License Plate Manual,https://www.oregon.gov/odot/Forms/DMV/6726.pdf,bulk_pdf,A,1,1,remote_only,Current and still-valid retired designs.
 1,Oregon,OR,direct_image_asset,Oregon Salmon Plate Official Image,https://www.oregon.gov/oprd/PCB/PublishingImages/Salmon%20License%20Plate.png,direct_asset,A,1,0,remote_only,Direct official PNG.
 2,Idaho,ID,bulk_pdf,Idaho Special License Plate Designs Poster,https://itd.idaho.gov/wp-content/uploads/2016/06/plates.pdf,bulk_pdf,A,1,0,remote_only,Official specialty design poster; prior GitHub harvest returned 404 and requires source refresh.

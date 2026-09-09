@@ -1,0 +1,12 @@
+{
+  "total_catalog": 1138,
+  "unique_uids": 1138,
+  "sources_attempted": 1,
+  "sources_retrieved": 1,
+  "assets_archived": 88,
+  "plate_candidates": 54,
+  "verified_images": 0,
+  "human_review_ready": 0,
+  "phase_1": "in_progress",
+  "exception": "Bounded Washington pilot after full catalog baseline; global source registry gate is not yet complete."
+}

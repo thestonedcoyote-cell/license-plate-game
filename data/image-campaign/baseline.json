@@ -1,0 +1,14 @@
+{
+  "catalog_sha256": "3ff1d04c3c65679b80d96d9b8147633933643e0bd04f7d5911d4d207e6b76fce",
+  "catalog_generated": "2026-09-06",
+  "total": 1138,
+  "unique_uids": 1138,
+  "existing_schematics": 291,
+  "without_schematic": 847,
+  "represented_jurisdictions": 58,
+  "jurisdictions_with_source_leads": 16,
+  "verified_images": 0,
+  "phase_0": "passed",
+  "phase_1": "in_progress",
+  "human_review": "not_requested"
+}
