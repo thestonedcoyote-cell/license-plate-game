@@ -15,10 +15,10 @@ Start here, then read PROJECT_STATE.md, docs/APP_UPDATES.md and docs/PLATE_IMAGE
 ## Verification
 The earlier 0.4 session passed 28 Chromium viewport/theme cases: 14 sizes spanning 320×568, 360×640, 360×740, 412×844, 360×800, 393×851, 375×667, 390×844, 430×932, 344×882, 768×1024, 820×1180, 1440×1000 and 844×412, each light/dark. Flows included offline welcome/tutorial, notebook save/reload, repeated sightings/history, synthetic camera and crop/zoom. This is browser simulation, not actual Android/iOS operating systems or physical phones. No Safari claim.
 
-A workspace rollback occurred before the source push completed. The signed APK survived in saved files. Exact web source was recovered from its assets; native chooser source and build-version parsing were restored from the retained implementation record. Raw earlier matrix screenshots/results were not retained. The replacement matrix test and current validation results are recorded in process notes. Never describe lost logs as presently available.
+A workspace rollback occurred before the source push completed. The signed APK survived in saved files. Exact web source was recovered from its assets; native chooser source and build-version parsing were restored from the retained implementation record. Raw earlier matrix screenshots/results were not retained. The replacement matrix test passed all 28 cases again, including notebook save/reload. Fresh evidence is docs/PHONE_STUDIO_0_4.json. Never describe lost logs as presently available.
 
 ## Release state and next action
-Candidate 0.4.0-alpha uses Android versionCode 4 and the preserved distribution key. Final chat confirms successful remote publication; this document alone does not establish deployment success.
+Candidate 0.4.0-alpha uses Android versionCode 4 and the preserved distribution key. Source update 4c2446465fa540c3365765eba5058f98b3b08bc3 was pushed to main; GitHub Pages deployment, Validate app and Take out the trash succeeded. The final native-only correction also allows JSON backup imports. Public candidate hash is in docs/RELEASE_0_4_UPDATE.json.
 
 Candidate sharing URL after publication:
 https://raw.githubusercontent.com/thestonedcoyote-cell/license-plate-game/downloads/0.4.0/downloads/license-plate-game-0.4.0.apk

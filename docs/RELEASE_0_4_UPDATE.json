@@ -4,6 +4,6 @@
   "versionName": "0.4.0-alpha",
   "minSdk": 26,
   "url": "https://github.com/thestonedcoyote-cell/license-plate-game/releases/download/v0.4.0/license-plate-game-0.4.0.apk",
-  "sha256": "9ebaa43b01b6830b3e51fbad14defa474f8204c2e7e8909433400e25c853d9bc",
-  "notes": "Vintage controls, road trip notebook, achievements, centered camera and onboarding."
+  "sha256": "ba4136b1bb101cea4bed8e692e56070f711efdda7743e01cbe9516e187c7c917",
+  "notes": "Vintage controls, notebook, achievements, centered camera, onboarding, photo and backup import."
 }
