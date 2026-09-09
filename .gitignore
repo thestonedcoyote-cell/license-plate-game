@@ -3,3 +3,6 @@ android-app/.gradle/
 android-app/app/build/
 android-app/app/src/main/assets/www/
 *.apk
+
+__pycache__/
+*.pyc

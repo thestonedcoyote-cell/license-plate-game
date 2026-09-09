@@ -5,18 +5,21 @@ APK_STORE_PASSWORD supplies the keystore password. Outputs must be device-tested
 """
 from pathlib import Path
 from zipfile import ZipFile,ZIP_DEFLATED
-import argparse,subprocess,tempfile,xml.etree.ElementTree as ET
+import argparse,subprocess,tempfile,re,xml.etree.ElementTree as ET
 p=argparse.ArgumentParser()
 for n in ['sdk-jar','build-tools','keystore','out']:p.add_argument('--'+n,type=Path,required=True)
 p.add_argument('--alias',default='lpgdebug');a=p.parse_args();root=Path(__file__).resolve().parents[1]
 run=lambda *cmd:subprocess.run([str(x) for x in cmd],check=True)
+gradle=(root/'android-app/app/build.gradle').read_text()
+version_code=re.search(r'versionCode\s+(\d+)',gradle)[1]
+version_name=re.search(r"versionName\s+'([^']+)'",gradle)[1]
 run('python3',root/'tools/take_out_trash.py','--strict')
 with tempfile.TemporaryDirectory() as d:
  d=Path(d);runtime=d/'www';classes=d/'classes';classes.mkdir();dex=d/'dex';dex.mkdir();gen=d/'gen';gen.mkdir()
  run('python3',root/'tools/build_runtime.py',runtime)
  manifest=ET.parse(root/'android-app/app/src/main/AndroidManifest.xml');manifest.getroot().set('package','com.thelostharbor.licenseplategame');manifest.write(d/'AndroidManifest.xml')
  run(a.build_tools/'aapt2','compile','--dir',root/'android-app/app/src/main/res','-o',d/'resources.zip')
- run(a.build_tools/'aapt2','link','-o',d/'base.apk','-I',a.sdk_jar,'--manifest',d/'AndroidManifest.xml','--min-sdk-version','26','--target-sdk-version','35','--version-code','3','--version-name','0.3.0-alpha','--java',gen,d/'resources.zip')
+ run(a.build_tools/'aapt2','link','-o',d/'base.apk','-I',a.sdk_jar,'--manifest',d/'AndroidManifest.xml','--min-sdk-version','26','--target-sdk-version','35','--version-code',version_code,'--version-name',version_name,'--java',gen,d/'resources.zip')
  sources=list((root/'android-app/app/src/main/java').rglob('*.java'))+list(gen.rglob('*.java'))
  run('java','com.sun.tools.javac.Main','-source','17','-target','17','-cp',a.sdk_jar,'-d',classes,*sources)
  with ZipFile(d/'classes.jar','w') as z:

@@ -8,4 +8,5 @@ RUNTIME_MAP.append(('assets/road-plate.svg','assets/road-plate.svg'))
 RUNTIME_MAP.append(('assets/collection-art.svg','assets/collection-art.svg'))
 RUNTIME_MAP.extend([('assets/atlas-art.svg','assets/atlas-art.svg'),('docs/OSWALD-LICENSE.txt','OSWALD-LICENSE.txt')])
 RUNTIME_MAP.append(('photo-editor.js','photo-editor.js'))
+RUNTIME_MAP.extend([('trip-features.js','trip-features.js'),('trip-features.css','trip-features.css')])
 RUNTIME_FILES=[src for src,_ in RUNTIME_MAP]

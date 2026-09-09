@@ -1,5 +1,5 @@
 # License Plate Game checkpoint
-Next candidate: 0.3.0-alpha, Android versionCode 3, on release/0.3.0-prep. Main remains the prior scrapbook release.
+Current candidate: 0.4.0-alpha, Android versionCode 4. Read HANDOFF.md first for implemented features, tests, recovery and remaining release gates. Historical requirements below remain for traceability.
 
 Implemented: compact radio color tuners; example plate and thumbnail matches; SLR camera styling; large photo-print reference; non-destructive crop, zoom and pan; restored Mile markers; offline atlas fallback. Native updater and camera lifecycle fixes are included.
 

@@ -1,0 +1,42 @@
+/* Responsive scrapbook layout and physical controls. */
+#home{gap:8px!important;overflow:hidden!important;padding:4px 3px!important}
+.road-intro,.road-outro{display:none!important}
+.home-hero{margin:2px 6px 5px!important;padding:8px!important;transform:none}
+.home-hero h1{font-size:clamp(25px,7vw,45px)!important}
+.notebook-link{border:0;background:#f1e5cd;color:#293c43;font:500 16px Roadtrip,sans-serif;padding:7px 14px;min-height:36px;cursor:pointer}
+.mountain-stamp{display:none}
+.home-actions{flex:1 1 0!important;min-height:100px!important;max-height:260px}
+.launch{padding:8px!important;gap:3px!important;justify-content:center!important}
+.launch-art{height:clamp(40px,10dvh,110px);min-height:0;flex:1;max-height:130px}
+.launch-title{font-size:clamp(16px,2.8dvh,24px)!important}
+.launch-sub{font-size:11px!important}
+.home-identify{padding:9px 10px 9px 20px!important;margin:0!important}
+.home-identify h2{font-size:15px!important;margin:0 0 7px!important}
+.home-identify-note{display:none}
+.home-dot{width:34px!important;height:34px!important}
+.home-mini b{font-size:12px!important}.home-mini select{font-size:12px!important;min-height:30px}
+.home-mini-grid{grid-template-columns:repeat(3,minmax(0,1fr)) 80px!important;gap:5px!important}
+.home-example-label,.home-example>b{font-size:10px!important}.home-example-plate strong{font-size:18px!important}.home-example-plate small{font-size:6px!important}
+.home-open-identify{font-size:14px!important;min-height:34px}
+.home-progress{margin-top:0!important;padding:3px!important;gap:7px!important}
+.mile-card{flex:0 0 auto;display:flex;align-items:center;gap:10px;text-align:left;width:100%;border:2px dashed #8b7653;border-radius:3px;background:#e8d7b3;color:#344744;padding:7px 12px;cursor:pointer}
+.mile-card strong{display:block;font:600 20px Roadtrip,sans-serif}.mile-card small{display:block;font:11px Arial;line-height:1.35}.mile-stamp{font-size:28px;border:2px solid #8c4634;border-radius:50%;padding:0 6px;color:#8c4634}.mile-card>span:nth-child(2){flex:1}
+.mile-celebration{position:fixed;bottom:80px;left:5%;width:90%;z-index:1000;padding:15px;background:#ecd49b;color:#433a29;border:2px dashed #836038;font:18px Roadtrip}
+.pencil-count{display:block;background:transparent;border:0;color:#514d44;font:italic bold 15px Georgia,serif;transform:rotate(-3deg);padding:6px 0;cursor:pointer;text-shadow:.3px .2px #72695e}.pencil-count:disabled{opacity:.65;cursor:default}
+#badges .badge:before{content:'EARNED';font:600 11px Roadtrip;color:#44745c;letter-spacing:2px}#badges .badge.locked:before{content:'WORKING TOWARD';color:#84755c}
+.color-row,body.lpg-desktop .color-row{grid-template-columns:44px minmax(0,1fr) 44px 54px!important;min-height:58px;gap:6px}
+.tuning-knob{width:44px;height:44px;background:repeating-conic-gradient(#806b46 0deg 5deg,#bcaa7c 5deg 10deg);border:5px ridge #b29b6e;box-shadow:inset 0 0 0 3px #433827,0 3px 4px #0008}.tuning-knob:after{inset:6px 14px 14px 13px;background:#e6d3a0}
+.identify-toolbox-current{background:linear-gradient(100deg,#494331,#262a23)!important;border:3px ridge #b49a69;box-shadow:inset 0 0 12px #0009,0 3px 5px #0005;border-radius:4px}
+.tuner-glass{position:relative;display:block;min-width:0;border:3px ridge #b4a078;box-shadow:inset 0 2px 7px #000b;border-radius:4px;background:#c6b994}
+.tuner-glass:after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(165deg,#fff7 0%,#fff1 35%,transparent 36% 64%,#fff3 65%,transparent 80%);box-shadow:inset 0 0 4px #372e26b0;border-radius:2px}
+.color-range{height:38px}.color-range::-webkit-slider-runnable-track{height:30px;border:0;border-radius:0}.color-range::-webkit-slider-thumb{height:36px;margin-top:-3px}
+.camera-shell .frame-guide{left:var(--cx,50%)!important;top:var(--cy,50%)!important;right:auto!important;bottom:auto!important;width:76%!important;height:auto!important;aspect-ratio:2/1;transform:translate(-50%,-50%)!important;border:1px solid #fffa!important;opacity:.55}
+.slr-focus{left:var(--cx,50%);top:var(--cy,50%);width:84%;height:auto;aspect-ratio:3/2;border:1px solid #ddd7;border-radius:0;opacity:.48;box-shadow:inset 0 0 18px #0002;z-index:2}.slr-focus:before{display:none}
+.microprism,.split-prism{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);border-radius:50%;border:1px solid #eee9;width:78px;height:78px}
+.microprism{background:repeating-conic-gradient(#fff2 0deg 3deg,transparent 3deg 7deg);mask:radial-gradient(transparent 0 45%,#000 47%)}.split-prism{width:45px;height:45px;background:linear-gradient(155deg,transparent 48%,#eee8 49% 51%,transparent 52%)}.slr-meter{position:absolute;right:5px;top:25%;color:#f5e1a4;font:12px monospace}
+.camera-shell:has(.preview:not([hidden])) .frame-guide{display:none!important}
+.trip-dialog{width:min(680px,calc(100vw - 20px));max-height:calc(100dvh - 20px);overflow:auto;background:#eee2c8;color:#293b40;border:3px solid #927a51;border-radius:4px;padding:16px}.trip-dialog::backdrop{background:#101916b8}.trip-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}.trip-heading h2{font:600 28px Roadtrip;margin:0}.trip-heading button{min-width:44px;min-height:44px}.trip-dialog label{display:block;font:14px Arial;margin:12px 0}.trip-dialog input,.trip-dialog textarea{display:block;width:100%;box-sizing:border-box;background:#fff9e8;color:#243439;padding:9px;border:1px solid #a39375;font:16px Arial}.trip-dialog .action{min-height:44px}.trip-dialog .action-row{flex-wrap:wrap;gap:8px}.trip-pages{display:grid;gap:15px;margin-top:16px}.trip-page{text-align:left;display:block;width:100%;background:repeating-linear-gradient(#fbf4e3 0 24px,#bccbcb 25px,#fbf4e3 26px);color:#34414a;border:0;padding:14px;overflow-wrap:anywhere}.trip-page strong,.trip-page small{display:block}.trip-page img,#tripPhotoPreview img{max-width:100%;max-height:220px;object-fit:contain;border:6px solid #fff9eb;border-bottom-width:20px;box-shadow:0 2px 4px #0004}#tripPhotoPreview{display:flex;flex-wrap:wrap;gap:10px}#tripPhotoPreview>div{max-width:45%}.tutorial-art{font-size:70px;color:#8a4433;text-align:center}.trip-dialog .cloud-card{filter:none}.trip-dialog p{line-height:1.45}
+:root[data-theme=dark] .mile-card,:root[data-theme=dark] .trip-dialog{background:#283832;color:#f6e6c9}:root[data-theme=dark] .pencil-count{color:#ebd8b6}:root[data-theme=dark] .notebook-link{background:#455044;color:#fff0d5}
+@media(max-height:700px){.launch-sub{display:none!important}.home-hero h1{font-size:28px!important}.launch-art{max-height:65px}.home-actions{max-height:145px}.home-identify{padding-top:6px!important;padding-bottom:6px!important}.home-dot{width:25px!important;height:25px!important}.mile-card{padding:5px 10px}.mile-card strong{font-size:18px}}
+@media(max-height:610px) and (orientation:portrait){#home{gap:5px!important}.home-hero{padding:4px!important;margin:0!important}.home-hero h1{font-size:25px!important}.home-actions{min-height:78px!important;max-height:95px}.launch-art{max-height:32px}.launch-title{font-size:16px!important}.home-identify h2{font-size:12px!important}.home-dot{display:none!important}.home-example{display:none!important}.home-mini-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}.mile-card small{font-size:10px}.mile-card strong{font-size:17px}}
+@media(max-height:500px){#home.active{display:grid!important;grid-template-columns:1fr 1fr;grid-template-rows:auto 1fr auto;gap:6px!important}.home-hero{grid-column:1}.home-actions{grid-column:2;grid-row:1/3;max-height:none}.home-identify{display:none!important}.mile-card{grid-column:1;grid-row:2}.home-progress{grid-column:1/3}.launch-art{max-height:80px}.home-hero h1{font-size:24px!important}}

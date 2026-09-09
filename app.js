@@ -6,4 +6,5 @@ if(typeof DecompressionStream==='undefined')throw new Error('This browser does n
 const code=await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text();(0,eval)(code);
 const css=href=>{const l=document.createElement('link');l.rel='stylesheet';l.href=href;document.head.appendChild(l)};const load=src=>new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=src;s.onload=resolve;s.onerror=reject;document.body.appendChild(s)});
 await load('./data/reference-renders-v10.js');await load('./data/reference-renders-tx-v10.1.js');css('./cloud-sync.css');await load('./cloud-sync.js');css('./ui-current.css');await load('./photo-editor.js');await load('./ui-current.js');
+css('./trip-features.css');await load('./trip-features.js');
 }catch(e){console.error(e);document.body.insertAdjacentHTML('beforeend','<div style="padding:20px;background:#fff;color:#111">The app failed to start. Reload once; if it persists, report it.</div>')}})();

@@ -30,10 +30,12 @@
     renderAuth(); return true;
   }
   async function auth(mode){
+    try{
     const email=$('cloudEmail')?.value.trim(),password=$('cloudPassword')?.value||''; if(!email||password.length<6){setStatus('Enter an email and a password of at least 6 characters.','bad');return}
     setStatus(mode==='up'?'Creating account…':'Signing in…');
     const res=mode==='up'?await sb.auth.signUp({email,password}):await sb.auth.signInWithPassword({email,password});
     if(res.error){setStatus(res.error.message,'bad');return} setStatus(mode==='up'?'Account created. Check email if confirmation is required.':'Signed in.','good');
+    }catch{setStatus('Account service unavailable. Your local game is still available.','bad')}
   }
   async function migrateProfile(){
     if(!user)return;const lp=localProfile();
@@ -62,9 +64,9 @@
   }
   function watchCamera(){const p=$('cameraPreview');if(!p)return setTimeout(watchCamera,250);const check=()=>{if(!p.hidden&&p.src)syncCapture(p.src)};new MutationObserver(check).observe(p,{attributes:true,attributeFilter:['src','hidden']});check()}
   async function loadCloudPhotos(){const box=$('cloudPhotoGrid');if(!box)return;box.innerHTML='<p>Loading…</p>';if(!user){box.innerHTML='<p>Sign in first.</p>';return}
-    const {data,error}=await sb.from('sighting_photos').select('id,storage_path,created_at,sighting_id').order('created_at',{ascending:false}).limit(150);if(error){box.innerHTML=`<p>${error.message}</p>`;return}
+    const {data,error}=await sb.from('sighting_photos').select('id,storage_path,created_at,sighting_id').order('created_at',{ascending:false}).limit(150);if(error){box.textContent=error.message;return}
     if(!data?.length){box.innerHTML='<p>No cloud photos yet. Turn on Private photo backup, then take a picture.</p>';return}
     const cards=[];for(const row of data){const {data:signed}=await sb.storage.from('sighting-photos').createSignedUrl(row.storage_path,900);if(!signed?.signedUrl)continue;cards.push(`<article class="cloud-photo"><img src="${signed.signedUrl}" alt="Private plate capture"><small>${new Date(row.created_at).toLocaleString()}</small></article>`)}box.innerHTML=cards.join('')||'<p>No readable photos.</p>';
   }
   const boot=()=>{if(!mount())return setTimeout(boot,120);watchCamera();document.documentElement.dataset.lpgCloudVersion=VERSION};boot();
-})().catch(e=>console.error('LPG cloud init',e));
+})().catch(e=>console.warn('Optional cloud service unavailable; local play remains available.',e));

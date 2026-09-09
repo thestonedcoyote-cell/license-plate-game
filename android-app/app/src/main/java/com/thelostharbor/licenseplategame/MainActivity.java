@@ -3,6 +3,8 @@ package com.thelostharbor.licenseplategame;
 import android.Manifest;import android.app.Activity;import android.os.Bundle;import android.content.pm.PackageManager;import android.webkit.*;import android.net.Uri;import java.io.*;import java.util.*;
 
 public class MainActivity extends Activity {
+  private static final int FILE_REQ=12;
+  private ValueCallback<Uri[]> pendingFiles;
   private static final String HOST="app.local"; private static final int CAMERA_REQ=10, LOCATION_REQ=11; private AppUpdates updates; private WebView web; private PermissionRequest pendingCamera; private GeolocationPermissions.Callback pendingGeo; private String pendingGeoOrigin; private int permissionInFlight;
   @Override public void onCreate(Bundle b){super.onCreate(b);updates=new AppUpdates(this);web=new WebView(this);setContentView(web);WebSettings s=web.getSettings();s.setJavaScriptEnabled(true);s.setDomStorageEnabled(true);s.setDatabaseEnabled(true);s.setGeolocationEnabled(true);s.setMediaPlaybackRequiresUserGesture(false);s.setAllowFileAccess(false);s.setAllowContentAccess(true);web.setWebViewClient(new LocalClient());web.setWebChromeClient(new Chrome());web.loadUrl("https://"+HOST+"/index.html");}
   private class LocalClient extends WebViewClient {
@@ -10,6 +12,16 @@ public class MainActivity extends Activity {
     @Override public boolean shouldOverrideUrlLoading(WebView view,WebResourceRequest req){Uri u=req.getUrl();if(HOST.equals(u.getHost())){if(req.isForMainFrame()&&"/updates/check".equals(u.getPath())){updates.check(true);return true;}return false;}startActivity(new android.content.Intent(android.content.Intent.ACTION_VIEW,u));return true;}
   }
   private class Chrome extends WebChromeClient {
+    @Override public boolean onShowFileChooser(WebView view,ValueCallback<Uri[]> callback,FileChooserParams params){
+      if(view.getUrl()==null||!trustedOrigin(view.getUrl()))return false;
+      if(pendingFiles!=null)pendingFiles.onReceiveValue(null);
+      pendingFiles=callback;
+      android.content.Intent intent=new android.content.Intent(android.content.Intent.ACTION_OPEN_DOCUMENT);
+      intent.addCategory(android.content.Intent.CATEGORY_OPENABLE);intent.setType("image/*");
+      intent.putExtra(android.content.Intent.EXTRA_ALLOW_MULTIPLE,params.getMode()==FileChooserParams.MODE_OPEN_MULTIPLE);
+      try{startActivityForResult(intent,FILE_REQ);}catch(android.content.ActivityNotFoundException e){pendingFiles=null;callback.onReceiveValue(null);}
+      return true;
+    }
     @Override public void onPermissionRequest(PermissionRequest r){runOnUiThread(()->{
       if(!trustedOrigin(r.getOrigin().toString())||!Arrays.asList(r.getResources()).contains(PermissionRequest.RESOURCE_VIDEO_CAPTURE)){r.deny();return;}
       if(pendingCamera!=null&&pendingCamera!=r)pendingCamera.deny();pendingCamera=r;pumpPermissions();
@@ -20,6 +32,15 @@ public class MainActivity extends Activity {
       if(pendingGeo!=null)pendingGeo.invoke(pendingGeoOrigin,false,false);pendingGeo=cb;pendingGeoOrigin=origin;pumpPermissions();
     }
     @Override public void onGeolocationPermissionsHidePrompt(){pendingGeo=null;pendingGeoOrigin=null;}
+  }
+  @Override protected void onActivityResult(int req,int result,android.content.Intent data){
+    super.onActivityResult(req,result,data);
+    if(req!=FILE_REQ||pendingFiles==null)return;
+    ValueCallback<Uri[]> callback=pendingFiles;pendingFiles=null;
+    if(result!=RESULT_OK||data==null){callback.onReceiveValue(null);return;}
+    android.content.ClipData clips=data.getClipData();
+    if(clips!=null){Uri[] uris=new Uri[clips.getItemCount()];for(int i=0;i<uris.length;i++)uris[i]=clips.getItemAt(i).getUri();callback.onReceiveValue(uris);}
+    else callback.onReceiveValue(data.getData()==null?null:new Uri[]{data.getData()});
   }
   private boolean trustedOrigin(String origin){Uri u=Uri.parse(origin);return "https".equals(u.getScheme())&&HOST.equals(u.getHost())&&(u.getPort()==-1||u.getPort()==443);}
   private boolean has(String permission){return checkSelfPermission(permission)==PackageManager.PERMISSION_GRANTED;}

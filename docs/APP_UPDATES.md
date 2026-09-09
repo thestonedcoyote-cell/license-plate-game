@@ -1,6 +1,6 @@
 # App update delivery
 
-Prepared on a feature branch for the next native release; not enabled in any APK already delivered.
+Included in the 0.3 and 0.4 native candidates. Stable/latest publication still requires the physical upgrade checks below.
 
 ## Player flow
 The native wrapper checks GitHub's latest stable release on launch, at most once per day after a successful check. More → Check for updates always checks immediately. A dismissed release is not automatically offered again, but remains available from the manual check. Offline checks are quiet unless requested manually.
