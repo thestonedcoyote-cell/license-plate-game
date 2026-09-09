@@ -17,7 +17,14 @@ public class MainActivity extends Activity {
       if(pendingFiles!=null)pendingFiles.onReceiveValue(null);
       pendingFiles=callback;
       android.content.Intent intent=new android.content.Intent(android.content.Intent.ACTION_OPEN_DOCUMENT);
-      intent.addCategory(android.content.Intent.CATEGORY_OPENABLE);intent.setType("image/*");
+      intent.addCategory(android.content.Intent.CATEGORY_OPENABLE);
+      ArrayList<String> types=new ArrayList<>();
+      for(String accepted:params.getAcceptTypes())for(String type:accepted.split(",")){
+        type=type.trim();if(type.equals(".json"))type="application/json";
+        if(type.contains("/")&&!types.contains(type))types.add(type);
+      }
+      intent.setType(types.size()==1?types.get(0):"*/*");
+      if(types.size()>1)intent.putExtra(android.content.Intent.EXTRA_MIME_TYPES,types.toArray(new String[0]));
       intent.putExtra(android.content.Intent.EXTRA_ALLOW_MULTIPLE,params.getMode()==FileChooserParams.MODE_OPEN_MULTIPLE);
       try{startActivityForResult(intent,FILE_REQ);}catch(android.content.ActivityNotFoundException e){pendingFiles=null;callback.onReceiveValue(null);}
       return true;

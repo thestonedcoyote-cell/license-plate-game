@@ -19,7 +19,7 @@ Browser simulation does not establish physical Android or iOS compatibility. Dev
 Signed 0.4 candidate, exact recovered web source, restored native source, phone test, prospective update metadata and HANDOFF.md.
 
 ## Final recheck
-Verified candidate recovery and checked source packaging against its assets. Fresh recovery recheck: 28/28 viewport/theme cases pass, notebook save/reload passes, camera lifecycle passes, syntax and strict Trash audit pass, native compile/signature/alignment and 34 packaged assets pass. Fresh matrix evidence is docs/PHONE_STUDIO_0_4.json. Publishing result is reported in the final chat. Physical gate remains separate.
+Verified candidate recovery and checked source packaging against its assets. Fresh recovery recheck: 28/28 viewport/theme cases pass, notebook save/reload passes, camera lifecycle passes, syntax and strict Trash audit pass, native compile/signature/alignment and 34 packaged assets pass. Fresh matrix evidence is docs/PHONE_STUDIO_0_4.json. GitHub main source push, Pages deployment, app validation and Trash workflow succeeded. Final native chooser correction supports JSON backup imports as well as images; native compile/signature/alignment rechecked after that correction. Physical gate remains separate.
 
 ## Completion status
 COMPLETE_WITH_EXCEPTIONS: candidate features complete; stable updater rollout, physical checks and broader image work remain outstanding.
