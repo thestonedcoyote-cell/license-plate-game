@@ -1,0 +1,5 @@
+.catalog-thumb{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;width:100%;max-width:150px;min-height:64px;padding:4px;background:#faf6eb;border:1px solid #b8a88e;cursor:pointer;color:#342e25}
+.catalog-thumb img{display:block;width:100%;height:auto;max-height:80px;object-fit:contain}
+.catalog-thumb span{font:11px sans-serif}.catalog-thumb:focus-visible{outline:3px solid #28709a;outline-offset:2px}
+.catalog-image-dialog{box-sizing:border-box;width:min(94vw,850px);max-height:90dvh;overflow:auto;padding:20px;background:#faf6eb;color:#302b25;border:2px solid #8a7658;border-radius:8px}
+.catalog-image-dialog::backdrop{background:#000a}.catalog-image-dialog>img{display:block;width:100%;max-height:65dvh;object-fit:contain}.catalog-image-dialog h2{font-size:24px}.catalog-image-dialog p{font:14px/1.5 sans-serif}.catalog-image-dialog a{color:#235c88}

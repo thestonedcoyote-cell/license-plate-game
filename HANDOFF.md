@@ -44,3 +44,6 @@ Run tests/camera-lifecycle.cjs, tests/phone-studio.cjs, strict Trash audit, proc
 
 ## Image campaign launch checkpoint
 Read docs/IMAGE_CAMPAIGN_STATUS.md first for campaign work. Phase 0 completed; 88 Washington gallery assets privately archived and 54 catalog designs have candidate mappings. Zero images approved. Raw evidence archive is plate-image-evidence-batch01-WA.zip. The current APK already supports More → Check for updates; the feed awaits a stable signed release.
+
+## 2026-10-11 image integration
+54 source-matched Washington images now have shared thumbnails/enlarged views across Identify, research catalog and collection. 108 JPEG derivatives are packaged and cached offline. Two incorrect automatic associations were rejected. See database/image-reconciliation-20261011.json and docs/IMAGE_INTEGRATION_PROCESS_NOTES.md. New reconciled package: LPG_Image_Database_2026-10-11.zip. Android source version is 0.5.0-alpha (code 5); use signed distribution build, not CI debug key. Source samples retain era uncertainty and do not imply human approval. 1,084 canonical records still lack acquired image links; three report candidates remain excluded.

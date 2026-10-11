@@ -9,4 +9,7 @@ RUNTIME_MAP.append(('assets/collection-art.svg','assets/collection-art.svg'))
 RUNTIME_MAP.extend([('assets/atlas-art.svg','assets/atlas-art.svg'),('docs/OSWALD-LICENSE.txt','OSWALD-LICENSE.txt')])
 RUNTIME_MAP.append(('photo-editor.js','photo-editor.js'))
 RUNTIME_MAP.extend([('trip-features.js','trip-features.js'),('trip-features.css','trip-features.css')])
+RUNTIME_MAP.extend([(p,p) for p in ['data/catalog-images.js','catalog-images.js','catalog-images.css']])
+from pathlib import Path
+RUNTIME_MAP.extend([(p.relative_to(Path(__file__).resolve().parents[1]).as_posix(),p.relative_to(Path(__file__).resolve().parents[1]).as_posix()) for p in sorted((Path(__file__).resolve().parents[1]/'assets/plates').glob('*.jpg'))])
 RUNTIME_FILES=[src for src,_ in RUNTIME_MAP]

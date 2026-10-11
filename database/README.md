@@ -32,3 +32,6 @@ Dependencies: Python 3, SQLite (stdlib), Pillow. The builder is offline. The inp
 `exports/lpg-import.json` contains all rows with candidate/conflict status and relative image paths. `exports/approved-app-images.json` is empty until identity and human visual checks are recorded; do not silently replace the live catalog with report candidates. `coverage` and `issues` SQL views/tables provide the next work queue. Keep the archive's folder structure intact.
 
 Next: reconcile the report samples with canonical design/era records, expand acquired image coverage and build the late-stage visual comparison workflow. No new APK or live database migration was performed in this task.
+
+## App selection update — 2026-10-11
+See image-reconciliation-20261011.json and tools/reconcile_catalog_images.py. 54 independently source-matched images are selected for app examples; two wrong associations are rejected. This is separate from final human/era verification. The reconciled SQLite package stores app_image_selections and selected_for_app fields.

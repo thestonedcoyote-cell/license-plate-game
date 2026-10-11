@@ -1,0 +1,9 @@
+{
+  "applicationId": "com.thelostharbor.licenseplategame",
+  "versionCode": 5,
+  "versionName": "0.5.0-alpha",
+  "minSdk": 26,
+  "url": "https://github.com/thestonedcoyote-cell/license-plate-game/releases/download/v0.5.0/license-plate-game-0.5.0.apk",
+  "sha256": "aa9913f743bd9df1d4d407bb89a0264dfb75cd79f954d7bd09521f196c99d41b",
+  "notes": "Official plate images in search, catalog and collection; enlarged references and offline caching."
+}
