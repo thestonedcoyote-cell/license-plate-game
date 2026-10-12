@@ -1,0 +1,112 @@
+name: Integrate reviewed Alaska and Mississippi plate images
+on:
+  push:
+    branches: [main]
+    paths: [data/image-batches/ak-ms-trigger.json]
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Install rendering dependencies
+        run: pip install pillow requests
+      - name: Recover pinned official evidence from previous harvest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 38200139649 --repo "$GITHUB_REPOSITORY" --name official-plate-harvest-38200139649 --dir private-evidence
+          test -s private-evidence/manifest.json
+          python - <<'PY'
+          import json,pathlib
+          rows=json.loads(pathlib.Path('private-evidence/manifest.json').read_text())
+          assert len(rows)==4
+          assert {r['code']:r['status'] for r in rows}=={'TX':'downloaded','FL':'error','AK':'downloaded','MS':'downloaded'}
+          print('Source manifest recovered: AK and MS obtained; Florida 403 retained as exception')
+          PY
+      - name: Generate reviewed gallery image candidates
+        run: |
+          python tools/integrate_source_gallery_batch.py --evidence-dir private-evidence
+          node --check data/catalog-images.js
+          node --check tests/catalog-images.cjs
+      - name: Reconcile runtime files and images
+        run: |
+          python tools/take_out_trash.py --strict
+          python tools/build_runtime.py build/web
+          python - <<'PY'
+          import json,hashlib,pathlib
+          base=pathlib.Path('.')
+          js=(base/'data/catalog-images.js').read_text().strip()
+          data=json.loads(js.removeprefix('globalThis.LPG_CATALOG_IMAGES=').rstrip(';'))
+          records=json.loads((base/'database/image-reconciliation-ak-ms-20261011.json').read_text())
+          assert len(data)==149 and len(records)==76 and len({r['uid'] for r in records})==76
+          assert sum(uid.startswith('LPG-US-MS-') for uid in data)==35
+          assert sum(uid.startswith('LPG-US-AK-') for uid in data)==41
+          for r in records:
+              uid=r['uid'];assert data[uid]['match_status']=='source_matched'
+              assert data[uid]['era_status']=='unverified' and data[uid]['human_approval'] is False
+              for key in ('display','thumbnail'):
+                  filename=f'assets/plates/{uid}-{key}.jpg'
+                  assert (base/filename).exists()
+                  assert (base/'build/web'/filename).exists()
+                  assert hashlib.sha256((base/filename).read_bytes()).hexdigest()==r[f'{key}_sha256']
+          sw=(base/'sw.js').read_text()
+          assert sw.count('lpg-current-images-20261012-akms')==1
+          assert len(list((base/'build/web/assets/plates').glob('*.jpg')))==298
+          print('PASS: 149 source selections, 298 staged JPEGs, hashes, UID mapping')
+          PY
+      - name: Record process notes and exceptions
+        run: |
+          cat > docs/IMAGE_AK_MS_INTEGRATION_PROCESS_NOTES.md <<'EOF'
+          # Process Notes — Alaska and Mississippi official image integration
+
+          ## Purpose
+          Add 76 independently inspected official plate samples by one-to-one canonical UID while retaining unverified era/human approval and unresolved cases.
+
+          ## Inputs
+          GitHub reviewed harvest run 38200139649, action artifact official-plate-harvest-38200139649, with AK 48 and MS 307 downloaded agency-page assets. Immutable 1,138 catalog IDs and existing 73 source selections. Reviewed source URL/hashes in data/image-batches/ak-ms-reviewed.json.
+
+          ## Step notes
+          - Step 1: recovered exact reviewed harvest artifact from Actions without uncontrolled crawling and checked source manifest status.
+          - Step 2: applied 35 unique exact official-label Mississippi matches and 41 visually inspected named Alaska image assignments, rejecting ambiguous/excluded records.
+          - Step 3: verified SHA-256 of all 76 original official source files before generating thumbnails or changing app state.
+          - Step 4: produced 76 enlarged and 76 thumbnail JPEG derivatives, preserving aspect ratio and not upscaling government source images.
+          - Step 5: expanded shared app image mapping from 73 to 149; updated service worker cache to 298 images for offline availability and adjusted focused image regression.
+          - Step 6: checked all 76 immutable UIDs, images and derived SHA-256 values against runtime staging, retained existing source mappings and strict Trash audit.
+          - Step 7: prepared generated assets on an independent review branch and kept Android stable/latest feed untouched.
+
+          ## Exceptions / failures
+          Five Alaska UIDs and two Mississippi UIDs remain excluded for insufficient source/design mapping. The larger harvest also returned a Florida 403; it is not an image-match success. All 76 are source-matched only: historical issue years and human approval remain unverified. The owner's fair-use project-use direction does not establish a license or legal ruling. True Android device upgrade/testing remains separate.
+
+          ## Outputs
+          76 new UID-selected source references, 152 JPEG derivatives, combined 149 source matches, database/image-reconciliation-ak-ms-20261011.json, updated JS image mapping and service worker cache, and process notes on a generated review branch.
+
+          ## Rights / privacy notes
+          Public runtime receives limited plate example JPEG derivatives, not wholesale original gallery archives or private credentials. Preserve agency URLs/hashes, explicit owner-directed project-use classification and no unsupported legal approval.
+
+          ## Final recheck
+          Checked source metadata, unique existing UIDs, SHA-256 of all 76 originals, every derived JPEG hash, exactly 298 staged images, web JS syntax, runtime and strict audit. Browser, real Android upgrade and human final visual/rights reviews remain independent acceptance gates.
+
+          ## Completion status
+          COMPLETE_WITH_EXCEPTIONS
+          EOF
+          python tools/check_process_notes.py docs/IMAGE_AK_MS_INTEGRATION_PROCESS_NOTES.md
+      - name: Commit generated source-matched samples to review branch only
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c generated/alaska-mississippi-76-source-images-20261011
+          git add assets/plates data/catalog-images.js sw.js tests/catalog-images.cjs database/image-reconciliation-ak-ms-20261011.json docs/IMAGE_AK_MS_INTEGRATION_PROCESS_NOTES.md
+          git diff --cached --quiet && { echo "No reviewed candidates generated"; exit 1; }
+          git commit -m "Integrate 76 official Alaska and Mississippi plate source examples"
+          git push origin HEAD:refs/heads/generated/alaska-mississippi-76-source-images-20261011
+          echo 'Only a review branch was created. No signed Android/stable release was published.'
