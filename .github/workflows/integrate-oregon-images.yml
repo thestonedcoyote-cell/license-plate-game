@@ -1,0 +1,92 @@
+name: Integrate reviewed Oregon plate samples
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [data/image-batches/oregon-2026.json]
+permissions:
+  contents: write
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Install pinned-source extraction dependencies
+        run: pip install pymupdf pillow requests
+      - name: Crop and source-match 19 manually checked Oregon designs
+        run: |
+          python tools/integrate_oregon_plate_images.py
+          node --check data/catalog-images.js
+          node --check tests/catalog-images.cjs
+      - name: Validate output files and runtime staging
+        run: |
+          python tools/take_out_trash.py --strict
+          python tools/build_runtime.py build/web
+          python - <<'PY'
+          import json,hashlib,pathlib
+          r=pathlib.Path('.')
+          names=json.loads((r/'data/catalog-images.js').read_text().split('=',1)[1].strip().rstrip(';'))
+          checks=json.loads((r/'database/image-reconciliation-or-20261011.json').read_text())
+          assert len(names)==73 and len(checks)==19 and len({x['uid'] for x in checks})==19
+          for entry in checks:
+              uid=entry['uid']
+              assert names[uid]['match_status']=='source_matched'
+              assert names[uid]['human_approval'] is False and names[uid]['era_status']=='unverified'
+              for key,sha_key in [('display','display_sha256'),('thumbnail','thumbnail_sha256')]:
+                  p=r/'assets/plates'/f'{uid}-{key}.jpg'
+                  assert p.exists() and hashlib.sha256(p.read_bytes()).hexdigest()==entry[sha_key]
+                  assert (r/'build/web/assets/plates'/p.name).exists()
+          assert (r/'sw.js').read_text().count('lpg-current-images-20261012-or')==1
+          print('PASS: 19 Oregon UID-linked source images, 38 derivatives, 73 selected, staged and hashed')
+          PY
+      - name: Record image batch process
+        run: |
+          cat > docs/IMAGE_OR_INTEGRATION_PROCESS_NOTES.md <<'EOF'
+          # Process Notes — Oregon source-matched app integration 2026-10-11
+
+          ## Purpose
+          Integrate 19 issuing-agency Oregon plate design examples, including distinct previous designs, into the existing LPG UID image presentation without asserting verified issue years or human approval.
+
+          ## Inputs
+          Official Oregon DMV Plate Manual, Form 735-6726 revision 7-2026: https://www.oregon.gov/odot/Forms/DMV/6726.pdf. Pinned source SHA-256: 56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50. Existing 1,138 canonical UIDs and 54 Washington source-matched selections. Script tools/integrate_oregon_plate_images.py.
+
+          ## Step notes
+          - Step 1: acquired the exact official PDF and rejected any source bytes not matching the verified SHA-256.
+          - Step 2: identified 16 printed manual design sections and all 19 plate samples on PDF pages 21-27 using headings and structured page layout.
+          - Step 3: assigned each crop to its one immutable catalog UID, preserving distinct older Crater Lake, Cultural and Salmon designs.
+          - Step 4: generated 19 enlarged and 19 thumbnail JPEG references with no replacement artwork or new security details.
+          - Step 5: extended the shared Identify/catalog/collection image manifest from 54 to 73 selected samples, updated the service-worker cache version and focused offline regression expectations.
+          - Step 6: checked all 38 JPEG paths, SHA-256 hashes, exact source mapping, absence of duplicate UIDs, existing 54 preserved, and Android/web runtime staging.
+          - Step 7: kept source-matched status independent from issue-year, rights/legal, and human-approval status, and prepared a review branch rather than pushing generated art to main.
+
+          ## Exceptions / failures
+          Historic issue years are not independently established for every variant. The source examples are official reference samples but not user-approved final historical artwork. Some source drawings carry proprietary notices; owner-directed fair-use project use does not grant rights or establish a legal conclusion. Physical Android installation and signed stable updater release remain untested.
+
+          ## Outputs
+          19 catalog selections (73 cumulative), 38 JPEG derivatives, database/image-reconciliation-or-20261011.json with PDF page and crop provenance, updated data/catalog-images.js, sw.js, and tests/catalog-images.cjs on a generated review branch.
+
+          ## Final recheck
+          Checked official source SHA, 19 unique Oregon UIDs, 73 total selections, correct current/prior variant counts, 38 output image hashes, runtime inclusion, syntax, and strict audit before creating the review branch. Browser/native acceptance must still be checked in PR/physical-device tests.
+
+          ## Completion status
+          COMPLETE_WITH_EXCEPTIONS
+          EOF
+          python tools/check_process_notes.py docs/IMAGE_OR_INTEGRATION_PROCESS_NOTES.md
+      - name: Commit generated image candidate to review branch
+        env:
+          REF: generated/oregon-19-source-images-20261011
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c "$REF"
+          git add assets/plates data/catalog-images.js database/image-reconciliation-or-20261011.json sw.js tests/catalog-images.cjs docs/IMAGE_OR_INTEGRATION_PROCESS_NOTES.md
+          git diff --cached --quiet && { echo 'No changes generated'; exit 1; }
+          git commit -m 'Integrate 19 official Oregon plate image samples with source traceability'
+          git push origin "HEAD:refs/heads/$REF"
+          echo "Generated review branch $REF; do not publish as stable Android release."
