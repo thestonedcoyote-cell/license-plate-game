@@ -1,0 +1,12 @@
+{
+  "batch_id": "LPG-OR-IMG-01",
+  "source": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+  "source_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+  "existing_matched": 54,
+  "oregon_target": 19,
+  "new_matched_target": 73,
+  "generated_branch": "generated/oregon-19-source-images-20261011",
+  "release_policy": "review_branch_only; no stable APK release",
+  "human_approval": false,
+  "era_status": "unverified"
+}
