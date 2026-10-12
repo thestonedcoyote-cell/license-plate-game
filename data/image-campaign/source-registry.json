@@ -35,8 +35,23 @@
     "jurisdiction_id": "CA-ON",
     "name": "Ontario",
     "plate_count": 39,
-    "source_leads": [],
-    "status": "discovery_pending",
+    "source_leads": [
+      {
+        "priority": "1",
+        "jurisdiction": "Ontario",
+        "code": "ON",
+        "source_kind": "official_gallery",
+        "title": "ServiceOntario Choose a Licence Plate Graphic",
+        "url": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official named graphic-plate program; design previews may live in a separate ordering catalog. Need Ontario-aware mapping."
+      }
+    ],
+    "status": "official_leads_discovered_not_harvested",
     "fallback_search": "Ontario official vehicle registration license plate designs government"
   },
   {
@@ -59,8 +74,23 @@
     "jurisdiction_id": "US-AK",
     "name": "Alaska",
     "plate_count": 46,
-    "source_leads": [],
-    "status": "discovery_pending",
+    "source_leads": [
+      {
+        "priority": "1",
+        "jurisdiction": "Alaska",
+        "code": "AK",
+        "source_kind": "official_gallery",
+        "title": "Alaska DMV License Plates",
+        "url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official page shows standard, personalization and specialty plate samples with descriptive names."
+      }
+    ],
+    "status": "official_leads_discovered_not_harvested",
     "fallback_search": "Alaska official vehicle registration license plate designs government"
   },
   {
@@ -160,8 +190,23 @@
     "jurisdiction_id": "US-DC",
     "name": "District of Columbia",
     "plate_count": 16,
-    "source_leads": [],
-    "status": "discovery_pending",
+    "source_leads": [
+      {
+        "priority": "1",
+        "jurisdiction": "District of Columbia",
+        "code": "DC",
+        "source_kind": "official_gallery",
+        "title": "DC DMV Specialty Vehicle Tags",
+        "url": "https://dmv.dc.gov/service/specialty-vehicle-tags",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official specialty tag guide with sample designs and named categories."
+      }
+    ],
+    "status": "official_leads_discovered_not_harvested",
     "fallback_search": "District of Columbia official vehicle registration license plate designs government"
   },
   {
@@ -215,8 +260,23 @@
     "jurisdiction_id": "US-IA",
     "name": "Iowa",
     "plate_count": 13,
-    "source_leads": [],
-    "status": "discovery_pending",
+    "source_leads": [
+      {
+        "priority": "1",
+        "jurisdiction": "Iowa",
+        "code": "IA",
+        "source_kind": "official_gallery",
+        "title": "Iowa DOT Personalized and Specialty Plates",
+        "url": "https://iowadot.gov/registration-plates/license-plates/personalized-specialty-plates",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official categorized plate designs and name table; direct images may require extra page inspection."
+      }
+    ],
+    "status": "official_leads_discovered_not_harvested",
     "fallback_search": "Iowa official vehicle registration license plate designs government"
   },
   {
@@ -340,8 +400,51 @@
     "jurisdiction_id": "US-MI",
     "name": "Michigan",
     "plate_count": 22,
-    "source_leads": [],
-    "status": "discovery_pending",
+    "source_leads": [
+      {
+        "priority": "1",
+        "jurisdiction": "Michigan",
+        "code": "MI",
+        "source_kind": "official_gallery",
+        "title": "Michigan SOS Standard Plate Options",
+        "url": "https://www.michigan.gov/sos/vehicle/license-plates/standard-plate-options",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official standard design examples with descriptions."
+      },
+      {
+        "priority": "1",
+        "jurisdiction": "Michigan",
+        "code": "MI",
+        "source_kind": "official_gallery",
+        "title": "Michigan SOS Special-Cause Fundraising Plate Options",
+        "url": "https://www.michigan.gov/sos/vehicle/license-plates/special-cause-fundraising-options",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official named cause plate options with sample artwork."
+      },
+      {
+        "priority": "1",
+        "jurisdiction": "Michigan",
+        "code": "MI",
+        "source_kind": "official_gallery",
+        "title": "Michigan SOS Legacy Plate Options",
+        "url": "https://www.michigan.gov/sos/vehicle/license-plates/legacy-plate-options",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official historically-themed plate variations; identity/era mapping essential."
+      }
+    ],
+    "status": "official_leads_discovered_not_harvested",
     "fallback_search": "Michigan official vehicle registration license plate designs government"
   },
   {
@@ -379,8 +482,23 @@
     "jurisdiction_id": "US-MS",
     "name": "Mississippi",
     "plate_count": 37,
-    "source_leads": [],
-    "status": "discovery_pending",
+    "source_leads": [
+      {
+        "priority": "1",
+        "jurisdiction": "Mississippi",
+        "code": "MS",
+        "source_kind": "official_gallery",
+        "title": "Mississippi DOR Specialty License Plates",
+        "url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official extensive image catalog; many additional official designs outside LPG catalog must not be imported as new IDs automatically."
+      }
+    ],
+    "status": "official_leads_discovered_not_harvested",
     "fallback_search": "Mississippi official vehicle registration license plate designs government"
   },
   {
@@ -471,16 +589,60 @@
     "jurisdiction_id": "US-NJ",
     "name": "New Jersey",
     "plate_count": 38,
-    "source_leads": [],
-    "status": "discovery_pending",
+    "source_leads": [
+      {
+        "priority": "1",
+        "jurisdiction": "New Jersey",
+        "code": "NJ",
+        "source_kind": "official_gallery",
+        "title": "New Jersey MVC Standard Plates",
+        "url": "https://www.nj.gov/mvc/vehicles/standplates.htm",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official example and links to dedicated and organizational plate sections; only one page may not expose all design images."
+      },
+      {
+        "priority": "1",
+        "jurisdiction": "New Jersey",
+        "code": "NJ",
+        "source_kind": "official_gallery",
+        "title": "New Jersey MVC Dedicated Plates",
+        "url": "https://www.nj.gov/mvc/vehicles/dedicated.htm",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official dedicated-plate design index; may require individual subpage investigation."
+      }
+    ],
+    "status": "official_leads_discovered_not_harvested",
     "fallback_search": "New Jersey official vehicle registration license plate designs government"
   },
   {
     "jurisdiction_id": "US-NM",
     "name": "New Mexico",
     "plate_count": 16,
-    "source_leads": [],
-    "status": "discovery_pending",
+    "source_leads": [
+      {
+        "priority": "1",
+        "jurisdiction": "New Mexico",
+        "code": "NM",
+        "source_kind": "official_gallery",
+        "title": "New Mexico MVD License Plates",
+        "url": "https://www.mvd.newmexico.gov/vehicles/license-plates/",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official consolidated gallery for standard, collegiate, nature, organizational, historic and other plates."
+      }
+    ],
+    "status": "official_leads_discovered_not_harvested",
     "fallback_search": "New Mexico official vehicle registration license plate designs government"
   },
   {
@@ -756,8 +918,23 @@
     "jurisdiction_id": "US-WY",
     "name": "Wyoming",
     "plate_count": 21,
-    "source_leads": [],
-    "status": "discovery_pending",
+    "source_leads": [
+      {
+        "priority": "1",
+        "jurisdiction": "Wyoming",
+        "code": "WY",
+        "source_kind": "official_gallery",
+        "title": "Wyoming DOT Specialty Plates",
+        "url": "https://dot.state.wy.us/home/titles_plates_registration/specialty_plates.html",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official specialty index, many plate types link to individual pages; page-only extraction will not exhaust collection."
+      }
+    ],
+    "status": "official_leads_discovered_not_harvested",
     "fallback_search": "Wyoming official vehicle registration license plate designs government"
   }
 ]

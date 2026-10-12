@@ -11,7 +11,7 @@ def main():
     manifest=json.loads((out/'manifest.json').read_text());registry=json.loads((out/'source-registry.json').read_text())
     index=[];private=[];now=datetime.now(timezone.utc).isoformat()
     for source in log:
-        code=source['code'];jid='US-'+code;gallery=source.get('gallery',{})
+        code=source['code'];jid=source.get('jurisdiction_id') or 'US-'+code;gallery=source.get('gallery',{})
         source_path=gallery.get('source_html')
         page_hash=hashlib.sha256(Path(source_path).read_bytes()).hexdigest() if source_path else None
         for asset in gallery.get('records',[]):
