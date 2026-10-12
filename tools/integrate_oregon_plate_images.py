@@ -100,6 +100,16 @@ def make(root:Path,pdf_data:bytes,source_date:str):
  sw=root/'sw.js';s=sw.read_text()
  if s.count(CACHE_OLD)!=1:raise ValueError('Unrecognized old service-worker cache version')
  sw.write_text(s.replace(CACHE_OLD,CACHE_NEW))
+ # Keep the existing focused browser regression aligned with the now-expanded cache.
+ focused=root/'tests/catalog-images.cjs'
+ if focused.exists():
+  t=focused.read_text()
+  if t.count(CACHE_OLD)!=1 or t.count('assert.equal(cacheCount,108)')!=1 or t.count("assert.equal(await page.locator('#researchResults .catalog-thumb').count(),54);")!=1:
+   raise ValueError('Focused browser test changed; inspect before rewriting')
+  t=t.replace(CACHE_OLD,CACHE_NEW).replace('assert.equal(cacheCount,108)','assert.equal(cacheCount,146)')
+  t=t.replace("assert.equal(await page.locator('#researchResults .catalog-thumb').count(),54);", "assert.equal(await page.locator('#researchResults .catalog-thumb').count(),54);await page.locator('#researchState').selectOption('US-OR');assert.equal(await page.locator('#researchResults .catalog-thumb').count(),19);await page.locator('#researchState').selectOption('US-WA');")
+  t=t.replace('PASS: 54 thumbnails,','PASS: 54 WA and 19 OR thumbnails,').replace('108 cached images','146 cached images')
+  focused.write_text(t)
  return records,merged
 
 def main():
