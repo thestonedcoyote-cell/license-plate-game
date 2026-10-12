@@ -1,4 +1,10 @@
-# Image campaign — started 2026-09-09
+# Image campaign — current checkpoint (2026-10-11)
+
+The live 0.5 web source now selects **54 official Washington source-matched designs**, supplying 108 JPEG thumbnails and enlarged derivatives to Identify, research catalog and collection, including offline cache. Selected `source_matched` is distinct from validated design era, legal rights or human approval. The owner directed project use under a fair-use rationale; that decision is not a license or adjudicated legal determination. Two incorrect automatic associations were rejected, and their separate valid image associations retained.
+
+**Acquired-image gap:** 1,084 of the immutable 1,138 canonical designs. Three unmatched report items remain out of app runtime. The earlier 291 simplified reference / 847 no-schematic split is a separate baseline, not source-image coverage. See `docs/IMAGE_INTEGRATION_PROCESS_NOTES.md` and `database/image-reconciliation-20261011.json`. Continue the Oregon official manual lead and preserve outstanding Washington era/conflict work.
+
+## Original September 9 discovery and calibration checkpoint
 
 ## Current checkpoint
 Phase 0 passed: 1,138 unique plate UIDs, no missing/duplicate UID, 291 existing schematic references, 847 without a schematic. Existing art is explicitly unverified. Catalog designs span 58 jurisdictions; the original registry had source leads for only 16. Washington's official gallery is now added.
@@ -22,7 +28,7 @@ Official source: https://dol.wa.gov/vehicles-and-boats/vehicles/license-plates/g
 4. Retrieve Oregon's reviewed manual as the next bounded batch; archive/hash evidence and update the canonical manifest without replacing its progress.
 5. Build candidates, automated differences and integration rehearsal. Human review remains Phase 9, using the planned Find the Differences interface; that interface is not yet implemented.
 
-Campaign runs are explicit work sessions, not an unattended background job. Start with this checkpoint in a new chat. The public app continues to use the prior reference set until new candidates complete all release gates.
+Campaign runs are explicit work sessions, not an unattended background job. Start with this checkpoint in a new chat. Historical instruction superseded for the 54 Washington examples now shown in the public app by the owner's direction. Other unmapped examples still require evidence and review.
 
 ## Execution exception
 The full Phase 1 registry is still incomplete. A bounded Washington acquisition pilot was run after the complete Phase 0 catalog gate to establish a working evidence/mapping pipeline. This does not claim the global source-registry gate or later verification gates passed.
