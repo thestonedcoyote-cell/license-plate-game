@@ -1,16 +1,16 @@
 {
-  "codes": "TX,FL,AK,MS",
+  "codes": "CA,NV,WI,IN",
   "max_sources": 4,
-  "campaign_id": "LPG-IMAGE-OFFICIAL-HIGH-YIELD-02",
-  "purpose": "Acquire official Texas and Florida illustrated guides plus Alaska and Mississippi official plate galleries, preserving source files, image candidates, page references and hashes. Do NOT auto-publish, renumber catalog UIDs, infer issue era, or claim human approval.",
-  "expected_existing_catalog_counts": {
-    "US-TX": 164,
-    "US-FL": 132,
-    "US-AK": 46,
-    "US-MS": 37
+  "campaign_id": "LPG-IMAGE-OFFICIAL-HIGH-YIELD-03",
+  "purpose": "Independently acquire and hash four government illustrated plate galleries in California, Nevada, Wisconsin and Indiana. Preserve agency page/images in temporary artifact for review, then persist verified evidence. Do NOT auto-select or publish any image by filename alone.",
+  "potential_catalog_designs": 188,
+  "catalog_ids_by_jurisdiction": {
+    "US-CA": 48,
+    "US-NV": 84,
+    "US-WI": 49,
+    "US-IN": 7
   },
-  "potential_catalog_designs": 379,
-  "selected_images_before_batch": 73,
+  "selected_images_prior": 149,
   "immutable_catalog_size": 1138,
-  "source_registry_leads": 26
+  "next_mapping_parallel": "Texas illustrated PDF 48 pages, 164 catalog UIDs; 2026 Florida PDF source HTTP 403 needs alternate official acquisition"
 }
