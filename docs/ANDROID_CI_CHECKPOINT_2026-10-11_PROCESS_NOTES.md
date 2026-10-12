@@ -14,19 +14,19 @@ Correct source/documentation drift after 0.5 image integration and remove a repr
 - Step 2: inspected the failed Android job. `android-actions/setup-android@v3` accepted SDK licenses, then invoked `sdkmanager tools`; the command returned `Warning: Failed to find package 'tools'` and exit code 1, before Gradle and application compilation.
 - Step 3: confined remediation to supplying `packages: 'platform-tools'` explicitly on the existing setup action. The existing explicit `sdkmanager 'platforms;android-35' 'build-tools;35.0.0'` step and signature/alignment checks remain.
 - Step 4: updated existing canonical project-state/handoff, image status and updater instructions to distinguish 0.5 implementation from obsolete 0.4 instructions; historic feature requirements remain traceable.
-- Step 5: opened a maintenance branch for PR checks, not a stable release. CI verdict to be filled after the PR job result is observed.
+- Step 5: PR #18 completed the retest. GitHub Android CI run `38196938500` at `8ff855ae371197fbc5e8559ecf8c829ff56b3950` passed setup, runtime staging, Android SDK platform installation, Gradle debug compilation, APK signing and zip alignment checks, and artifact upload. Web validation `38196938531`, Trash audit `38196938504` and cloud validation `38196938503` all passed.
 
 ## Exceptions / failures
-The setup failure is verified from the log; the proposed remedy is not yet verified by a new GitHub runner. The CI debug APK is not the separately signed distribution artifact. No phone has been controlled or tested from this chat. Latest Library listing did not surface the October 11 signed APK/database ZIP; existence of artifact IDs in the handoff is not proof of current byte access. Private key archive was not accessed. No claim of legal clearance or human era approval is made for Washington samples.
+The setup failure and successful repair are both verified from GitHub run outcomes. The CI debug APK is not the separately signed distribution artifact. No phone has been controlled or tested from this chat. Latest Library listing did not surface the October 11 signed APK/database ZIP; existence of artifact IDs in the handoff is not proof of current byte access. Private key archive was not accessed. No claim of legal clearance or human era approval is made for Washington samples.
 
 ## Outputs
-Updated `.github/workflows/build-android.yml`, `PROJECT_STATE.md`, `HANDOFF.md`, `docs/IMAGE_CAMPAIGN_STATUS.md`, `docs/APP_UPDATES.md` on maintenance branch. One maintenance PR/check receipt to follow.
+Updated `.github/workflows/build-android.yml`, `PROJECT_STATE.md`, `HANDOFF.md`, `docs/IMAGE_CAMPAIGN_STATUS.md`, `docs/APP_UPDATES.md` on maintenance branch. Maintenance PR #18 and a completed green Android debug APK workflow (artifact ID `11724156028`, not distribution signed).
 
 ## Rights / privacy notes
 No additional plate imagery, personal records, distribution keys, passwords or private source evidence was added. Existing public image samples remain under user-directed fair-use rationale without legal/era-approval claims.
 
 ## Final recheck
-Workflow contents, branch HEAD, PR workflow result and changed-file list must be independently re-read after CI. Do not mark the failure resolved until the observed workflow no longer fails at the obsolete `tools` package installation. Continue P1 independently if CI remains externally blocked.
+GitHub PR #18 diff listed exactly six changed files. Retest at HEAD `8ff855ae371197fbc5e8559ecf8c829ff56b3950` completed Android job successfully, including all signature/alignment steps and artifact upload. All four workflow runs succeeded. Merge and post-merge main SHA remain separate release-control verification tasks. The restored Android CI does not validate physical installation or the distinct distribution identity.
 
 ## Completion status
-INCOMPLETE — source patch and documentation prepared; new CI observation and final recheck pending.
+COMPLETE_WITH_EXCEPTIONS — source correction and CI verification completed; PR merge/post-merge main confirmation and external device acceptance remain outstanding.
