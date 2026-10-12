@@ -1,0 +1,401 @@
+[
+  {
+    "uid": "LPG-US-OR-00001",
+    "manual_label": "Crater Lake",
+    "canonical_name": "Crater Lake",
+    "manual_page": 21,
+    "manual_variant": "current_or_still_valid",
+    "crop_rect_pdf": [
+      85.0,
+      285.9355,
+      273.0,
+      381.9355
+    ],
+    "source_url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+    "source_document_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+    "source_date": "2026-10-11",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "display_sha256": "f48e9463c0f2d1548d3b584867a44f3c9a0c020d7a2dbfeda432f157557efa46",
+    "thumbnail_sha256": "6cf7caad4e01bcad7b091deaf6bbb8aa05f91ccbf5c0eb40fcfdb50573a00f9e"
+  },
+  {
+    "uid": "LPG-US-OR-00007",
+    "manual_label": "Crater Lake",
+    "canonical_name": "Crater Lake — previous design",
+    "manual_page": 21,
+    "manual_variant": "previous_still_valid",
+    "crop_rect_pdf": [
+      85.0,
+      501.1751,
+      273.0,
+      597.1751
+    ],
+    "source_url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+    "source_document_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+    "source_date": "2026-10-11",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "display_sha256": "001f4e5088cc051e6deef0a46131cd2a63ababbe4d3c1fdc69ed990279d529a2",
+    "thumbnail_sha256": "b57d8a4019cdce82e65c973de28fa5fe16bd8c8c7dbff7f1251d7bf63d9f8989"
+  },
+  {
+    "uid": "LPG-US-OR-00002",
+    "manual_label": "Cultural",
+    "canonical_name": "Cultural",
+    "manual_page": 22,
+    "manual_variant": "current_or_still_valid",
+    "crop_rect_pdf": [
+      85.0,
+      97.7958,
+      273.0,
+      193.7958
+    ],
+    "source_url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+    "source_document_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+    "source_date": "2026-10-11",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "display_sha256": "d9c99a88667959b135055c463bf8a4bda610d874c7227e64d06bfce31d376670",
+    "thumbnail_sha256": "9ce7ab8af9eed328086d5d0279a4bc4af9190cb487ad216daae80c9d91fa1688"
+  },
+  {
+    "uid": "LPG-US-OR-00008",
+    "manual_label": "Cultural",
+    "canonical_name": "Cultural — previous design",
+    "manual_page": 22,
+    "manual_variant": "previous_still_valid",
+    "crop_rect_pdf": [
+      85.0,
+      288.6355,
+      273.0,
+      384.6355
+    ],
+    "source_url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+    "source_document_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+    "source_date": "2026-10-11",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "display_sha256": "3162f28c80484ff79642df9b9ce556f2966c674116091d41ec60551cb77d5b5c",
+    "thumbnail_sha256": "d4241d607082c17f55714e8fed8eac0312a50380e0493d5b8a669a515cd17cf0"
+  },
+  {
+    "uid": "LPG-US-OR-00009",
+    "manual_label": "Golf Oregon",
+    "canonical_name": "Golf Oregon",
+    "manual_page": 22,
+    "manual_variant": "current_or_still_valid",
+    "crop_rect_pdf": [
+      85.0,
+      519.3958,
+      273.0,
+      615.3958
+    ],
+    "source_url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+    "source_document_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+    "source_date": "2026-10-11",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "display_sha256": "0a46783ba856c9a48c5d05fb88ef0617ed6678ec4fe1cfba6752d6a9fb80fb30",
+    "thumbnail_sha256": "c35f15ba78f8eefa85a72eb05da695769a2e78a12a96821dc554386ab3b78fbd"
+  },
+  {
+    "uid": "LPG-US-OR-00010",
+    "manual_label": "Gray Whale",
+    "canonical_name": "Gray Whale",
+    "manual_page": 23,
+    "manual_variant": "current_or_still_valid",
+    "crop_rect_pdf": [
+      85.0,
+      97.7958,
+      273.0,
+      193.7958
+    ],
+    "source_url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+    "source_document_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+    "source_date": "2026-10-11",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "display_sha256": "473bdcfd332a4933a8409f61eb72e4b0430281ed64dd6c6dc387e0b29ed74892",
+    "thumbnail_sha256": "815458d87553c8e54f3947337579ce581544296fbe8e75f524ce2866854fcdbb"
+  },
+  {
+    "uid": "LPG-US-OR-00011",
+    "manual_label": "OSU Beaver",
+    "canonical_name": "OSU Beaver",
+    "manual_page": 23,
+    "manual_variant": "current_or_still_valid",
+    "crop_rect_pdf": [
+      85.0,
+      298.4355,
+      273.0,
+      394.4355
+    ],
+    "source_url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+    "source_document_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+    "source_date": "2026-10-11",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "display_sha256": "8bb04d430ada07426fae9facbeec703273a1875ec5e7805e849a94b234001170",
+    "thumbnail_sha256": "176e76999e6cc6bff7a38afc23a7a58a7b14dec294045f90a528e5e388a5a8f0"
+  },
+  {
+    "uid": "LPG-US-OR-00012",
+    "manual_label": "Oregon Trail",
+    "canonical_name": "Oregon Trail",
+    "manual_page": 23,
+    "manual_variant": "current_or_still_valid",
+    "crop_rect_pdf": [
+      85.0,
+      499.0751,
+      273.0,
+      595.0751
+    ],
+    "source_url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+    "source_document_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+    "source_date": "2026-10-11",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "display_sha256": "3555f5babf70b869dc2b636c0ae912fbdf90b1bf007580b94fc30ccc85814a3e",
+    "thumbnail_sha256": "d66218207570773c6f227235ccd08d4dc9574c35935551156371b52e35ff9da9"
+  },
+  {
+    "uid": "LPG-US-OR-00013",
+    "manual_label": "Oregon Zoo",
+    "canonical_name": "Oregon Zoo",
+    "manual_page": 24,
+    "manual_variant": "current_or_still_valid",
+    "crop_rect_pdf": [
+      85.0,
+      91.6758,
+      273.0,
+      187.6758
+    ],
+    "source_url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+    "source_document_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+    "source_date": "2026-10-11",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "display_sha256": "64148594740345def1d0302861525a139b1f2e34e668d8393599cde1ee5e05ae",
+    "thumbnail_sha256": "480ffc4f120a6d0aab2bf8b7188db70f75b0a3c3b46385458abbd9bb9fe38e4d"
+  },
+  {
+    "uid": "LPG-US-OR-00014",
+    "manual_label": "Pacific Wonderland",
+    "canonical_name": "Pacific Wonderland",
+    "manual_page": 24,
+    "manual_variant": "current_or_still_valid",
+    "crop_rect_pdf": [
+      85.0,
+      306.3155,
+      273.0,
+      402.3155
+    ],
+    "source_url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+    "source_document_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+    "source_date": "2026-10-11",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "display_sha256": "0de09fadbfbf74a8509f840b982ab70a65d615e8f39ca4bfb13c8dff4547bf76",
+    "thumbnail_sha256": "42831d42f40ac69c36b9e24696bc32abe1d6c31ac7ad82d8464e8d1813d3aef1"
+  },
+  {
+    "uid": "LPG-US-OR-00015",
+    "manual_label": "Pollinator Paradise",
+    "canonical_name": "Pollinator Paradise",
+    "manual_page": 24,
+    "manual_variant": "current_or_still_valid",
+    "crop_rect_pdf": [
+      85.0,
+      528.8351,
+      273.0,
+      624.8351
+    ],
+    "source_url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+    "source_document_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+    "source_date": "2026-10-11",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "display_sha256": "beed0b00b2548b300dbb5365f7cdbc5083ea39e1ee5f23544297f5ec37e4b0a0",
+    "thumbnail_sha256": "7985d57c83aaaff7cb087c59d7c7c5e87996dd51bfbcfdb040015a5dbfb586ff"
+  },
+  {
+    "uid": "LPG-US-OR-00005",
+    "manual_label": "Salmon",
+    "canonical_name": "Salmon",
+    "manual_page": 25,
+    "manual_variant": "current_or_still_valid",
+    "crop_rect_pdf": [
+      85.0,
+      97.7958,
+      273.0,
+      193.7958
+    ],
+    "source_url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+    "source_document_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+    "source_date": "2026-10-11",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "display_sha256": "4a553072b833088a2d433d5148a97f88fc42a88f7bd77b2921bd709e0b30505b",
+    "thumbnail_sha256": "8df5546755a33b711f361c79e845666c9c4c1e0fb7f64090b8768262d8c4051f"
+  },
+  {
+    "uid": "LPG-US-OR-00016",
+    "manual_label": "Salmon",
+    "canonical_name": "Salmon — previous design",
+    "manual_page": 25,
+    "manual_variant": "previous_still_valid",
+    "crop_rect_pdf": [
+      85.0,
+      285.4355,
+      273.0,
+      381.4355
+    ],
+    "source_url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+    "source_document_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+    "source_date": "2026-10-11",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "display_sha256": "45aa79f701983aca6d4642726334a6c08ba7b51d2de85b0ac43f5285f36a45c9",
+    "thumbnail_sha256": "1f8aed4b16ce17675e46117366576d3ca0e68c2f537d123ecde7d5708ee71510"
+  },
+  {
+    "uid": "LPG-US-OR-00017",
+    "manual_label": "Smokey Bear",
+    "canonical_name": "Smokey Bear",
+    "manual_page": 25,
+    "manual_variant": "current_or_still_valid",
+    "crop_rect_pdf": [
+      85.0,
+      514.0751,
+      273.0,
+      610.0751
+    ],
+    "source_url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+    "source_document_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+    "source_date": "2026-10-11",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "display_sha256": "e6fc8968431b8b9b8d3b46559f378dae6cfac9bbb344a34cc89770c5ef889c8d",
+    "thumbnail_sha256": "06a734a588d495e4d8eda884377c5a36c2730d6a078c524d834e38490429d115"
+  },
+  {
+    "uid": "LPG-US-OR-00004",
+    "manual_label": "Trail Blazers",
+    "canonical_name": "Portland Trail Blazers",
+    "manual_page": 26,
+    "manual_variant": "current_or_still_valid",
+    "crop_rect_pdf": [
+      85.0,
+      97.7958,
+      273.0,
+      193.7958
+    ],
+    "source_url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+    "source_document_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+    "source_date": "2026-10-11",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "display_sha256": "0c4b0b0bceb03dd186f1f50a5fa895b3bbd0147ea771895d9a252d1d994ee491",
+    "thumbnail_sha256": "d954ac80cb9ae027811390f5b25d8d6f565a1a63e32dfd3ea408dece24833f24"
+  },
+  {
+    "uid": "LPG-US-OR-00003",
+    "manual_label": "Tree",
+    "canonical_name": "Graphic Tree",
+    "manual_page": 26,
+    "manual_variant": "current_or_still_valid",
+    "crop_rect_pdf": [
+      85.0,
+      312.4355,
+      273.0,
+      408.4355
+    ],
+    "source_url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+    "source_document_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+    "source_date": "2026-10-11",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "display_sha256": "78834701349dc8cdd4bc453ee8e40ac6fcf67cce2285567ba1ac5ac56cfbb5cc",
+    "thumbnail_sha256": "ed014dc9f53c6691d5094289e2ccde13747e6d991abb4efd3cc77802bc5e2c25"
+  },
+  {
+    "uid": "LPG-US-OR-00018",
+    "manual_label": "UO Duck",
+    "canonical_name": "UO Duck",
+    "manual_page": 27,
+    "manual_variant": "current_or_still_valid",
+    "crop_rect_pdf": [
+      85.0,
+      97.7958,
+      273.0,
+      193.7958
+    ],
+    "source_url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+    "source_document_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+    "source_date": "2026-10-11",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "display_sha256": "5a400f7164957d4eddb0fbc02906a39cc881443c9fdfb76af5dc455325a8293d",
+    "thumbnail_sha256": "028aed1298abac09f79425fdb506feb45263f5999cca14c435adf1cdfa1609b5"
+  },
+  {
+    "uid": "LPG-US-OR-00019",
+    "manual_label": "Watch for Wildlife",
+    "canonical_name": "Watch for Wildlife",
+    "manual_page": 27,
+    "manual_variant": "current_or_still_valid",
+    "crop_rect_pdf": [
+      85.0,
+      289.4355,
+      273.0,
+      385.4355
+    ],
+    "source_url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+    "source_document_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+    "source_date": "2026-10-11",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "display_sha256": "a24143f63d011570e560cdb84819abdb0a6e5365e1931287d5ba5e7f41362a98",
+    "thumbnail_sha256": "74196afc325a5263e6b02a0579d61a924d12f82394f071455d67ab8107f6d7e6"
+  },
+  {
+    "uid": "LPG-US-OR-00006",
+    "manual_label": "Wine Country",
+    "canonical_name": "Wine Country",
+    "manual_page": 27,
+    "manual_variant": "current_or_still_valid",
+    "crop_rect_pdf": [
+      85.0,
+      490.0751,
+      273.0,
+      586.0751
+    ],
+    "source_url": "https://www.oregon.gov/odot/Forms/DMV/6726.pdf",
+    "source_document_sha256": "56ccdbf8dbbcd39c2803308f255e7374998c1ab418893da8b3577ff2098bdd50",
+    "source_date": "2026-10-11",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "display_sha256": "cb8158acd78d5eaf76073b5907abc9c72214a6bf0a2d32b757b270cd6e5481a2",
+    "thumbnail_sha256": "d274bab0667b433f513a7d620e847f6797f9eeeee39e864d720a42da096b4f75"
+  }
+]
