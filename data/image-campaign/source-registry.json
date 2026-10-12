@@ -571,7 +571,7 @@
           "document_form": "735-6726",
           "document_revision": "7-2026",
           "pdf_pages": 38,
-          "evidence": "PDF introduction identifies current and still-valid retired plates; page 21 (zero-index) shows current and previous Cultural plate designs separately",
+          "evidence": "PDF indexes 20, 21 and 24 (printed pages 18, 19, 22) show distinct current/previous designs for Crater Lake, Cultural and Salmon; previous examples explicitly described as no longer issued but still valid",
           "reference_only": true,
           "rights_note": "Some embedded plate production drawings carry Irwin Hodson Group proprietary reproduction notices; project owner uses a fair-use rationale, not a license or approval finding",
           "next_action": "Archive and SHA-256 hash exact PDF bytes; check 19 immutable Oregon UIDs against designs and historical variants before selecting images"
