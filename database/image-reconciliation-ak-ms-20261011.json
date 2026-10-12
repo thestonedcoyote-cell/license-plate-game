@@ -1,0 +1,1902 @@
+[
+  {
+    "uid": "LPG-US-AK-00001",
+    "name": "Caribou",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/1hsp5wur/caribou.png?rmode=max&width=180&height=90",
+    "source_label": "caribou plate",
+    "source_sha256": "db252fbecf112d7ce845595e0262488a5dc38a10cab4bc0aa19c40c48fc2ba0a",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "003f7f756782450fc6b70d251ab10da996a5daafc4742b842a72e5f10d907ece",
+    "thumbnail_sha256": "003f7f756782450fc6b70d251ab10da996a5daafc4742b842a72e5f10d907ece",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00003",
+    "name": "Grizzly Bear",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/i24del1j/grizzly-bear.png?rmode=max&width=180&height=90",
+    "source_label": "grizzly bear plate",
+    "source_sha256": "12b808b0c31da4312784802c1620625bb2233add1ed7349afdbceb41639ba250",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "12990c68912f3de338e4c910147e5f816667503957c8634ab159b7a12a75716e",
+    "thumbnail_sha256": "12990c68912f3de338e4c910147e5f816667503957c8634ab159b7a12a75716e",
+    "display_size": [
+      180,
+      90
+    ],
+    "thumbnail_size": [
+      180,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00004",
+    "name": "Mountain",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/lu0gkl4c/mountain.png?rmode=max&width=180&height=90",
+    "source_label": "mountain plate",
+    "source_sha256": "27c8d5a9d2dee4683be42c0df943ec81092a9bb54f2c6656bf549d53f9de590a",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "5dc43164e83e1de80eb9948190db929b1b9dcf550cb88443987d7155f7da1709",
+    "thumbnail_sha256": "5dc43164e83e1de80eb9948190db929b1b9dcf550cb88443987d7155f7da1709",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00005",
+    "name": "Standard Gold",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/ueafjour/blue-n-gold-1.png?rmode=max&width=180&height=90",
+    "source_label": "yellow plate",
+    "source_sha256": "a6879bc21ebb45a9aca356f3187f33d1fb840c3f7f1a2da3aedd88f5803ce828",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "d0397aa0ac9e99d6052f930f737efbc2aee7808fb2b46863cdc0b635166980e2",
+    "thumbnail_sha256": "d0397aa0ac9e99d6052f930f737efbc2aee7808fb2b46863cdc0b635166980e2",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00006",
+    "name": "Alaska Children’s Trust",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/ytebjcqg/kid.png?rmode=max&width=180&height=90",
+    "source_label": "childrens trust plate",
+    "source_sha256": "8b561bf4f373c0ea2f39daf510cd54ce9a21ea2ca0e97c9f965d760ba387bbc9",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "0a654af802675046c582c4ba223a9133ba1af4556415c86275676e15857196f7",
+    "thumbnail_sha256": "0a654af802675046c582c4ba223a9133ba1af4556415c86275676e15857196f7",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00007",
+    "name": "Blood Bank of Alaska",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/sdrh4cot/blood-bank-plate-final.png?rmode=max&width=180&height=90",
+    "source_label": "blood bank plate",
+    "source_sha256": "9708890395fb26a4aec885dc210c02300fb8bfb1214ec1af4e0a2a1da7c6b22e",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "aa0213a42f26f3d9e783f88c42c821bacfa55274d525813c3f7326fcb2f56fdb",
+    "thumbnail_sha256": "aa0213a42f26f3d9e783f88c42c821bacfa55274d525813c3f7326fcb2f56fdb",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00009",
+    "name": "Choose Life",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/krzfzwxj/choose-life.png?rmode=max&width=180&height=90",
+    "source_label": "choose life plate",
+    "source_sha256": "b518e14cb6d0e6f5a6e7a1fa7c86dcf21df52d46001cf6b509e03caa6540cce7",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "6a179ecf1f55e9e90e9c5c9e137231ce8c85aa708379aa719601e2c1c847b824",
+    "thumbnail_sha256": "6a179ecf1f55e9e90e9c5c9e137231ce8c85aa708379aa719601e2c1c847b824",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00010",
+    "name": "National Rifle Association",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/vciof5ca/nra-license-plate-lg.png?rmode=max&width=180&height=90",
+    "source_label": "nra plate",
+    "source_sha256": "29dafa78665e0d4a799aea970f5d3406c4920e016bb191a62b0cd14a7358f8b2",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "d51aed915bf98b1369e406e41b0371f54444a76f27395e93f6167a2ea1ba02ec",
+    "thumbnail_sha256": "d51aed915bf98b1369e406e41b0371f54444a76f27395e93f6167a2ea1ba02ec",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00011",
+    "name": "Pro-Family, Pro-Choice",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/zxnnmadp/pro-family-pro-choice-plate.png?rmode=max&width=180&height=90",
+    "source_label": "pro family pro choice plate",
+    "source_sha256": "88f0c5d3a771f486e71df9e47e5b3a0c0cf127ef4ecc4b4a02617ba66b9834ab",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "b237679af276ef8849afeb0fb4dc91eb504a82a322c59fdca1b551cfd471580a",
+    "thumbnail_sha256": "b237679af276ef8849afeb0fb4dc91eb504a82a322c59fdca1b551cfd471580a",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00012",
+    "name": "Support Our Troops",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/2d1jmdax/support.png?rmode=max&width=180&height=90",
+    "source_label": "support our troops plate",
+    "source_sha256": "b02adbaacb4a46c25833ffa67d2e6ed8242263c5122a799dab74dfd864288d06",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "fdd5ae81415d17783190482d2426eb5a48c2ebff4ab42f193028f8fc5ec9c26e",
+    "thumbnail_sha256": "fdd5ae81415d17783190482d2426eb5a48c2ebff4ab42f193028f8fc5ec9c26e",
+    "display_size": [
+      177,
+      90
+    ],
+    "thumbnail_size": [
+      177,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00013",
+    "name": "Disabled with Parking Privileges",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/xayfrqej/plate-disabled.png?rmode=max&width=180&height=90",
+    "source_label": "handicap parking plate",
+    "source_sha256": "a726abee3a02fb2b007cbe318a038cca061db62d149d428db4449478ced1314e",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "dc1377c7baedd3e679827b6be8eeaec14c7935d1fdcf5e4024be420d0135bad0",
+    "thumbnail_sha256": "dc1377c7baedd3e679827b6be8eeaec14c7935d1fdcf5e4024be420d0135bad0",
+    "display_size": [
+      178,
+      90
+    ],
+    "thumbnail_size": [
+      178,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00014",
+    "name": "Disabled Veteran with Parking Privileges",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/o1vlp3d3/plate-disabled-veteran-parking.png?rmode=max&width=180&height=90",
+    "source_label": "disabled veteran with parking privilege plate",
+    "source_sha256": "4b3b542a9072638c5c27ae792c2613ca6d0a5a37b68586b75336e115e41ab75e",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "526c2235d20ffe632ba56da1c7d9cf7b3c00630611f796c46a8198677e1a2601",
+    "thumbnail_sha256": "526c2235d20ffe632ba56da1c7d9cf7b3c00630611f796c46a8198677e1a2601",
+    "display_size": [
+      178,
+      90
+    ],
+    "thumbnail_size": [
+      178,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00015",
+    "name": "Disabled Veteran without Parking Privileges",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/wpgjz5nz/plate-disabled-veteran-parking-no.png?rmode=max&width=180&height=90",
+    "source_label": "disabled veteran plate",
+    "source_sha256": "14ce197499914ffa09a2b5a7d7f2306b783cd1d6bb160e8d6330f57169ad188e",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "b1c2fa7692d8610f59021d4ac1e96c3e51c4ccbbc6f1d66b8bae2294b2feb1fc",
+    "thumbnail_sha256": "b1c2fa7692d8610f59021d4ac1e96c3e51c4ccbbc6f1d66b8bae2294b2feb1fc",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00016",
+    "name": "UAA",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/rxqiti0p/uaa.png?rmode=max&width=180&height=90",
+    "source_label": "UAA Anchorage plate",
+    "source_sha256": "6e2abab04baf3facc800805ece2bd89f804ab886ec8d23b6fde15ad8cb0ce1f1",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "401245f63717664af68692798aeeadef03a38a768fe397d9151b163fdf1e2bf5",
+    "thumbnail_sha256": "401245f63717664af68692798aeeadef03a38a768fe397d9151b163fdf1e2bf5",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00017",
+    "name": "UAF",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/bl2g0jvk/uaf.png?rmode=max&width=180&height=90",
+    "source_label": "UAF Fairbanks plate",
+    "source_sha256": "7d0ede9c63124513249e94dab2480c8d92a74b7eadb44d4085a647db671dc1ad",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "9544a6a9a29a90692e0734e7a209c3ce64c08989e56115648197c7a9be31d173",
+    "thumbnail_sha256": "9544a6a9a29a90692e0734e7a209c3ce64c08989e56115648197c7a9be31d173",
+    "display_size": [
+      180,
+      90
+    ],
+    "thumbnail_size": [
+      180,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00019",
+    "name": "PWS",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/45jnyt0l/pws.png?rmode=max&width=180&height=90",
+    "source_label": "prince william sound college plate",
+    "source_sha256": "4fec76ef403758a1f8059feaf1fcac667d3ae6b3522a82e357a76b886775460f",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "fba11c4a0d696dd102c6b1debc2998854962533511d23e658650447663821f38",
+    "thumbnail_sha256": "fba11c4a0d696dd102c6b1debc2998854962533511d23e658650447663821f38",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00020",
+    "name": "Alaska National Guard",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/n45pdhfw/guard-plate.png?rmode=max&width=180&height=90",
+    "source_label": "guard plate",
+    "source_sha256": "5b8f436678434839b10bccd7e32e9b27a616d6ad092d48659a685961e55382aa",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "7ff2ca1da9a1f282b8462d5aeed260727f9fb46a7ae9ac39459ccf4d5ca8ed44",
+    "thumbnail_sha256": "7ff2ca1da9a1f282b8462d5aeed260727f9fb46a7ae9ac39459ccf4d5ca8ed44",
+    "display_size": [
+      178,
+      90
+    ],
+    "thumbnail_size": [
+      178,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00022",
+    "name": "Air Force Veteran",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/yu1agjpw/airforce.png?rmode=max&width=180&height=90",
+    "source_label": "air force veteran plate",
+    "source_sha256": "1cebae5dfeaa34a63e1e7c4a241dbda8794ac08e4ece51e5f0c32b74f2c32973",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "c87112301c98fa068a155013795e8c7d410fe98f7441c1abc450448efeaa999b",
+    "thumbnail_sha256": "c87112301c98fa068a155013795e8c7d410fe98f7441c1abc450448efeaa999b",
+    "display_size": [
+      180,
+      88
+    ],
+    "thumbnail_size": [
+      180,
+      88
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00023",
+    "name": "Army Veteran",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/l2rlef5w/army.png?rmode=max&width=180&height=90",
+    "source_label": "army veteran plate",
+    "source_sha256": "8e6213569526997f7e32c0d56ede0ec0d0097c17a06924658456bb8f5869445c",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "7dc14cd66354f4777c540433590db78a516ff9bcd1f83d8a5a7e73dcb1877ba0",
+    "thumbnail_sha256": "7dc14cd66354f4777c540433590db78a516ff9bcd1f83d8a5a7e73dcb1877ba0",
+    "display_size": [
+      179,
+      90
+    ],
+    "thumbnail_size": [
+      179,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00024",
+    "name": "Coast Guard Veteran",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/dcfjpm3v/coast-guard.png?rmode=max&width=180&height=90",
+    "source_label": "coast guard plate",
+    "source_sha256": "baa86edd9d654ac3d0f1cf7ff1f2fe6798b52510991130c0145a331ec0f5dc53",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "046e1f99a7633ff9b872f568a2f7a50e0ba2dcf2dcc372f8373430dab9bdeb31",
+    "thumbnail_sha256": "046e1f99a7633ff9b872f568a2f7a50e0ba2dcf2dcc372f8373430dab9bdeb31",
+    "display_size": [
+      177,
+      90
+    ],
+    "thumbnail_size": [
+      177,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00025",
+    "name": "Marines Veteran",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/bofoueji/marine.png?rmode=max&width=180&height=90",
+    "source_label": "marines veteran plate",
+    "source_sha256": "5046f89a30897fa48c5c4ff8c12c74ebeef313366fa798fc861a02aa98272442",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "1b02791ff6bb6b791f3725525960c02179886aa0cdcb059af123be42c238a85e",
+    "thumbnail_sha256": "1b02791ff6bb6b791f3725525960c02179886aa0cdcb059af123be42c238a85e",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00026",
+    "name": "Navy Veteran",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/0l4i2shl/navy.png?rmode=max&width=180&height=90",
+    "source_label": "navy veteran plate",
+    "source_sha256": "8cee85b627c6ac2a197f7789aacb8cbd9b80ab58313f47acc12e306328fd373f",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "64bc4176b5c2d39fb31b65a7234c8ce0e08df60d0bf8710b3458af21506bcf6b",
+    "thumbnail_sha256": "64bc4176b5c2d39fb31b65a7234c8ce0e08df60d0bf8710b3458af21506bcf6b",
+    "display_size": [
+      180,
+      90
+    ],
+    "thumbnail_size": [
+      180,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00027",
+    "name": "Space Force Veteran",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/xvymq3sx/space-force-veteran.png?rmode=max&width=178&height=89",
+    "source_label": "Space Force Veteran",
+    "source_sha256": "cd41bbf99118299ce0421ed881afb85152587137755cdfd5e786c6c41701245a",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "ed3326a93f6cb84467bf60572e63ac9df6ff3a0ff1989b9088040548ad89d01b",
+    "thumbnail_sha256": "ed3326a93f6cb84467bf60572e63ac9df6ff3a0ff1989b9088040548ad89d01b",
+    "display_size": [
+      178,
+      89
+    ],
+    "thumbnail_size": [
+      178,
+      89
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00028",
+    "name": "Former Prisoner of War",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/iren1wex/pow.png?rmode=max&width=180&height=90",
+    "source_label": "prisoner of war plate",
+    "source_sha256": "80123c6e97c66e33156507171aee3fdcf04476a09c14834cb4c0824ad603833b",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "92d925e66f6a95d0dc56019bbf38c002d5ffc48b40ff9f8274a6639cb517eea9",
+    "thumbnail_sha256": "92d925e66f6a95d0dc56019bbf38c002d5ffc48b40ff9f8274a6639cb517eea9",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00029",
+    "name": "Gold Star Family",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/av3ccmcf/goldstar.png?rmode=max&width=180&height=90",
+    "source_label": "gold star family plate one star",
+    "source_sha256": "ac0270937aaf5c3d071363e90875c131c52e0730ebc9ace61e82d548e902a0b7",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "986b407d7e33beafc7990194f77321e4ef0774457af4f105e7aece45a02a92c9",
+    "thumbnail_sha256": "986b407d7e33beafc7990194f77321e4ef0774457af4f105e7aece45a02a92c9",
+    "display_size": [
+      177,
+      90
+    ],
+    "thumbnail_size": [
+      177,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00030",
+    "name": "Laos Vet",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/d2hpglw2/laosvet.png?rmode=max&width=180&height=90",
+    "source_label": "lao veteran plate",
+    "source_sha256": "c38811fed9a71c1e7b78e669404f34f923ee0a98386cb83b0d89b7975444abb8",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "033936631fa1f91eefd7aa472ecfc314bb5b9abb02b6430b996fb1357ee22408",
+    "thumbnail_sha256": "033936631fa1f91eefd7aa472ecfc314bb5b9abb02b6430b996fb1357ee22408",
+    "display_size": [
+      177,
+      90
+    ],
+    "thumbnail_size": [
+      177,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00031",
+    "name": "Pearl Harbor Survivor",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/edgdi4hf/pearl-harbor-survivor.png?rmode=max&width=180&height=90",
+    "source_label": "pearl harbor survivor plate",
+    "source_sha256": "1f05417df1b4e2721632d3615fd8f51d07c5e4f03d86d252ddc1543ef6bb5bca",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "717786e49483a779e7d9c4dcc583fd0ee07b51c5e244e3affffc7215b77b58d1",
+    "thumbnail_sha256": "717786e49483a779e7d9c4dcc583fd0ee07b51c5e244e3affffc7215b77b58d1",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00032",
+    "name": "Purple Heart",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/5mbcquee/purple_heart.png?rmode=max&width=180&height=90",
+    "source_label": "purple heart plate",
+    "source_sha256": "0be88c2af70caf4d58955aaa1976c169d51a369da302bc43a14a0d4a732dca38",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "1f6afd1d96d9ad9f8c7050439d9fe46e19a0cf737ff5be00782a6a291ae240f7",
+    "thumbnail_sha256": "1f6afd1d96d9ad9f8c7050439d9fe46e19a0cf737ff5be00782a6a291ae240f7",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00033",
+    "name": "Veteran Commemorative",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/w1xavru1/veteran-commemorative.png?rmode=max&width=180&height=90",
+    "source_label": "veteran commemorative",
+    "source_sha256": "fe954443d4992ff0d539d2103be9e54e833963c13694074b493bd00567876b40",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "1169a4371dd90f5752b9b7d2548ae21a4399838da63bf5c660a2f80ab6cb5987",
+    "thumbnail_sha256": "1169a4371dd90f5752b9b7d2548ae21a4399838da63bf5c660a2f80ab6cb5987",
+    "display_size": [
+      180,
+      90
+    ],
+    "thumbnail_size": [
+      180,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00034",
+    "name": "International Association of Fire Fighters (IAFF)",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/rj0bnnha/iaff.png?rmode=max&width=180&height=90",
+    "source_label": "International Association of Fire Fighters (IAFF) plate",
+    "source_sha256": "32925cd9152f6ebd57ff04b2764a13213eb61ac08271b0a48af86403d47d3ad9",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "94af31a265769c239bce0e92fe23f383ea21426bd79f0ab10e50e41405b5c5ff",
+    "thumbnail_sha256": "94af31a265769c239bce0e92fe23f383ea21426bd79f0ab10e50e41405b5c5ff",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00035",
+    "name": "Freemason",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/ugzo1vnh/freemason.png?rmode=max&width=180&height=90",
+    "source_label": "freemason plate",
+    "source_sha256": "90d9454876bccc54f204dcaf58956cde2ca558f18a829ed00a9ef50184b09ca1",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "ab239c17ae0a9662aba39e924527492a4a45b7753be8b12efa8493b15ae175ed",
+    "thumbnail_sha256": "ab239c17ae0a9662aba39e924527492a4a45b7753be8b12efa8493b15ae175ed",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00036",
+    "name": "Knights of Columbus",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/0b1fa4em/knightsofcolumbus.png?rmode=max&width=180&height=90",
+    "source_label": "Knights of Columbus plate",
+    "source_sha256": "774ef653821fc15964ca8fd4f301505850b0d72ee001ff81594af5db8efe9844",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "8a66fb0d92c02fcabec78da9ea2df7b3619a537742c5a2863b2ca364c2e972d6",
+    "thumbnail_sha256": "8a66fb0d92c02fcabec78da9ea2df7b3619a537742c5a2863b2ca364c2e972d6",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00037",
+    "name": "Lions Club",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/x40lbe3z/lions.png?rmode=max&width=180&height=90",
+    "source_label": "Lions Club",
+    "source_sha256": "23ab921b007c26a0cc0f1fb62ec22b97af99ad877b83f0dc7531326b76297760",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "144b53e20590cf4844b2e8a1ff96ef66dbdc06f56f60a56215898b52f45aec0c",
+    "thumbnail_sha256": "144b53e20590cf4844b2e8a1ff96ef66dbdc06f56f60a56215898b52f45aec0c",
+    "display_size": [
+      177,
+      90
+    ],
+    "thumbnail_size": [
+      177,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00038",
+    "name": "Pioneers of Alaska",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/av3ov1rq/pioneers-of-alaska-plate.png?rmode=max&width=180&height=90",
+    "source_label": "Pioneers of Alaska",
+    "source_sha256": "d0e5875ab73f2a244f158bef3baf5b426a9ea195dbef9fb6d5b6fc785a889903",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "73387c2f1e7a1024fdfc3156198bc2ee6a5a63cd1275e36b733deb14e470c6c0",
+    "thumbnail_sha256": "73387c2f1e7a1024fdfc3156198bc2ee6a5a63cd1275e36b733deb14e470c6c0",
+    "display_size": [
+      177,
+      90
+    ],
+    "thumbnail_size": [
+      177,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00040",
+    "name": "Custom Collector",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/dyoolhuv/collector.png?rmode=max&width=180&height=90",
+    "source_label": "custom car collector plate",
+    "source_sha256": "ae8f108ff9b5dc5e9380ebfe695e46121126a625284b572cbe8490928335e9b6",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "f02333d713e2540c5ebb55be724d201c097fbfb20e688c341ae976c9ee80604f",
+    "thumbnail_sha256": "f02333d713e2540c5ebb55be724d201c097fbfb20e688c341ae976c9ee80604f",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00041",
+    "name": "Farm Vehicle",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/jauloerq/farm.png?rmode=max&width=180&height=90",
+    "source_label": "farm plate",
+    "source_sha256": "b1f3fff8b9cc77d5ffc801da4eebd1a8d77219b921f52b3e12f9b4b076e38ce1",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "72efdcb006d942de86d892fa19e337a6fc6534778ee13f78ae5241f471437b25",
+    "thumbnail_sha256": "72efdcb006d942de86d892fa19e337a6fc6534778ee13f78ae5241f471437b25",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00042",
+    "name": "Firefighter/EMS",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/qrwlvo22/fire.png?rmode=max&width=180&height=90",
+    "source_label": "Firefighter EMS plate",
+    "source_sha256": "60355285c3362aef54beee66d1384fa7085228e5b9c36490d328e712ad3ee698",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "5ff706503b4f54afd083b8afb1bbcbbabee4595df130e4b6547983ab9cb7f20f",
+    "thumbnail_sha256": "5ff706503b4f54afd083b8afb1bbcbbabee4595df130e4b6547983ab9cb7f20f",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00043",
+    "name": "Historic Vehicle",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/nquhmeds/historic_vehicle.png?rmode=max&width=180&height=90",
+    "source_label": "historic vehicle plate",
+    "source_sha256": "1e0af43effb22146d1f7c5085c004f8fa086a2b8161db5905689766e5e611e30",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "8d191c866af6e49d15d7f8641f691838f09659b454e11e016b4d92bc45e670b6",
+    "thumbnail_sha256": "8d191c866af6e49d15d7f8641f691838f09659b454e11e016b4d92bc45e670b6",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00044",
+    "name": "Iditarod Finisher",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/fnxlvgie/iditarod.png?rmode=max&width=180&height=90",
+    "source_label": "Iditarod Finisher plate",
+    "source_sha256": "831872323c62c3be1d899a57180a92d2bbbf3e5d806fb79433501a7e449ccfdb",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "41da6c327cef27b4389a143aefe2c254018e43d90d301f05cf286a04d5990a02",
+    "thumbnail_sha256": "41da6c327cef27b4389a143aefe2c254018e43d90d301f05cf286a04d5990a02",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00045",
+    "name": "In God We Trust",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/5cxnurjj/ak-in-god-we-trust.png?rmode=max&width=180&height=90",
+    "source_label": "In God We Trust plate",
+    "source_sha256": "698df6c38bdea843ba9b9ec0a49917f78ea51da2d2f5cb286d471844def3a36f",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "cb6efefe33072fb4f6e1698f98d9dcc9166df6d4b84dcb14dcf1d58ac8ba3cb7",
+    "thumbnail_sha256": "cb6efefe33072fb4f6e1698f98d9dcc9166df6d4b84dcb14dcf1d58ac8ba3cb7",
+    "display_size": [
+      176,
+      90
+    ],
+    "thumbnail_size": [
+      176,
+      90
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-AK-00046",
+    "name": "Honoring Fallen Police Officers",
+    "jurisdiction_id": "US-AK",
+    "source_url": "https://dmv.alaska.gov/vehicle-services/license-plates/",
+    "source_asset_url": "https://dmv.alaska.gov/media/nk2myuer/fallen-officer-large-plate.png?rmode=max&width=178&height=89",
+    "source_label": "Honoring Fallen Police Officers",
+    "source_sha256": "27140d48e3872097b81275306343c34dbfca1d0def70815a8583aca091ca261d",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "manually_inspected_official_gallery_sample_and_name_context",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "a78de2bbba80a6215de9413413680ef1906ddb301cc262cb5c9b2a1d4ef2ee09",
+    "thumbnail_sha256": "a78de2bbba80a6215de9413413680ef1906ddb301cc262cb5c9b2a1d4ef2ee09",
+    "display_size": [
+      178,
+      89
+    ],
+    "thumbnail_size": [
+      178,
+      89
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00001",
+    "name": "100% Disabled Veteran Air Force",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/MS.PLTVAF.JPG.JPG.webp?itok=5KpEeVr6",
+    "source_label": "100% Disabled Veteran Air Force",
+    "source_sha256": "5d50a89a24cf7f990b1ca46752c4bb1264d6d66e85782d452dc17a6c7424b25d",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "ed8cc5e25dd1ebff1674435282d2f9711b6c6ccfd841d4c3bcc0d608810a46d4",
+    "thumbnail_sha256": "ed8cc5e25dd1ebff1674435282d2f9711b6c6ccfd841d4c3bcc0d608810a46d4",
+    "display_size": [
+      220,
+      110
+    ],
+    "thumbnail_size": [
+      220,
+      110
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00002",
+    "name": "100% Disabled Veteran Air Force Motorcycle",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/100%25%20Disabled%20Air%20Force%20Motorcycle.png.webp?itok=Wo1aUHZi",
+    "source_label": "100% Disabled Veteran Air Force Motorcycle",
+    "source_sha256": "c00239c28f16163ba308fdff88ac18cd2cbe0b6a7cc2dd22d6fbeb5487590ada",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "253c0e6673897a2cb808a2c1bb4d3575d8cc64a72a776f09c361d1c360cf8365",
+    "thumbnail_sha256": "253c0e6673897a2cb808a2c1bb4d3575d8cc64a72a776f09c361d1c360cf8365",
+    "display_size": [
+      220,
+      125
+    ],
+    "thumbnail_size": [
+      220,
+      125
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00003",
+    "name": "100% Disabled Veteran Army",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/MS.PLTVAY.JPG.JPG.webp?itok=7RFuk8PQ",
+    "source_label": "100% Disabled Veteran Army",
+    "source_sha256": "89f1f09284f3ad1c5de412c81212e59345c66e82a558e8180079c40fdb6b3a9f",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "8cdf5c787e0f37cdda99df7f16bd73d0f283f85629cefa6e3ac35b78dd467d1f",
+    "thumbnail_sha256": "8cdf5c787e0f37cdda99df7f16bd73d0f283f85629cefa6e3ac35b78dd467d1f",
+    "display_size": [
+      220,
+      110
+    ],
+    "thumbnail_size": [
+      220,
+      110
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00004",
+    "name": "100% Disabled Veteran Army Motorcycle",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/100%25%20Disabled%20Army%20Motorcycle%20.png.webp?itok=u2sF8JFE",
+    "source_label": "100% Disabled Veteran Army Motorcycle",
+    "source_sha256": "571dd05270281234da1df51f9a91f13a1c7fbe25eec0c32a23e04675ff2e9bb6",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "4c8897c4389f8eab6ee91105de6396ee2ee7471310e5cd2d25599788e4b194b0",
+    "thumbnail_sha256": "4c8897c4389f8eab6ee91105de6396ee2ee7471310e5cd2d25599788e4b194b0",
+    "display_size": [
+      220,
+      128
+    ],
+    "thumbnail_size": [
+      220,
+      128
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00005",
+    "name": "100% Disabled Veteran Coast Guard",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/MS.PLTVCG.JPG.JPG.webp?itok=u2oAp5p2",
+    "source_label": "100% Disabled Veteran Coast Guard",
+    "source_sha256": "674bc3ae5c010c864b42f2b8b01912745daf66a3cfe07f26757db37e11892a45",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "61b85e04fb6c39d75e25dbd102f33ad47691769ae99d5d23c2ca819ddbc4a957",
+    "thumbnail_sha256": "61b85e04fb6c39d75e25dbd102f33ad47691769ae99d5d23c2ca819ddbc4a957",
+    "display_size": [
+      220,
+      110
+    ],
+    "thumbnail_size": [
+      220,
+      110
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00006",
+    "name": "100% Disabled Veteran Coast Guard Motorcycle",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/100%25%20Disabled%20Coast%20Guard%20Motorcycle%20.png.webp?itok=oH11J3aQ",
+    "source_label": "100% Disabled Veteran Coast Guard Motorcycle",
+    "source_sha256": "f4c7c60bc16f69ac462d06ac8191ee08bba5f79cb67d2c68a65ce6fded9c8768",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "53a7cb906e993f63fe61c252c636bc9a5e869aa387b136d24b1e61a5c3de6f25",
+    "thumbnail_sha256": "53a7cb906e993f63fe61c252c636bc9a5e869aa387b136d24b1e61a5c3de6f25",
+    "display_size": [
+      220,
+      126
+    ],
+    "thumbnail_size": [
+      220,
+      126
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00007",
+    "name": "Antique Car",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Antique%252520Car_jpg.jpg.webp?itok=_-rTXq45",
+    "source_label": "Antique Car",
+    "source_sha256": "6bd186bb8d0fab9dddb33a5073c2b5b91dcbe03c96f269c6bf7572d0500d0e4c",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "544856d675d7c621f3ae93264de72db668f4a653a9c75e8b6f93c219abd0a04f",
+    "thumbnail_sha256": "544856d675d7c621f3ae93264de72db668f4a653a9c75e8b6f93c219abd0a04f",
+    "display_size": [
+      160,
+      78
+    ],
+    "thumbnail_size": [
+      160,
+      78
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00008",
+    "name": "Antique Car Vanity",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Antique%252520Car%252520-%252520Vanity_jpg.jpg.webp?itok=ogru7OmW",
+    "source_label": "Antique Car Vanity",
+    "source_sha256": "27e1201b4b9796ca0a75fab511a4fe17400b24ad2582aeee66318bf3d2f4b840",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "d09b9705481d7a948ef3fd021ec89db84a3b636b64766c6608460a2f853aa4d1",
+    "thumbnail_sha256": "d09b9705481d7a948ef3fd021ec89db84a3b636b64766c6608460a2f853aa4d1",
+    "display_size": [
+      160,
+      78
+    ],
+    "thumbnail_size": [
+      160,
+      78
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00009",
+    "name": "Antique Motorcycle",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Antique%252520Motorcycle_jpg.jpg.webp?itok=4AbVlaxu",
+    "source_label": "Antique Motorcycle",
+    "source_sha256": "a96d274b6dc7328f7c08dde8738a26b2b509f4ba069c80c3006cb45149132b87",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "5290af72f8847ae854d33038db8fb5c5569bbd554cf0aca1f7e94d45783788d1",
+    "thumbnail_sha256": "5290af72f8847ae854d33038db8fb5c5569bbd554cf0aca1f7e94d45783788d1",
+    "display_size": [
+      160,
+      76
+    ],
+    "thumbnail_size": [
+      160,
+      76
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00010",
+    "name": "Antique Motorcycle Vanity",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Antique%252520Motorcycle%252520-%252520Vanity_jpg.jpg.webp?itok=GINFuP6T",
+    "source_label": "Antique Motorcycle Vanity",
+    "source_sha256": "b1a0b71f61892b687f5b25a1b18a55aafdd959f8ee2ba9af0dd6566b5e6b25b2",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "7349dfbd2ad39d89b881a770d711cecef7c92aed21cf60b13d0445c16596bae7",
+    "thumbnail_sha256": "7349dfbd2ad39d89b881a770d711cecef7c92aed21cf60b13d0445c16596bae7",
+    "display_size": [
+      160,
+      77
+    ],
+    "thumbnail_size": [
+      160,
+      77
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00011",
+    "name": "Antique Truck",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Antique%252520Truck_jpg.jpg.webp?itok=_j5irwi_",
+    "source_label": "Antique Truck",
+    "source_sha256": "8ea21781093793f4985edf6a712e00fb327bf74fa97319480aa0b196bdd89501",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "0c486a4f2ae1e3c53a9aa5c16c031b967d6ac31ff8c1bedf81e844e84e4d0412",
+    "thumbnail_sha256": "0c486a4f2ae1e3c53a9aa5c16c031b967d6ac31ff8c1bedf81e844e84e4d0412",
+    "display_size": [
+      160,
+      77
+    ],
+    "thumbnail_size": [
+      160,
+      77
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00012",
+    "name": "Antique Truck Vanity",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Antique%252520Truck%252520-%252520Vanity_jpg.jpg.webp?itok=yFyc23AF",
+    "source_label": "Antique Truck Vanity",
+    "source_sha256": "2e0ca8ef950922f088dd192d2d3cdff1277cd24def9ef92fc03e0621711fc671",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "2c8db1358534462af85f53892a662e3c8e2046bac6263b28c51cc8500247fb65",
+    "thumbnail_sha256": "2c8db1358534462af85f53892a662e3c8e2046bac6263b28c51cc8500247fb65",
+    "display_size": [
+      160,
+      76
+    ],
+    "thumbnail_size": [
+      160,
+      76
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00013",
+    "name": "Apportioned Truck",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Apportioned%20Truck.png.webp?itok=YYRZd2Mv",
+    "source_label": "Apportioned Truck",
+    "source_sha256": "8628d68155e03b1dd86f861b1468bc4f96f7efd4cf86c86226d7f40ce3c10453",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "9265e2fda0d1df27021e28742804ff917a0df0cd609c3d502fdefd98e7c4ba68",
+    "thumbnail_sha256": "9265e2fda0d1df27021e28742804ff917a0df0cd609c3d502fdefd98e7c4ba68",
+    "display_size": [
+      220,
+      110
+    ],
+    "thumbnail_size": [
+      220,
+      110
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00014",
+    "name": "Auburn University",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Auburn%252520University_jpg.jpg.webp?itok=TMoHt0tS",
+    "source_label": "Auburn University",
+    "source_sha256": "8c4f91ab5034a012759b917a1459b08d8c786aa2c68b349120c1dec11a4af4b2",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "6012a1cf916094f1b413c89a619bc11dff6505bd8c5133f5f4e3449459fddd7e",
+    "thumbnail_sha256": "6012a1cf916094f1b413c89a619bc11dff6505bd8c5133f5f4e3449459fddd7e",
+    "display_size": [
+      160,
+      76
+    ],
+    "thumbnail_size": [
+      160,
+      76
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00015",
+    "name": "Autism Awareness",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Autism%252520Awareness_jpg.jpg.webp?itok=RIttcHK0",
+    "source_label": "Autism Awareness",
+    "source_sha256": "b4a4239b101dc927a3e9012405f32447b9661fa1ed63cb55c1002d66dcbf345c",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "6757ea310d42342297fab22fc8fd18bb0d0b7da19e50d33fb323c03b71aa2130",
+    "thumbnail_sha256": "6757ea310d42342297fab22fc8fd18bb0d0b7da19e50d33fb323c03b71aa2130",
+    "display_size": [
+      160,
+      77
+    ],
+    "thumbnail_size": [
+      160,
+      77
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00016",
+    "name": "Band of Choctaw Indians",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Choctaw%252520Indians_jpg.jpg.webp?itok=nYcxpW9R",
+    "source_label": "Band of Choctaw Indians",
+    "source_sha256": "add172c59cdd5fe7b93a1c6deb72d9d85be4cc830ecf6839b71ad560c4bf4843",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "de36ff20565f63ef0265cff9ec69f7075db26cd544689579dbc6653d9a5431ec",
+    "thumbnail_sha256": "de36ff20565f63ef0265cff9ec69f7075db26cd544689579dbc6653d9a5431ec",
+    "display_size": [
+      160,
+      77
+    ],
+    "thumbnail_size": [
+      160,
+      77
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00017",
+    "name": "Bass - Department of Wildlife Fisheries and Parks",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Wildlife%252520Bass_jpg.jpg.webp?itok=eMEgr-pD",
+    "source_label": "Bass - Department of Wildlife Fisheries and Parks",
+    "source_sha256": "a65493ae793dd23abed5b7f26e5acc9dd81e080ba3d7ac751b691e06c48a01ac",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "90853b62ee83cce1a3f71bec8d967d58e38132c6fba3d1d0c58ab0d39a6c4ea5",
+    "thumbnail_sha256": "90853b62ee83cce1a3f71bec8d967d58e38132c6fba3d1d0c58ab0d39a6c4ea5",
+    "display_size": [
+      160,
+      77
+    ],
+    "thumbnail_size": [
+      160,
+      77
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00018",
+    "name": "Belhaven University",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Belhaven%252520University_jpg.jpg.webp?itok=2ekVAfgo",
+    "source_label": "Belhaven University",
+    "source_sha256": "0aed9833140f75f4478593ecfdf8402d89dfa466c90ef9b9220b4584f239e295",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "615874c81464dcda1e31d026a77788a7f2a6421f43e902970d6abd368497920b",
+    "thumbnail_sha256": "615874c81464dcda1e31d026a77788a7f2a6421f43e902970d6abd368497920b",
+    "display_size": [
+      160,
+      78
+    ],
+    "thumbnail_size": [
+      160,
+      78
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00019",
+    "name": "Bicycle Share the Road",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Bicycle%252520share%252520the%252520road_jpg.jpg.webp?itok=zH6QJg5a",
+    "source_label": "Bicycle Share the Road",
+    "source_sha256": "50f4b0a132037b506876e3604dcdb18f8e8fecf1cd45a13b947afa240ef1423d",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "ed475269b0c29f3017077b42f5519ea1145a6b1bd3350e272e1fb037e576a54e",
+    "thumbnail_sha256": "ed475269b0c29f3017077b42f5519ea1145a6b1bd3350e272e1fb037e576a54e",
+    "display_size": [
+      160,
+      78
+    ],
+    "thumbnail_size": [
+      160,
+      78
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00020",
+    "name": "Biloxi Public School District",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Biloxi%252520Public%252520School%252520District_jpg.jpg.webp?itok=GVZASIZg",
+    "source_label": "Biloxi Public School District",
+    "source_sha256": "37f74d4373ca8336e0268e029d74dfa9859e9f5087d0c0bb9b7100332581a39c",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "21cbcded00edf7d6d9a4c1a54c7eb0eb14c80896f6aa04e72f57d91f8e6b10a5",
+    "thumbnail_sha256": "21cbcded00edf7d6d9a4c1a54c7eb0eb14c80896f6aa04e72f57d91f8e6b10a5",
+    "display_size": [
+      160,
+      78
+    ],
+    "thumbnail_size": [
+      160,
+      78
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00022",
+    "name": "Civil Air Patrol",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Civil%252520Air%252520Patrol_jpg.jpg.webp?itok=5-Csv8Ro",
+    "source_label": "Civil Air Patrol",
+    "source_sha256": "43e1e193382c7e252549205827067358da07117242d3f347dae6b22b1165a403",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "e22a81ce7a515244aa123dc0418f7378e7410f9dcf28c578682ebbc87b503751",
+    "thumbnail_sha256": "e22a81ce7a515244aa123dc0418f7378e7410f9dcf28c578682ebbc87b503751",
+    "display_size": [
+      160,
+      79
+    ],
+    "thumbnail_size": [
+      160,
+      79
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00023",
+    "name": "Coastal Conservation",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Coastal%252520Conservation_jpg.jpg.webp?itok=Azm1wQ1q",
+    "source_label": "Coastal Conservation",
+    "source_sha256": "575471d7220425521fee53e3c8fe99c74022f63a37df89914066fe1586b5a24c",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "4a09f1746193e227e8d81e021dbbfb24b934d452de7113f47359e03b6a5354a3",
+    "thumbnail_sha256": "4a09f1746193e227e8d81e021dbbfb24b934d452de7113f47359e03b6a5354a3",
+    "display_size": [
+      160,
+      78
+    ],
+    "thumbnail_size": [
+      160,
+      78
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00024",
+    "name": "Colon Cancer Prevention",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Colon%252520Cancer%252520Prevention_jpg.jpg.webp?itok=KFEUEXkP",
+    "source_label": "Colon Cancer Prevention",
+    "source_sha256": "0eb86b9367a608501bfe289586b95bf563a8f52145771ab05f97e5f4ba6fe192",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "9a68b5309fefcb4030be67c66687524153f98950c2189df1b4c15c7beae6d709",
+    "thumbnail_sha256": "9a68b5309fefcb4030be67c66687524153f98950c2189df1b4c15c7beae6d709",
+    "display_size": [
+      160,
+      82
+    ],
+    "thumbnail_size": [
+      160,
+      82
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00025",
+    "name": "Columbia School District",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Columbia%252520School%252520District_jpg.jpg.webp?itok=7fcJ-EUt",
+    "source_label": "Columbia School District",
+    "source_sha256": "607a3ebd55e69695f48519bc0b64dc545189e507009b25ece231650eb3058165",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "3b350a7034d73d1e079522687f4dfd566d2b0bdb2304eb8e8fc97c53bfaaedd5",
+    "thumbnail_sha256": "3b350a7034d73d1e079522687f4dfd566d2b0bdb2304eb8e8fc97c53bfaaedd5",
+    "display_size": [
+      160,
+      79
+    ],
+    "thumbnail_size": [
+      160,
+      79
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00026",
+    "name": "Columbus Municipal School District",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/FS_0.PNG.webp?itok=yh9F-Q4g",
+    "source_label": "Columbus Municipal School District",
+    "source_sha256": "8d365614590c4ba8b1317e2f073a31e67cd6c87a04bc50553e062e790fa81421",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "0720c2ddb830925baf9769e9a1a5024161e00057404908115a359738741a797f",
+    "thumbnail_sha256": "0720c2ddb830925baf9769e9a1a5024161e00057404908115a359738741a797f",
+    "display_size": [
+      220,
+      112
+    ],
+    "thumbnail_size": [
+      220,
+      112
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00027",
+    "name": "Combat Veteran Air Force",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Combat%252520Veteran%252520Air%252520Force_jpg.jpg.webp?itok=kkLnThkZ",
+    "source_label": "Combat Veteran Air Force",
+    "source_sha256": "db63e97ab3036ce70a2e4ffe097de76e155dd4fffe96eae1156cd1f81990c6f8",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "836473f78eb85e12978a4de2eeeaa910e111a72de89583459bdf518845d0dffb",
+    "thumbnail_sha256": "836473f78eb85e12978a4de2eeeaa910e111a72de89583459bdf518845d0dffb",
+    "display_size": [
+      160,
+      77
+    ],
+    "thumbnail_size": [
+      160,
+      77
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00028",
+    "name": "Combat Veteran Army",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Combat%252520Veteran%252520Army_jpg.jpg.webp?itok=KUlqQnu6",
+    "source_label": "Combat Veteran Army",
+    "source_sha256": "bab103fbe38adb994131539d0baf682866cdeb84f0849a16ea5201782de11390",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "5161f7bf7ca0bd76246dc2a1150cb3c2a77c2bbe848d38e76c24207510fcf59f",
+    "thumbnail_sha256": "5161f7bf7ca0bd76246dc2a1150cb3c2a77c2bbe848d38e76c24207510fcf59f",
+    "display_size": [
+      160,
+      76
+    ],
+    "thumbnail_size": [
+      160,
+      76
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00029",
+    "name": "Combat Veteran Coast Guard",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Combat%252520Veteran%252520Coast%252520Guard_jpg.jpg.webp?itok=Gz5v4voH",
+    "source_label": "Combat Veteran Coast Guard",
+    "source_sha256": "a8279f1f651755a19aadf555a9e03f308dcbf6c180783730c8882fe1eccfd181",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "9a5cc4c4eddccdc5ebbfa6272c026d2cc5bb7546c2ebbb5850b7acd2331e2721",
+    "thumbnail_sha256": "9a5cc4c4eddccdc5ebbfa6272c026d2cc5bb7546c2ebbb5850b7acd2331e2721",
+    "display_size": [
+      160,
+      79
+    ],
+    "thumbnail_size": [
+      160,
+      79
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00030",
+    "name": "Combat Veteran Marine",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Combat%252520Veteran%252520Marine_jpg.jpg.webp?itok=M6RhJMSh",
+    "source_label": "Combat Veteran Marine",
+    "source_sha256": "cee382704b8bc4741ba44e1749810a8528faadbdf53b0cf754bfb3927f0270f8",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "e58f6e16d285a71fffa52a26fa78e9f7afe89e351848023a1bd573e452d61d61",
+    "thumbnail_sha256": "e58f6e16d285a71fffa52a26fa78e9f7afe89e351848023a1bd573e452d61d61",
+    "display_size": [
+      160,
+      76
+    ],
+    "thumbnail_size": [
+      160,
+      76
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00031",
+    "name": "Combat Veteran Navy",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Combat%252520Veteran%252520Navy_jpg.jpg.webp?itok=QVKTPpZh",
+    "source_label": "Combat Veteran Navy",
+    "source_sha256": "c46016db2ccec3e56619d4f08b064652ecec1b67b98de635de268be5b597e822",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "e7f3e06268e590fe3f5efefc960deb88f721551689e6ac5ea0e0d71dbebc2a02",
+    "thumbnail_sha256": "e7f3e06268e590fe3f5efefc960deb88f721551689e6ac5ea0e0d71dbebc2a02",
+    "display_size": [
+      160,
+      76
+    ],
+    "thumbnail_size": [
+      160,
+      76
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00032",
+    "name": "Dealer Demo",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Demo%20Dealer.png.webp?itok=yYzV71kq",
+    "source_label": "Dealer Demo",
+    "source_sha256": "8b517785fa1f0574442ad87976d66a85ccbe3e3e94ebea5ed4084938543ccb35",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "18dc1330d2587a6d34ff8be6dd0d3517f037798e7b22c63a411f50831274ee0c",
+    "thumbnail_sha256": "18dc1330d2587a6d34ff8be6dd0d3517f037798e7b22c63a411f50831274ee0c",
+    "display_size": [
+      220,
+      111
+    ],
+    "thumbnail_size": [
+      220,
+      111
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00033",
+    "name": "Dealer Manufacturer",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Manufacturer%20Dealer.png.webp?itok=ZKAaVdv1",
+    "source_label": "Dealer Manufacturer",
+    "source_sha256": "64408dce9e8bd2e18a9395b3eaa4a741cc694024038e9498716a2f0f236bcc6d",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "0533025929853872bd14efe50353834989dcc8171c02db4f50384660aca8be50",
+    "thumbnail_sha256": "0533025929853872bd14efe50353834989dcc8171c02db4f50384660aca8be50",
+    "display_size": [
+      220,
+      110
+    ],
+    "thumbnail_size": [
+      220,
+      110
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00034",
+    "name": "Dealer Motorcycle",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Motorcycle%20Dealer.png.webp?itok=8yZp6S-B",
+    "source_label": "Dealer Motorcycle",
+    "source_sha256": "6a1b4f74b5917596d78431185a32fbb8b43b0189d62f82ecae986d15944293b5",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "29c195ae1696c6eb9e937e9cf879da6e6e0cdcf31dfacb9bf73a23ce0eeb42d5",
+    "thumbnail_sha256": "29c195ae1696c6eb9e937e9cf879da6e6e0cdcf31dfacb9bf73a23ce0eeb42d5",
+    "display_size": [
+      220,
+      127
+    ],
+    "thumbnail_size": [
+      220,
+      127
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00035",
+    "name": "Dealer New",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/New%20Dealer.png.webp?itok=R9kSJ6Bb",
+    "source_label": "Dealer New",
+    "source_sha256": "33b520d00b3c00f32c2c8a199ddfe8c84faa1c153250a62c5ef67be781d93aa5",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "17f27617fc5bef50441f11d1e4f5ea57ebad3b1d3891d205f10894b7d3882ee3",
+    "thumbnail_sha256": "17f27617fc5bef50441f11d1e4f5ea57ebad3b1d3891d205f10894b7d3882ee3",
+    "display_size": [
+      220,
+      111
+    ],
+    "thumbnail_size": [
+      220,
+      111
+    ],
+    "source_run_id": 38200139649
+  },
+  {
+    "uid": "LPG-US-MS-00036",
+    "name": "Dealer Trailer",
+    "jurisdiction_id": "US-MS",
+    "source_url": "https://www.dor.ms.gov/motor-vehicle/available-license-plates/specialty-license-plates",
+    "source_asset_url": "https://www.dor.ms.gov/sites/default/files/styles/medium/public/motor-vehicle-services/license-plates/Trailer%20Dealer_0.png.webp?itok=IOi3xY7u",
+    "source_label": "Dealer Trailer",
+    "source_sha256": "f4c53c9f11f7e29ac071688d1c7a24f6737f71f1277235338adf2967a387c32e",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "evidence_method": "unique_exact_official_alt_and_inspected_plate_sample",
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "51dfee04817d30ec66261a2a443dd38358f40197169a42cc1862e0fd540bd2f0",
+    "thumbnail_sha256": "51dfee04817d30ec66261a2a443dd38358f40197169a42cc1862e0fd540bd2f0",
+    "display_size": [
+      220,
+      110
+    ],
+    "thumbnail_size": [
+      220,
+      110
+    ],
+    "source_run_id": 38200139649
+  }
+]
