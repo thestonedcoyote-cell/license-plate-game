@@ -1,0 +1,14 @@
+{
+  "batch_id": "LPG-AK-MS-2026-10-11-01",
+  "reviewed_records": "data/image-batches/ak-ms-reviewed.json",
+  "source_harvest_run": 38200139649,
+  "source_artifact": "official-plate-harvest-38200139649",
+  "sha_verification": "Per-source exact SHA-256 required",
+  "existing_count": 73,
+  "new_count": 76,
+  "expected_total": 149,
+  "remaining_expected": 989,
+  "planned_generated_branch": "generated/alaska-mississippi-76-source-images-20261011",
+  "exclusions": "5 AK plus 2 MS UIDs remain unresolved; Florida source failed HTTP 403",
+  "release_boundary": "Generate review branch only; no signed APK, stable/latest release or invented human approvals"
+}
