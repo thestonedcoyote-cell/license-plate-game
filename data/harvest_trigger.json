@@ -1,9 +1,16 @@
 {
-  "codes": "OR",
-  "max_sources": 2,
-  "campaign_id": "LPG-IMAGE-2026-BATCH-OR-01",
-  "purpose": "Start real official-source harvest: Oregon DMV Form 735-6726 (revision 7-2026) plus official Oregon Salmon source PNG. Preserve originals/extracted pages and hashes in harvest artifact; no automatic image selection, rights/era approval, app deployment or APK release.",
-  "current_catalog_total": 1138,
-  "catalog_oregon_uids": 19,
-  "checkpoint_main": "f990fc42ee81c862100cd75d074d24c9aebaee87"
+  "codes": "TX,FL,AK,MS",
+  "max_sources": 4,
+  "campaign_id": "LPG-IMAGE-OFFICIAL-HIGH-YIELD-02",
+  "purpose": "Acquire official Texas and Florida illustrated guides plus Alaska and Mississippi official plate galleries, preserving source files, image candidates, page references and hashes. Do NOT auto-publish, renumber catalog UIDs, infer issue era, or claim human approval.",
+  "expected_existing_catalog_counts": {
+    "US-TX": 164,
+    "US-FL": 132,
+    "US-AK": 46,
+    "US-MS": 37
+  },
+  "potential_catalog_designs": 379,
+  "selected_images_before_batch": 73,
+  "immutable_catalog_size": 1138,
+  "source_registry_leads": 26
 }
