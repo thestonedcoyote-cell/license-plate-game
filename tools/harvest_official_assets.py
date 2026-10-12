@@ -147,17 +147,17 @@ def main():
             try:
                 if mode=='html_gallery':
                     gallery=harvest_html_gallery(session,url,base.parent/(base.name+'_html'),a.max_html_assets)
-                    rec={'code':code,'title':title,'url':url,'source_kind':kind,'extraction_mode':mode,'status':'downloaded','gallery':gallery}
+                    rec={'code':code,'jurisdiction_id':row.get('jurisdiction_id') or 'US-'+code,'title':title,'url':url,'source_kind':kind,'extraction_mode':mode,'status':'downloaded','gallery':gallery}
                 else:
                     ext=Path(urlparse(url).path).suffix.lower() or ('.pdf' if mode=='bulk_pdf' else '.bin')
                     dest=base.with_suffix(ext); meta=download(session,url,dest)
-                    rec={'code':code,'title':title,'url':url,'source_kind':kind,'extraction_mode':mode,'file':str(dest),**meta,'status':'downloaded'}
+                    rec={'code':code,'jurisdiction_id':row.get('jurisdiction_id') or 'US-'+code,'title':title,'url':url,'source_kind':kind,'extraction_mode':mode,'file':str(dest),**meta,'status':'downloaded'}
                     if ext=='.pdf' or 'pdf' in meta['content_type'].lower():
                         try: rec['extracted']=extract_pdf(dest,base.parent/(base.name+'_extracted'))
                         except Exception as e: rec['extract_error']=repr(e)
                 log.append(rec); count+=1
             except Exception as e:
-                log.append({'code':code,'title':title,'url':url,'source_kind':kind,'extraction_mode':mode,'status':'error','error':repr(e)})
+                log.append({'code':code,'jurisdiction_id':row.get('jurisdiction_id') or 'US-'+code,'title':title,'url':url,'source_kind':kind,'extraction_mode':mode,'status':'error','error':repr(e)})
     (out/'manifest.json').write_text(json.dumps(log,indent=2),encoding='utf-8')
     ok=sum(x.get('status')=='downloaded' for x in log)
     errors=sum(x.get('status')=='error' for x in log)
