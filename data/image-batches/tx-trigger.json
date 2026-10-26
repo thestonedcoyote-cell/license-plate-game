@@ -1,0 +1,13 @@
+{
+  "batch_id": "LPG-TEXAS-OFFICIAL-PLATE-IMG-20261026-001",
+  "request_date": "2026-10-26",
+  "source_url": "https://www.txdmv.gov/sites/default/files/body-files/Special-Plate-Guide.pdf",
+  "catalog_total": 1138,
+  "current_source_matched": 149,
+  "texas_unique_name_candidates": 157,
+  "unresolved_texas_catalog_entries": 7,
+  "expected_source_matched_after_review": 306,
+  "output_branch": "generated/texas-157-source-images-20261026",
+  "release_policy": "review_branch_only__no_signed_apk_or_human_approval",
+  "source_validation": "Official PDF bytes must equal either inspected SHA-256 variant and contain 161 plate-name/image sections."
+}
