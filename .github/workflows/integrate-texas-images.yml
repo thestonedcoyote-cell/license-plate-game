@@ -1,0 +1,96 @@
+name: Integrate verified-source Texas license plate samples
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [data/image-batches/tx-trigger.json]
+permissions:
+  contents: write
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Install official PDF source dependencies
+        run: pip install requests pymupdf pillow
+      - name: Produce 157 reviewed-name Texas samples
+        run: |
+          python tools/integrate_texas_manual.py
+          node --check data/catalog-images.js
+          node --check tests/catalog-images.cjs
+      - name: Verify all source candidates and staged runtime
+        run: |
+          python tools/take_out_trash.py --strict
+          python tools/build_runtime.py build/web
+          python - <<'PY'
+          import json,hashlib,pathlib
+          root=pathlib.Path('.')
+          manifest=json.loads((root/'data/catalog-images.js').read_text().removeprefix('globalThis.LPG_CATALOG_IMAGES=').strip().rstrip(';'))
+          tx=json.loads((root/'database/image-reconciliation-tx-20261026.json').read_text())
+          selected=tx['selected']
+          assert len(manifest)==306 and len(selected)==157
+          assert len({x['uid'] for x in selected})==157 and len(tx['unresolved_uid_list'])==7
+          assert len(list((root/'build/web/assets/plates').glob('*.jpg')))==612
+          for item in selected:
+              uid=item['uid'];p=manifest[uid]
+              assert p['match_status']=='source_matched' and p['era_status']=='unverified' and p['human_approval'] is False
+              assert p['source_sha256']==item['source_image_sha256']
+              for kind in ('display','thumbnail'):
+                  rel=f'assets/plates/{uid}-{kind}.jpg'
+                  assert (root/'build/web'/rel).is_file()
+                  assert hashlib.sha256((root/rel).read_bytes()).hexdigest()==item[f'{kind}_sha256']
+          print('PASS: 157 unique Texas IDs, 314 derivative hashes, 306 manifest entries, 612 staged JPEG files')
+          PY
+      - name: Record process notes and exceptions
+        run: |
+          cat > docs/IMAGE_TX_INTEGRATION_20261026_PROCESS_NOTES.md <<'EOF'
+          # Process Notes — Texas DMV official plate image integration
+
+          ## Purpose
+          Add 157 named examples from the official Texas specialty plate manual to the existing game catalog, with one-to-one immutable IDs, exact source provenance, and distinct review/era/rights states.
+
+          ## Inputs
+          Official TxDMV Specialty Plate Guide, revision 12/2025, 48 PDF pages, at https://www.txdmv.gov/sites/default/files/body-files/Special-Plate-Guide.pdf; accepted PDF packaging SHA-256 digests in tools/integrate_texas_manual.py. Existing 1,138 UIDs and 149 source image selections.
+
+          ## Step notes
+          - Step 1: downloaded only the official listed PDF and verified its exact SHA-256 against two inspected 48-page source package variants.
+          - Step 2: parsed the 161 printed plate-name sections and corresponding nearby embedded source artwork, with exactly one plate image per section.
+          - Step 3: conservatively joined 157 unique printed plate names to 157 immutable Texas catalog IDs, leaving seven unresolved names explicitly excluded.
+          - Step 4: created 157 display and 157 thumbnail JPEG assets, without upscaling beyond original embedded sample resolution.
+          - Step 5: expanded the web/Android-source image manifest from 149 to 306 selections; incremented offline image cache from 298 to 612 JPEG files.
+          - Step 6: verified 157 source-mapped records, all 314 output JPEG hashes, source provenance, page and crop coordinates, staged runtime and exact unresolved UID set.
+          - Step 7: ran strict repository audit and syntax checks and packaged generated source-image files only to a gated review branch.
+
+          ## Exceptions / failures
+          Seven catalog entries remain unresolved and were not silently assigned other designs (Lone Star Texas, Panoramic Texas, St. Mary's University, Texas Parks & Wildlife Roadrunner and Texas Rivers, Texas Reads, The Texas Classic). One exact official source image is used for two Go Texan group variants because the official PDF itself presents the same artwork in both plate-name sections. All examples are source-matched but not separately verified for issue era, public image rights, or final human approval. Physical signed Android upgrade acceptance remains outstanding.
+
+          ## Outputs
+          157 additional source-matched UID examples; 314 JPEG derivatives; 306 cumulative web/Android-source selections; database/image-reconciliation-tx-20261026.json with source page, image rectangle, hashes and statuses; updated image manifest, service worker, focused browser regression and generated review branch.
+
+          ## Rights / privacy notes
+          Do not publicly commit the raw agency PDF or private signing credentials. Source examples are used on the project's owner-directed fair-use reference rationale, not a claim of public domain, permission, legal adjudication or human final approval.
+
+          ## Final recheck
+          Checked the selected total 149+157=306 and remaining 1138-306=832; verified 612 JPEG runtime files, full hash inventory for 314 derivatives, source pin, 157 unique mapped UIDs, exact seven unresolved UIDs and browser test syntax. No stable APK release or device upgrade is implied.
+
+          ## Completion status
+          COMPLETE_WITH_EXCEPTIONS
+          EOF
+          python tools/check_process_notes.py docs/IMAGE_TX_INTEGRATION_20261026_PROCESS_NOTES.md
+      - name: Commit generated candidate to separate review branch
+        run: |
+          set -euo pipefail
+          REF="generated/texas-157-source-images-20261026"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c "$REF"
+          git add assets/plates data/catalog-images.js sw.js tests/catalog-images.cjs database/image-reconciliation-tx-20261026.json docs/IMAGE_TX_INTEGRATION_20261026_PROCESS_NOTES.md
+          git diff --cached --quiet && { echo 'No generated files to review'; exit 1; }
+          git commit -m 'Integrate 157 source-matched Texas DMV plate examples'
+          git push origin "HEAD:refs/heads/$REF"
+          echo "Generated review branch $REF; no stable APK published."
