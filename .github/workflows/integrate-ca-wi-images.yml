@@ -21,11 +21,11 @@ jobs:
         run: pip install pillow requests beautifulsoup4
       - name: Reacquire official CA WI pages with archived SHA pins
         run: |
-          python tools/harvest_official_assets.py --manifest data/harvest_sources.csv --output private-evidence --codes CA,WI --max-sources 2
-          test -s private-evidence/manifest.json
+          python tools/harvest_official_assets.py --manifest data/harvest_sources.csv --output harvest-output --codes CA,WI --max-sources 2
+          test -s harvest-output/manifest.json
           python - <<'PY'
           import pathlib,json
-          p=pathlib.Path("private-evidence")
+          p=pathlib.Path("harvest-output")
           x=json.loads((p/"manifest.json").read_text())
           assert len(x)==2 and {r['code'] for r in x}=={'CA','WI'}
           assert all(r['status']=='downloaded' for r in x)
@@ -33,7 +33,7 @@ jobs:
           PY
       - name: Integrate 64 explicit inspected plate samples
         run: |
-          python tools/integrate_ca_wi_gallery.py --evidence-dir private-evidence
+          python tools/integrate_ca_wi_gallery.py --evidence-dir harvest-output
           node --check data/catalog-images.js
           node --check tests/catalog-images.cjs
       - name: Verify source selections in application runtime
