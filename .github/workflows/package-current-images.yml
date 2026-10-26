@@ -43,9 +43,12 @@ jobs:
                   assert db.execute('PRAGMA foreign_key_check').fetchall()==[]
                   assert db.execute('SELECT COUNT(*) FROM plates').fetchone()[0]==1138
                   assert db.execute('SELECT COUNT(*) FROM app_image_selections').fetchone()[0]==370
-                  assert db.execute('SELECT COUNT(*) FROM derivatives').fetchone()[0]==740
+                  assert db.execute('SELECT COUNT(*) FROM runtime_image_files').fetchone()[0]==740
+                  unique_assets=db.execute('SELECT COUNT(*) FROM assets').fetchone()[0]
+                  assert 1 <= unique_assets <= 370
+                  assert db.execute('SELECT COUNT(*) FROM derivatives').fetchone()[0]==2*unique_assets
                   assert db.execute('SELECT COUNT(*) FROM app_image_selections WHERE human_approval!=0').fetchone()[0]==0
-                  print('PASS: SQLite 1138 canonical UIDs, 370 source-matched selections, 740 JPEGs, complete hash inventory')
+                  print('PASS: SQLite 1138 canonical UIDs, 370 source-matched selections, 740 UID-indexed JPEGs, deduplicated assets, complete hash inventory')
           print('ZIP sha256',hashlib.sha256(archive.read_bytes()).hexdigest())
           PY
       - name: Store generated package as temporary GitHub Actions artifact
