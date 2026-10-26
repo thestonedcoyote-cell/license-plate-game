@@ -1,47 +1,34 @@
-# LPG — Active plate image campaign queue
+# License Plate Game — current plate-image campaign queue
 
-**Verified checkpoint:** October 26, 2026 (America/Los_Angeles). Refresh GitHub main and Actions results before working; this is not an unattended scheduling system.
+**Verified October 26, 2026.** Refresh GitHub main and library evidence before any new writes. This is an active execution queue, not an unattended task.
 
-## Current truth
+## Where we are
+- Frozen canonical runtime: **1,138 unique UIDs**, 58 represented jurisdictions.
+- **502 source-matched plate design examples** (WA 54, OR 19, AK 41, MS 35, TX 157, CA 33, WI 31, **FL 132**). Coverage **44.1%**; **636** still lack matched official images. **1,004 public display/thumbnail JPEGs** staged for web/offline Android source.
+- The Florida integration PR #39 merged `a2e7f921aa7234a7244eb6f285f72af784f537ae`, Pages deploy run **40410709517 PASS**, all four PR CI checks passed. All 132 FL source xrefs/page images/hashes were compared to the official 2026 issuing-agency 27-page brochure.
+- All current matches are `source_matched`, **not era-verified or human-approved**, and no independently adjudicated copyright clearance is claimed. Three historical report candidates remain outside canonical runtime.
+- Official source-lead coverage remains **26 of 58 jurisdictions**. Other 32 require government source discovery.
+- **Signed stable Android release and real in-place upgrade/data-preservation acceptance are still pending.** CI debug builds are not a signed distribution channel.
 
-- Repository: `thestonedcoyote-cell/license-plate-game`. Frozen app catalog: **1,138 canonical plate UIDs** across 58 jurisdictions.
-- Source-matched plate images: **370** = WA 54 + OR 19 + AK 41 + MS 35 + TX 157 + CA 33 + WI 31.
-- Remaining original catalog UIDs lacking acquired source images: **768** (67.5%). Runtime image derivatives: **740 JPGs**. Separate original 291 schematic baseline must not be mixed into source-image coverage.
-- **All 370 remain `era_status=unverified`, `human_approval=false`.** The owner-directed fair-use reference rationale is separate from original image licenses and from any legal ruling.
-- Three historical report-scope plate candidates are not part of the 1,138 runtime IDs.
-- **Source discovery leads:** 26 of 58 represented jurisdictions; 32 still need reviewed agency sources.
-- GitHub image integration PRs: WA earlier; Oregon [#21](https://github.com/thestonedcoyote-cell/license-plate-game/pull/21), Alaska/Mississippi [#24](https://github.com/thestonedcoyote-cell/license-plate-game/pull/24), Texas [#28](https://github.com/thestonedcoyote-cell/license-plate-game/pull/28), California/Wisconsin [#32](https://github.com/thestonedcoyote-cell/license-plate-game/pull/32).
-- California/Wisconsin merged image commit `f08d21b604ccb2bf00336dfd07cc591a0ed1307e` **passed** Pages deployment run `40394284189` and four PR checks (app, cloud, audit, Android debug APK). **No stable signed Android distribution update has been published or physically verified.**
+## Durable checkpoints
+- **Current portable SQLite/runtime images:** `LPG_Reference_Image_Snapshot_2026_10_26_502.zip`; private Library `libfile_d3e43441cc2881918db696dde9c0c810`; SHA-256 `cbcd39a71f15a3ed57943c5f4e52d215d8a28175534ba4347ebb187899f8cdc0`; 21,596,295 bytes; ZIP integrity, **1,017** file/hash checks, SQLite integrity and foreign keys PASSED. Tables contain 1,138 canonical catalog rows, 502 selections, 1,004 UID-indexed JPEGs, 501 content-addressed assets, 1,002 derivatives, 1 shared-image issue (TX-00013/TX-00029).
+- **Private official Florida raw evidence:** Library `libfile_75203fd8f7c88191945305ea94c0075c`. Official 2026 brochure SHA-256 `d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a`; 2025 brochure preserved separately in same source archive. This is not distributed with app.
+- **Official CA/NV/WI/IN originals:** Library `libfile_01707d71188c819192f9c43b2b535279`. The harvested Nevada gallery contains 115 assets, not yet mapped to design UIDs; official Indiana page exposed just two images, requires supplementary sources.
+- **Official Texas/Alaska/Mississippi original harvest:** Library `libfile_745e40877fcc8191a3476a2c1bbe2313`.
+- **Official Oregon source archive:** Library `libfile_1c9a2771f7308191b85009db82c688da`.
+- **Prior 370 runtime snapshot:** Library `libfile_91645e0e5f8c81919a51f66fe86c79df` (preserved historical state).
+- **Prior 149 deep research archive:** Library `libfile_e9eea656eb5081918bc7eeb3e0c56278` (not replaced by runtime-only DB).
 
-## Archived sources and data
+## Next executable priorities
+1. **P1 Nevada:** Inspect 115 acquired official Nevada image candidates; verify labels/identities through source-page HTML context, official detail pages and individual plate appearance before UID matching. Nevada has 84 frozen catalog UIDs; `115 downloaded assets` does not imply 84 matched plates.
+2. **P1 next bulk source batch:** Acquire original government plate brochures and galleries in Minnesota, Nebraska, Alabama and Connecticut. Save GitHub harvest output into private Library immediately before retention expiry. Do not approve plate images automatically.
+3. **P1 Indiana/remaining jurisdictions:** Expand reviewed official sources for Indiana's 7 UIDs; discover official sources for the 32 jurisdictions lacking leads, prioritizing highest catalog gaps.
+4. **P1 integration:** For each batch, preserve immutable UIDs, source identity/caption, original SHA-256, display/thumbnail hash, status distinctions, and use a generated review PR before web production. Verify offline cache/Identify/catalog/collection and app/cloud/audit/Android CI, then verify Pages deployment.
+5. **P2 mobile distribution:** Validate a single stable signed Android identity, in-place update from existing installation, retained local sightings/notebook/photos, camera and native installer; only publish a latest/stable in-app update after physical acceptance.
+6. **P3 content audit:** Resolve shared-image Texas pair, historical design variants and original licensing/permission questions; build Find the Differences reviewer separately from basic sourced-image ingestion.
 
-| Artifact | Location / verified identity | Notes |
-| --- | --- | --- |
-| Washington source evidence | Library `plate-image-evidence-batch01-WA.zip` | Previously saved, supports original 54 matches |
-| Oregon 38-page official DMV PDF and evidence | Library `libfile_1c9a2771f7308191b85009db82c688da` | Previously pinned exact source hash |
-| Texas/Florida/Alaska/Mississippi harvest | Library `libfile_745e40877fcc8191a3476a2c1bbe2313` | Official Texas guide and AK/MS galleries downloaded; 2026 FL PDF HTTP 403 |
-| Texas 157 sample contact-sheet review | Library `libfile_a579570cad5c8191b1b1a39f4c692214` | 157 name/image pairs; 7 unresolved and excluded |
-| CA/NV/WI/IN 2026-10-26 original source archive | Library `libfile_01707d71188c819192f9c43b2b535279` | 4 agency source pages, 316 downloaded images, one CA per-asset error; ZIP SHA-256 `9ff45ee8c88571dba1a14f1ea6f817adc7ea03f119d9739b59d87656d2e97e30` |
-| Current portable runtime SQLite/JPEG ZIP | Library `libfile_91645e0e5f8c81919a51f66fe86c79df` | **370 source-matched selections; 1,138 canonical UIDs, 740 JPEG paths, SQLite integrity and file hashes PASS**; SHA-256 `cc32ee6cf15250b75babea868cdf9749ec2a00921ef0fa5706196c817a28b251`. This is a runtime image snapshot, **not original issuing-agency source archive**. |
-| Previous deep-research SQLite/evidence ZIP | Library `libfile_e9eea656eb5081918bc7eeb3e0c56278` | Preserved historical 149-image research dataset; three separate report candidates not imported into current runtime snapshot. |
+## Hard stop conditions
+Do not present agency source download counts as images matched to catalog UIDs. Do not publish image interpretations when ID, design or era conflicts. Do not publish original government source PDFs or private signing credentials to the public repository. Never claim a stable signed update or final artwork approval without a real acceptance result.
 
-## Highest priority execution
-
-1. **Portable snapshot COMPLETE:** Run `40407467478` and Library `libfile_91645e0e5f8c81919a51f66fe86c79df`. Preserve distinct earlier research archive. The new package has 370 selections/740 published JPEG copies, and one flagged byte-identical display-image pair `LPG-US-TX-00013`/`LPG-US-TX-00029` requiring independent identity/era check; do not auto-promote approval.
-2. **Recover Florida at scale.** The official 2026 illustrated brochure `https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf` returned 403 on runner. Three alternate FLHSMV sources are registered for a controlled October 26 harvest: official illustrated 10/2025 brochure, official standard plate page, and official specialty plates page. The current 1/2026 PDF previously returned HTTP 403. All alternates remain retrieval-only leads; no Florida source images are yet credited to app coverage. Search authoritative alternate agency image pages/official samples, not unrelated commercial art. Florida has 132 immutable catalog UIDs; do not mark any matched until sources and era correspond.
-3. **Process remaining source archive.** Nevada has **115** downloaded candidate gallery image assets, mostly with absent alt labels; require visual+filename+agency label crosscheck for its 84 catalog designs. Indiana's official page exposed only **two** image assets (one plate example); additional official nested design pages/source retrieval needed for its seven UIDs. California retains 15 unmatched; Wisconsin 18. A Wisconsin official image labeled "Civil Air Patrol" depicted unrelated "Spay, Neuter, Adopt" and must remain excluded pending correction. Do not automatically count official gallery file totals as plate identities.
-4. **Expand jurisdiction source coverage.** 32 of 58 represented jurisdictions lack an approved source lead. Prioritize larger gaps by catalog UIDs, beginning AK? (AK already has reviewed sources) and other >10-UID jurisdictions using `data/image-campaign/source-registry.json`; capture explicit licensing statements and year evidence when present.
-5. **Iterative integration:** For each bounded batch, review source plate artwork and one-to-one immutable UID, pin original SHA-256, generate non-upscaled thumbnails/display images, update manifest, offline service worker cache and focused browser regression; run strict Trash, web/cloud and Android build CI. Generate a review PR before merging. Preserve original-source archives into Library; GitHub Actions artifacts expire.
-6. **Mobile release gate:** Sign with the existing distribution certificate identity, perform **in-place upgrade** on Android without uninstalling (sightings/notebook data must remain), test native photo picker/camera/offline cache update, publish actual APK/release feed only after physical acceptance. A green CI debug APK is not acceptance.
-
-## Failure lessons and protections
-
-- October 26 source harvest recovery run `40386466698` succeeded and original ZIP was preserved to Library.
-- TX generator first returned 159 nominal names, where only 157 had been preflight-approved. Enforced an explicit seven-UID exclusion; successful verified Texas run `40390240521`.
-- CA/WI original-artifact Actions token received HTTP 401; no source bytes were accepted from an unauthorized job. Workflow was corrected to reacquire issuing-agency pages and check each reviewed image against **independent archived original SHA-256 pins** in `data/image-batches/ca-wi-original-hashes.txt`.
-- First reacquisition used a different output-directory name; path normalization fixed via exact output-folder convention. Successful generation run `40393840418`, generated review PR #32 merged and Pages deployment succeeded.
-- Never infer legal clearance, issue era, or human visual approval from matching official labels, images, or hashes. Never substitute an unrelated plate design to force complete coverage. Do not place original raw bulk research archives or signing secrets in the public app.
-
-## Exact next step
-
-Produce a refreshed **370-sample portable image/SQLite database** using the live manifest and its 740 JPEG derivatives. If that step cannot be completed in the current surface, continue by acquiring/reconciling the next official gallery evidence while preserving current app source/deployment and all recorded provenance.
+## Exact next action
+Use the reviewed official source registry to harvest MN, NE, AL and CT as a bounded, source-hashed research batch. Archive the result immediately, then continue with one-to-one review and integration while keeping the 502-image runtime checkpoint intact.
