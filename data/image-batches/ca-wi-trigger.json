@@ -11,5 +11,9 @@
   "expected_remaining": 768,
   "excluded_example": "WI Civil Air Patrol mislabeled as Spay/Neuter/Adopt on source page",
   "generated_branch": "generated/california-wisconsin-64-source-images-20261026",
-  "release_policy": "review branch only; no historical-era or rights approvals; no stable signed Android APK"
+  "release_policy": "review branch only; no historical-era or rights approvals; no stable signed Android APK",
+  "attempt": 2,
+  "last_failure": "Prior run 40392534386: GitHub Actions artifact read HTTP 401, no plate assets generated; runner now reacquires CA/WI official pages and checks all 64 source hashes against preserved original archive.",
+  "original_source_hash_file": "data/image-batches/ca-wi-original-hashes.txt",
+  "expected_source_images": 64
 }
