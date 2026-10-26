@@ -1,0 +1,15 @@
+{
+  "batch_id": "LPG-CA-WI-20261026-01",
+  "official_source_run": 40386466698,
+  "official_source_artifact": "official-plate-harvest-40386466698",
+  "source_archive_library_id": "libfile_01707d71188c819192f9c43b2b535279",
+  "reviewed_map": "data/image-batches/ca-wi-reviewed-map.txt",
+  "selected_previous": 306,
+  "add_california": 33,
+  "add_wisconsin": 31,
+  "expected_selected_after_review": 370,
+  "expected_remaining": 768,
+  "excluded_example": "WI Civil Air Patrol mislabeled as Spay/Neuter/Adopt on source page",
+  "generated_branch": "generated/california-wisconsin-64-source-images-20261026",
+  "release_policy": "review branch only; no historical-era or rights approvals; no stable signed Android APK"
+}
