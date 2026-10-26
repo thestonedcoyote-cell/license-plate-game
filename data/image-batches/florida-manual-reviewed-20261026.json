@@ -1,0 +1,2393 @@
+{
+  "source_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+  "source_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+  "source_type": "flhsmv_official_plate_samples_brochure_2026",
+  "source_published_revision": "1-2026",
+  "source_pages": 27,
+  "selected_count": 132,
+  "existing_catalog_size": 1138,
+  "selected_preexisting": 370,
+  "expected_total": 502,
+  "expected_remaining": 636,
+  "reviews": "position-matched source candidates; final human and issue era approvals NOT completed",
+  "rows": [
+    {
+      "uid": "LPG-US-FL-00001",
+      "name": "Sunshine State",
+      "printed_caption": "Sunshine State",
+      "pdf_page": 2,
+      "xref": 25,
+      "image_rect": [
+        65.628,
+        69.374,
+        226.621,
+        130.885
+      ],
+      "delta": 5.71,
+      "source_image_sha256": "92baf21de7095aaefd2da6637f27817d7166e7276b8150787eaf9bb1785144ad",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00002",
+      "name": "County Name",
+      "printed_caption": "County Name",
+      "pdf_page": 2,
+      "xref": 26,
+      "image_rect": [
+        257.947,
+        68.449,
+        418.555,
+        131.81
+      ],
+      "delta": 3.86,
+      "source_image_sha256": "9c5b5fb01f30f2ee6f4353127f7e070aff62137c151c00f5e46fd1d537f75efa",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00003",
+      "name": "In God We Trust",
+      "printed_caption": "In God We Trust",
+      "pdf_page": 2,
+      "xref": 27,
+      "image_rect": [
+        436.821,
+        68.448,
+        599.955,
+        132.272
+      ],
+      "delta": 3.24,
+      "source_image_sha256": "43e6dc5fb6484cca826ece1647a6f840865fcf411f5d57fcbfa7f7c3822a7440",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00004",
+      "name": "America 250",
+      "printed_caption": "America 250",
+      "pdf_page": 2,
+      "xref": 28,
+      "image_rect": [
+        255.698,
+        155.398,
+        416.243,
+        213.209
+      ],
+      "delta": 1.81,
+      "source_image_sha256": "51c4cae7d7b19b146d5c23f0b8788fcf7ab1f1231e411fe43e2ab729fbdf3062",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00005",
+      "name": "Advent Health University",
+      "printed_caption": "Advent Health University",
+      "pdf_page": 2,
+      "xref": 21,
+      "image_rect": [
+        64.38,
+        305.836,
+        227.073,
+        385.06
+      ],
+      "delta": 6.63,
+      "source_image_sha256": "afd76de6fb640f7c78c1caa55933a28056cb2ea3fded331510c18f3899eacaa3",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00006",
+      "name": "Auburn University",
+      "printed_caption": "Auburn University",
+      "pdf_page": 2,
+      "xref": 29,
+      "image_rect": [
+        255.296,
+        306.633,
+        417.63,
+        386.643
+      ],
+      "delta": 4.32,
+      "source_image_sha256": "e2c5c1e8c68f8b83f6dac10b123748c6abd263967df023333c47dca2cbf3fc68",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00007",
+      "name": "Ave Maria University",
+      "printed_caption": "Ave Maria University",
+      "pdf_page": 2,
+      "xref": 22,
+      "image_rect": [
+        435.822,
+        306.632,
+        597.692,
+        386.536
+      ],
+      "delta": 6.28,
+      "source_image_sha256": "eb2b4b828124b84ee4846af04adc0dbf0b220aed75d7aaf17c9788f96c5b5ab3",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00008",
+      "name": "Barry University",
+      "printed_caption": "Barry University",
+      "pdf_page": 2,
+      "xref": 30,
+      "image_rect": [
+        63.851,
+        417.383,
+        225.566,
+        497.641
+      ],
+      "delta": 14.17,
+      "source_image_sha256": "d5ad172a8f531f3c44747e3749d07e88fb243edae63670874ac4286c24d004f5",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00009",
+      "name": "Beacon College",
+      "printed_caption": "Beacon College",
+      "pdf_page": 2,
+      "xref": 32,
+      "image_rect": [
+        256.12,
+        416.99,
+        419.093,
+        498.266
+      ],
+      "delta": 14.28,
+      "source_image_sha256": "9d81b8387834946eea97c43ef7001d2454ea57c3ad0be7cf1089aec838bcac7d",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00010",
+      "name": "Bethune-Cookman University",
+      "printed_caption": "Bethune-Cookman University",
+      "pdf_page": 2,
+      "xref": 31,
+      "image_rect": [
+        436.05,
+        416.55,
+        598.907,
+        497.297
+      ],
+      "delta": 14.5,
+      "caption_exception": "two adjacent PDF text spans form the single caption",
+      "source_image_sha256": "7153c87fb96ebc951192cea2c51fb11e882dcd1a05e060cb258d438a91241abb",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00011",
+      "name": "Eckerd College",
+      "printed_caption": "Eckerd College",
+      "pdf_page": 2,
+      "xref": 33,
+      "image_rect": [
+        63.851,
+        541.688,
+        222.922,
+        621.708
+      ],
+      "delta": 12.58,
+      "source_image_sha256": "80a5bb07e4d45b7650a56661024f8fb87b45a127ddf357ddfce3c3c4693198be",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00012",
+      "name": "Edward Waters University",
+      "printed_caption": "Edward Waters  University",
+      "pdf_page": 2,
+      "xref": 35,
+      "image_rect": [
+        256.164,
+        544.263,
+        418.754,
+        625.122
+      ],
+      "delta": 10.65,
+      "source_image_sha256": "702363f08c670e6e094f4c801cfe08f81eb52fac0883b1a1affc752438f54651",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00013",
+      "name": "Embry-Riddle Aeronautical University",
+      "printed_caption": "Embry-Riddle Aeronautical University",
+      "pdf_page": 2,
+      "xref": 34,
+      "image_rect": [
+        438.579,
+        542.267,
+        598.927,
+        624.041
+      ],
+      "delta": 14.5,
+      "caption_exception": "two adjacent PDF text spans form the single caption",
+      "source_image_sha256": "4f9ca92c9f8e055e47adada03eaafc5ef6c0ab8fe14832b78a20f86f0325f2a8",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00014",
+      "name": "Everglades University",
+      "printed_caption": "Everglades University",
+      "pdf_page": 2,
+      "xref": 36,
+      "image_rect": [
+        64.93,
+        665.063,
+        223.602,
+        743.687
+      ],
+      "delta": 8.28,
+      "source_image_sha256": "b2bc76340555d0e73cd2a16ab98d88f9acf6293443cd2f4eff76481502495fb6",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00015",
+      "name": "Flagler College",
+      "printed_caption": "Flagler College",
+      "pdf_page": 2,
+      "xref": 23,
+      "image_rect": [
+        256.442,
+        664.586,
+        418.814,
+        742.633
+      ],
+      "delta": 7.66,
+      "source_image_sha256": "7ef74a2fc22de6689d9a73ad1d1c5b09cd1762f1135bc3e633df44b491d7d0f7",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00016",
+      "name": "Florida A&M University",
+      "printed_caption": "Florida A&M University",
+      "pdf_page": 2,
+      "xref": 24,
+      "image_rect": [
+        438.339,
+        664.6,
+        598.351,
+        742.248
+      ],
+      "delta": 9.79,
+      "source_image_sha256": "355a0aace85124bd327964f2ef2f1bfbcc7e4569dedbaed34b323b4b79896126",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00017",
+      "name": "Florida Atlantic University",
+      "printed_caption": "Florida Atlantic University",
+      "pdf_page": 3,
+      "xref": 56,
+      "image_rect": [
+        63.784,
+        169.734,
+        225.696,
+        251.596
+      ],
+      "delta": 17.7,
+      "source_image_sha256": "3dc4ba8c2b676e142d4cc31cae14fcccf02c6377aae9d1d20316295d7b5926b5",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00018",
+      "name": "Florida College",
+      "printed_caption": "Florida College",
+      "pdf_page": 3,
+      "xref": 53,
+      "image_rect": [
+        250.67,
+        169.719,
+        418.092,
+        252.254
+      ],
+      "delta": 17.37,
+      "source_image_sha256": "d5a3184625aa515a4713753e842d0f66ba788d3e73471f643ccfcc8aa6ab0ca4",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00019",
+      "name": "Florida Gulf Coast University",
+      "printed_caption": "Florida Gulf Coast University",
+      "pdf_page": 3,
+      "xref": 52,
+      "image_rect": [
+        438.443,
+        170.182,
+        597.54,
+        253.344
+      ],
+      "delta": 17.14,
+      "source_image_sha256": "db33162cc5b0ab14f4bf4483c8e3136d351280043386416a60b3b12d80bd17d5",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00020",
+      "name": "Florida Institute of Technology",
+      "printed_caption": "Florida Institute of Technology",
+      "pdf_page": 3,
+      "xref": 57,
+      "image_rect": [
+        63.943,
+        330.884,
+        225.786,
+        413.663
+      ],
+      "delta": 13.6,
+      "source_image_sha256": "809a93f27d466e370b52b24289d1d5b05d91ac54686e55d588e4e054f8bcd19c",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00021",
+      "name": "Florida International University",
+      "printed_caption": "Florida International University",
+      "pdf_page": 3,
+      "xref": 59,
+      "image_rect": [
+        252.058,
+        330.681,
+        418.093,
+        413.482
+      ],
+      "delta": 14.62,
+      "source_image_sha256": "d5cbf0051a77f5b83a3e3a6df953bc52f3e2bd567f0895c56236bf053d2bb161",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00022",
+      "name": "Florida Memorial University",
+      "printed_caption": "Florida Memorial University",
+      "pdf_page": 3,
+      "xref": 58,
+      "image_rect": [
+        438.94,
+        330.633,
+        599.852,
+        413.828
+      ],
+      "delta": 14.76,
+      "source_image_sha256": "fb176dbe66f322f3c3b1babcaa55792b92d170d409a3d88da69222bb851a819a",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00023",
+      "name": "Florida Southern College",
+      "printed_caption": "Florida Southern College",
+      "pdf_page": 3,
+      "xref": 60,
+      "image_rect": [
+        64.554,
+        484.406,
+        224.904,
+        569.873
+      ],
+      "delta": 21.01,
+      "source_image_sha256": "5f512bd952ec8a937b44a743d05758a7c6faa9130b6a71364a4f7853166fa2bb",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00024",
+      "name": "Florida State University",
+      "printed_caption": "Florida State University",
+      "pdf_page": 3,
+      "xref": 61,
+      "image_rect": [
+        252.611,
+        484.74,
+        417.168,
+        571.882
+      ],
+      "delta": 19.12,
+      "source_image_sha256": "003ccea9712cdbee16809bad02f289badb92c587d3dafdca0c1d2c59e886608c",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00025",
+      "name": "Jacksonville University",
+      "printed_caption": "Jacksonville University",
+      "pdf_page": 3,
+      "xref": 62,
+      "image_rect": [
+        437.736,
+        484.372,
+        601.458,
+        572.023
+      ],
+      "delta": 19.56,
+      "source_image_sha256": "ec9fa31725ff575b02a14201a1c9c9fc5ad94d1c275a773a1fa4f5c75fc778ed",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00026",
+      "name": "Keiser University",
+      "printed_caption": "Keiser University",
+      "pdf_page": 3,
+      "xref": 63,
+      "image_rect": [
+        66.614,
+        639.034,
+        224.308,
+        725.023
+      ],
+      "delta": 11.76,
+      "source_image_sha256": "afd180a76e7c5a09ff88feb3b44c2a0de9f9ec16dfc3c74a97bb6a14a85a57a5",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00027",
+      "name": "Lynn University",
+      "printed_caption": "Lynn University",
+      "pdf_page": 3,
+      "xref": 54,
+      "image_rect": [
+        254.167,
+        638.716,
+        417.168,
+        724.198
+      ],
+      "delta": 12.93,
+      "source_image_sha256": "ab533f1cb5ed4d04d24a2f3af6e85b675acad4d0ce6a04c993a7912f12f003f6",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00028",
+      "name": "New College of Florida",
+      "printed_caption": "New College of Florida",
+      "pdf_page": 3,
+      "xref": 55,
+      "image_rect": [
+        438.208,
+        638.702,
+        600.777,
+        723.337
+      ],
+      "delta": 14.18,
+      "source_image_sha256": "f3d6c95f8f6944261271b7b1cac8c6e180dc891a62b7d7969b3d3bd6429f1895",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00029",
+      "name": "Nova Southeastern University",
+      "printed_caption": "Nova Southeastern University",
+      "pdf_page": 4,
+      "xref": 84,
+      "image_rect": [
+        54.882,
+        129.695,
+        226.234,
+        211.548
+      ],
+      "delta": 10.79,
+      "source_image_sha256": "a93651c2a7a5c1886ed2919283642d8f5a7db4289196818aaf89f3d8f05a1d66",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00030",
+      "name": "Palm Beach Atlantic University",
+      "printed_caption": "Palm Beach Atlantic University",
+      "pdf_page": 4,
+      "xref": 85,
+      "image_rect": [
+        252.63,
+        129.85,
+        422.723,
+        211.674
+      ],
+      "delta": 11.11,
+      "source_image_sha256": "35d9c463c70a19cd26967f16aca909e228ee78b061cfd601d4aab45a7e3322ee",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00031",
+      "name": "Ringling College of Art and Design",
+      "printed_caption": "Ringling College of Art and Design",
+      "pdf_page": 4,
+      "xref": 90,
+      "image_rect": [
+        438.644,
+        130.294,
+        601.701,
+        211.572
+      ],
+      "delta": 12.53,
+      "source_image_sha256": "33021c0652fa4be58ee79d7a36972724698ba676b0f5bd1c2774daa3afebde16",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00032",
+      "name": "Rollins College",
+      "printed_caption": "Rollins College",
+      "pdf_page": 4,
+      "xref": 91,
+      "image_rect": [
+        54.199,
+        261.007,
+        226.472,
+        344.38
+      ],
+      "delta": 17.27,
+      "source_image_sha256": "6ee56ad64c79c6453a16d19a7b7749c3cb701c4245caa92c01ae65e443aa1d58",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00033",
+      "name": "Saint Leo University",
+      "printed_caption": "Saint Leo University",
+      "pdf_page": 4,
+      "xref": 93,
+      "image_rect": [
+        251.967,
+        261.007,
+        422.585,
+        345.217
+      ],
+      "delta": 18.03,
+      "source_image_sha256": "7aaa8be29e7ce1e5c09176506c1cb101a2afa0c2fd8efe9a265e7dccd8ac0402",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00034",
+      "name": "Saint Thomas University",
+      "printed_caption": "Saint Thomas University",
+      "pdf_page": 4,
+      "xref": 92,
+      "image_rect": [
+        440.701,
+        259.751,
+        600.777,
+        345.018
+      ],
+      "delta": 17.74,
+      "source_image_sha256": "aa5fa5586d5973252d931b64574621b2d66c307eb2d0c55c125b6699f91881da",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00035",
+      "name": "Southeastern University",
+      "printed_caption": "Southeastern University",
+      "pdf_page": 4,
+      "xref": 94,
+      "image_rect": [
+        53.455,
+        396.329,
+        224.978,
+        478.864
+      ],
+      "delta": 9.4,
+      "source_image_sha256": "3bef06ef3eaf2c47c65890b0b9c2a646c0255471dbb9051eaceeac8bf9c750bd",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00036",
+      "name": "Stetson University",
+      "printed_caption": "Stetson University",
+      "pdf_page": 4,
+      "xref": 95,
+      "image_rect": [
+        251.371,
+        395.872,
+        422.304,
+        478.863
+      ],
+      "delta": 10.12,
+      "source_image_sha256": "af94f45df914f4669665245f95f425321da573b263e84d6c123dd676a9f6cad9",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00037",
+      "name": "University of Alabama",
+      "printed_caption": "University of Alabama",
+      "pdf_page": 4,
+      "xref": 96,
+      "image_rect": [
+        439.437,
+        395.43,
+        601.702,
+        479.141
+      ],
+      "delta": 10.02,
+      "source_image_sha256": "5757649aaf8e5f6b20748c4b8656a4826f2801f27aa02b89febbeebb7ace5dfc",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00038",
+      "name": "University of Central Florida",
+      "printed_caption": "University of Central Florida",
+      "pdf_page": 4,
+      "xref": 97,
+      "image_rect": [
+        53.754,
+        527.241,
+        224.133,
+        613.264
+      ],
+      "delta": 12.11,
+      "source_image_sha256": "b483922b8ec81d6aea1837e5376538076c8b43f6dc01e0696ee643ae494bc8ca",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00039",
+      "name": "University of Florida",
+      "printed_caption": "University of Florida",
+      "pdf_page": 4,
+      "xref": 86,
+      "image_rect": [
+        252.314,
+        525.364,
+        421.938,
+        614.823
+      ],
+      "delta": 7.76,
+      "source_image_sha256": "cfd9ae995e3092bd42a06eda903bb28a96183b92a44e4a0e01754aa2aaefd5e5",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00040",
+      "name": "University of Georgia",
+      "printed_caption": "University of Georgia",
+      "pdf_page": 4,
+      "xref": 87,
+      "image_rect": [
+        438.034,
+        526.188,
+        600.777,
+        614.041
+      ],
+      "delta": 11.55,
+      "source_image_sha256": "8d065928798d45059460d4d4ffa6b76eb86e8c8a033917e9f62a665eb3f90194",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00041",
+      "name": "University of Miami",
+      "printed_caption": "University of Miami",
+      "pdf_page": 4,
+      "xref": 88,
+      "image_rect": [
+        144.144,
+        654.566,
+        314.088,
+        741.374
+      ],
+      "delta": 9.8,
+      "source_image_sha256": "bba5abe343e8eec7dd53c1cc4386994c0d13dab2db7b9a9e3324221bb6bf961a",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00042",
+      "name": "University of North Florida",
+      "printed_caption": "University of North Florida",
+      "pdf_page": 4,
+      "xref": 89,
+      "image_rect": [
+        358.273,
+        655.065,
+        526.317,
+        740.912
+      ],
+      "delta": 10.59,
+      "source_image_sha256": "4ffae89fae23c5a1d5f0599b410bb1f2ac683dc0a01c0746d181afe432c3ec69",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00043",
+      "name": "University of South Florida",
+      "printed_caption": "University of South Florida",
+      "pdf_page": 5,
+      "xref": 105,
+      "image_rect": [
+        55.037,
+        140.228,
+        222.922,
+        226.528
+      ],
+      "delta": 11.78,
+      "source_image_sha256": "2c762677a4376a0d25e9d2c1e21b4e9592e0940720e889815b3d54fa0faa971f",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00044",
+      "name": "University of Tampa",
+      "printed_caption": "University of Tampa",
+      "pdf_page": 5,
+      "xref": 106,
+      "image_rect": [
+        250.901,
+        141.56,
+        412.775,
+        225.696
+      ],
+      "delta": 12.61,
+      "source_image_sha256": "a84de6dd361fbd5c0cb772569aae0c4760e9718156c492027b9898759165cf88",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00045",
+      "name": "University of West Florida",
+      "printed_caption": "University of West Florida",
+      "pdf_page": 5,
+      "xref": 107,
+      "image_rect": [
+        440.165,
+        141.06,
+        610.678,
+        225.696
+      ],
+      "delta": 12.07,
+      "source_image_sha256": "977ed1cc6199a9d6ea6c9f0571c4e828e9cbe682bb4ab99cfeda5cf3bbdfac67",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00046",
+      "name": "Warner College",
+      "printed_caption": "Warner College",
+      "pdf_page": 5,
+      "xref": 108,
+      "image_rect": [
+        141.183,
+        292.578,
+        308.639,
+        383.91
+      ],
+      "delta": 14.15,
+      "source_image_sha256": "46ffce6373fa8e04e958dc3db7e4ecd5bb97af29afa3285f551493cbb592359e",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00047",
+      "name": "Webber International University",
+      "printed_caption": "Webber International University",
+      "pdf_page": 5,
+      "xref": 109,
+      "image_rect": [
+        356.827,
+        293.066,
+        530.694,
+        383.56
+      ],
+      "delta": 13.78,
+      "source_image_sha256": "78919acb44ebb5ab4db26df24af7e5fab014c3a79611bcf49d93e536014abeb7",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00048",
+      "name": "Animal Friend",
+      "printed_caption": "Animal Friend",
+      "pdf_page": 6,
+      "xref": 128,
+      "image_rect": [
+        38.194,
+        107.027,
+        198.47,
+        191.134
+      ],
+      "delta": 14.68,
+      "source_image_sha256": "bfdcd4a37f837323325b87942b1b1adf1869b8739b52e61c1f18c058e28ff6a0",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00049",
+      "name": "Aquaculture",
+      "printed_caption": "Aquaculture",
+      "pdf_page": 6,
+      "xref": 129,
+      "image_rect": [
+        244.748,
+        106.963,
+        407.222,
+        190.193
+      ],
+      "delta": 15.2,
+      "source_image_sha256": "dd8573748d76dc7b40ba8e59c4fcf9ee68ba36f7be08f026683092c28f0ba517",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00050",
+      "name": "Bonefish & Tarpon Trust",
+      "printed_caption": "Bonefish & Tarpon Trust",
+      "pdf_page": 6,
+      "xref": 132,
+      "image_rect": [
+        462.492,
+        108.339,
+        622.977,
+        190.084
+      ],
+      "delta": 15.23,
+      "source_image_sha256": "f373e78747b11fd1499f0bd1092fa4727af2b8ae2c804b65b624d9eff38d4bb4",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00051",
+      "name": "Conserve Florida's Fisheries",
+      "printed_caption": "Conserve Florida's Fisheries",
+      "pdf_page": 6,
+      "xref": 133,
+      "image_rect": [
+        37.74,
+        246.396,
+        201.132,
+        327.253
+      ],
+      "delta": 13.21,
+      "source_image_sha256": "2436bf7eebe9fab417fa5a6f8576912274bb4dac794cb296c387d9f891e79916",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00052",
+      "name": "Conserve Wildlife",
+      "printed_caption": "Conserve Wildlife",
+      "pdf_page": 6,
+      "xref": 134,
+      "image_rect": [
+        243.372,
+        246.256,
+        405.665,
+        326.695
+      ],
+      "delta": 13.5,
+      "source_image_sha256": "54695dd3566c6e9133c2e97353b2acc2a64fdf23141ba56b7b01e6487ae03c0d",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00053",
+      "name": "Discover Florida’s Horses",
+      "printed_caption": "Discover Florida’s Horses",
+      "pdf_page": 6,
+      "xref": 135,
+      "image_rect": [
+        460.616,
+        246.401,
+        622.282,
+        324.556
+      ],
+      "delta": 15.44,
+      "source_image_sha256": "d7ee5ad6f385e9d9c3d1f052bce7f5d14268284bfb6e4346e8e77b2926a2bcd9",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00054",
+      "name": "Discover Florida’s Oceans",
+      "printed_caption": "Discover Florida’s Oceans",
+      "pdf_page": 6,
+      "xref": 136,
+      "image_rect": [
+        37.184,
+        389.998,
+        199.335,
+        469.429
+      ],
+      "delta": 21.7,
+      "source_image_sha256": "b737e2e68058bc5dac01dfc46b5ce20642d03b662fe6c0a3434b10fe293650cf",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00055",
+      "name": "Ducks Unlimited",
+      "printed_caption": "Ducks Unlimited",
+      "pdf_page": 6,
+      "xref": 137,
+      "image_rect": [
+        244.878,
+        390.746,
+        407.791,
+        473.446
+      ],
+      "delta": 17.47,
+      "source_image_sha256": "7a8d53aebcd7f8d2670f09f388ebe5455ae0325d855fafc682d1f7b5eca89cdc",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00056",
+      "name": "Endless Summer",
+      "printed_caption": "Endless Summer",
+      "pdf_page": 6,
+      "xref": 138,
+      "image_rect": [
+        459.489,
+        389.489,
+        621.625,
+        473.933
+      ],
+      "delta": 17.33,
+      "source_image_sha256": "bf93f8dbeee46986e27cb442d856fd8d6e20dfbde18bb8f4a36b961c3645e5f8",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00057",
+      "name": "Explore Off Road",
+      "printed_caption": "Explore Off Road",
+      "pdf_page": 6,
+      "xref": 139,
+      "image_rect": [
+        38.532,
+        541.846,
+        198.992,
+        615.918
+      ],
+      "delta": 23.92,
+      "source_image_sha256": "c5451566dafddb8a6b4c0dcc0f6396767d1979adfb7b36352196c4e209035ef9",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00058",
+      "name": "Explore Our State Parks",
+      "printed_caption": "Explore Our State Parks",
+      "pdf_page": 6,
+      "xref": 130,
+      "image_rect": [
+        245.554,
+        542.132,
+        407.454,
+        616.413
+      ],
+      "delta": 22.75,
+      "source_image_sha256": "a0beb767e35a5a71a2b63f2a0a1716c7e5b9b2cadfb69141c396542983141ffb",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00059",
+      "name": "Everglades River of Grass",
+      "printed_caption": "Everglades River of Grass",
+      "pdf_page": 6,
+      "xref": 131,
+      "image_rect": [
+        457.169,
+        542.627,
+        619.597,
+        615.324
+      ],
+      "delta": 24.49,
+      "source_image_sha256": "039856a7497634968f28b899d1e0a62d98c98944b90a05926579a49daee4beb2",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00060",
+      "name": "Fish Florida",
+      "printed_caption": "Fish Florida",
+      "pdf_page": 7,
+      "xref": 157,
+      "image_rect": [
+        65.843,
+        126.26,
+        226.608,
+        201.184
+      ],
+      "delta": 12.31,
+      "source_image_sha256": "cf0709d7713502e2322b1080811722deb3aa2c763e19a04d1d302b65a8c990ed",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00061",
+      "name": "Florida Bay Forever",
+      "printed_caption": "Florida Bay Forever",
+      "pdf_page": 7,
+      "xref": 165,
+      "image_rect": [
+        244.518,
+        125.368,
+        408.702,
+        203.529
+      ],
+      "delta": 11.01,
+      "source_image_sha256": "6f78500314a12df24b72c8c6b01a67385db450d6fe27bd3554daa1c4f252d1d5",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00062",
+      "name": "Go Fishing (Largemouth Bass)",
+      "printed_caption": "Go Fishing",
+      "pdf_page": 7,
+      "xref": 158,
+      "image_rect": [
+        437.378,
+        125.871,
+        598.207,
+        205.152
+      ],
+      "delta": 9.22,
+      "source_image_sha256": "0be26b127595d495124733940740f47f17ad89587cdce39d53e92eaed6679631",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00063",
+      "name": "Helping Sea Turtles Survive",
+      "printed_caption": "Helping Sea Turtles Survive",
+      "pdf_page": 7,
+      "xref": 164,
+      "image_rect": [
+        65.774,
+        256.168,
+        226.509,
+        335.434
+      ],
+      "delta": 9.4,
+      "source_image_sha256": "d02679da8a1720f0b8c775d48f7776a6aaa47e5dbf17dffaa0c93fb5c88768fa",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00064",
+      "name": "Indian River Lagoon",
+      "printed_caption": "Indian River Lagoon",
+      "pdf_page": 7,
+      "xref": 168,
+      "image_rect": [
+        243.667,
+        256.142,
+        408.315,
+        336.54
+      ],
+      "delta": 9.78,
+      "source_image_sha256": "1cf81cc1f561331ca0082076e74129417f8efbb56a46a13eb5bee545e57eb6d5",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00065",
+      "name": "Protect Biscayne Bay",
+      "printed_caption": "Protect Biscayne Bay",
+      "pdf_page": 7,
+      "xref": 163,
+      "image_rect": [
+        436.363,
+        258.005,
+        597.528,
+        336.291
+      ],
+      "delta": 9.12,
+      "source_image_sha256": "33f187924eb5d0c3f007e245ae5b516adaee0a6b2c852eb46bfb61f21492d4bb",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00066",
+      "name": "Protect Florida Springs",
+      "printed_caption": "Protect Florida Springs",
+      "pdf_page": 7,
+      "xref": 166,
+      "image_rect": [
+        68.343,
+        382.09,
+        226.945,
+        461.114
+      ],
+      "delta": 9.46,
+      "source_image_sha256": "5e79a687cb6da6ca02a72df5870f570a306a262195e43e57fedc2b835121e075",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00067",
+      "name": "Protect Florida Whales",
+      "printed_caption": "Protect Florida Whales",
+      "pdf_page": 7,
+      "xref": 167,
+      "image_rect": [
+        245.051,
+        382.392,
+        409.306,
+        461.047
+      ],
+      "delta": 8.79,
+      "source_image_sha256": "c79cb0042a0cf3c1b2887f7a750a6b39d2d7b76b36277c378f0bfb29a716c6de",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00068",
+      "name": "Protect Marine Wildlife",
+      "printed_caption": "Protect Marine Wildlife",
+      "pdf_page": 7,
+      "xref": 171,
+      "image_rect": [
+        436.348,
+        382.811,
+        599.852,
+        460.077
+      ],
+      "delta": 9.16,
+      "source_image_sha256": "3386b9404ff5be65addc9bf770c9bd3df3701849b7b73ae8e8782b011b8ca247",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00069",
+      "name": "Protect Our Oceans",
+      "printed_caption": "Protect Our Oceans",
+      "pdf_page": 7,
+      "xref": 169,
+      "image_rect": [
+        66.341,
+        506.962,
+        226.92,
+        585.781
+      ],
+      "delta": 10.92,
+      "source_image_sha256": "656d2769f676b4356246419f21d052d7f64642ec90ef3de44de7b243471d3aab",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00070",
+      "name": "Protect Our Reefs",
+      "printed_caption": "Protect Our Reefs",
+      "pdf_page": 7,
+      "xref": 170,
+      "image_rect": [
+        245.017,
+        508.199,
+        410.17,
+        586.139
+      ],
+      "delta": 10.37,
+      "source_image_sha256": "97d3f423a440dd07fb390d460e38d97dfa5d1240305dc4fb2a7c220ba3f0d640",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00071",
+      "name": "Protect the Gopher Tortoise",
+      "printed_caption": "Protect the Gopher Tortoise",
+      "pdf_page": 7,
+      "xref": 162,
+      "image_rect": [
+        435.981,
+        508.836,
+        600.313,
+        586.44
+      ],
+      "delta": 9.69,
+      "source_image_sha256": "f5898f787af15ebea7973ce413f56287c25a9b424b1cc14072fd7b8f3e642511",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00072",
+      "name": "Protect the Panther",
+      "printed_caption": "Protect the Panther",
+      "pdf_page": 7,
+      "xref": 161,
+      "image_rect": [
+        68.449,
+        628.526,
+        227.083,
+        706.224
+      ],
+      "delta": 13.93,
+      "source_image_sha256": "d3fff74fb69e06bd47eba2bdb83c3ea323119d4ce2db76ba17512019ebe29626",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00073",
+      "name": "Protect Wild Dolphins",
+      "printed_caption": "Protect Wild Dolphins",
+      "pdf_page": 7,
+      "xref": 159,
+      "image_rect": [
+        248.072,
+        628.868,
+        408.777,
+        706.814
+      ],
+      "delta": 12.7,
+      "source_image_sha256": "68710a4054c32d86db7062fc26b7d20dc4235b5e934cf54acacc68b510a1f61d",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00074",
+      "name": "Save Our Seas",
+      "printed_caption": "Save Our Seas",
+      "pdf_page": 7,
+      "xref": 160,
+      "image_rect": [
+        434.948,
+        628.257,
+        600.686,
+        706.163
+      ],
+      "delta": 13.9,
+      "source_image_sha256": "fd00ce98bf987eb188e0104763057497b73a6de32910f279318e2be672f8d7e7",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00075",
+      "name": "Save the Bees",
+      "printed_caption": "Save the Bees",
+      "pdf_page": 8,
+      "xref": 191,
+      "image_rect": [
+        56.479,
+        129.498,
+        215.521,
+        209.047
+      ],
+      "delta": 14.68,
+      "source_image_sha256": "25ceb9b48feed4500864b58ddd7a1cc78b363c700fd8f1aa0813b04b8f04c7e1",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00076",
+      "name": "Save the Manatee",
+      "printed_caption": "Save the Manatee",
+      "pdf_page": 8,
+      "xref": 188,
+      "image_rect": [
+        248.095,
+        128.991,
+        410.692,
+        210.019
+      ],
+      "delta": 14.25,
+      "source_image_sha256": "d1597fc4247c18c282fab310b3cc059f7f23c1811af2612a026cf71317599ccf",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00077",
+      "name": "Save Wild Florida",
+      "printed_caption": "Save Wild Florida",
+      "pdf_page": 8,
+      "xref": 187,
+      "image_rect": [
+        432.996,
+        130.162,
+        592.615,
+        209.429
+      ],
+      "delta": 15.73,
+      "source_image_sha256": "5ae410dc39e7177ae604157e5aba8b916ccf19e340e5db65b3ff1b827a18bbbd",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00078",
+      "name": "State Wildflower",
+      "printed_caption": "State Wildflower",
+      "pdf_page": 8,
+      "xref": 186,
+      "image_rect": [
+        55.137,
+        269.964,
+        215.431,
+        349.382
+      ],
+      "delta": 20.73,
+      "source_image_sha256": "0c288f27790d51113f471d4dde42ba773abf981aba31caf79692e7f1f7d9b5c8",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00079",
+      "name": "Tampa Bay Estuary",
+      "printed_caption": "Tampa Bay Estuary",
+      "pdf_page": 8,
+      "xref": 189,
+      "image_rect": [
+        246.214,
+        269.802,
+        409.788,
+        349.644
+      ],
+      "delta": 20.85,
+      "source_image_sha256": "e9a3b417775ca9b16788b0a959c15f580762cfba7b47a5f8079feb9ef1bd74cc",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00080",
+      "name": "Trees are Cool",
+      "printed_caption": "Trees are Cool",
+      "pdf_page": 8,
+      "xref": 192,
+      "image_rect": [
+        433.355,
+        270.095,
+        592.915,
+        349.181
+      ],
+      "delta": 19.93,
+      "source_image_sha256": "a065ed4753c141441b7339ea8d6f82745852a9fac85268bf24d3ecdf93980d5f",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00081",
+      "name": "Wildlife Foundation of Florida",
+      "printed_caption": "Wildlife Foundation of Florida",
+      "pdf_page": 8,
+      "xref": 190,
+      "image_rect": [
+        55.921,
+        422.119,
+        215.948,
+        498.438
+      ],
+      "delta": 20.52,
+      "source_image_sha256": "a96aa71400002fae8cfcf87c604167d2a6abeba36c26c5a6291d9992463f18fa",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00082",
+      "name": "American Legion",
+      "printed_caption": "American Legion",
+      "pdf_page": 9,
+      "xref": 206,
+      "image_rect": [
+        64.359,
+        84.303,
+        223.773,
+        163.13
+      ],
+      "delta": 15.98,
+      "source_image_sha256": "6bdc6e304d05aaefae9b990f91bfc7bb51a85ff4da165746eac46334b7d908b8",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00083",
+      "name": "Blue Angels",
+      "printed_caption": "Blue Angels",
+      "pdf_page": 9,
+      "xref": 207,
+      "image_rect": [
+        246.74,
+        84.173,
+        414.161,
+        163.259
+      ],
+      "delta": 15.32,
+      "source_image_sha256": "c2da3708e48b1f44b04f4cac5893142ad2677d12527876b2bf1dd27eb0aabc74",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00084",
+      "name": "Salutes Veterans",
+      "printed_caption": "Salutes Veterans",
+      "pdf_page": 9,
+      "xref": 208,
+      "image_rect": [
+        433.857,
+        85.098,
+        594.262,
+        163.722
+      ],
+      "delta": 16.31,
+      "source_image_sha256": "4028a10ea482906e333e2212cf7eb8e301a58b0fbd290f83c92765e3ae9d2bdf",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00085",
+      "name": "Support Our Troops",
+      "printed_caption": "Support Our Troops",
+      "pdf_page": 9,
+      "xref": 209,
+      "image_rect": [
+        64.658,
+        220.518,
+        223.474,
+        299.785
+      ],
+      "delta": 13.44,
+      "source_image_sha256": "f32a85d8d2f986343c12551faca1f663a2c21fde1afa02cb0319e0cb33af7861",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00086",
+      "name": "U.S. Air Force",
+      "printed_caption": "U.S. Air Force",
+      "pdf_page": 9,
+      "xref": 210,
+      "image_rect": [
+        246.202,
+        220.984,
+        414.699,
+        301.17
+      ],
+      "delta": 12.98,
+      "source_image_sha256": "006522e77cac8a5bc0075e4cf5670ff955b3e864d4f620a161d171106485ef44",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00087",
+      "name": "U.S. Army",
+      "printed_caption": "U.S. Army",
+      "pdf_page": 9,
+      "xref": 211,
+      "image_rect": [
+        433.818,
+        221.534,
+        593.377,
+        300.444
+      ],
+      "delta": 12.78,
+      "source_image_sha256": "fddb5f5cdbd75c1e860e964448dcf67bbd58d21ef67223a03ac70d163996ea3b",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00088",
+      "name": "U.S. Coast Guard",
+      "printed_caption": "U.S. Coast Guard",
+      "pdf_page": 9,
+      "xref": 212,
+      "image_rect": [
+        63.822,
+        365.772,
+        223.385,
+        450.004
+      ],
+      "delta": 15.65,
+      "source_image_sha256": "b776006709cec63181999996250784f39ad76e02b6741b6b8c2b1abe3b1f676e",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00089",
+      "name": "U.S. Marine Corps",
+      "printed_caption": "U.S. Marine Corps",
+      "pdf_page": 9,
+      "xref": 213,
+      "image_rect": [
+        247.202,
+        366.16,
+        414.624,
+        451.063
+      ],
+      "delta": 15.39,
+      "source_image_sha256": "8ece22e9c39d942fdd62f1812b9f4707027a15fb5ca8e704886bfcbebd6fe89a",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00090",
+      "name": "U.S. Navy",
+      "printed_caption": "U.S. Navy",
+      "pdf_page": 9,
+      "xref": 214,
+      "image_rect": [
+        436.822,
+        366.293,
+        594.997,
+        450.004
+      ],
+      "delta": 14.79,
+      "source_image_sha256": "5ab1e387f857f675d635503e63ebe442357965d0f705a8e488955e8ab996573a",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00091",
+      "name": "Florida Panthers",
+      "printed_caption": "Florida Panthers",
+      "pdf_page": 10,
+      "xref": 252,
+      "image_rect": [
+        65.315,
+        115.922,
+        233.096,
+        198.578
+      ],
+      "delta": 7.08,
+      "source_image_sha256": "a35ea9fb122ffd4e5f65883a653e0161d74458c0ace52bcb27ed509ce12c3f93",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00092",
+      "name": "Golf Capital of the World",
+      "printed_caption": "Golf Capital of the World",
+      "pdf_page": 10,
+      "xref": 253,
+      "image_rect": [
+        250.079,
+        115.878,
+        414.486,
+        198.574
+      ],
+      "delta": 8.78,
+      "source_image_sha256": "f81bdbc04baa546c46c61e0488686025bf3dee5321e79773ee62dbdebfef22f2",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00093",
+      "name": "Inter Miami CF",
+      "printed_caption": "Inter Miami CF",
+      "pdf_page": 10,
+      "xref": 251,
+      "image_rect": [
+        438.302,
+        116.086,
+        601.702,
+        197.946
+      ],
+      "delta": 8.41,
+      "source_image_sha256": "bc86f1d8e0fc2e7384b6753efda277be59f39596d6a6854f074888f15eed494f",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00094",
+      "name": "Jacksonville Jaguars (NFL)",
+      "printed_caption": "Jacksonville Jaguars (NFL)",
+      "pdf_page": 10,
+      "xref": 254,
+      "image_rect": [
+        65.212,
+        228.792,
+        233.097,
+        313.107
+      ],
+      "delta": 5.98,
+      "source_image_sha256": "1db05fb9b0d922b97bf1a2c1da4e935729d9551ac2cf1d595f07ee45f66e45ea",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00095",
+      "name": "Miami Dolphins (NFL)",
+      "printed_caption": "Miami Dolphins (NFL)",
+      "pdf_page": 10,
+      "xref": 256,
+      "image_rect": [
+        248.461,
+        227.623,
+        415.317,
+        313.926
+      ],
+      "delta": 5.12,
+      "source_image_sha256": "472fc9c378e40c5fba8f668ce7bd20c8fdc75c75977ed444134d8466a6416da0",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00096",
+      "name": "Miami Heat (NBA)",
+      "printed_caption": "Miami Heat (NBA)",
+      "pdf_page": 10,
+      "xref": 257,
+      "image_rect": [
+        438.905,
+        228.008,
+        603.09,
+        313.106
+      ],
+      "delta": 5.48,
+      "source_image_sha256": "afa01cfcbe2a5dd1949cef3d281d275a02d7249b85c9f00004ed38d3d7629ceb",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00097",
+      "name": "Miami Marlins (MLB)",
+      "printed_caption": "Miami Marlins (MLB)",
+      "pdf_page": 10,
+      "xref": 255,
+      "image_rect": [
+        66.135,
+        339.038,
+        233.095,
+        422.717
+      ],
+      "delta": 5.48,
+      "source_image_sha256": "4e7fc0abc37c0eb6ff895fa5553c1451db09a3f125b24e0c11c21c1f6021589f",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00098",
+      "name": "NASCAR",
+      "printed_caption": "NASCAR",
+      "pdf_page": 10,
+      "xref": 258,
+      "image_rect": [
+        248.359,
+        340.428,
+        415.836,
+        422.255
+      ],
+      "delta": 6.07,
+      "source_image_sha256": "ae5b74484a49756611b670834ca0c65a729eabe5e1b1a2960d5d0c3a4c2c3516",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00099",
+      "name": "Orlando City Soccer",
+      "printed_caption": "Orlando City Soccer",
+      "pdf_page": 10,
+      "xref": 259,
+      "image_rect": [
+        437.341,
+        341.131,
+        604.736,
+        421.33
+      ],
+      "delta": 7.39,
+      "source_image_sha256": "6f3cb67317622785f6ad264c9ccf55e3812029fcb5abf6fd910c3f4819ec1326",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00100",
+      "name": "Orlando Magic (NBA)",
+      "printed_caption": "Orlando Magic (NBA)",
+      "pdf_page": 10,
+      "xref": 248,
+      "image_rect": [
+        66.599,
+        452.317,
+        233.559,
+        534.178
+      ],
+      "delta": 7.42,
+      "source_image_sha256": "863654f1b0baf84e22db0d79d4a50b891b4c50cfc5e46b9767173986e491cbc8",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00101",
+      "name": "Play Tennis",
+      "printed_caption": "Play Tennis",
+      "pdf_page": 10,
+      "xref": 244,
+      "image_rect": [
+        248.612,
+        452.246,
+        418.555,
+        534.639
+      ],
+      "delta": 6.52,
+      "source_image_sha256": "be4c8962a29bd5936dac8c93b52a9c8655b9573937d7c282872e0a63d32fc146",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00102",
+      "name": "Police Athletic League",
+      "printed_caption": "Police Athletic League",
+      "pdf_page": 10,
+      "xref": 245,
+      "image_rect": [
+        435.757,
+        452.024,
+        605.681,
+        532.083
+      ],
+      "delta": 8.51,
+      "source_image_sha256": "d8c39eb4f6ddc55f7fe99ddf7d45bd436f784d16748194d0e2e72b978c2d6488",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00103",
+      "name": "Share the Road",
+      "printed_caption": "Share the Road",
+      "pdf_page": 10,
+      "xref": 246,
+      "image_rect": [
+        62.836,
+        567.851,
+        233.971,
+        650.725
+      ],
+      "delta": 7.88,
+      "source_image_sha256": "ae257f7ab8a6178766fe18f4cd72c65df11473bf61242f7d89b26c25713b3a0b",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00104",
+      "name": "Swim for Life",
+      "printed_caption": "Swim for Life",
+      "pdf_page": 10,
+      "xref": 243,
+      "image_rect": [
+        250.671,
+        567.015,
+        420.868,
+        650.263
+      ],
+      "delta": 8.17,
+      "source_image_sha256": "efb87c4742168405ba173b66afe247927b55b1229334aab82a842e367ce09854",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00105",
+      "name": "Tampa Bay Rays",
+      "printed_caption": "Tampa Bay Rays",
+      "pdf_page": 10,
+      "xref": 242,
+      "image_rect": [
+        436.704,
+        565.424,
+        606.382,
+        650.765
+      ],
+      "delta": 8.24,
+      "source_image_sha256": "a17802e106cf578ae0279f71fc22a391aae36ed3d13bea2b737ef985be8947e3",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00106",
+      "name": "Tampa Bay Buccaneers (NFL)",
+      "printed_caption": "Tampa Bay Buccaneers (NFL)",
+      "pdf_page": 10,
+      "xref": 247,
+      "image_rect": [
+        67.878,
+        681.712,
+        234.482,
+        763.491
+      ],
+      "delta": 7.28,
+      "source_image_sha256": "0c1275653009745a009c130e862a4e3d062abe61e5cd8a39d6ea0e003bb3bbca",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00107",
+      "name": "Tampa Bay Lightning (NHL)",
+      "printed_caption": "Tampa Bay Lightning (NHL)",
+      "pdf_page": 10,
+      "xref": 250,
+      "image_rect": [
+        250.669,
+        682.175,
+        419.481,
+        763.112
+      ],
+      "delta": 7.19,
+      "source_image_sha256": "74eddda3bcd3bf4882177423bb5009bb84f37fddbcd5b45c1ac0c5bc1f00d869",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00108",
+      "name": "U.S. Olympic Spirit",
+      "printed_caption": "U.S. Olympic Spirit",
+      "pdf_page": 10,
+      "xref": 249,
+      "image_rect": [
+        437.981,
+        681.84,
+        605.401,
+        764.79
+      ],
+      "delta": 7.29,
+      "source_image_sha256": "8bf5b0ff310921b88e266023dfbd4071765eced2fdfee1450cb9cd8812725cf0",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00109",
+      "name": "Agricultural Education",
+      "printed_caption": "Agricultural Education",
+      "pdf_page": 11,
+      "xref": 275,
+      "image_rect": [
+        152.457,
+        126.447,
+        324.749,
+        206.467
+      ],
+      "delta": 11.3,
+      "source_image_sha256": "411f1ffe90d3088f4d266b5c100f2d399bbea1e094668946a3260001c7e4b3ac",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00110",
+      "name": "Agriculture",
+      "printed_caption": "Agriculture",
+      "pdf_page": 11,
+      "xref": 276,
+      "image_rect": [
+        382.419,
+        127.59,
+        550.837,
+        208.029
+      ],
+      "delta": 10.73,
+      "source_image_sha256": "36c4dafe8f812db6c3bf261c0cfebd4677d27069bd5d5a8b4259e9d88006878c",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00111",
+      "name": "America the Beautiful",
+      "printed_caption": "America the Beautiful",
+      "pdf_page": 11,
+      "xref": 280,
+      "image_rect": [
+        65.775,
+        255.142,
+        233.777,
+        337.257
+      ],
+      "delta": 14.86,
+      "source_image_sha256": "759c397b0735b6f46dc5d1ebd0f8b13f09cf0da475b0daeaa630f52dd65bef4f",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00112",
+      "name": "Big Brothers Big Sisters",
+      "printed_caption": "Big Brothers Big Sisters",
+      "pdf_page": 11,
+      "xref": 278,
+      "image_rect": [
+        250.534,
+        255.142,
+        422.304,
+        337.676
+      ],
+      "delta": 15.25,
+      "source_image_sha256": "f30170b4553d3d6a072d0e56da29dc5b86d9c5a8ba1a6a08d34db07993e32cfa",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00113",
+      "name": "Challenger - Columbia",
+      "printed_caption": "Challenger - Columbia",
+      "pdf_page": 11,
+      "xref": 279,
+      "image_rect": [
+        436.548,
+        254.305,
+        606.645,
+        336.839
+      ],
+      "delta": 15.67,
+      "source_image_sha256": "7dd9034a63b14f7390f655497d86cbd596967e3f525ffd17f602e158a357dd42",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00114",
+      "name": "Choose Life",
+      "printed_caption": "Choose Life",
+      "pdf_page": 11,
+      "xref": 281,
+      "image_rect": [
+        65.357,
+        386.274,
+        236.289,
+        472.999
+      ],
+      "delta": 8.17,
+      "source_image_sha256": "9bd052982f0368dba2befe6832574548eae1747e1e39a71008cb95002e394240",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00115",
+      "name": "End Breast Cancer",
+      "printed_caption": "End Breast Cancer",
+      "pdf_page": 11,
+      "xref": 282,
+      "image_rect": [
+        250.115,
+        386.022,
+        421.049,
+        472.16
+      ],
+      "delta": 9.54,
+      "source_image_sha256": "06f41f461e8e434089819403b33233ee66df55a61674b7d9a351d31e4ff86893",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00116",
+      "name": "Fallen Law Enforcement Officers",
+      "printed_caption": "Fallen Law Enforcement Oficers",
+      "pdf_page": 11,
+      "xref": 283,
+      "image_rect": [
+        436.131,
+        386.275,
+        607.483,
+        470.347
+      ],
+      "delta": 11.35,
+      "source_image_sha256": "86bd05ce72af5f63df0255e18c2258e6a713902675419422f4b4e2b10f48f309",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00117",
+      "name": "Family First",
+      "printed_caption": "Family First",
+      "pdf_page": 11,
+      "xref": 284,
+      "image_rect": [
+        65.776,
+        516.989,
+        237.547,
+        602.851
+      ],
+      "delta": 14.58,
+      "source_image_sha256": "a58ceeb29daa73f91abdbd2445b1b7b18f410cf7906f093a3ec9496282ac5cd6",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00118",
+      "name": "Family Values",
+      "printed_caption": "Family Values",
+      "pdf_page": 11,
+      "xref": 277,
+      "image_rect": [
+        249.283,
+        517.066,
+        420.868,
+        601.702
+      ],
+      "delta": 16.44,
+      "source_image_sha256": "6f9c2d9e7b24daa3c9f532d0425383b419419ebec578cedf14fc02f99e1f585e",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00119",
+      "name": "Florida Sheriffs Association",
+      "printed_caption": "Florida Sherifs Association",
+      "pdf_page": 11,
+      "xref": 285,
+      "image_rect": [
+        435.711,
+        517.826,
+        607.482,
+        602.455
+      ],
+      "delta": 15.04,
+      "source_image_sha256": "7f332b51d1d02294f8a672f555c378f4c8de80c8e4bab037ca3bb98884a313ec",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00120",
+      "name": "Margaritaville",
+      "printed_caption": "Margaritaville",
+      "pdf_page": 13,
+      "xref": 338,
+      "image_rect": [
+        60.123,
+        120.71,
+        229.01,
+        203.034
+      ],
+      "delta": 11.15,
+      "source_image_sha256": "ff37a3725ed64c37fb46ad4c842bdc585f7cca8cff7371c7534a4f5b1c113df1",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00121",
+      "name": "Moffitt Cancer Center",
+      "printed_caption": "Mofitt Cancer Center",
+      "pdf_page": 13,
+      "xref": 336,
+      "image_rect": [
+        245.854,
+        121.185,
+        417.822,
+        203.034
+      ],
+      "delta": 11.68,
+      "source_image_sha256": "0f29604b9708c0a44ea156e2aeba356d1c6c890f30a4e21a53a0866b038c72e6",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00122",
+      "name": "Salutes Firefighters",
+      "printed_caption": "Salutes Firefighters",
+      "pdf_page": 13,
+      "xref": 346,
+      "image_rect": [
+        431.885,
+        121.474,
+        603.634,
+        203.034
+      ],
+      "delta": 9.37,
+      "source_image_sha256": "f75e8359a36ba17c22a6fa232ea6412ced2853fc7696c0481ba309d3859e0a97",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00123",
+      "name": "State of the Arts",
+      "printed_caption": "State of the Arts",
+      "pdf_page": 13,
+      "xref": 345,
+      "image_rect": [
+        62.128,
+        244.658,
+        230.508,
+        325.594
+      ],
+      "delta": 12.51,
+      "source_image_sha256": "6642b41f4bd925246e5e896a1fd1ba6d57f1d8a481f4dd91179ebcb262325eda",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00124",
+      "name": "Stop Child Abuse",
+      "printed_caption": "Stop Child Abuse",
+      "pdf_page": 13,
+      "xref": 344,
+      "image_rect": [
+        247.377,
+        244.759,
+        418.554,
+        326.754
+      ],
+      "delta": 11.81,
+      "source_image_sha256": "9cf3f59ff9e596d7ec8df053c8f6260f1de0afe9c2678b836831aef09e3204b8",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00125",
+      "name": "Stop Heart Disease",
+      "printed_caption": "Stop Heart Disease",
+      "pdf_page": 13,
+      "xref": 343,
+      "image_rect": [
+        432.429,
+        244.196,
+        604.94,
+        328.581
+      ],
+      "delta": 9.98,
+      "source_image_sha256": "32cd375e3fcb9484a5d5fd91b07d1f1285dedfc3c2b83907050835da1da6f428",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00126",
+      "name": "Support Autism Programs",
+      "printed_caption": "Support Autism Programs",
+      "pdf_page": 13,
+      "xref": 334,
+      "image_rect": [
+        60.227,
+        377.348,
+        231.245,
+        462.459
+      ],
+      "delta": 7.54,
+      "source_image_sha256": "204e817a214fe1f487928118c2c28a9b49e0c1400b277c4cad7f6317e462c5dc",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00127",
+      "name": "Support Education",
+      "printed_caption": "Support Education",
+      "pdf_page": 13,
+      "xref": 335,
+      "image_rect": [
+        249.756,
+        378.319,
+        420.867,
+        463.114
+      ],
+      "delta": 6.87,
+      "source_image_sha256": "121372c85d80a77df85b22f311481ed067f89e41e057f9d57fdabdb2e1d0cd66",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00128",
+      "name": "Support Homeownership For All",
+      "printed_caption": "Support Homeownership For All",
+      "pdf_page": 13,
+      "xref": 339,
+      "image_rect": [
+        433.816,
+        379.671,
+        604.939,
+        462.44
+      ],
+      "delta": 7.09,
+      "source_image_sha256": "36d8adeceded48cf8b45bc74a22f0ee53a55dffe4502d4f49d9b674c41dba6a7",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00129",
+      "name": "Support Law Enforcement",
+      "printed_caption": "Support Law Enforcement",
+      "pdf_page": 13,
+      "xref": 340,
+      "image_rect": [
+        61.893,
+        500.465,
+        232.827,
+        586.338
+      ],
+      "delta": 9.7,
+      "source_image_sha256": "26efe7a203c4aa6d52ab861b0f2495e4caf9aa12257ea1b1e6cbd20a85def9fc",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00130",
+      "name": "Support Scenic Walton",
+      "printed_caption": "Support Scenic Walton",
+      "pdf_page": 13,
+      "xref": 342,
+      "image_rect": [
+        249.747,
+        501.341,
+        419.942,
+        586.902
+      ],
+      "delta": 9.39,
+      "source_image_sha256": "81edaaf86a7095184e1f8cf501e9ba81e6e1776435ac5b346102755d54daed49",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00131",
+      "name": "United We Stand",
+      "printed_caption": "United We Stand",
+      "pdf_page": 13,
+      "xref": 341,
+      "image_rect": [
+        435.206,
+        502.315,
+        604.939,
+        587.364
+      ],
+      "delta": 9.13,
+      "source_image_sha256": "3ba464e49fbea7c8d2639603b98ce31924ab1166d1196a52643260b434a55c3d",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-FL-00132",
+      "name": "Visit Our Lights",
+      "printed_caption": "Visit Our Lights",
+      "pdf_page": 13,
+      "xref": 337,
+      "image_rect": [
+        60.586,
+        628.988,
+        234.484,
+        712.222
+      ],
+      "delta": 11.0,
+      "source_image_sha256": "e7f401a2aad76e13132d358eff1efc2605a5a7c4c1edc82cf3483f13e58c494c",
+      "mapping_status": "label_position_and_visual_plate_candidate",
+      "era_status": "unverified",
+      "human_approval": false
+    }
+  ]
+}
