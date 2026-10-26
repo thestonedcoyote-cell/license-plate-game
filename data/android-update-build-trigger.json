@@ -1,0 +1,14 @@
+{
+  "build": "LPG-ANDROID-0.6.0-rc1-502",
+  "date": "2026-10-26",
+  "catalog_uids": 1138,
+  "matched_plate_designs": 502,
+  "embedded_jpegs": 1004,
+  "applicationId": "com.thelostharbor.licenseplategame",
+  "versionCode": 6,
+  "versionName": "0.6.0-rc1",
+  "release_type": "unsigned-aligned APK artifact; local private signing required",
+  "previous_signing_certificate_sha256": "6c858b7a667848c1243985743dbc0c315f47636507aec241b042af284b5bcc4b",
+  "key_policy": "never include private signing key in GitHub, Actions or public artifacts",
+  "stable_feed_policy": "do not publish stable/latest before physical update acceptance"
+}
