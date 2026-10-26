@@ -1,0 +1,13 @@
+{
+  "batch_id": "LPG-FL-132-2026-10-26",
+  "source_harvest_run": 40408283744,
+  "source_archive_name": "official-plate-harvest-40408283744",
+  "official_source_pdf_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+  "mapping": "data/image-batches/florida-manual-reviewed-20261026.json",
+  "previous_source_matched": 370,
+  "florida_new": 132,
+  "total_target": 502,
+  "original_catalog": 1138,
+  "output_review_branch": "generated/florida-132-source-images-20261026",
+  "release_policy": "source-matched review branch only; no automatic stable Android release; era and human approval unverified"
+}
