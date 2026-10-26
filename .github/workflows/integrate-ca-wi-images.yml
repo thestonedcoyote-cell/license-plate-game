@@ -17,19 +17,19 @@ jobs:
         with: {python-version: '3.12'}
       - uses: actions/setup-node@v4
         with: {node-version: '22'}
-      - name: Install image libraries
-        run: pip install pillow
-      - name: Recover original official-source evidence
-        env:
-          GH_TOKEN: \${{ github.token }}
+      - name: Install image and gallery libraries
+        run: pip install pillow requests beautifulsoup4
+      - name: Reacquire official CA WI pages with archived SHA pins
         run: |
-          gh run download 40386466698 --repo "$GITHUB_REPOSITORY" --name official-plate-harvest-40386466698 --dir private-evidence
+          python tools/harvest_official_assets.py --manifest data/harvest_sources.csv --output private-evidence --codes CA,WI --max-sources 2
           test -s private-evidence/manifest.json
           python - <<'PY'
           import pathlib,json
-          p=pathlib.Path("private-evidence");x=json.loads((p/"manifest.json").read_text())
-          assert len(x)==4 and all(r["status"]=="downloaded" for r in x)
-          print("Official gallery source status CA/NV/WI/IN:",[(r['code'],sum(q.get('status')=='downloaded' for q in r['gallery']['records'])) for r in x])
+          p=pathlib.Path("private-evidence")
+          x=json.loads((p/"manifest.json").read_text())
+          assert len(x)==2 and {r['code'] for r in x}=={'CA','WI'}
+          assert all(r['status']=='downloaded' for r in x)
+          print('CA/WI official pages reacquired; each selected original must still match its independently archived hash')
           PY
       - name: Integrate 64 explicit inspected plate samples
         run: |
@@ -74,9 +74,9 @@ jobs:
           Official CA DMV and WI DOT plate galleries harvested by GitHub run 40386466698, stored as 2026-10-26 private evidence. Exact UID/asset source pairs in data/image-batches/ca-wi-reviewed-map.txt. Prior 306 official sample selections, 1,138 immutable catalog UIDs.
 
           ## Step notes
-          - Step 1: restored the complete original-source artifact with issuing-agency HTML and original plate images plus hashes.
+          - Step 1: reacquired official agency galleries; every selected original must match a pinned hash from the separately preserved October 26 archive.
           - Step 2: enforced exactly 33 CA and 31 WI manually reviewed UID/source-file associations.
-          - Step 3: verified original source file SHA-256 against the archived harvest manifest before creating JPEGs, and rejected absent/malformed labels or images.
+          - Step 3: verified 64 independent archival original hashes (not just the current reharvest manifest), rejecting modified images, absent/malformed labels and artifacts.
           - Step 4: explicitly excluded Wisconsin Civil Air Patrol because its official label points at unrelated Spay/Neuter/Adopt artwork.
           - Step 5: created 64 display and 64 thumbnail aspect-preserving JPEGs without upscaling.
           - Step 6: expanded the game source image manifest from 306 to 370 examples, offline cache from 612 to 740 JPEGs, and browser regression for California/Wisconsin.
