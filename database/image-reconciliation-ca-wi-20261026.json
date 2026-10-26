@@ -1,0 +1,1802 @@
+{
+  "source_run_id": 40386466698,
+  "source_archive_status": "originals archived privately; hashes from Actions source manifest",
+  "selected_count": 64,
+  "selections": [
+    {
+      "uid": "LPG-US-CA-00009",
+      "name": "Arts Council",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2024/12/artsT_150.jpg",
+      "source_label": "Arts Council California license plate SAM123.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0003.jpg",
+      "source_sha256": "ec4386e65016b01ed5504c5e496197e942db5d5fd40eb486f70948277b744fab",
+      "source_size": [
+        150,
+        76
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "cd0f6779f0b971f730ea222c8c8447b9491dbdfe00e3fa1202c892782820c4d3",
+      "thumbnail_sha256": "cd0f6779f0b971f730ea222c8c8447b9491dbdfe00e3fa1202c892782820c4d3",
+      "display_size": [
+        150,
+        76
+      ],
+      "thumbnail_size": [
+        150,
+        76
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00010",
+      "name": "Breast Cancer Awareness",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/02/pinkribbon.jpg",
+      "source_label": "Breast Cancer Awareness special interest license plate.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0004.jpg",
+      "source_sha256": "e9ebb00fd399b1f6f0f3a96eacf8ff007330fe693f4b8e878eda8afa81d0f8a4",
+      "source_size": [
+        850,
+        413
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "dfd34e1fdeafb66fa9fd603f755075ee5afaa34f3e908fad0f261660df93803f",
+      "thumbnail_sha256": "92844af5e2a2e4944a0435a09e30a650da4913e7a2cfc91bc047226c6bb7d374",
+      "display_size": [
+        800,
+        389
+      ],
+      "thumbnail_size": [
+        300,
+        146
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00013",
+      "name": "California Museums (Snoopy)",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/02/snoopy.jpg",
+      "source_label": "California Museums (Snoopy) special interest license plate.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0013.jpg",
+      "source_sha256": "1877beadc47d311c4c075246e616951ba2c3d3d8a79454df49f6a2e131157503",
+      "source_size": [
+        583,
+        299
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "35f94f558179d1f95a247d067f69ac97a876740770dc5904c0a65b9ef0cf7791",
+      "thumbnail_sha256": "27df0947fe072e8f81f1ce88edf12f8eeb1c7b8a62e3d1397dd9631128596e7f",
+      "display_size": [
+        583,
+        299
+      ],
+      "thumbnail_size": [
+        300,
+        154
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00015",
+      "name": "Environmental",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/02/elp_150.jpg",
+      "source_label": "Environmental special interest license plate.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0018.jpg",
+      "source_sha256": "5102c78726f4f36cd8e8438cc70199c357c9586a198a09c3d0a335dbe02bb8fa",
+      "source_size": [
+        150,
+        75
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "57c110aeb8b6214d1f2676e098cec6ae4a77cde60be4c68de813f4488ee4d203",
+      "thumbnail_sha256": "57c110aeb8b6214d1f2676e098cec6ae4a77cde60be4c68de813f4488ee4d203",
+      "display_size": [
+        150,
+        75
+      ],
+      "thumbnail_size": [
+        150,
+        75
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00016",
+      "name": "Firefighters",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/05/fireT_150.jpg",
+      "source_label": "California firefighters license plate.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0020.jpg",
+      "source_sha256": "6406e545deadb2641e9b919036fd972dc706e924271beffa92b25670659fb841",
+      "source_size": [
+        150,
+        76
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "3838809e4f6cf443f733a06826d93bc25c3e138ce67c6939a4525f91719b3513",
+      "thumbnail_sha256": "3838809e4f6cf443f733a06826d93bc25c3e138ce67c6939a4525f91719b3513",
+      "display_size": [
+        150,
+        76
+      ],
+      "thumbnail_size": [
+        150,
+        76
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00017",
+      "name": "Have A Heart, Be A Star, Help Our KIDS",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/05/kidsT_150.jpg",
+      "source_label": "California Have A Heart, Be A Star, Help Our KIDS license plate.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0022.jpg",
+      "source_sha256": "c06875bcc208dcbe080ce1ff9552b480255465e8194056cc65ea9f79b1755003",
+      "source_size": [
+        150,
+        76
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "7ffe29505f7ee896fcabbfadfa8342fbeddfc1b6a59a0a5ae0f97ae139c9fd8d",
+      "thumbnail_sha256": "7ffe29505f7ee896fcabbfadfa8342fbeddfc1b6a59a0a5ae0f97ae139c9fd8d",
+      "display_size": [
+        150,
+        76
+      ],
+      "thumbnail_size": [
+        150,
+        76
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00018",
+      "name": "Lake Tahoe Conservancy",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/05/tahoeT_150.jpg",
+      "source_label": "California Lake Tahoe Conservancy license plate.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0024.jpg",
+      "source_sha256": "879f16880d9af6375d59bdab7da7041bd4a2c19419d6ad354381045fa57f1301",
+      "source_size": [
+        150,
+        75
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "44e9c6af3cf5f9ac6e553969e703118df5fe5f3962568ae0a62994f627fc35d2",
+      "thumbnail_sha256": "44e9c6af3cf5f9ac6e553969e703118df5fe5f3962568ae0a62994f627fc35d2",
+      "display_size": [
+        150,
+        75
+      ],
+      "thumbnail_size": [
+        150,
+        75
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00019",
+      "name": "Memorial",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/02/memorial_150.jpg",
+      "source_label": "Memorial special interest license plate.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0026.jpg",
+      "source_sha256": "34ee8e8ac00fe5e5a8521facef0cda7d7d0aa47426e6f30d50c91e4b8518f1e4",
+      "source_size": [
+        150,
+        76
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "99c948d86f48dfce5f46a4d7c1730e4c0cf4414a8911cca22bc54ccaa5c44bfa",
+      "thumbnail_sha256": "99c948d86f48dfce5f46a4d7c1730e4c0cf4414a8911cca22bc54ccaa5c44bfa",
+      "display_size": [
+        150,
+        76
+      ],
+      "thumbnail_size": [
+        150,
+        76
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00020",
+      "name": "Pet Lovers",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/02/pet_lovers.jpg",
+      "source_label": "Pet Lovers special interest license plate.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0028.jpg",
+      "source_sha256": "90ee0e02c3b55018984f473e7ecea35fb8ad62a6ae2e75806c44910b2fdda937",
+      "source_size": [
+        150,
+        76
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "c93cc6887e007901886257ad47a22f54f4a1cd1371ab4a747057601833beacaf",
+      "thumbnail_sha256": "c93cc6887e007901886257ad47a22f54f4a1cd1371ab4a747057601833beacaf",
+      "display_size": [
+        150,
+        76
+      ],
+      "thumbnail_size": [
+        150,
+        76
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00021",
+      "name": "Veterans' Organizations",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/02/veterant_150.jpg",
+      "source_label": "Veterans' Organizations special interest license plate.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0030.jpg",
+      "source_sha256": "919c7ce62075aef31d09f60e92278f7bc2cbcdfafe159166afe2e67219c50e93",
+      "source_size": [
+        149,
+        74
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "e93ac7f40b718644ee926642be5c900a7cc08c36f8f82b7c944de155fdaf71e7",
+      "thumbnail_sha256": "e93ac7f40b718644ee926642be5c900a7cc08c36f8f82b7c944de155fdaf71e7",
+      "display_size": [
+        149,
+        74
+      ],
+      "thumbnail_size": [
+        149,
+        74
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00023",
+      "name": "Yosemite Conservancy",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/05/yosemiteT_150.jpg",
+      "source_label": "California Yosemite Conservancy license plate.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0034.jpg",
+      "source_sha256": "a249e06d1cb146235ec1d78b7df855cbdeb7de5170430c75b95762a6c3f6b20b",
+      "source_size": [
+        150,
+        76
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "c9e665505e9cdcb1af64789b85d03dd49c91b2da27ea262d36301b50550e7e2a",
+      "thumbnail_sha256": "c9e665505e9cdcb1af64789b85d03dd49c91b2da27ea262d36301b50550e7e2a",
+      "display_size": [
+        150,
+        76
+      ],
+      "thumbnail_size": [
+        150,
+        76
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00026",
+      "name": "Bicentennial Bill of Rights",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/billofrights.gif",
+      "source_label": "Bicentennial Bill of Rights license plate.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0041.gif",
+      "source_sha256": "1085dc22a6d6e01193f80b0af9b9aebb7556b643353341cae25e91c5799692a7",
+      "source_size": [
+        154,
+        78
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "04af757c3323e4484905a17c0a896377c7753c821b43297fd8107c732dc0ecd6",
+      "thumbnail_sha256": "04af757c3323e4484905a17c0a896377c7753c821b43297fd8107c732dc0ecd6",
+      "display_size": [
+        154,
+        78
+      ],
+      "thumbnail_size": [
+        154,
+        78
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00030",
+      "name": "Foreign Organization",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/foreignorg.gif",
+      "source_label": "Foreign organization license plates.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0051.gif",
+      "source_sha256": "74c3342f62b42546c76b6070787a5b2c305371b60d88b3903dee61a81cead90e",
+      "source_size": [
+        154,
+        78
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "3b1c38e724b849dc9d3eb2e3fb351cb43e1c8cbb3c5d159d29f4a24bfa56f97a",
+      "thumbnail_sha256": "3b1c38e724b849dc9d3eb2e3fb351cb43e1c8cbb3c5d159d29f4a24bfa56f97a",
+      "display_size": [
+        154,
+        78
+      ],
+      "thumbnail_size": [
+        154,
+        78
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00032",
+      "name": "Honorary Consul Corps",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/honconsulsun.gif",
+      "source_label": "Honorary Consul Corps license plate.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0053.gif",
+      "source_sha256": "95ca2b0b5e1ac401502aef86e783ecff0150e0caab72dcb0daaab84e51d5f33d",
+      "source_size": [
+        154,
+        78
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "48f4062dc57249b37959cb57b445f43baddae58f9181ce56922f7e2218cc0bea",
+      "thumbnail_sha256": "48f4062dc57249b37959cb57b445f43baddae58f9181ce56922f7e2218cc0bea",
+      "display_size": [
+        154,
+        78
+      ],
+      "thumbnail_size": [
+        154,
+        78
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00035",
+      "name": "Moped",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/moped.gif",
+      "source_label": "Moped license plate.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0057.gif",
+      "source_sha256": "4659745e50226d8dc93fdca8cd5de682a50f99cb69048b12cfd44d111e1648cc",
+      "source_size": [
+        154,
+        77
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "eac9cffde4c0a0b7d23ecf9744d6f673eec35a81e16c02c97052ae81a25ed2ec",
+      "thumbnail_sha256": "eac9cffde4c0a0b7d23ecf9744d6f673eec35a81e16c02c97052ae81a25ed2ec",
+      "display_size": [
+        154,
+        77
+      ],
+      "thumbnail_size": [
+        154,
+        77
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00038",
+      "name": "Special Equipment",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/specequipdlfmfr.gif",
+      "source_label": "Special equipment dealer and manufacturer license plate.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0063.gif",
+      "source_sha256": "fc47ade0e8df346d3993b9462981312ec27bc4756eeb1d02d5474be3501e9cef",
+      "source_size": [
+        154,
+        78
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "ed3329daba9eda0b142b0871afc2041854a0f334c2ccd59ff0d6b5b615f5baa6",
+      "thumbnail_sha256": "ed3329daba9eda0b142b0871afc2041854a0f334c2ccd59ff0d6b5b615f5baa6",
+      "display_size": [
+        154,
+        78
+      ],
+      "thumbnail_size": [
+        154,
+        78
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00039",
+      "name": "Congressional Medal of Honor",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/CMOHsun.gif",
+      "source_label": "Congressional Medal of Honor license plate.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0064.gif",
+      "source_sha256": "ef426c47f037362c8104ca930556bb1f7f334ac321eabba0f2e4bd604af8e8a7",
+      "source_size": [
+        154,
+        78
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "81fbd4e5ef44dbda0a9fbff52e0ff8c35d194c5683e203bd5a34062b2c25cfba",
+      "thumbnail_sha256": "81fbd4e5ef44dbda0a9fbff52e0ff8c35d194c5683e203bd5a34062b2c25cfba",
+      "display_size": [
+        154,
+        78
+      ],
+      "thumbnail_size": [
+        154,
+        78
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00040",
+      "name": "Gold Star Family",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/goldstar.jpg",
+      "source_label": "Gold Star Family license plate.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0065.jpg",
+      "source_sha256": "ca8b5cb72879b705029aeab5937e1ba8d025221cb01fb090cbffc5b577a980f0",
+      "source_size": [
+        182,
+        97
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "39ecae4d594a682dd9bd35e838c994307d8c447f153805761a4c1fd6a390761f",
+      "thumbnail_sha256": "39ecae4d594a682dd9bd35e838c994307d8c447f153805761a4c1fd6a390761f",
+      "display_size": [
+        182,
+        97
+      ],
+      "thumbnail_size": [
+        182,
+        97
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00041",
+      "name": "Ex-Prisoner of War",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/POWScript.gif",
+      "source_label": "Ex-Prisoner of War license plate (script).",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0066.gif",
+      "source_sha256": "f1b86e2c2fad8976770152a84224a2b923336f8f3c4e5bfef8ec942a9598b960",
+      "source_size": [
+        154,
+        78
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "dfe9e9843a0b53d918aebc7e78c75ac94180ee61b2b4b7e85e0d7faa6a2c2e90",
+      "thumbnail_sha256": "dfe9e9843a0b53d918aebc7e78c75ac94180ee61b2b4b7e85e0d7faa6a2c2e90",
+      "display_size": [
+        154,
+        78
+      ],
+      "thumbnail_size": [
+        154,
+        78
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00042",
+      "name": "Legion of Valor",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/legionofvalor.gif",
+      "source_label": "Legion of Valor license plate.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0072.gif",
+      "source_sha256": "11ce908d66ddddbdb7846eccbdb64c8e5b163a7a010f82aa78bc8ede37168143",
+      "source_size": [
+        154,
+        78
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "10c507d54cb7a2d8c9b28e9c3328c75f6f1a34e07d97e5c26ca329e7374ffa52",
+      "thumbnail_sha256": "10c507d54cb7a2d8c9b28e9c3328c75f6f1a34e07d97e5c26ca329e7374ffa52",
+      "display_size": [
+        154,
+        78
+      ],
+      "thumbnail_size": [
+        154,
+        78
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00043",
+      "name": "Pearl Harbor Survivor",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/pearlharbor.gif",
+      "source_label": "Pearl Harbor Survivor license plate.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0073.gif",
+      "source_sha256": "0694a47ac6e3484b2f62ff1d61fb9c568aaca8579aad760bcf4b38038876cbf3",
+      "source_size": [
+        154,
+        78
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "8e2305fefa16f78856b21748045994e8a8215479c06a2bff9c401955df90ad03",
+      "thumbnail_sha256": "8e2305fefa16f78856b21748045994e8a8215479c06a2bff9c401955df90ad03",
+      "display_size": [
+        154,
+        78
+      ],
+      "thumbnail_size": [
+        154,
+        78
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00044",
+      "name": "Purple Heart",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/prplheartautocomltrlr.gif",
+      "source_label": "Purple Heart license plate.",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0074.gif",
+      "source_sha256": "fdfb57647cfeef5912a91af40361d85993db840fd11d3f34b3dcc6c5253f5bc1",
+      "source_size": [
+        154,
+        77
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "f1f1b9019ac23f65a1627afbad9de6d339750ef0e88d0d7fd15162ce357ce121",
+      "thumbnail_sha256": "f1f1b9019ac23f65a1627afbad9de6d339750ef0e88d0d7fd15162ce357ce121",
+      "display_size": [
+        154,
+        77
+      ],
+      "thumbnail_size": [
+        154,
+        77
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00045",
+      "name": "Dealer",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/dlrscript.gif",
+      "source_label": "Dealer license plate (script).",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0076.gif",
+      "source_sha256": "a47e081a69799b4e65442fa4b589891f36360e552fbd8f37027d4f123d2aaac4",
+      "source_size": [
+        154,
+        78
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "1ea838616ea7aba4aa16f0f938ce2dd5d3c50a11cf8aff7de3fab71ca71af0c5",
+      "thumbnail_sha256": "1ea838616ea7aba4aa16f0f938ce2dd5d3c50a11cf8aff7de3fab71ca71af0c5",
+      "display_size": [
+        154,
+        78
+      ],
+      "thumbnail_size": [
+        154,
+        78
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00046",
+      "name": "Dismantler",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/DismScript.gif",
+      "source_label": "Dismantler license plate (script).",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0082.gif",
+      "source_sha256": "9d20df2d1f8938fddf2323bcb8b58d0265148a02bf8d689813445afd3210b9ec",
+      "source_size": [
+        154,
+        78
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "dfd18752b72b005265b375aacd2e9664328365a2bc70a14cbe6de8339ff11b8f",
+      "thumbnail_sha256": "dfd18752b72b005265b375aacd2e9664328365a2bc70a14cbe6de8339ff11b8f",
+      "display_size": [
+        154,
+        78
+      ],
+      "thumbnail_size": [
+        154,
+        78
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00047",
+      "name": "Manufacturer",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/mfrscript.gif",
+      "source_label": "Manufacturer license plate (script).",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0086.gif",
+      "source_sha256": "c29f06ba146c4961e6f74e953a2dabaa3f55ea91e078c394de44cc0a93a908c3",
+      "source_size": [
+        154,
+        78
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "84abc7516c069480448ff8ee6041f90e4a234018a1663a8263d173bee83672ab",
+      "thumbnail_sha256": "84abc7516c069480448ff8ee6041f90e4a234018a1663a8263d173bee83672ab",
+      "display_size": [
+        154,
+        78
+      ],
+      "thumbnail_size": [
+        154,
+        78
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00048",
+      "name": "New Vehicle Distributor",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/DistScript.gif",
+      "source_label": "New vehicle distributor license plate (script).",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0092.gif",
+      "source_sha256": "6f737c15aea4472d4273460aa0f6494f2bcdd7533580bd4021857d562a7ac9c9",
+      "source_size": [
+        154,
+        78
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "cacdc1e139ff5b5c84c4e620194667d5f27fbda8af0d7921ece5ba70227db295",
+      "thumbnail_sha256": "cacdc1e139ff5b5c84c4e620194667d5f27fbda8af0d7921ece5ba70227db295",
+      "display_size": [
+        154,
+        78
+      ],
+      "thumbnail_size": [
+        154,
+        78
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00049",
+      "name": "Remanufacturer",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/RmfScript.gif",
+      "source_label": "Remanufacturer license plate (script).",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0097.gif",
+      "source_sha256": "ba9751e3f11d2ac16a697725e646cb2077705a2a5e14ac156968c54853fd6311",
+      "source_size": [
+        154,
+        78
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "dcb00b766c2a3fd3f6223dc28e8f79bd7a237aea4778e7257eac943de4c458d8",
+      "thumbnail_sha256": "dcb00b766c2a3fd3f6223dc28e8f79bd7a237aea4778e7257eac943de4c458d8",
+      "display_size": [
+        154,
+        78
+      ],
+      "thumbnail_size": [
+        154,
+        78
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00050",
+      "name": "Transporter",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/TrnScript.gif",
+      "source_label": "Transporter license plate (script).",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0101.gif",
+      "source_sha256": "4898985cc59208583da094199c9abfd855c9b3de4da3edbef80135ed0e142dec",
+      "source_size": [
+        154,
+        78
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "893cce6b3d61a1ae7940f106f7dcf0db2d903d6d24ef598bec1dd799b66911bd",
+      "thumbnail_sha256": "893cce6b3d61a1ae7940f106f7dcf0db2d903d6d24ef598bec1dd799b66911bd",
+      "display_size": [
+        154,
+        78
+      ],
+      "thumbnail_size": [
+        154,
+        78
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00051",
+      "name": "California State Assembly",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/stassemblyscript.gif",
+      "source_label": "California State Assembly license plate (script).",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0105.gif",
+      "source_sha256": "a79204163251b15b73a41facaf43e5e81f65804abf21d9a4f220712587b94526",
+      "source_size": [
+        154,
+        78
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "ca37aeb0226d5e29fd1215f477c922d35fa5e7fc512b689af99d4209366bfd45",
+      "thumbnail_sha256": "ca37aeb0226d5e29fd1215f477c922d35fa5e7fc512b689af99d4209366bfd45",
+      "display_size": [
+        154,
+        78
+      ],
+      "thumbnail_size": [
+        154,
+        78
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00052",
+      "name": "California State Senate",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/stsenatescript.gif",
+      "source_label": "California State Senate license plate (script).",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0109.gif",
+      "source_sha256": "aca6f4b146acb5ae867090f4fcb3e37e70b59644a1b376e9792b7fc100def062",
+      "source_size": [
+        154,
+        78
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "f754e195343bf187157785c9341ff334614178223e0fe80045f146eeded866f7",
+      "thumbnail_sha256": "f754e195343bf187157785c9341ff334614178223e0fe80045f146eeded866f7",
+      "display_size": [
+        154,
+        78
+      ],
+      "thumbnail_size": [
+        154,
+        78
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00053",
+      "name": "United States House of Representatives",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/UScongressscript.gif",
+      "source_label": "United States House of Representatives license plate (script).",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0114.gif",
+      "source_sha256": "c37f670cc31ea17132f0ec92bf7bbd03bfabd334f74a234b09f4a14741dfd033",
+      "source_size": [
+        154,
+        78
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "86f27a14a21858a2fe082acde5df5cd6559f168eabe549c215bab9e618f6f680",
+      "thumbnail_sha256": "86f27a14a21858a2fe082acde5df5cd6559f168eabe549c215bab9e618f6f680",
+      "display_size": [
+        154,
+        78
+      ],
+      "thumbnail_size": [
+        154,
+        78
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00054",
+      "name": "United States Senator",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/USSenateScript.gif",
+      "source_label": "United States Senator license plate (script).",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0118.gif",
+      "source_sha256": "47050c905388962ede450bb72e3420fc3d1ffc6f07c11611f3c51cc5a01eed6f",
+      "source_size": [
+        154,
+        78
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "6e49643ada5242bf30a2ac93a3e6857ca7b7c0a811f7484e80b2b6a9cb5fa002",
+      "thumbnail_sha256": "6e49643ada5242bf30a2ac93a3e6857ca7b7c0a811f7484e80b2b6a9cb5fa002",
+      "display_size": [
+        154,
+        78
+      ],
+      "thumbnail_size": [
+        154,
+        78
+      ]
+    },
+    {
+      "uid": "LPG-US-CA-00055",
+      "name": "Apportioned Power Unit",
+      "jurisdiction_id": "US-CA",
+      "source_page_url": "https://www.dmv.ca.gov/portal/vehicle-registration/license-plates-decals-and-placards/license-plates/special-interest-special-license-plates/",
+      "source_asset_url": "https://www.dmv.ca.gov/portal/uploads/2020/03/apporpwrunitsingleplt.gif",
+      "source_label": "Apportioned power unit license plate (block with blue letters).",
+      "source_file": "harvest-output/CA/California_DMV_License_Plate_Designs_html/asset_0124.gif",
+      "source_sha256": "871222fa2d492d05c1f1ed77f0dba49d08e7a6eb3f083f038c0f1bea4ea68a2c",
+      "source_size": [
+        154,
+        78
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "c26af495b5edcdc221a627f0c051db125bc333f88ca4b58bf049396ded56abb4",
+      "thumbnail_sha256": "c26af495b5edcdc221a627f0c051db125bc333f88ca4b58bf049396ded56abb4",
+      "display_size": [
+        154,
+        78
+      ],
+      "thumbnail_size": [
+        154,
+        78
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00001",
+      "name": "Amateur Radio",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/amradio.gif",
+      "source_label": "Amateur radio license plate Current design issued in 2001",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0002.gif",
+      "source_sha256": "9e68c140c84f2de591a077a8c5d24e73ca1ec1a67d0efabcbe0e8a743ee634b6",
+      "source_size": [
+        200,
+        100
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "ed6fc49100cb3298429883f0746b17aa35a4d85a0a83d8268a0c835e96aa5d3d",
+      "thumbnail_sha256": "ed6fc49100cb3298429883f0746b17aa35a4d85a0a83d8268a0c835e96aa5d3d",
+      "display_size": [
+        200,
+        100
+      ],
+      "thumbnail_size": [
+        200,
+        100
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00002",
+      "name": "American Foundation for Suicide Prevention",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/vehicles/title-plates/afsp-plt.png",
+      "source_label": "American Foundation for Suicide Prevention plate",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0003.png",
+      "source_sha256": "39f1db904b667e90574b58792962e9d3a096aa893f0e888977d1bcfdee0f9168",
+      "source_size": [
+        600,
+        298
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "6fb04aafa51cfa710ddfc97fa2690e5efcb3c993f2eb8984e28731386c00180a",
+      "thumbnail_sha256": "7c3a16310139eea375ffe2edf367d363536a8267ec8d247db3d52429074a853e",
+      "display_size": [
+        600,
+        298
+      ],
+      "thumbnail_size": [
+        300,
+        149
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00003",
+      "name": "Antique",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/antique.gif",
+      "source_label": "Antique license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0004.gif",
+      "source_sha256": "d9792ab2fb2eb64fef70e851448f572c8cbf6baaf55493f61d7c59905a96107b",
+      "source_size": [
+        200,
+        101
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "19a4a165c9f37ae6799074fc62ebe37ffb0b8a6df3737b8c20282952cbe74e34",
+      "thumbnail_sha256": "19a4a165c9f37ae6799074fc62ebe37ffb0b8a6df3737b8c20282952cbe74e34",
+      "display_size": [
+        200,
+        101
+      ],
+      "thumbnail_size": [
+        200,
+        101
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00004",
+      "name": "Blackout",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/BOP-Blackout-plate-800.png",
+      "source_label": "Blackout plate",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0005.png",
+      "source_sha256": "6cd2233f3722e93dac6c5cbc51d9cb02877693e3b00b907b78879076db1b109b",
+      "source_size": [
+        800,
+        400
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "1ff2a774812afbef4d19eadf4044ab2500e33fa6a6ba06afbdd634bdf20b2168",
+      "thumbnail_sha256": "ed619c2af10bb08e42ba13c7f9134773a8108e82ce2572458ea61f2cf9e9613f",
+      "display_size": [
+        800,
+        400
+      ],
+      "thumbnail_size": [
+        300,
+        150
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00008",
+      "name": "Collector",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/collector.gif",
+      "source_label": "Collector license plate",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0011.gif",
+      "source_sha256": "5b06da409b6ed010e168d7fac022fb1e35b36d95032204ef5967abd682a6155b",
+      "source_size": [
+        200,
+        101
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "7473a2cd4634ed00732b06b84de551ffff649c87bcab34c65c8543cc197b04a5",
+      "thumbnail_sha256": "7473a2cd4634ed00732b06b84de551ffff649c87bcab34c65c8543cc197b04a5",
+      "display_size": [
+        200,
+        101
+      ],
+      "thumbnail_size": [
+        200,
+        101
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00009",
+      "name": "Collector Special",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/collspec.gif",
+      "source_label": "Collector special license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0012.gif",
+      "source_sha256": "9ca1f85769f4bac0401e41b9e19ab275cda03877a777295a274028966a5d28f5",
+      "source_size": [
+        200,
+        102
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "63845b37181bb8497a15b1dd4c53708fe2cbbeff8d3e287b8a3dd798a32ae70b",
+      "thumbnail_sha256": "63845b37181bb8497a15b1dd4c53708fe2cbbeff8d3e287b8a3dd798a32ae70b",
+      "display_size": [
+        200,
+        102
+      ],
+      "thumbnail_size": [
+        200,
+        102
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00011",
+      "name": "Disabled",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/displate.gif",
+      "source_label": "Disabled license plate",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0014.gif",
+      "source_sha256": "1440f4717b57b8f25879822bf54425721e8f609961af0cc08e15745e6ae6b1d8",
+      "source_size": [
+        200,
+        101
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "88685cb694bd59943371e423304c5e7d162a8490be6f11f9292fbdc14e6fd0c7",
+      "thumbnail_sha256": "88685cb694bd59943371e423304c5e7d162a8490be6f11f9292fbdc14e6fd0c7",
+      "display_size": [
+        200,
+        101
+      ],
+      "thumbnail_size": [
+        200,
+        101
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00012",
+      "name": "Disabled Veteran",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/dis-vet-09.gif",
+      "source_label": "Disabled veteran license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0015.gif",
+      "source_sha256": "133f87086a1bf4fb8b9ff899a99d8ed7e4d65e2bddb6133d316ad8676385ba87",
+      "source_size": [
+        200,
+        101
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "39e26869dc252c3f1ba0e2c65569bde8c7c492cc665fca536b3dcbaa0e943e63",
+      "thumbnail_sha256": "39e26869dc252c3f1ba0e2c65569bde8c7c492cc665fca536b3dcbaa0e943e63",
+      "display_size": [
+        200,
+        101
+      ],
+      "thumbnail_size": [
+        200,
+        101
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00013",
+      "name": "Donate Life Wisconsin",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/donatelifeplate.jpg",
+      "source_label": "Donate Life Wisconsin license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0016.jpg",
+      "source_sha256": "d065a773793a0d845d8072a20a003e524a8f449def3bb1d29b33e1e9b15dfbec",
+      "source_size": [
+        200,
+        101
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "150ccfcd461b573cf989aaa7c64bf83f68e113b46c2115aa4b3b9de4af93a2be",
+      "thumbnail_sha256": "150ccfcd461b573cf989aaa7c64bf83f68e113b46c2115aa4b3b9de4af93a2be",
+      "display_size": [
+        200,
+        101
+      ],
+      "thumbnail_size": [
+        200,
+        101
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00014",
+      "name": "Ducks Unlimited",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/ducks.gif",
+      "source_label": "Ducks Unlimited license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0017.gif",
+      "source_sha256": "40d9c9f19ea3a33d292060f8af8338b410b21f1b9d446691544357de531075a8",
+      "source_size": [
+        200,
+        102
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "5c5da7bf3a38c5c60d440c91e5485140d99bfe17b5edb3e63ccc485b635eb97a",
+      "thumbnail_sha256": "5c5da7bf3a38c5c60d440c91e5485140d99bfe17b5edb3e63ccc485b635eb97a",
+      "display_size": [
+        200,
+        102
+      ],
+      "thumbnail_size": [
+        200,
+        102
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00017",
+      "name": "Endangered Resources",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/plate-wolf-200.jpg",
+      "source_label": "Endangered resources license plate - Wolf design reissued in 2007",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0023.jpg",
+      "source_sha256": "6a3c75318df0945c51183bda46e8687c3ad2415970f018c6834182b0eebd91cc",
+      "source_size": [
+        200,
+        101
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "878279b13d73a591b7f7f2255f2a5267487603db068d712fd3a732a870c3c5e1",
+      "thumbnail_sha256": "878279b13d73a591b7f7f2255f2a5267487603db068d712fd3a732a870c3c5e1",
+      "display_size": [
+        200,
+        101
+      ],
+      "thumbnail_size": [
+        200,
+        101
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00018",
+      "name": "Ex-prisoner of War",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/pow.gif",
+      "source_label": "Ex-prisoner of war license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0024.gif",
+      "source_sha256": "b01ec1d8dc459ccdfbf97f9555645ebd04e4209a0ee94c8e2f0b5ecd74d74b95",
+      "source_size": [
+        200,
+        100
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "76fedf9ef3932c7aee8cc63a043340fb5f2e43af21e44c3e08c64c213180ddb7",
+      "thumbnail_sha256": "76fedf9ef3932c7aee8cc63a043340fb5f2e43af21e44c3e08c64c213180ddb7",
+      "display_size": [
+        200,
+        100
+      ],
+      "thumbnail_size": [
+        200,
+        100
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00019",
+      "name": "Firefighter",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/plate-firefighter.gif",
+      "source_label": "Firefighter license plate - Current design issued in 2011",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0025.gif",
+      "source_sha256": "6438ff4f408f53a77cb56bbaa2aced196976a6ca2c9ede30b49a13e44929740b",
+      "source_size": [
+        200,
+        101
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "09764d5cb5bc11c92f3278f2f7049c8d1f8ec529bf606ca83a4c382662cffcc6",
+      "thumbnail_sha256": "09764d5cb5bc11c92f3278f2f7049c8d1f8ec529bf606ca83a4c382662cffcc6",
+      "display_size": [
+        200,
+        101
+      ],
+      "thumbnail_size": [
+        200,
+        101
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00020",
+      "name": "Freemason",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/freemason.gif",
+      "source_label": "Freemason license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0027.gif",
+      "source_sha256": "25a3ace341d46f4831fc5b18785dbec496446edd6e8d6a46ddb6ee952fa2c29c",
+      "source_size": [
+        200,
+        102
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "6558dbbc057abf8a5f5f28b05575f25b44fe0fdd4b24f102b6837608f6bd11d5",
+      "thumbnail_sha256": "6558dbbc057abf8a5f5f28b05575f25b44fe0fdd4b24f102b6837608f6bd11d5",
+      "display_size": [
+        200,
+        102
+      ],
+      "thumbnail_size": [
+        200,
+        102
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00021",
+      "name": "Gold Star Family",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/goldstar.gif",
+      "source_label": "Gold Star Family license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0028.gif",
+      "source_sha256": "2a5169eee157d0a36241ec93fb85d37083efd06c77898ae54d755bad836d4a86",
+      "source_size": [
+        200,
+        101
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "ead5dcacddeda31beb26981b79245c5edd62d74a3cc7cfd6afb7ee1b17b0ecee",
+      "thumbnail_sha256": "ead5dcacddeda31beb26981b79245c5edd62d74a3cc7cfd6afb7ee1b17b0ecee",
+      "display_size": [
+        200,
+        101
+      ],
+      "thumbnail_size": [
+        200,
+        101
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00022",
+      "name": "Golf Wisconsin",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/golf-wi.gif",
+      "source_label": "Golf Wisconsin license plate",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0029.gif",
+      "source_sha256": "e4fa0822c402676aec5a90636a25473749112d7fabd8162660efd2138129df69",
+      "source_size": [
+        200,
+        101
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "800a7fbed2d4e87667fcb1a3cb0f50cf375fbd16bd03024071c2031beaeddda4",
+      "thumbnail_sha256": "800a7fbed2d4e87667fcb1a3cb0f50cf375fbd16bd03024071c2031beaeddda4",
+      "display_size": [
+        200,
+        101
+      ],
+      "thumbnail_size": [
+        200,
+        101
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00023",
+      "name": "Green Bay Packers",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/packer.gif",
+      "source_label": "Green Bay Packers license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0032.gif",
+      "source_sha256": "26cdb552825fb94135183de02e3dac8c6bd187f7f4fe8d5227002ba818716a91",
+      "source_size": [
+        200,
+        102
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "1cafc54f0a78d9fbaa7e625392d40c0e26fb6028e8c7ff1eefccc24df182540a",
+      "thumbnail_sha256": "1cafc54f0a78d9fbaa7e625392d40c0e26fb6028e8c7ff1eefccc24df182540a",
+      "display_size": [
+        200,
+        102
+      ],
+      "thumbnail_size": [
+        200,
+        102
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00024",
+      "name": "Harley-Davidson / Share the Road",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/plate-harley-200.gif",
+      "source_label": "Harley-Davidson/Share the road license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0033.gif",
+      "source_sha256": "cfa7a43324868d15c30d62a20f48c8b76d5a12b9a3c2b2f3770a00a648f25289",
+      "source_size": [
+        200,
+        100
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "35faedc6b6ed29addd51f97b862ee40e413871a001e2b8a3161e56a9d453a996",
+      "thumbnail_sha256": "35faedc6b6ed29addd51f97b862ee40e413871a001e2b8a3161e56a9d453a996",
+      "display_size": [
+        200,
+        100
+      ],
+      "thumbnail_size": [
+        200,
+        100
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00025",
+      "name": "Historic Military Vehicle",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/plate-hist-military-200px.gif",
+      "source_label": "Historic military vehicle license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0034.gif",
+      "source_sha256": "43e34a233eddeed7381e1cbdcea352ac49219b231296065d3a64699b2e2dd673",
+      "source_size": [
+        200,
+        101
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "441b4901ecaf0d13dd9a118df3661f8bdad964fbee2279f45dd0dc5cf2b1c452",
+      "thumbnail_sha256": "441b4901ecaf0d13dd9a118df3661f8bdad964fbee2279f45dd0dc5cf2b1c452",
+      "display_size": [
+        200,
+        101
+      ],
+      "thumbnail_size": [
+        200,
+        101
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00026",
+      "name": "Hobbyist",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/hobbyist.gif",
+      "source_label": "Hobbyist license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0035.gif",
+      "source_sha256": "24862662746141d43ad3bd1ff2cb4d53b4ac8185d4d2011b939a6dd74fe62769",
+      "source_size": [
+        200,
+        102
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "542ec65744d6157f15eb8076d774ea62c9638e83a4be771ba376417aeaa91e1e",
+      "thumbnail_sha256": "542ec65744d6157f15eb8076d774ea62c9638e83a4be771ba376417aeaa91e1e",
+      "display_size": [
+        200,
+        102
+      ],
+      "thumbnail_size": [
+        200,
+        102
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00028",
+      "name": "In God We Trust",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/god-we-trust.jpg",
+      "source_label": "In God We Trust license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0037.jpg",
+      "source_sha256": "f7c4d74d84c1751c026889815ed9f8af682c80aee8c0b9e03b8b2706e8ef18d1",
+      "source_size": [
+        200,
+        101
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "1d51b166c1a37ebdf30a48c07e82daa965bb9e2c9ed5c418788a0963379a2af4",
+      "thumbnail_sha256": "1d51b166c1a37ebdf30a48c07e82daa965bb9e2c9ed5c418788a0963379a2af4",
+      "display_size": [
+        200,
+        101
+      ],
+      "thumbnail_size": [
+        200,
+        101
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00030",
+      "name": "Keeping the Lights On",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/UTLPlate2020.png",
+      "source_label": "Keeping the Lights On Plate",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0039.png",
+      "source_sha256": "bd10e9f6b2054940fed9ace45759b821731ba34baf0bd1449239fa45a0fc745f",
+      "source_size": [
+        200,
+        100
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "cc61a4b0a2ff639c27bcf9e1c8e18d07ea2948deac4a606dfb5fdc5e8be3388f",
+      "thumbnail_sha256": "cc61a4b0a2ff639c27bcf9e1c8e18d07ea2948deac4a606dfb5fdc5e8be3388f",
+      "display_size": [
+        200,
+        100
+      ],
+      "thumbnail_size": [
+        200,
+        100
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00031",
+      "name": "Lao Veterans",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/laoplate.gif",
+      "source_label": "Lao Veterans of America license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0040.gif",
+      "source_sha256": "daa19abd2330cade73caf5b934a4d90eb89de8b139c525b389902d13929dd9b6",
+      "source_size": [
+        200,
+        100
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "c68415e956c69af97b60c1c9eb344628e5c4995e32e67b46bb9606df8d331a84",
+      "thumbnail_sha256": "c68415e956c69af97b60c1c9eb344628e5c4995e32e67b46bb9606df8d331a84",
+      "display_size": [
+        200,
+        100
+      ],
+      "thumbnail_size": [
+        200,
+        100
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00033",
+      "name": "Lions Foundation",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/lions-plate-200px.gif",
+      "source_label": "Lions Foundation license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0042.gif",
+      "source_sha256": "22b0595145ef9fe84086d4fd1fee57a56e30ac25e01cadcb1e3bca6ae39cd019",
+      "source_size": [
+        200,
+        101
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "2601fcf74b7ed3cfe80648baf724d5b89fb63e1f59f9bf6bb2d1dbd214bd51a3",
+      "thumbnail_sha256": "2601fcf74b7ed3cfe80648baf724d5b89fb63e1f59f9bf6bb2d1dbd214bd51a3",
+      "display_size": [
+        200,
+        101
+      ],
+      "thumbnail_size": [
+        200,
+        101
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00034",
+      "name": "Marquette University",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/plate-marquette-200px.gif",
+      "source_label": "Marquette University license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0043.gif",
+      "source_sha256": "201d9579aacb698ac08ac6bf2068859e0563a9f554e40ba1d616a11ef0b75919",
+      "source_size": [
+        200,
+        101
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "1713df2774f7b07aff8a344bd43346438a0bb93325f7ef4f1689bed018aa3a0a",
+      "thumbnail_sha256": "1713df2774f7b07aff8a344bd43346438a0bb93325f7ef4f1689bed018aa3a0a",
+      "display_size": [
+        200,
+        101
+      ],
+      "thumbnail_size": [
+        200,
+        101
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00035",
+      "name": "Medal of Honor",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/medal-honor09.jpg",
+      "source_label": "Medal of Honor license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0044.jpg",
+      "source_sha256": "7a5a7b28d1b868ef6accc4b09491ef17536cc2a7066fbe9f46f78a02192b8555",
+      "source_size": [
+        200,
+        96
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "0c42ecfc023696cbfca7fe62a5383f451735800f2df633f1a7915e368c6e5de8",
+      "thumbnail_sha256": "0c42ecfc023696cbfca7fe62a5383f451735800f2df633f1a7915e368c6e5de8",
+      "display_size": [
+        200,
+        96
+      ],
+      "thumbnail_size": [
+        200,
+        96
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00038",
+      "name": "Milwaukee Brewers",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/MilwBrewers_MBN_200-web.png",
+      "source_label": "Milwaukee Brewers license plate",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0048.png",
+      "source_sha256": "71046f2885db643ddb222aba5823e8bf2d60ffca0bcb3a9f4bf93e38adcd2a2d",
+      "source_size": [
+        200,
+        100
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "175db0e6678d015b33f80a6baba5ca4cc5b3874fa3dca2175e801cd269af5fd6",
+      "thumbnail_sha256": "175db0e6678d015b33f80a6baba5ca4cc5b3874fa3dca2175e801cd269af5fd6",
+      "display_size": [
+        200,
+        100
+      ],
+      "thumbnail_size": [
+        200,
+        100
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00042",
+      "name": "Operating Engineers",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/eng-plate-2020.png",
+      "source_label": "Operating Engineers Local 139 Plate",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0053.png",
+      "source_sha256": "32052ba19db0d4d7f31dd2982eea2bd0d72da49a5f5accc157179558a88f151a",
+      "source_size": [
+        200,
+        100
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "bdbf3a08c2b74634867bbc9cd2e0c2f52c148d5b5789d2edbe883840b734270c",
+      "thumbnail_sha256": "bdbf3a08c2b74634867bbc9cd2e0c2f52c148d5b5789d2edbe883840b734270c",
+      "display_size": [
+        200,
+        100
+      ],
+      "thumbnail_size": [
+        200,
+        100
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00043",
+      "name": "Rescue Squad Member",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/rescuesquadmember.gif",
+      "source_label": "Rescue squad member license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0054.gif",
+      "source_sha256": "09fec490dbf5b9448084ceaba1ce21bae112ba796fc3762775dc70d3350032de",
+      "source_size": [
+        200,
+        101
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "7ff0956e9308003b58eb61cd6d099020f8e5e4173ed8c259d480283ad6db516b",
+      "thumbnail_sha256": "7ff0956e9308003b58eb61cd6d099020f8e5e4173ed8c259d480283ad6db516b",
+      "display_size": [
+        200,
+        101
+      ],
+      "thumbnail_size": [
+        200,
+        101
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00048",
+      "name": "Trout Unlimited",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/trout.jpg",
+      "source_label": "Trout Unlimited license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0061.jpg",
+      "source_sha256": "d48966e95e463d698f8e3a916d4c7cd77384df68f6039bb1a4b292e0653eb2ae",
+      "source_size": [
+        200,
+        102
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "09ac96a05ce3d48d226a736fec378dd0f7e7acea4dffbd729c33e73b862303ac",
+      "thumbnail_sha256": "09ac96a05ce3d48d226a736fec378dd0f7e7acea4dffbd729c33e73b862303ac",
+      "display_size": [
+        200,
+        102
+      ],
+      "thumbnail_size": [
+        200,
+        102
+      ]
+    },
+    {
+      "uid": "LPG-US-WI-00049",
+      "name": "University",
+      "jurisdiction_id": "US-WI",
+      "source_page_url": "https://wisconsindot.gov/Pages/dmv/vehicles/title-plates/special.aspx",
+      "source_asset_url": "https://wisconsindot.gov/PublishingImages/dmv/shared/plates/bucky200.gif",
+      "source_label": "University of Wisconsin higher education license plate.",
+      "source_file": "harvest-output/WI/Wisconsin_DOT_Special_License_Plates_html/asset_0062.gif",
+      "source_sha256": "144809029bb7133f40d13ee3f7a31eec1706a0f99f0799dbebcb128e01531099",
+      "source_size": [
+        200,
+        101
+      ],
+      "evidence_method": "explicit_inspected_source_file_map_plus_sha256",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "display_sha256": "386b3d88024b00d4127a8c166cda38b24ddf8b9ea247efb080eef019bef7868c",
+      "thumbnail_sha256": "386b3d88024b00d4127a8c166cda38b24ddf8b9ea247efb080eef019bef7868c",
+      "display_size": [
+        200,
+        101
+      ],
+      "thumbnail_size": [
+        200,
+        101
+      ]
+    }
+  ],
+  "known_exclusion": "WI Civil Air Patrol source alt actually depicts Spay/Neuter plate; excluded",
+  "era_status": "unverified",
+  "human_approval": false
+}
