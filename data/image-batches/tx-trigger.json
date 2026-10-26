@@ -9,5 +9,9 @@
   "expected_source_matched_after_review": 306,
   "output_branch": "generated/texas-157-source-images-20261026",
   "release_policy": "review_branch_only__no_signed_apk_or_human_approval",
-  "source_validation": "Official PDF bytes must equal either inspected SHA-256 variant and contain 161 plate-name/image sections."
+  "source_validation": "Official PDF bytes must equal either inspected SHA-256 variant and contain 161 plate-name/image sections.",
+  "attempt": 2,
+  "excluded_uid_gate": "enforce all seven preflight exclusions before forming any image selection",
+  "previous_run_id": 40389696044,
+  "previous_run_status": "failed safely at 159 nominal matches vs 157 reviewed candidates"
 }
