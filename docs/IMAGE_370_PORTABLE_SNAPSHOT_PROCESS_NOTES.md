@@ -13,7 +13,7 @@ Produce a traceable portable SQLite/JSON/JPEG snapshot from the **currently depl
 ## Step notes
 - Step 1: check current catalog UID uniqueness, number of selected app images and manifest membership.
 - Step 2: verify all 370 selected images remain `source_matched`, `era_status=unverified` and `human_approval=false`.
-- Step 3: check, hash and copy all current 370 enlarged and 370 thumbnail public JPEGs byte-for-byte from the GitHub checkout into an isolated package.
+- Step 3: check, hash and copy all current 370 enlarged and 370 thumbnail public JPEGs byte-for-byte from the GitHub checkout into an isolated package.\n- Step 3a: if two UIDs contain byte-for-byte identical display JPEGs, store one SHA-256-addressed asset and link both individual UIDs through `runtime_image_files` and `app_image_selections`; create an unresolved `shared_identical_runtime_image` issue and export the duplicate-pair list. Do not pretend duplicate bytes are independent artwork.
 - Step 4: build a portable SQLite database using original schema with an added `app_image_selections` table; record issuing-agency source URLs, original-image SHA-256 references and published-image hashes independently.
 - Step 5: retain all 1,138 existing canonical IDs, no extraneous catalog UIDs, and explicitly omit the three separate non-canonical historical report entries. Do not claim this is a superset of the prior research-only archive.
 - Step 6: export current source/provenance metadata, catalog, app selection manifest, SQLite tables, README and complete file hash inventory, and ZIP the directory.
