@@ -82,6 +82,8 @@ def integrate(root,pdf_bytes):
   name=norm(label["name"]);candidates=names.get(name,[])
   if len(candidates)!=1:continue
   uid=candidates[0]["uid"]
+  # Historical name preflight excluded seven entries; parser improvements must not silently approve them.
+  if uid in EXCLUDED:continue
   if uid in mappings:raise ValueError(f"Duplicate catalog name/UID {uid}")
   if id(image) in used:raise ValueError("Reused plate image block")
   mappings[uid]=(label,image);used[id(image)]=uid;matched_labels.add(name)
