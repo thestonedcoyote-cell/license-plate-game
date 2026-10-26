@@ -31,5 +31,16 @@ Public plate imagery remains source-matched, with historical era and human appro
 ## Final recheck
 Before offering APK: verify immutable 1,138 source IDs, 502 source-matched entries, 1,004 images byte-matched in APK, package ID, versionCode > 5, cert SHA, signature and ZIP alignment. Physical update acceptance and stable latest feed remain explicitly separate.
 
+## Actual build receipt and verification
+- Source update PR #42 merged at `6f4dfaa38b0b8e4433063c701e4026fd261751bd` after four CI checks passed.
+- GitHub Actions unsigned native release runner [40415931961](https://github.com/thestonedcoyote-cell/license-plate-game/actions/runs/40415931961) produced a 0.6.0-rc1 versionCode 6 aligned APK with all 1,004 JPGs byte-matched to repository source, plus the public Android apksigner utility. No private signing material was sent to GitHub.
+- Local signing used the **original private recovery keystore**, with one signing certificate and matching previous 0.5.0 APK fingerprint, `6c858b7a667848c1243985743dbc0c315f47636507aec241b042af284b5bcc4b`. The appId is unchanged; versionCode advances from 5 to 6. Android APK Signature Scheme v2 and v3 verification PASS; v1 is absent on both prior/new APKs (minimum SDK 26).
+- The signed package `license-plate-game-0.6.0-rc1-signed-update.apk` has SHA-256 `1ddc819e98561a1293fa2417d7330a00ee24f6303179116006b335e7a35ccb7d`, size `28389880` bytes, private Library `libfile_4731c410bb5481918f7fc7dac194f66f`.
+- A separate validation JSON receipt is Library `libfile_d3e6485dbc0c81918ad2f0223b9457b2`. Package ZIP integrity passes, all 1,004 embedded plate JPEGs retain byte identity from the unsigned APK, and all non-META-INF native/app files are unmodified by signing.
+- GitHub latest stable release endpoint was empty at preparation. No `update.json` latest/stable feed was published because physical in-place install/user-data survival are not yet verified.
+
+## User/device acceptance still needed
+Install the versionCode 6 APK on top of the existing, same-signer v5 app. **Do not uninstall**. Verify retained sightings, collection, notebook, attached photos, camera, picker, and updater manual check. Confirm no Android signature rejection. Only then publish signed stable latest GitHub release + matching `update.json` so future in-app updates are discoverable.
+
 ## Completion status
-IN_PROGRESS — source branch and unsigned-build workflow prepared; signing, release candidate transfer and physical acceptance require actual run results.
+COMPLETE_WITH_EXCEPTIONS — properly signed, packaged, cryptographically verified, archived **manually installable candidate**. Physical upgrade acceptance and latest/stable in-app distribution remain open.
