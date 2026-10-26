@@ -1,8 +1,9 @@
 {
-  "codes": "FL",
-  "max_sources": 4,
-  "campaign_id": "LPG-FL-OFFICIAL-RECOVERY-20261026",
-  "purpose": "Try the official Florida 2026 illustrated brochure (previous 403), the prior official 2025 illustrated brochure, and two official registration/specialty gallery pages. Preserve source outcomes and all evidence/hash/error metadata, no automatic plate matching or approvals.",
-  "catalog_florida_immutable_uids": 132,
-  "app_source_matched_before_batch": 370
+  "codes": "MN,NE,AL,CT",
+  "max_sources": 5,
+  "campaign_id": "LPG-IMAGE-OFFICIAL-HIGH-YIELD-04-20261026",
+  "purpose": "Acquire/hashes official Minnesota specialty plate brochure, current and previous Nebraska plate PDFs, Alabama official gallery and Connecticut DMV specialty gallery. Preserve original source binaries, assets, page renders, errors, attribution in private artifact; no automatic UID assignment, era/legal/human approval or stable Android release.",
+  "current_matched": 502,
+  "catalog_total": 1138,
+  "remaining_unmatched": 636
 }
