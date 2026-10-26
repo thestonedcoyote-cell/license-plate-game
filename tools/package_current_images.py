@@ -13,7 +13,7 @@ from PIL import Image
 
 def digest(data):return hashlib.sha256(data).hexdigest()
 def to_json(x):return json.dumps(x,ensure_ascii=False,indent=2)+'\n'
-def build(root:Path,out:Path):
+def build(root:Path,out:Path,expected_selections:int):
     root=root.resolve();out=out.resolve()
     if out.exists():raise ValueError('Package destination exists; overwrite forbidden')
     out.mkdir(parents=True)
@@ -25,7 +25,7 @@ def build(root:Path,out:Path):
     path=root/'data/catalog-images.js';m=path.read_text()
     if not m.startswith('globalThis.LPG_CATALOG_IMAGES='):raise ValueError('Unrecognized app-image format')
     mappings=json.loads(m.split('=',1)[1].strip().rstrip(';'))
-    if len(mappings)!=370:raise ValueError(f'Current manifest changed: {len(mappings)}; refresh packaging acceptance counts')
+    if len(mappings)!=expected_selections:raise ValueError(f'Current manifest changed: {len(mappings)} vs explicit expected {expected_selections}; refresh packaging acceptance counts')
     original_ids={r['plate_uid'] for r in plates}
     if not set(mappings).issubset(original_ids):raise ValueError('Orphan app image UID')
     db=sqlite3.connect(out/'lpg.sqlite');db.row_factory=sqlite3.Row
@@ -94,10 +94,10 @@ def build(root:Path,out:Path):
         db.execute('INSERT INTO app_image_selections VALUES(?,?,?,?,?,?,?,?)',(
             uid,copyhash,'source_matched','unverified',0,ref,url,'runtime_display_only__source_original_external'))
         prov.append({k:row[k] for k in ('name','source_sha256','source_url','source_date','match_status','era_status','human_approval','display_runtime_sha256','thumbnail_runtime_sha256') if k in row}|{'uid':uid,'other_metadata':{k:v for k,v in row.items() if k not in ('name','source_sha256','source_url','source_date','match_status','era_status','human_approval','display_runtime_sha256','thumbnail_runtime_sha256','image','thumbnail','display_width','display_height','thumbnail_width','thumbnail_height')}})
-    assert len(all_jpg)==740
+    assert len(all_jpg)==2*expected_selections
     metadata={
         'package_kind':'runtime_snapshot_not_original_evidence_archive',
-        'canonical_plate_uids':'1138','source_matched_runtime_image_selections':'370',
+        'canonical_plate_uids':'1138','source_matched_runtime_image_selections':str(expected_selections),
         'selected_images_have_human_approval':'false',
         'original_issuing_agency_source_binaries_included':'false',
         'legacy_report_candidate_entries_included':'false',
@@ -112,7 +112,7 @@ def build(root:Path,out:Path):
     check=db.execute('PRAGMA integrity_check').fetchone()[0]
     assert check=='ok' and not fk,(check,fk)
     counts={table:db.execute('SELECT COUNT(*) FROM '+table).fetchone()[0] for table in ['plates','jurisdictions','sources','assets','derivatives','plate_assets','app_image_selections','runtime_image_files','issues']}
-    assert counts['plates']==1138 and counts['assets']==len(seen_hashes) and counts['derivatives']==len(seen_hashes)*2 and counts['app_image_selections']==370 and counts['runtime_image_files']==740
+    assert counts['plates']==1138 and counts['assets']==len(seen_hashes) and counts['derivatives']==len(seen_hashes)*2 and counts['app_image_selections']==expected_selections and counts['runtime_image_files']==2*expected_selections
     assert db.execute('SELECT COUNT(*) FROM app_image_selections WHERE human_approval!=0 OR era_status!="unverified"').fetchone()[0]==0
     for table in ['app_image_selections','plate_assets','sources','runtime_image_files','issues']:
         (out/'exports'/f'{table}.json').write_text(to_json([dict(x) for x in db.execute('SELECT * FROM '+table)]))
@@ -124,6 +124,7 @@ def build(root:Path,out:Path):
     db.close()
     readme='''# License Plate Game portable source-image snapshot\n\nThis ZIP is derived from the **current GitHub runtime manifest**, not from a newly rebuilt original-source evidence archive.\n\n- 1,138 immutable existing catalog UIDs and 58 existing catalog jurisdictions.\n- 370 selected source-matched display examples; 740 published JPEG display/thumbnail files copied byte-for-byte.\n- Each source entry retains its URL, original source asset SHA-256 **as a reference string**, app source metadata and the exact published derivative hashes.\n- `assets.original_path` is a legacy schema column but points at the packaged **runtime display derivative**, NOT the issuing-agency original. Rows declare `asset_role=published_runtime_display_derivative_not_original`. The original agency files remain in independent evidence archives stored in the user Library.\n- Content-identical published display images are deduplicated in the content-addressed `assets` table. The separate `runtime_image_files` table keeps every plate UID and all 740 actual display/thumbnail paths; duplicate source-image use is flagged in `issues` and `exports/shared-identical-display-images.json` for review.
 - `app_image_selections` is separate from `plate_assets`: selections are source-matched runtime reference images but **not** historically era-verified, rights-cleared, or human-approved.\n- Historic 3 non-canonical report candidates from the older research database are omitted; preserve the historical 149-image archive separately. This snapshot is not a superset of that research archive.\n- No original issuing-agency source binaries, access credentials or signing keys are included.\n\nValidation: SQLite integrity and foreign keys, 370 unique selections, 740 byte-for-byte runtime JPEG copies and a SHA-256 inventory of all packaged files.\n'''
+    readme=readme.replace('370',str(expected_selections)).replace('740',str(2*expected_selections))
     (out/'README.md').write_text(readme)
     (out/'validation.json').write_text(to_json({'status':'PASS','sqlite_integrity':check,'foreign_key_errors':len(fk),'counts':counts,'runtime_jpeg_files':len(all_jpg),'canonical_catalog_count':1138,'approved_images':0,'source_display_byte_duplicates':len(shared),'original_source_binaries_in_package':0}))
     hashes=[{'path':str(p.relative_to(out)),'bytes':p.stat().st_size,'sha256':digest(p.read_bytes())} for p in sorted(out.rglob('*')) if p.is_file() and p.name!='checksums.json']
@@ -133,8 +134,8 @@ def build(root:Path,out:Path):
     return counts,len(hashes)
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[1]);p.add_argument('--out',type=Path,required=True)
-    args=p.parse_args();counts,num=build(args.root,args.out)
+    p=argparse.ArgumentParser();p.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[1]);p.add_argument('--out',type=Path,required=True);p.add_argument('--expected-selections',type=int,required=True)
+    args=p.parse_args();counts,num=build(args.root,args.out,args.expected_selections)
     archive=args.out.with_suffix('.zip')
     with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=6) as z:
         for file in sorted(args.out.rglob('*')):
