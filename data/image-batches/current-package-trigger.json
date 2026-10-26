@@ -4,6 +4,8 @@
   "expected_canonical_uids": 1138,
   "expected_source_matched_uids": 370,
   "expected_runtime_jpeg_derivatives": 740,
-  "source_commit": "1a3b4baef308973468e3b2ce870760f36cb71ff6",
-  "reason": "Create checked source-matched runtime SQLite package and persist ZIP into project Library; explicitly not a source-original archive and not Android release."
+  "source_commit": "9e3b16083b9e6c0afcc43fd5d41706d9272ea9c4",
+  "reason": "Create checked source-matched runtime SQLite package and persist ZIP into project Library; explicitly not a source-original archive and not Android release.",
+  "retry": "2026-10-26-duplicate-sha-dedup",
+  "retry_reason": "First run 40406834653 surfaced byte-identical display assets under separate UIDs; now build content-addressed assets plus 740 UID-specific runtime_image_files and explicit review issues."
 }
