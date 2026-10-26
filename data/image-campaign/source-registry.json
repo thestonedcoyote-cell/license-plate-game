@@ -235,10 +235,56 @@
         "historical_coverage": "0",
         "local_binary_status": "remote_only",
         "notes": "Current official illustrated brochure."
+      },
+      {
+        "priority": "13",
+        "jurisdiction": "Florida",
+        "code": "FL",
+        "source_kind": "bulk_pdf",
+        "title": "Florida License Plate Brochure 2025",
+        "url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%2010-2025%29%20reduced%20size%20%281%29.pdf",
+        "extraction_mode": "bulk_pdf",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official 10/2025 illustrated comparison; prior edition and retrieval unverified",
+        "jurisdiction_id": "US-FL"
+      },
+      {
+        "priority": "13",
+        "jurisdiction": "Florida",
+        "code": "FL",
+        "source_kind": "official_gallery",
+        "title": "Florida Standard Plate Options",
+        "url": "https://www.flhsmv.gov/motor-vehicles-tags-titles/license-plates-registration/",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official standard plate example page, may contain images",
+        "jurisdiction_id": "US-FL"
+      },
+      {
+        "priority": "13",
+        "jurisdiction": "Florida",
+        "code": "FL",
+        "source_kind": "official_gallery",
+        "title": "Florida Specialty Plates Official Gallery",
+        "url": "https://www.flhsmv.gov/motor-vehicles-tags-titles/personalized-specialty-license-plates/specialty-license-plates/",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official specialty page, prior web fetch 403",
+        "jurisdiction_id": "US-FL"
       }
     ],
-    "status": "leads_need_retrieval",
-    "fallback_search": "Florida official vehicle registration license plate designs government"
+    "status": "prior_2026_pdf_http_403__alternates_pending_harvest",
+    "fallback_search": "Florida official vehicle registration license plate designs government",
+    "last_known_error": "2026 official illustrated PDF returned 403 from GitHub Actions; do not claim source acquired"
   },
   {
     "jurisdiction_id": "US-GA",
