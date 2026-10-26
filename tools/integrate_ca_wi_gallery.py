@@ -66,6 +66,12 @@ def integrate(root,evidence):
  archive=json.loads((evidence/"manifest.json").read_text(encoding="utf-8"))
  index=source_index(archive)
  maps=selections(root/SRC_MAP)
+ pins={}
+ for line in (root/"data/image-batches/ca-wi-original-hashes.txt").read_text(encoding="utf-8").splitlines():
+  uid,value=line.split("=")
+  if uid in pins or not re.fullmatch("[a-f0-9]{64}",value):raise ValueError("Invalid or duplicate pinned original source hash")
+  pins[uid]=value
+ if set(pins)!=set(maps):raise ValueError("Reviewed UID and pinned-original manifests differ")
  canonical={r["uid"]:r for r in json.loads((root/"data/image-campaign/manifest.json").read_text(encoding="utf-8"))}
  if len(canonical)!=1138:raise ValueError("Immutable canonical UID baseline changed")
  image_js=root/"data/catalog-images.js";raw=image_js.read_text(encoding="utf-8").strip()
@@ -89,7 +95,8 @@ def integrate(root,evidence):
   file=(evidence/source["file"].removeprefix("harvest-output/")).resolve()
   if not file.is_relative_to(evidence):raise ValueError("Attempted source file traversal")
   data=file.read_bytes()
-  if sha(data)!=source["sha256"]:raise ValueError(f"Source hash failed for {uid}")
+  if sha(data)!=pins[uid] or source["sha256"]!=pins[uid]:
+   raise ValueError(f"Source hash changed from original October 26 reviewed archive for {uid}")
   label=source.get("alt_text","").strip()
   if not label:raise ValueError(f"No issuing-agency source label for {uid}")
   d_hashes={};d_shapes={}
