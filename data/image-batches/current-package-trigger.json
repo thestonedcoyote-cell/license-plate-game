@@ -1,0 +1,9 @@
+{
+  "campaign_id": "LPG-PORTABLE-370-2026-10-26",
+  "date": "2026-10-26",
+  "expected_canonical_uids": 1138,
+  "expected_source_matched_uids": 370,
+  "expected_runtime_jpeg_derivatives": 740,
+  "source_commit": "1a3b4baef308973468e3b2ce870760f36cb71ff6",
+  "reason": "Create checked source-matched runtime SQLite package and persist ZIP into project Library; explicitly not a source-original archive and not Android release."
+}
