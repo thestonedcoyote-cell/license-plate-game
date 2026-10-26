@@ -1,0 +1,4094 @@
+[
+  {
+    "uid": "LPG-US-FL-00001",
+    "name": "Sunshine State",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "92baf21de7095aaefd2da6637f27817d7166e7276b8150787eaf9bb1785144ad",
+    "source_pdf_page": 2,
+    "source_xref": 25,
+    "source_image_rect": [
+      65.628,
+      69.374,
+      226.621,
+      130.885
+    ],
+    "source_printed_caption": "Sunshine State",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "f8ec93c4b87ae4bdb7de073ce312697cb2954e077ebb2bcf232df47c48de94fe",
+    "display_size": [
+      340,
+      163
+    ],
+    "thumbnail_sha256": "718c94b973168d56b04f341544f8d174983450a0eaf8da7b0994d8b8a21ce167",
+    "thumbnail_size": [
+      300,
+      144
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00002",
+    "name": "County Name",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "9c5b5fb01f30f2ee6f4353127f7e070aff62137c151c00f5e46fd1d537f75efa",
+    "source_pdf_page": 2,
+    "source_xref": 26,
+    "source_image_rect": [
+      257.947,
+      68.449,
+      418.555,
+      131.81
+    ],
+    "source_printed_caption": "County Name",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "3415a28b46eed0205bb3960eb60768d88005e4a42a0bbf1da3982a514209c9fe",
+    "display_size": [
+      336,
+      162
+    ],
+    "thumbnail_sha256": "d229c05460a6855844b7a657110f772fc74c55a08f3ba25fa2d261642f8dbbb9",
+    "thumbnail_size": [
+      300,
+      145
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00003",
+    "name": "In God We Trust",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "43e6dc5fb6484cca826ece1647a6f840865fcf411f5d57fcbfa7f7c3822a7440",
+    "source_pdf_page": 2,
+    "source_xref": 27,
+    "source_image_rect": [
+      436.821,
+      68.448,
+      599.955,
+      132.272
+    ],
+    "source_printed_caption": "In God We Trust",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "b19bdcc5478da210a8d8f97b443a5a50466121cd57994ad3fad394950fc1bcdd",
+    "display_size": [
+      342,
+      158
+    ],
+    "thumbnail_sha256": "f726a2fd45f4163efa562e4958478dc97ef5be0c19fb5f0aeba289a35d591c82",
+    "thumbnail_size": [
+      300,
+      139
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00004",
+    "name": "America 250",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "51c4cae7d7b19b146d5c23f0b8788fcf7ab1f1231e411fe43e2ab729fbdf3062",
+    "source_pdf_page": 2,
+    "source_xref": 28,
+    "source_image_rect": [
+      255.698,
+      155.398,
+      416.243,
+      213.209
+    ],
+    "source_printed_caption": "America 250",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "efa39df241f388d06a2655d270f7a0ebccbb0469af999585fb607547a6363d71",
+    "display_size": [
+      335,
+      121
+    ],
+    "thumbnail_sha256": "a1f2d147b02a8fa48b2eafdca83b265cb72b76c3f3e60ef0f421bc6c96547d3c",
+    "thumbnail_size": [
+      300,
+      108
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00005",
+    "name": "Advent Health University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "afd76de6fb640f7c78c1caa55933a28056cb2ea3fded331510c18f3899eacaa3",
+    "source_pdf_page": 2,
+    "source_xref": 21,
+    "source_image_rect": [
+      64.38,
+      305.836,
+      227.073,
+      385.06
+    ],
+    "source_printed_caption": "Advent Health University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "64ce737205cbbb0766ef13320f81b4e37ad62c77d0a2af9e8409c4c266591427",
+    "display_size": [
+      339,
+      166
+    ],
+    "thumbnail_sha256": "5e2e8d39074e84c11fb6f459732b869a82eee46c026091c595341d49e359715c",
+    "thumbnail_size": [
+      300,
+      147
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00006",
+    "name": "Auburn University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "e2c5c1e8c68f8b83f6dac10b123748c6abd263967df023333c47dca2cbf3fc68",
+    "source_pdf_page": 2,
+    "source_xref": 29,
+    "source_image_rect": [
+      255.296,
+      306.633,
+      417.63,
+      386.643
+    ],
+    "source_printed_caption": "Auburn University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "9cfc7c01db64a6b8cecb3b62477dfe12c6659620c3a03646bbe08190016274e5",
+    "display_size": [
+      338,
+      167
+    ],
+    "thumbnail_sha256": "5edf3dfe99cc84056594fdfd478f4941a11ce5310b00e1cb0d0a1635ff8b2d3f",
+    "thumbnail_size": [
+      300,
+      148
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00007",
+    "name": "Ave Maria University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "eb2b4b828124b84ee4846af04adc0dbf0b220aed75d7aaf17c9788f96c5b5ab3",
+    "source_pdf_page": 2,
+    "source_xref": 22,
+    "source_image_rect": [
+      435.822,
+      306.632,
+      597.692,
+      386.536
+    ],
+    "source_printed_caption": "Ave Maria University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "4aae0f0e6f8f65bbb998971ff83c92656f09054c8e7ead8c5fcce1be81be95ba",
+    "display_size": [
+      501,
+      236
+    ],
+    "thumbnail_sha256": "ab9e96b40955c88454cdec7631778cd1e9f1459931aa2f9869f8b6b86d5c9b84",
+    "thumbnail_size": [
+      300,
+      141
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00008",
+    "name": "Barry University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "d5ad172a8f531f3c44747e3749d07e88fb243edae63670874ac4286c24d004f5",
+    "source_pdf_page": 2,
+    "source_xref": 30,
+    "source_image_rect": [
+      63.851,
+      417.383,
+      225.566,
+      497.641
+    ],
+    "source_printed_caption": "Barry University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "f6d5dc94792eb9da4cbb6e1f1c996892f23b0912a2f3faa25651cf99aec4232d",
+    "display_size": [
+      337,
+      163
+    ],
+    "thumbnail_sha256": "7e3d779f972d2e7c17320f2f8f77627137d12877d62182f16de3ca909ce831eb",
+    "thumbnail_size": [
+      300,
+      145
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00009",
+    "name": "Beacon College",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "9d81b8387834946eea97c43ef7001d2454ea57c3ad0be7cf1089aec838bcac7d",
+    "source_pdf_page": 2,
+    "source_xref": 32,
+    "source_image_rect": [
+      256.12,
+      416.99,
+      419.093,
+      498.266
+    ],
+    "source_printed_caption": "Beacon College",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "4f89cc210cb688d51915b4095c07ff6c2c1b42208d04916f7220d9df7b662f27",
+    "display_size": [
+      491,
+      239
+    ],
+    "thumbnail_sha256": "06807e67932f7f1abc34dc0c7a048044cad0286f0707e1d909cf2c69301e481c",
+    "thumbnail_size": [
+      300,
+      146
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00010",
+    "name": "Bethune-Cookman University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "7153c87fb96ebc951192cea2c51fb11e882dcd1a05e060cb258d438a91241abb",
+    "source_pdf_page": 2,
+    "source_xref": 31,
+    "source_image_rect": [
+      436.05,
+      416.55,
+      598.907,
+      497.297
+    ],
+    "source_printed_caption": "Bethune-Cookman University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "426569170c95a1a36460f2e2af006760e2f2f0bb047a8916cadfbd6b8c17306f",
+    "display_size": [
+      376,
+      189
+    ],
+    "thumbnail_sha256": "cb062b63c08719e31c375af8a0530142df4fd8656e77d7d3d411151a33ed8446",
+    "thumbnail_size": [
+      300,
+      151
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00011",
+    "name": "Eckerd College",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "80a5bb07e4d45b7650a56661024f8fb87b45a127ddf357ddfce3c3c4693198be",
+    "source_pdf_page": 2,
+    "source_xref": 33,
+    "source_image_rect": [
+      63.851,
+      541.688,
+      222.922,
+      621.708
+    ],
+    "source_printed_caption": "Eckerd College",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "3d2076ccfb81573b295c744ef7cb342a013bafc4cb5b7c96d09a6fc98ddacfaf",
+    "display_size": [
+      515,
+      238
+    ],
+    "thumbnail_sha256": "0ffff047f9be78a5e86d94838cb9f59b658f062ef8c3ec0b8480ad845fbda0e7",
+    "thumbnail_size": [
+      300,
+      139
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00012",
+    "name": "Edward Waters University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "702363f08c670e6e094f4c801cfe08f81eb52fac0883b1a1affc752438f54651",
+    "source_pdf_page": 2,
+    "source_xref": 35,
+    "source_image_rect": [
+      256.164,
+      544.263,
+      418.754,
+      625.122
+    ],
+    "source_printed_caption": "Edward Waters  University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "6fecf96f7fd2b9f98c291c1907f7d37e6178a13b0554e7ab934c1f27ccc65e6a",
+    "display_size": [
+      339,
+      169
+    ],
+    "thumbnail_sha256": "40ead7af555c9706522a5828a437db6331c8456c5ebd4aabfe4d32e48e52d601",
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00013",
+    "name": "Embry-Riddle Aeronautical University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "4f9ca92c9f8e055e47adada03eaafc5ef6c0ab8fe14832b78a20f86f0325f2a8",
+    "source_pdf_page": 2,
+    "source_xref": 34,
+    "source_image_rect": [
+      438.579,
+      542.267,
+      598.927,
+      624.041
+    ],
+    "source_printed_caption": "Embry-Riddle Aeronautical University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "ecc300de1d8cc732db4eb360238f9c1592a101dbbc7aba8931872092765b8db7",
+    "display_size": [
+      514,
+      248
+    ],
+    "thumbnail_sha256": "df840e49346e2067900cdd3a3369eee1af5fcf7a42150762699e7ef0e3c1ef70",
+    "thumbnail_size": [
+      300,
+      145
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00014",
+    "name": "Everglades University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "b2bc76340555d0e73cd2a16ab98d88f9acf6293443cd2f4eff76481502495fb6",
+    "source_pdf_page": 2,
+    "source_xref": 36,
+    "source_image_rect": [
+      64.93,
+      665.063,
+      223.602,
+      743.687
+    ],
+    "source_printed_caption": "Everglades University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "d3589cff9bf5bdeeb4e1ee78ad69729fc70196f0d099f3b8511accbd982869e9",
+    "display_size": [
+      331,
+      164
+    ],
+    "thumbnail_sha256": "62b32b2a217bf4a18c629c9bb97f5037e8d2eed7dd7fcd48f8c13eb6408a2282",
+    "thumbnail_size": [
+      300,
+      149
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00015",
+    "name": "Flagler College",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "7ef74a2fc22de6689d9a73ad1d1c5b09cd1762f1135bc3e633df44b491d7d0f7",
+    "source_pdf_page": 2,
+    "source_xref": 23,
+    "source_image_rect": [
+      256.442,
+      664.586,
+      418.814,
+      742.633
+    ],
+    "source_printed_caption": "Flagler College",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "7cdb387994ed1f765bf862ffd39d4ffb80becebfa4e1bcccb93e0706886b3a17",
+    "display_size": [
+      339,
+      163
+    ],
+    "thumbnail_sha256": "84d3eabeffdbf70528eb1e6d1157bb64a68952abddd0e30881619ecc652749b6",
+    "thumbnail_size": [
+      300,
+      144
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00016",
+    "name": "Florida A&M University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "355a0aace85124bd327964f2ef2f1bfbcc7e4569dedbaed34b323b4b79896126",
+    "source_pdf_page": 2,
+    "source_xref": 24,
+    "source_image_rect": [
+      438.339,
+      664.6,
+      598.351,
+      742.248
+    ],
+    "source_printed_caption": "Florida A&M University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "17828592b00bee99c91dbe3a511a544ba20d8ef8be6e47ae8baac20ecfeb4285",
+    "display_size": [
+      334,
+      162
+    ],
+    "thumbnail_sha256": "4cfe98abcdbacccb773d6b6d00f38bd46cc0c8d8cc682e482a2a8ed6ea894d8c",
+    "thumbnail_size": [
+      300,
+      146
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00017",
+    "name": "Florida Atlantic University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "3dc4ba8c2b676e142d4cc31cae14fcccf02c6377aae9d1d20316295d7b5926b5",
+    "source_pdf_page": 3,
+    "source_xref": 56,
+    "source_image_rect": [
+      63.784,
+      169.734,
+      225.696,
+      251.596
+    ],
+    "source_printed_caption": "Florida Atlantic University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "b93b22ced715a6c474945713f86520aa531d76e8fb737ade082ae0c8405aa3c6",
+    "display_size": [
+      338,
+      171
+    ],
+    "thumbnail_sha256": "2bebd3ae4eca3a4e6eff2fc17c4f89ad058902a9844af33be2f726cb459be7d1",
+    "thumbnail_size": [
+      300,
+      152
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00018",
+    "name": "Florida College",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "d5a3184625aa515a4713753e842d0f66ba788d3e73471f643ccfcc8aa6ab0ca4",
+    "source_pdf_page": 3,
+    "source_xref": 53,
+    "source_image_rect": [
+      250.67,
+      169.719,
+      418.092,
+      252.254
+    ],
+    "source_printed_caption": "Florida College",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "e8f67e75c39f5a45be3c4f7e6407c23e051cb5d1ffd1e1573d5635cf7bdc3315",
+    "display_size": [
+      515,
+      247
+    ],
+    "thumbnail_sha256": "61d0bdfc33e48a9103b5308d25cd4059a41cb5c1aa94862f3a74b466369ffb76",
+    "thumbnail_size": [
+      300,
+      144
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00019",
+    "name": "Florida Gulf Coast University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "db33162cc5b0ab14f4bf4483c8e3136d351280043386416a60b3b12d80bd17d5",
+    "source_pdf_page": 3,
+    "source_xref": 52,
+    "source_image_rect": [
+      438.443,
+      170.182,
+      597.54,
+      253.344
+    ],
+    "source_printed_caption": "Florida Gulf Coast University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "65ee7caf9e9bfe67d927d38c8b4b763f2286f62dc070d83f953ab41b98b36646",
+    "display_size": [
+      354,
+      174
+    ],
+    "thumbnail_sha256": "b6038284398d8ebb8cb2b98c2dc41e4967d85a18cb0cac64b99f12e3b45bbe3c",
+    "thumbnail_size": [
+      300,
+      147
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00020",
+    "name": "Florida Institute of Technology",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "809a93f27d466e370b52b24289d1d5b05d91ac54686e55d588e4e054f8bcd19c",
+    "source_pdf_page": 3,
+    "source_xref": 57,
+    "source_image_rect": [
+      63.943,
+      330.884,
+      225.786,
+      413.663
+    ],
+    "source_printed_caption": "Florida Institute of Technology",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "7196fc5241dff8ec307772a8b148140f7107109c175b94d4a21ecfdbbe2f5b39",
+    "display_size": [
+      515,
+      244
+    ],
+    "thumbnail_sha256": "d7efa044512c78eb908fd382b07a7d565c819c91164e34866f217779da700da5",
+    "thumbnail_size": [
+      300,
+      142
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00021",
+    "name": "Florida International University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "d5cbf0051a77f5b83a3e3a6df953bc52f3e2bd567f0895c56236bf053d2bb161",
+    "source_pdf_page": 3,
+    "source_xref": 59,
+    "source_image_rect": [
+      252.058,
+      330.681,
+      418.093,
+      413.482
+    ],
+    "source_printed_caption": "Florida International University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "e8fdaae538d0d8844989a43bd50c9c62dfe273b8ea2e9eb51a0498177375a54d",
+    "display_size": [
+      346,
+      173
+    ],
+    "thumbnail_sha256": "2f2042ec844f23e3154e7f24456d8aeca423d49e02efd92b6e2eae70083a1460",
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00022",
+    "name": "Florida Memorial University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "fb176dbe66f322f3c3b1babcaa55792b92d170d409a3d88da69222bb851a819a",
+    "source_pdf_page": 3,
+    "source_xref": 58,
+    "source_image_rect": [
+      438.94,
+      330.633,
+      599.852,
+      413.828
+    ],
+    "source_printed_caption": "Florida Memorial University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "1ff2df6d1fe7eff088ea0e66d3d26a44d5edd6d48391363c335873ac3681bd14",
+    "display_size": [
+      336,
+      174
+    ],
+    "thumbnail_sha256": "cbabe524d47c411174c1d6b38c1a75077438d61b4eb12915900cc4a138e0222d",
+    "thumbnail_size": [
+      300,
+      155
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00023",
+    "name": "Florida Southern College",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "5f512bd952ec8a937b44a743d05758a7c6faa9130b6a71364a4f7853166fa2bb",
+    "source_pdf_page": 3,
+    "source_xref": 60,
+    "source_image_rect": [
+      64.554,
+      484.406,
+      224.904,
+      569.873
+    ],
+    "source_printed_caption": "Florida Southern College",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "40db793ec6077c97ef34327103b719b1b0922e3d9ec75d7027680d7fe778b4a3",
+    "display_size": [
+      513,
+      247
+    ],
+    "thumbnail_sha256": "a0d05a1ec833a92ddba3d728ea8979caeb86f589c98364aca9480b646d4f1b70",
+    "thumbnail_size": [
+      300,
+      144
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00024",
+    "name": "Florida State University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "003ccea9712cdbee16809bad02f289badb92c587d3dafdca0c1d2c59e886608c",
+    "source_pdf_page": 3,
+    "source_xref": 61,
+    "source_image_rect": [
+      252.611,
+      484.74,
+      417.168,
+      571.882
+    ],
+    "source_printed_caption": "Florida State University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "12115dcfe151579cf50d62fc98f6934e730f1dbe054849a8c4a71fabe31be579",
+    "display_size": [
+      356,
+      182
+    ],
+    "thumbnail_sha256": "7c78e91c0155af2bacf5c62b9186ad2df8345915883250113fe0fec4dc3d1f82",
+    "thumbnail_size": [
+      300,
+      153
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00025",
+    "name": "Jacksonville University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "ec9fa31725ff575b02a14201a1c9c9fc5ad94d1c275a773a1fa4f5c75fc778ed",
+    "source_pdf_page": 3,
+    "source_xref": 62,
+    "source_image_rect": [
+      437.736,
+      484.372,
+      601.458,
+      572.023
+    ],
+    "source_printed_caption": "Jacksonville University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "3605ba9d9852be9728106b1cc745e6e175b831014834c6a471d87f8668fb0ae2",
+    "display_size": [
+      516,
+      250
+    ],
+    "thumbnail_sha256": "a6e3721a776ec55e75d6fa449138f03e716ea6db3e06bb8a46b99914c5c31fd2",
+    "thumbnail_size": [
+      300,
+      145
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00026",
+    "name": "Keiser University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "afd180a76e7c5a09ff88feb3b44c2a0de9f9ec16dfc3c74a97bb6a14a85a57a5",
+    "source_pdf_page": 3,
+    "source_xref": 63,
+    "source_image_rect": [
+      66.614,
+      639.034,
+      224.308,
+      725.023
+    ],
+    "source_printed_caption": "Keiser University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "54a9dac59f4c76a34918547002039a2d4fab46f0ccfe9947851c33add14c5976",
+    "display_size": [
+      522,
+      249
+    ],
+    "thumbnail_sha256": "111a9195a5aab9af3bbd1abec4d564ea0ff64ea68de5482ab056564321a0d45f",
+    "thumbnail_size": [
+      300,
+      143
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00027",
+    "name": "Lynn University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "ab533f1cb5ed4d04d24a2f3af6e85b675acad4d0ce6a04c993a7912f12f003f6",
+    "source_pdf_page": 3,
+    "source_xref": 54,
+    "source_image_rect": [
+      254.167,
+      638.716,
+      417.168,
+      724.198
+    ],
+    "source_printed_caption": "Lynn University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "705f699b517bc4adab0f963092cac8702fb2ee8eff84e7f9e20b422fc85e48a6",
+    "display_size": [
+      512,
+      247
+    ],
+    "thumbnail_sha256": "5ca8aea2c428a52dcc3c862a79192e4e8cd33ad99d16c38b33e44ef367a4a5e5",
+    "thumbnail_size": [
+      300,
+      145
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00028",
+    "name": "New College of Florida",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "f3d6c95f8f6944261271b7b1cac8c6e180dc891a62b7d7969b3d3bd6429f1895",
+    "source_pdf_page": 3,
+    "source_xref": 55,
+    "source_image_rect": [
+      438.208,
+      638.702,
+      600.777,
+      723.337
+    ],
+    "source_printed_caption": "New College of Florida",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "94c27877c9519c0689145ba680237b091beec749e63a282cead3a52b7db0e45d",
+    "display_size": [
+      340,
+      177
+    ],
+    "thumbnail_sha256": "1384b4333399792c6b3fe5865dfcc318245cc671dc14100e93182489689f0713",
+    "thumbnail_size": [
+      300,
+      156
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00029",
+    "name": "Nova Southeastern University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "a93651c2a7a5c1886ed2919283642d8f5a7db4289196818aaf89f3d8f05a1d66",
+    "source_pdf_page": 4,
+    "source_xref": 84,
+    "source_image_rect": [
+      54.882,
+      129.695,
+      226.234,
+      211.548
+    ],
+    "source_printed_caption": "Nova Southeastern University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "c6ecb58b00b0f77788e92f515a1602e33b456b1b9efde58afbb88684fc0c4bad",
+    "display_size": [
+      509,
+      247
+    ],
+    "thumbnail_sha256": "5433b0628e7d98a48d501f8dc8083321ec5dd4139351b9fe56374b65aa217173",
+    "thumbnail_size": [
+      300,
+      146
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00030",
+    "name": "Palm Beach Atlantic University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "35d9c463c70a19cd26967f16aca909e228ee78b061cfd601d4aab45a7e3322ee",
+    "source_pdf_page": 4,
+    "source_xref": 85,
+    "source_image_rect": [
+      252.63,
+      129.85,
+      422.723,
+      211.674
+    ],
+    "source_printed_caption": "Palm Beach Atlantic University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "e69b42d5e49f5148c11bd7ab12b4c23873e0d9dd0bc152b1b97030e520028c14",
+    "display_size": [
+      511,
+      250
+    ],
+    "thumbnail_sha256": "42a40559176d75c939a2fcc67d3b385c37b1eda50a8a74f0d06b9244bc7273e8",
+    "thumbnail_size": [
+      300,
+      147
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00031",
+    "name": "Ringling College of Art and Design",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "33021c0652fa4be58ee79d7a36972724698ba676b0f5bd1c2774daa3afebde16",
+    "source_pdf_page": 4,
+    "source_xref": 90,
+    "source_image_rect": [
+      438.644,
+      130.294,
+      601.701,
+      211.572
+    ],
+    "source_printed_caption": "Ringling College of Art and Design",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "0b96b2a0278eb8ccd116b44aaeaa4bd76374116f184062bd6822c8342c860ae7",
+    "display_size": [
+      522,
+      249
+    ],
+    "thumbnail_sha256": "d309827e735ccbaa8d0ef7a11020e88def42e9c7108ac0092934434296707a6f",
+    "thumbnail_size": [
+      300,
+      143
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00032",
+    "name": "Rollins College",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "6ee56ad64c79c6453a16d19a7b7749c3cb701c4245caa92c01ae65e443aa1d58",
+    "source_pdf_page": 4,
+    "source_xref": 91,
+    "source_image_rect": [
+      54.199,
+      261.007,
+      226.472,
+      344.38
+    ],
+    "source_printed_caption": "Rollins College",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "217169cde05bbdfc79974b571a81ab5be094846f06192a8ae72a9ea7e762bde6",
+    "display_size": [
+      514,
+      250
+    ],
+    "thumbnail_sha256": "ed45cdeea1f5c56f935b9bc8cd877dd017857402cbd634b73560625771403a15",
+    "thumbnail_size": [
+      300,
+      146
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00033",
+    "name": "Saint Leo University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "7aaa8be29e7ce1e5c09176506c1cb101a2afa0c2fd8efe9a265e7dccd8ac0402",
+    "source_pdf_page": 4,
+    "source_xref": 93,
+    "source_image_rect": [
+      251.967,
+      261.007,
+      422.585,
+      345.217
+    ],
+    "source_printed_caption": "Saint Leo University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "d37d5707b049b0f83d7818f91a352f86d0176b3ce609552f31e4700f6496340e",
+    "display_size": [
+      356,
+      176
+    ],
+    "thumbnail_sha256": "6bad762b7231907a0afeb1d89241cfc41c38bd280f3175e7fef5afd33577d58c",
+    "thumbnail_size": [
+      300,
+      148
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00034",
+    "name": "Saint Thomas University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "aa5fa5586d5973252d931b64574621b2d66c307eb2d0c55c125b6699f91881da",
+    "source_pdf_page": 4,
+    "source_xref": 92,
+    "source_image_rect": [
+      440.701,
+      259.751,
+      600.777,
+      345.018
+    ],
+    "source_printed_caption": "Saint Thomas University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "09bacf6406b5f576496d79bdedfbe4dfc39d7b4e5aa737d3f6c7ea1ee1bc6f2e",
+    "display_size": [
+      516,
+      250
+    ],
+    "thumbnail_sha256": "a6a4f87cd0c18679c00d63962936955be22d4df6521e62cb2d2f6bd7215a92e2",
+    "thumbnail_size": [
+      300,
+      145
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00035",
+    "name": "Southeastern University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "3bef06ef3eaf2c47c65890b0b9c2a646c0255471dbb9051eaceeac8bf9c750bd",
+    "source_pdf_page": 4,
+    "source_xref": 94,
+    "source_image_rect": [
+      53.455,
+      396.329,
+      224.978,
+      478.864
+    ],
+    "source_printed_caption": "Southeastern University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "f90271897ec4fe222b6109de2e48ed18c494a6a89d6c22f2f7bf876c4be0255c",
+    "display_size": [
+      519,
+      252
+    ],
+    "thumbnail_sha256": "3180d55edcb8b7cdb08a23743ce7fc1582bb2349475c0c6312104e1ad5aaf5d2",
+    "thumbnail_size": [
+      300,
+      146
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00036",
+    "name": "Stetson University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "af94f45df914f4669665245f95f425321da573b263e84d6c123dd676a9f6cad9",
+    "source_pdf_page": 4,
+    "source_xref": 95,
+    "source_image_rect": [
+      251.371,
+      395.872,
+      422.304,
+      478.863
+    ],
+    "source_printed_caption": "Stetson University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "4e4f150db7d4d3a44529d0ded4ed252b56f6649d130dceae610f9f3b8052e875",
+    "display_size": [
+      527,
+      247
+    ],
+    "thumbnail_sha256": "e4bc5642a05bb601cdb2dcc1ddc2be2537d0e5f4fabf21db88bb17c613ab96e3",
+    "thumbnail_size": [
+      300,
+      141
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00037",
+    "name": "University of Alabama",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "5757649aaf8e5f6b20748c4b8656a4826f2801f27aa02b89febbeebb7ace5dfc",
+    "source_pdf_page": 4,
+    "source_xref": 96,
+    "source_image_rect": [
+      439.437,
+      395.43,
+      601.702,
+      479.141
+    ],
+    "source_printed_caption": "University of Alabama",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "c31a3e7a5d8124c979b78e641d2211548fa89e6d4971e89b31ef4c78fe7ffa35",
+    "display_size": [
+      570,
+      252
+    ],
+    "thumbnail_sha256": "7364bed9bd58ec8db8b5d40986e4f789fe7c41ef7cb6c1a9533d1a3cbb826cbd",
+    "thumbnail_size": [
+      300,
+      133
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00038",
+    "name": "University of Central Florida",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "b483922b8ec81d6aea1837e5376538076c8b43f6dc01e0696ee643ae494bc8ca",
+    "source_pdf_page": 4,
+    "source_xref": 97,
+    "source_image_rect": [
+      53.754,
+      527.241,
+      224.133,
+      613.264
+    ],
+    "source_printed_caption": "University of Central Florida",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "bbffba357bcdd8d11a3899f7117c03eb5959a8a9d9cdbde140b0f9cb7b765ffa",
+    "display_size": [
+      399,
+      196
+    ],
+    "thumbnail_sha256": "6e34d3af850a5f1ba0dcb34c264c7eb136c0e5c840af3e5ad8abf3174cdb8644",
+    "thumbnail_size": [
+      300,
+      147
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00039",
+    "name": "University of Florida",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "cfd9ae995e3092bd42a06eda903bb28a96183b92a44e4a0e01754aa2aaefd5e5",
+    "source_pdf_page": 4,
+    "source_xref": 86,
+    "source_image_rect": [
+      252.314,
+      525.364,
+      421.938,
+      614.823
+    ],
+    "source_printed_caption": "University of Florida",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "d62e2e77e26d483b470e6f5ab6e336f3c20064e72d69023998b4e21dea5c3a00",
+    "display_size": [
+      354,
+      187
+    ],
+    "thumbnail_sha256": "f33e78686ac72800775d5d4edf0393ff4ac3764782d0aa06a8d438a96f69f976",
+    "thumbnail_size": [
+      300,
+      158
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00040",
+    "name": "University of Georgia",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "8d065928798d45059460d4d4ffa6b76eb86e8c8a033917e9f62a665eb3f90194",
+    "source_pdf_page": 4,
+    "source_xref": 87,
+    "source_image_rect": [
+      438.034,
+      526.188,
+      600.777,
+      614.041
+    ],
+    "source_printed_caption": "University of Georgia",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "d2d0a0b0b3048beb993a740b2562aa0c00b6860789b68501db849b82ea39d0e6",
+    "display_size": [
+      340,
+      184
+    ],
+    "thumbnail_sha256": "aced5b7c0f4dc42bbfd2c04c2c225f5344026e41f56cace48ebf41e9187358ee",
+    "thumbnail_size": [
+      300,
+      162
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00041",
+    "name": "University of Miami",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "bba5abe343e8eec7dd53c1cc4386994c0d13dab2db7b9a9e3324221bb6bf961a",
+    "source_pdf_page": 4,
+    "source_xref": 88,
+    "source_image_rect": [
+      144.144,
+      654.566,
+      314.088,
+      741.374
+    ],
+    "source_printed_caption": "University of Miami",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "c563bfb65d4f1e6dcfbacf93c26c004c13ec9638dae8cbfdf7f5cd36c32730a1",
+    "display_size": [
+      355,
+      186
+    ],
+    "thumbnail_sha256": "4f851a4b9288a7f994d51eac27c5b4470272d230f78fd457e4c669a4db0a2717",
+    "thumbnail_size": [
+      300,
+      157
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00042",
+    "name": "University of North Florida",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "4ffae89fae23c5a1d5f0599b410bb1f2ac683dc0a01c0746d181afe432c3ec69",
+    "source_pdf_page": 4,
+    "source_xref": 89,
+    "source_image_rect": [
+      358.273,
+      655.065,
+      526.317,
+      740.912
+    ],
+    "source_printed_caption": "University of North Florida",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "e5d1ba7e1d1b7b797fd92c49120f1a36e6f49cfbb9eaa47a92883d654591f80a",
+    "display_size": [
+      351,
+      179
+    ],
+    "thumbnail_sha256": "863f692d7408881dc1f53674def217bac3a676a88ebeaffe2c66bbecc273853c",
+    "thumbnail_size": [
+      300,
+      153
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00043",
+    "name": "University of South Florida",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "2c762677a4376a0d25e9d2c1e21b4e9592e0940720e889815b3d54fa0faa971f",
+    "source_pdf_page": 5,
+    "source_xref": 105,
+    "source_image_rect": [
+      55.037,
+      140.228,
+      222.922,
+      226.528
+    ],
+    "source_printed_caption": "University of South Florida",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "ace8107abf1507fe20a3655436c650f66de382cfcf9b4420ca4268257e290207",
+    "display_size": [
+      378,
+      184
+    ],
+    "thumbnail_sha256": "2db1704c98f3f1391f97c2323962ef9f75b3192bd80607eebe5518e03fe72098",
+    "thumbnail_size": [
+      300,
+      146
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00044",
+    "name": "University of Tampa",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "a84de6dd361fbd5c0cb772569aae0c4760e9718156c492027b9898759165cf88",
+    "source_pdf_page": 5,
+    "source_xref": 106,
+    "source_image_rect": [
+      250.901,
+      141.56,
+      412.775,
+      225.696
+    ],
+    "source_printed_caption": "University of Tampa",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "0f2bbaa4ab2cd8b3f1352ce5c406743b2b3f65a44cec3b5602f0cae2d9abb027",
+    "display_size": [
+      525,
+      245
+    ],
+    "thumbnail_sha256": "f1956135c5a9b71b746eadc93dbfa6f1548088bc431a45cd3dcf40f12455b3fe",
+    "thumbnail_size": [
+      300,
+      140
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00045",
+    "name": "University of West Florida",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "977ed1cc6199a9d6ea6c9f0571c4e828e9cbe682bb4ab99cfeda5cf3bbdfac67",
+    "source_pdf_page": 5,
+    "source_xref": 107,
+    "source_image_rect": [
+      440.165,
+      141.06,
+      610.678,
+      225.696
+    ],
+    "source_printed_caption": "University of West Florida",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "a918cb79ee640e23dd827591f3c8919ab69d0597a99f5e5d81a8e0f6c0d31312",
+    "display_size": [
+      404,
+      199
+    ],
+    "thumbnail_sha256": "ea6524012a36099496ced614914c38a29ed264f5922158936e586d47143aa33f",
+    "thumbnail_size": [
+      300,
+      148
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00046",
+    "name": "Warner College",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "46ffce6373fa8e04e958dc3db7e4ecd5bb97af29afa3285f551493cbb592359e",
+    "source_pdf_page": 5,
+    "source_xref": 108,
+    "source_image_rect": [
+      141.183,
+      292.578,
+      308.639,
+      383.91
+    ],
+    "source_printed_caption": "Warner College",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "dd318c1c7b916ba7bd7e9484c4b96f70fe9fb909802fad2658d678bd1a9f44eb",
+    "display_size": [
+      349,
+      191
+    ],
+    "thumbnail_sha256": "39b8df6b4852330950cdbdf11fddc45f53ea745c2b316cbc12b828a523549c98",
+    "thumbnail_size": [
+      300,
+      164
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00047",
+    "name": "Webber International University",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "78919acb44ebb5ab4db26df24af7e5fab014c3a79611bcf49d93e536014abeb7",
+    "source_pdf_page": 5,
+    "source_xref": 109,
+    "source_image_rect": [
+      356.827,
+      293.066,
+      530.694,
+      383.56
+    ],
+    "source_printed_caption": "Webber International University",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "bb03c1b8191390dacb8924d27a420883e2c8a88d0e0f99baa997d04f648cc886",
+    "display_size": [
+      524,
+      243
+    ],
+    "thumbnail_sha256": "4e9e6146e98639918554fcd0439a9795b186d75e1bc70fae32e9aafd8569b22a",
+    "thumbnail_size": [
+      300,
+      139
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00048",
+    "name": "Animal Friend",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "bfdcd4a37f837323325b87942b1b1adf1869b8739b52e61c1f18c058e28ff6a0",
+    "source_pdf_page": 6,
+    "source_xref": 128,
+    "source_image_rect": [
+      38.194,
+      107.027,
+      198.47,
+      191.134
+    ],
+    "source_printed_caption": "Animal Friend",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "fb92fe2e2310af871e976b37ed485208c35ad2c2a62ef3172fab537eefd46e46",
+    "display_size": [
+      385,
+      188
+    ],
+    "thumbnail_sha256": "7cb000c33f1566d94c6f4093744762a8733080df35069545dc2f765a838729c0",
+    "thumbnail_size": [
+      300,
+      146
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00049",
+    "name": "Aquaculture",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "dd8573748d76dc7b40ba8e59c4fcf9ee68ba36f7be08f026683092c28f0ba517",
+    "source_pdf_page": 6,
+    "source_xref": 129,
+    "source_image_rect": [
+      244.748,
+      106.963,
+      407.222,
+      190.193
+    ],
+    "source_printed_caption": "Aquaculture",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "71884309b5a31138eea0b53271cbec4af62bd4a1cdbabfe1abb1c0ddd72b25ed",
+    "display_size": [
+      382,
+      188
+    ],
+    "thumbnail_sha256": "e24845248a420ccd7547f06ac75adc06a88f4b661b89e7acd612fca3801f0f54",
+    "thumbnail_size": [
+      300,
+      148
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00050",
+    "name": "Bonefish & Tarpon Trust",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "f373e78747b11fd1499f0bd1092fa4727af2b8ae2c804b65b624d9eff38d4bb4",
+    "source_pdf_page": 6,
+    "source_xref": 132,
+    "source_image_rect": [
+      462.492,
+      108.339,
+      622.977,
+      190.084
+    ],
+    "source_printed_caption": "Bonefish & Tarpon Trust",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "3f5437707b8f7cb7050d141316980bff55339ba28bcb9927b96aee380fc3aa40",
+    "display_size": [
+      335,
+      171
+    ],
+    "thumbnail_sha256": "669b3f58d38ee5cce90230bc4c77cdc950defa75d1ce58e92094da2e1c7afff9",
+    "thumbnail_size": [
+      300,
+      153
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00051",
+    "name": "Conserve Florida's Fisheries",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "2436bf7eebe9fab417fa5a6f8576912274bb4dac794cb296c387d9f891e79916",
+    "source_pdf_page": 6,
+    "source_xref": 133,
+    "source_image_rect": [
+      37.74,
+      246.396,
+      201.132,
+      327.253
+    ],
+    "source_printed_caption": "Conserve Florida's Fisheries",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "f9e757fdba80d6273b5f627b2cadd3636438c375799c14f8f796d23f97bb91c0",
+    "display_size": [
+      341,
+      169
+    ],
+    "thumbnail_sha256": "56a6b3363bc8d45bf666e180dfc54bc96915ccd708cc8da0d408168b601561fa",
+    "thumbnail_size": [
+      300,
+      149
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00052",
+    "name": "Conserve Wildlife",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "54695dd3566c6e9133c2e97353b2acc2a64fdf23141ba56b7b01e6487ae03c0d",
+    "source_pdf_page": 6,
+    "source_xref": 134,
+    "source_image_rect": [
+      243.372,
+      246.256,
+      405.665,
+      326.695
+    ],
+    "source_printed_caption": "Conserve Wildlife",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "518d9ad4cc66db03ba69a86f837b3bf74af4cd9c573db7fbc684fed9063a2cda",
+    "display_size": [
+      376,
+      177
+    ],
+    "thumbnail_sha256": "83d1628f26c202b6f61a7bdeec0cd282ab354d50300ab6b4cdf0a44b5156ba11",
+    "thumbnail_size": [
+      300,
+      141
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00053",
+    "name": "Discover Florida’s Horses",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "d7ee5ad6f385e9d9c3d1f052bce7f5d14268284bfb6e4346e8e77b2926a2bcd9",
+    "source_pdf_page": 6,
+    "source_xref": 135,
+    "source_image_rect": [
+      460.616,
+      246.401,
+      622.282,
+      324.556
+    ],
+    "source_printed_caption": "Discover Florida’s Horses",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "35639f3ca0f09b0b66ec53c246be329d8f24989e1c182e48f4d13dd257fb36e8",
+    "display_size": [
+      378,
+      187
+    ],
+    "thumbnail_sha256": "c6773e1d86fd0e074313a3b9da254e74877638e6d82b561d95df52e11b93638e",
+    "thumbnail_size": [
+      300,
+      148
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00054",
+    "name": "Discover Florida’s Oceans",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "b737e2e68058bc5dac01dfc46b5ce20642d03b662fe6c0a3434b10fe293650cf",
+    "source_pdf_page": 6,
+    "source_xref": 136,
+    "source_image_rect": [
+      37.184,
+      389.998,
+      199.335,
+      469.429
+    ],
+    "source_printed_caption": "Discover Florida’s Oceans",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "d9d779871cbcbd53bcacf31a37334fcf92a1ca3c43c395954c51513931b146ab",
+    "display_size": [
+      387,
+      190
+    ],
+    "thumbnail_sha256": "ef37063b91d2efd093d2072dcdd72b90833174bb5a7f37cb23edec409f8b4661",
+    "thumbnail_size": [
+      300,
+      147
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00055",
+    "name": "Ducks Unlimited",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "7a8d53aebcd7f8d2670f09f388ebe5455ae0325d855fafc682d1f7b5eca89cdc",
+    "source_pdf_page": 6,
+    "source_xref": 137,
+    "source_image_rect": [
+      244.878,
+      390.746,
+      407.791,
+      473.446
+    ],
+    "source_printed_caption": "Ducks Unlimited",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "2befab18989a7ef2b009789ebbe8c5b4f19e04383ba79295aaf52fa6d3400de7",
+    "display_size": [
+      340,
+      173
+    ],
+    "thumbnail_sha256": "84f107792ab98b45c89110575b7970b29407d6fb33c8e31ff6844d88a0f7fe06",
+    "thumbnail_size": [
+      300,
+      153
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00056",
+    "name": "Endless Summer",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "bf93f8dbeee46986e27cb442d856fd8d6e20dfbde18bb8f4a36b961c3645e5f8",
+    "source_pdf_page": 6,
+    "source_xref": 138,
+    "source_image_rect": [
+      459.489,
+      389.489,
+      621.625,
+      473.933
+    ],
+    "source_printed_caption": "Endless Summer",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "052edad004a0f04befb163a5f71812d7e2ca4b1cc7e9c4621d0f186b4080b6d3",
+    "display_size": [
+      379,
+      189
+    ],
+    "thumbnail_sha256": "935731e3859a667a86b8a4582fe98b53124553ba4e7bdebbc8f3d83157d34830",
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00057",
+    "name": "Explore Off Road",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "c5451566dafddb8a6b4c0dcc0f6396767d1979adfb7b36352196c4e209035ef9",
+    "source_pdf_page": 6,
+    "source_xref": 139,
+    "source_image_rect": [
+      38.532,
+      541.846,
+      198.992,
+      615.918
+    ],
+    "source_printed_caption": "Explore Off Road",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "8ed803108a3dfd739ef5e9a5d4209ee14497af0b32149b8bc6daeba646a5bdd3",
+    "display_size": [
+      335,
+      173
+    ],
+    "thumbnail_sha256": "3afbc757d30880719fe7ed1824b7b4d88b84aa5e59f358c0100dcc02456c21c8",
+    "thumbnail_size": [
+      300,
+      155
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00058",
+    "name": "Explore Our State Parks",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "a0beb767e35a5a71a2b63f2a0a1716c7e5b9b2cadfb69141c396542983141ffb",
+    "source_pdf_page": 6,
+    "source_xref": 130,
+    "source_image_rect": [
+      245.554,
+      542.132,
+      407.454,
+      616.413
+    ],
+    "source_printed_caption": "Explore Our State Parks",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "8761831c4ae9124f98286f6e6a55b5cea61074f364c527a2c58d57c7a3fac5bf",
+    "display_size": [
+      328,
+      164
+    ],
+    "thumbnail_sha256": "7d405b229215438a9f334bfbfb784fba7531561669774a74bc11d3ea4ab03bda",
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00059",
+    "name": "Everglades River of Grass",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "039856a7497634968f28b899d1e0a62d98c98944b90a05926579a49daee4beb2",
+    "source_pdf_page": 6,
+    "source_xref": 131,
+    "source_image_rect": [
+      457.169,
+      542.627,
+      619.597,
+      615.324
+    ],
+    "source_printed_caption": "Everglades River of Grass",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "f990e557cf14fccd17bc0f3241bd60ad1024ec3f7f38498801d8252f74f07ef8",
+    "display_size": [
+      385,
+      189
+    ],
+    "thumbnail_sha256": "22b1ba59e76cd9e0cb760a5264f9f5a1fadb7db71a55999cae5b032f8b9771e6",
+    "thumbnail_size": [
+      300,
+      147
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00060",
+    "name": "Fish Florida",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "cf0709d7713502e2322b1080811722deb3aa2c763e19a04d1d302b65a8c990ed",
+    "source_pdf_page": 7,
+    "source_xref": 157,
+    "source_image_rect": [
+      65.843,
+      126.26,
+      226.608,
+      201.184
+    ],
+    "source_printed_caption": "Fish Florida",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "2fe026538816d560d1ca3c5130f82e73bec8dc37f7afbdfcd86af006e454e395",
+    "display_size": [
+      378,
+      194
+    ],
+    "thumbnail_sha256": "1f4f1350ee23d1646aa1b2ca070adb64c92010477e057f01d7d23b7abdd0e2bc",
+    "thumbnail_size": [
+      300,
+      154
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00061",
+    "name": "Florida Bay Forever",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "6f78500314a12df24b72c8c6b01a67385db450d6fe27bd3554daa1c4f252d1d5",
+    "source_pdf_page": 7,
+    "source_xref": 165,
+    "source_image_rect": [
+      244.518,
+      125.368,
+      408.702,
+      203.529
+    ],
+    "source_printed_caption": "Florida Bay Forever",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "6d164d15963d021cd69adb9e7781d874337f3f9bd42bda704a25192e46d4a4b2",
+    "display_size": [
+      342,
+      163
+    ],
+    "thumbnail_sha256": "db167eb35b3271cac872bef2161a38a22295de28e7d6d70d4e2ab566c9b66a7c",
+    "thumbnail_size": [
+      300,
+      143
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00062",
+    "name": "Go Fishing (Largemouth Bass)",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "0be26b127595d495124733940740f47f17ad89587cdce39d53e92eaed6679631",
+    "source_pdf_page": 7,
+    "source_xref": 158,
+    "source_image_rect": [
+      437.378,
+      125.871,
+      598.207,
+      205.152
+    ],
+    "source_printed_caption": "Go Fishing",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "ff2176dc56252f7cc71ebb7173ae63788ad564a0f45db6c351ad99094116c575",
+    "display_size": [
+      379,
+      189
+    ],
+    "thumbnail_sha256": "7fa938cd1d42f0c5c2535f68e1db669992cd4ae284dd90dd3a81b731ad9a7a8f",
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00063",
+    "name": "Helping Sea Turtles Survive",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "d02679da8a1720f0b8c775d48f7776a6aaa47e5dbf17dffaa0c93fb5c88768fa",
+    "source_pdf_page": 7,
+    "source_xref": 164,
+    "source_image_rect": [
+      65.774,
+      256.168,
+      226.509,
+      335.434
+    ],
+    "source_printed_caption": "Helping Sea Turtles Survive",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "d54c04a8c2ffe76f87fa5967bc53269fe861d5eda3a2f003ea96c08b96964c2c",
+    "display_size": [
+      381,
+      192
+    ],
+    "thumbnail_sha256": "1da11868feb33491f2e549dc039acd0fecda62f8e3a3f7dd6c683ceec3752f0d",
+    "thumbnail_size": [
+      300,
+      151
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00064",
+    "name": "Indian River Lagoon",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "1cf81cc1f561331ca0082076e74129417f8efbb56a46a13eb5bee545e57eb6d5",
+    "source_pdf_page": 7,
+    "source_xref": 168,
+    "source_image_rect": [
+      243.667,
+      256.142,
+      408.315,
+      336.54
+    ],
+    "source_printed_caption": "Indian River Lagoon",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "52ef0d15e3faddf9f638d5672b8489f59446a4051285763786cb3c5a15f8b525",
+    "display_size": [
+      343,
+      168
+    ],
+    "thumbnail_sha256": "f53f4c336b78c1c15e7571b3428278aa33ce768e9e40ef12eef8ab6153134fc6",
+    "thumbnail_size": [
+      300,
+      147
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00065",
+    "name": "Protect Biscayne Bay",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "33f187924eb5d0c3f007e245ae5b516adaee0a6b2c852eb46bfb61f21492d4bb",
+    "source_pdf_page": 7,
+    "source_xref": 163,
+    "source_image_rect": [
+      436.363,
+      258.005,
+      597.528,
+      336.291
+    ],
+    "source_printed_caption": "Protect Biscayne Bay",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "5ff89d1bd9c0da1d8d63bab9e56451488c96ed539c211d1c9da039ee4194b325",
+    "display_size": [
+      336,
+      164
+    ],
+    "thumbnail_sha256": "526b8abe6dbee2c69f094c6c3ccb63a4925aa151e87df7c71f8e0e5324bb1ed8",
+    "thumbnail_size": [
+      300,
+      146
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00066",
+    "name": "Protect Florida Springs",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "5e79a687cb6da6ca02a72df5870f570a306a262195e43e57fedc2b835121e075",
+    "source_pdf_page": 7,
+    "source_xref": 166,
+    "source_image_rect": [
+      68.343,
+      382.09,
+      226.945,
+      461.114
+    ],
+    "source_printed_caption": "Protect Florida Springs",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "9320936137825029915542a6059e510d7826273d09ac2617766bf86d2e95269a",
+    "display_size": [
+      381,
+      191
+    ],
+    "thumbnail_sha256": "cb33e792dee27a11bf71786cf2d88179c7409fc4edf7b65994273306af07b9c4",
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00067",
+    "name": "Protect Florida Whales",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "c79cb0042a0cf3c1b2887f7a750a6b39d2d7b76b36277c378f0bfb29a716c6de",
+    "source_pdf_page": 7,
+    "source_xref": 167,
+    "source_image_rect": [
+      245.051,
+      382.392,
+      409.306,
+      461.047
+    ],
+    "source_printed_caption": "Protect Florida Whales",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "cfc9de001b07ce50bbbae47b303b768d43a897849a4f0f808e5e9713bedcd4f2",
+    "display_size": [
+      383,
+      186
+    ],
+    "thumbnail_sha256": "5cabb5045a6916b4b909db4db7a7044fed42a9230acf8c1f72fcca05c03787bc",
+    "thumbnail_size": [
+      300,
+      146
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00068",
+    "name": "Protect Marine Wildlife",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "3386b9404ff5be65addc9bf770c9bd3df3701849b7b73ae8e8782b011b8ca247",
+    "source_pdf_page": 7,
+    "source_xref": 171,
+    "source_image_rect": [
+      436.348,
+      382.811,
+      599.852,
+      460.077
+    ],
+    "source_printed_caption": "Protect Marine Wildlife",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "7ab327235164d7b429d9a826a1f1fea1d464adb1f099c8e5c40f71fc0a9b2cf3",
+    "display_size": [
+      341,
+      162
+    ],
+    "thumbnail_sha256": "be15a453bf3e12b4392b6ff0d490aeefff38b5d4cf4bd2fe5648533ea8e115a6",
+    "thumbnail_size": [
+      300,
+      143
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00069",
+    "name": "Protect Our Oceans",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "656d2769f676b4356246419f21d052d7f64642ec90ef3de44de7b243471d3aab",
+    "source_pdf_page": 7,
+    "source_xref": 169,
+    "source_image_rect": [
+      66.341,
+      506.962,
+      226.92,
+      585.781
+    ],
+    "source_printed_caption": "Protect Our Oceans",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "49a05c52aed87b182420d0ae599ad5669775434906db975e40da454f9c57680b",
+    "display_size": [
+      383,
+      188
+    ],
+    "thumbnail_sha256": "4ca3b22a2cfaa78522ec43841579e90d891ad5efbc399c7be70d23da77bc3970",
+    "thumbnail_size": [
+      300,
+      147
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00070",
+    "name": "Protect Our Reefs",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "97d3f423a440dd07fb390d460e38d97dfa5d1240305dc4fb2a7c220ba3f0d640",
+    "source_pdf_page": 7,
+    "source_xref": 170,
+    "source_image_rect": [
+      245.017,
+      508.199,
+      410.17,
+      586.139
+    ],
+    "source_printed_caption": "Protect Our Reefs",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "4bc7500444ae7fd2fae34b42da2ac876da8657a1a6fb763cd0e313ca98115777",
+    "display_size": [
+      378,
+      185
+    ],
+    "thumbnail_sha256": "2e1fb2d07786e0efd898bba6605c2a6f2e9b6b52812d5013ff7f20d2fc96e9e5",
+    "thumbnail_size": [
+      300,
+      147
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00071",
+    "name": "Protect the Gopher Tortoise",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "f5898f787af15ebea7973ce413f56287c25a9b424b1cc14072fd7b8f3e642511",
+    "source_pdf_page": 7,
+    "source_xref": 162,
+    "source_image_rect": [
+      435.981,
+      508.836,
+      600.313,
+      586.44
+    ],
+    "source_printed_caption": "Protect the Gopher Tortoise",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "2fd5700ef7a1f31887e19516b40194a83a2145e40ff7bb27151d50b8bb8e0a55",
+    "display_size": [
+      343,
+      162
+    ],
+    "thumbnail_sha256": "bfb778213e82437c4337216b5007c32d8be7a3db7663b1b16ce7842fb6973591",
+    "thumbnail_size": [
+      300,
+      142
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00072",
+    "name": "Protect the Panther",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "d3fff74fb69e06bd47eba2bdb83c3ea323119d4ce2db76ba17512019ebe29626",
+    "source_pdf_page": 7,
+    "source_xref": 161,
+    "source_image_rect": [
+      68.449,
+      628.526,
+      227.083,
+      706.224
+    ],
+    "source_printed_caption": "Protect the Panther",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "d0c971aaf2b2b2eee2ea7dc9defdd14f4055cf57414848f58fc1ebe374e32156",
+    "display_size": [
+      330,
+      163
+    ],
+    "thumbnail_sha256": "c3b2694c7e2feb0942c36870899abdae743bf65ca015250e93467691baa73391",
+    "thumbnail_size": [
+      300,
+      148
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00073",
+    "name": "Protect Wild Dolphins",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "68710a4054c32d86db7062fc26b7d20dc4235b5e934cf54acacc68b510a1f61d",
+    "source_pdf_page": 7,
+    "source_xref": 159,
+    "source_image_rect": [
+      248.072,
+      628.868,
+      408.777,
+      706.814
+    ],
+    "source_printed_caption": "Protect Wild Dolphins",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "11d420938aa4188b74c075bb9b7b27f6dd61508d9a1abc06ddd2669a31fe2c31",
+    "display_size": [
+      378,
+      189
+    ],
+    "thumbnail_sha256": "ba079d8d7e9223b68169e1f8ec0109227a8fbef19aec58b56be9a1cee2b804b2",
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00074",
+    "name": "Save Our Seas",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "fd00ce98bf987eb188e0104763057497b73a6de32910f279318e2be672f8d7e7",
+    "source_pdf_page": 7,
+    "source_xref": 160,
+    "source_image_rect": [
+      434.948,
+      628.257,
+      600.686,
+      706.163
+    ],
+    "source_printed_caption": "Save Our Seas",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "9e2aae78da38647fbd667b7c299aab9ed1df356de123e4bb0d7b22568abe2bc4",
+    "display_size": [
+      378,
+      187
+    ],
+    "thumbnail_sha256": "3226add27d20571a29766c370bf2e97b3b93fa2dd7dcd1291a2806bde0210a3f",
+    "thumbnail_size": [
+      300,
+      148
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00075",
+    "name": "Save the Bees",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "25ceb9b48feed4500864b58ddd7a1cc78b363c700fd8f1aa0813b04b8f04c7e1",
+    "source_pdf_page": 8,
+    "source_xref": 191,
+    "source_image_rect": [
+      56.479,
+      129.498,
+      215.521,
+      209.047
+    ],
+    "source_printed_caption": "Save the Bees",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "665a5760eae6902ddfe8da12724b4bbf20436c55cc82ae54abe895fba30b55f1",
+    "display_size": [
+      522,
+      247
+    ],
+    "thumbnail_sha256": "4b01a2489ce0da6627dc1bd1690659876bab7c201b86f2fb33293f057650881b",
+    "thumbnail_size": [
+      300,
+      142
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00076",
+    "name": "Save the Manatee",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "d1597fc4247c18c282fab310b3cc059f7f23c1811af2612a026cf71317599ccf",
+    "source_pdf_page": 8,
+    "source_xref": 188,
+    "source_image_rect": [
+      248.095,
+      128.991,
+      410.692,
+      210.019
+    ],
+    "source_printed_caption": "Save the Manatee",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "e8383c82d85311acc996f6c9b3467db8795fae05c20d36145367be2316396911",
+    "display_size": [
+      378,
+      186
+    ],
+    "thumbnail_sha256": "9c80de22b7c1f096d05db97df231232da264cb97a583524cd4670323152ce3a9",
+    "thumbnail_size": [
+      300,
+      148
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00077",
+    "name": "Save Wild Florida",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "5ae410dc39e7177ae604157e5aba8b916ccf19e340e5db65b3ff1b827a18bbbd",
+    "source_pdf_page": 8,
+    "source_xref": 187,
+    "source_image_rect": [
+      432.996,
+      130.162,
+      592.615,
+      209.429
+    ],
+    "source_printed_caption": "Save Wild Florida",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "6199ca3ca6b7b33d6d5202a9da609d45d8e7da8d3f39bc0066c5c2046fdda3bb",
+    "display_size": [
+      372,
+      185
+    ],
+    "thumbnail_sha256": "8c58566e0d19a82aec946aa20b40bec64fd82de4f11e73272c0d8c25e1239377",
+    "thumbnail_size": [
+      300,
+      149
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00078",
+    "name": "State Wildflower",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "0c288f27790d51113f471d4dde42ba773abf981aba31caf79692e7f1f7d9b5c8",
+    "source_pdf_page": 8,
+    "source_xref": 186,
+    "source_image_rect": [
+      55.137,
+      269.964,
+      215.431,
+      349.382
+    ],
+    "source_printed_caption": "State Wildflower",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "88c35093b08570fac3c0ec7ae132351d800694c76e4045d64e4fbd65f24fbbdc",
+    "display_size": [
+      375,
+      180
+    ],
+    "thumbnail_sha256": "cbf626c4fc3193b66dc62cf854066b332adf6fd106a3a76a278a2b125d8343b5",
+    "thumbnail_size": [
+      300,
+      144
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00079",
+    "name": "Tampa Bay Estuary",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "e9a3b417775ca9b16788b0a959c15f580762cfba7b47a5f8079feb9ef1bd74cc",
+    "source_pdf_page": 8,
+    "source_xref": 189,
+    "source_image_rect": [
+      246.214,
+      269.802,
+      409.788,
+      349.644
+    ],
+    "source_printed_caption": "Tampa Bay Estuary",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "f357dd2db2e48a5705be9b1668a425fce7e6cfaa8a57280c4a8cd69fe2e4b787",
+    "display_size": [
+      383,
+      189
+    ],
+    "thumbnail_sha256": "fda4e24846a3446440ef5802a7f71c14c6c4b7be6335b7c7d1edc8ebb3ac243c",
+    "thumbnail_size": [
+      300,
+      148
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00080",
+    "name": "Trees are Cool",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "a065ed4753c141441b7339ea8d6f82745852a9fac85268bf24d3ecdf93980d5f",
+    "source_pdf_page": 8,
+    "source_xref": 192,
+    "source_image_rect": [
+      433.355,
+      270.095,
+      592.915,
+      349.181
+    ],
+    "source_printed_caption": "Trees are Cool",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "95ae7a2da697adb3916d320d13d37351dc69ff64833391d5cab4fbb2a3b941ee",
+    "display_size": [
+      391,
+      201
+    ],
+    "thumbnail_sha256": "9d6b269febc31bd80d4bf20d0d35e88459bfa0fc1d879c4cb816cf833a04f3d5",
+    "thumbnail_size": [
+      300,
+      154
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00081",
+    "name": "Wildlife Foundation of Florida",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "a96aa71400002fae8cfcf87c604167d2a6abeba36c26c5a6291d9992463f18fa",
+    "source_pdf_page": 8,
+    "source_xref": 190,
+    "source_image_rect": [
+      55.921,
+      422.119,
+      215.948,
+      498.438
+    ],
+    "source_printed_caption": "Wildlife Foundation of Florida",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "31e25e70a398a7b8fb8ecf29716175abbb5973e0295bb11fbd25bdc60b3284e5",
+    "display_size": [
+      384,
+      189
+    ],
+    "thumbnail_sha256": "5389b1d88effcd90b0248e031d29abed46eae2c6cf7281efd5c03fe9e3701754",
+    "thumbnail_size": [
+      300,
+      148
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00082",
+    "name": "American Legion",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "6bdc6e304d05aaefae9b990f91bfc7bb51a85ff4da165746eac46334b7d908b8",
+    "source_pdf_page": 9,
+    "source_xref": 206,
+    "source_image_rect": [
+      64.359,
+      84.303,
+      223.773,
+      163.13
+    ],
+    "source_printed_caption": "American Legion",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "ca6c7e067045b56f7ecbcc05a902c43882a5ae5aab0761e791bc42edf73884c7",
+    "display_size": [
+      390,
+      191
+    ],
+    "thumbnail_sha256": "e42614892950f92d6d9242f20b2213d063d3b1ed4e9ef9be35322e61a321717b",
+    "thumbnail_size": [
+      300,
+      147
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00083",
+    "name": "Blue Angels",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "c2da3708e48b1f44b04f4cac5893142ad2677d12527876b2bf1dd27eb0aabc74",
+    "source_pdf_page": 9,
+    "source_xref": 207,
+    "source_image_rect": [
+      246.74,
+      84.173,
+      414.161,
+      163.259
+    ],
+    "source_printed_caption": "Blue Angels",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "eb4a7b1d656154f2f61b6f984e00839e303c4c0d33607ebb0d5a86e87cd36ccb",
+    "display_size": [
+      326,
+      170
+    ],
+    "thumbnail_sha256": "e531857c9e5cb5ea5ade91e35a70dc44f4f5b233b5e498dc794a9bf0bc1fb7e7",
+    "thumbnail_size": [
+      300,
+      156
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00084",
+    "name": "Salutes Veterans",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "4028a10ea482906e333e2212cf7eb8e301a58b0fbd290f83c92765e3ae9d2bdf",
+    "source_pdf_page": 9,
+    "source_xref": 208,
+    "source_image_rect": [
+      433.857,
+      85.098,
+      594.262,
+      163.722
+    ],
+    "source_printed_caption": "Salutes Veterans",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "0fd11059379db6535a2cddf1b43a81150a4b2e883b0ef602dcfc5f8afd3ec290",
+    "display_size": [
+      385,
+      191
+    ],
+    "thumbnail_sha256": "14910fd422ba2ec40d35d1e5653a7ac6dba3afb7c5e74444becaafa8140c480d",
+    "thumbnail_size": [
+      300,
+      149
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00085",
+    "name": "Support Our Troops",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "f32a85d8d2f986343c12551faca1f663a2c21fde1afa02cb0319e0cb33af7861",
+    "source_pdf_page": 9,
+    "source_xref": 209,
+    "source_image_rect": [
+      64.658,
+      220.518,
+      223.474,
+      299.785
+    ],
+    "source_printed_caption": "Support Our Troops",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "84a7a0a4ebbb2edb6ab7dc1fbb52d6efcd342a5c9975a924093e280464f00401",
+    "display_size": [
+      383,
+      194
+    ],
+    "thumbnail_sha256": "4cff3cffd56cb63d5802ef58f2b60d72ec61def4de6511669f4cf7c0e116b4b4",
+    "thumbnail_size": [
+      300,
+      152
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00086",
+    "name": "U.S. Air Force",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "006522e77cac8a5bc0075e4cf5670ff955b3e864d4f620a161d171106485ef44",
+    "source_pdf_page": 9,
+    "source_xref": 210,
+    "source_image_rect": [
+      246.202,
+      220.984,
+      414.699,
+      301.17
+    ],
+    "source_printed_caption": "U.S. Air Force",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "b10dd1dafe1b7d09bda924a13868e08effa603735c90fb4ac05602ca6b2c0452",
+    "display_size": [
+      383,
+      192
+    ],
+    "thumbnail_sha256": "8f02cc8c234bf2e4f6546128797f553a6c514f96b6f160ef1c659c897e89e681",
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00087",
+    "name": "U.S. Army",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "fddb5f5cdbd75c1e860e964448dcf67bbd58d21ef67223a03ac70d163996ea3b",
+    "source_pdf_page": 9,
+    "source_xref": 211,
+    "source_image_rect": [
+      433.818,
+      221.534,
+      593.377,
+      300.444
+    ],
+    "source_printed_caption": "U.S. Army",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "66c380c8e5dba215d6718220f51576fc471bd1fe67658b403a45f78b3f1dc056",
+    "display_size": [
+      387,
+      193
+    ],
+    "thumbnail_sha256": "08ba0929135f974e2a40f81d174274618f0266876eef76351aeaab4bbb00ffe4",
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00088",
+    "name": "U.S. Coast Guard",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "b776006709cec63181999996250784f39ad76e02b6741b6b8c2b1abe3b1f676e",
+    "source_pdf_page": 9,
+    "source_xref": 212,
+    "source_image_rect": [
+      63.822,
+      365.772,
+      223.385,
+      450.004
+    ],
+    "source_printed_caption": "U.S. Coast Guard",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "a05bf1d3472b6355eee116cf54b4714e7c673511e62ab0a8c43b18b7748bb362",
+    "display_size": [
+      390,
+      196
+    ],
+    "thumbnail_sha256": "1d9b2ba81a66c1ce696d28ff32d7d825357d4e6d972ece96b59acc4be0d5d666",
+    "thumbnail_size": [
+      300,
+      151
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00089",
+    "name": "U.S. Marine Corps",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "8ece22e9c39d942fdd62f1812b9f4707027a15fb5ca8e704886bfcbebd6fe89a",
+    "source_pdf_page": 9,
+    "source_xref": 213,
+    "source_image_rect": [
+      247.202,
+      366.16,
+      414.624,
+      451.063
+    ],
+    "source_printed_caption": "U.S. Marine Corps",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "d377eeb849c5196a7c0a31f9b2aa1c34727a7c0f880605030c5498e079cc717b",
+    "display_size": [
+      383,
+      194
+    ],
+    "thumbnail_sha256": "6ce0d35559f138af852177651b012ea13cea585adf86f5791b1331e267b2a1cd",
+    "thumbnail_size": [
+      300,
+      152
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00090",
+    "name": "U.S. Navy",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "5ab1e387f857f675d635503e63ebe442357965d0f705a8e488955e8ab996573a",
+    "source_pdf_page": 9,
+    "source_xref": 214,
+    "source_image_rect": [
+      436.822,
+      366.293,
+      594.997,
+      450.004
+    ],
+    "source_printed_caption": "U.S. Navy",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "1a6b0aa9a7dda643da63aaca743aa513738f87885c1feee6da5e7458e7e5d3bb",
+    "display_size": [
+      386,
+      196
+    ],
+    "thumbnail_sha256": "5e88e0a3c069a85db71c1118713935a6ed5e961c8ddca13daecea96ec6a324a4",
+    "thumbnail_size": [
+      300,
+      152
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00091",
+    "name": "Florida Panthers",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "a35ea9fb122ffd4e5f65883a653e0161d74458c0ace52bcb27ed509ce12c3f93",
+    "source_pdf_page": 10,
+    "source_xref": 252,
+    "source_image_rect": [
+      65.315,
+      115.922,
+      233.096,
+      198.578
+    ],
+    "source_printed_caption": "Florida Panthers",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "08375263dd5f3de5247fe28204de873402c2e1677d13e1d230f73801bb914a6a",
+    "display_size": [
+      350,
+      173
+    ],
+    "thumbnail_sha256": "dfc594700dc796f0d3d092deafe565b6ec52cfab256efa4ac45f3afb130403d5",
+    "thumbnail_size": [
+      300,
+      148
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00092",
+    "name": "Golf Capital of the World",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "f81bdbc04baa546c46c61e0488686025bf3dee5321e79773ee62dbdebfef22f2",
+    "source_pdf_page": 10,
+    "source_xref": 253,
+    "source_image_rect": [
+      250.079,
+      115.878,
+      414.486,
+      198.574
+    ],
+    "source_printed_caption": "Golf Capital of the World",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "ae1ff53a494652a416289d4c24fc654090dfd66ce14763a406abfedb6951eff5",
+    "display_size": [
+      335,
+      174
+    ],
+    "thumbnail_sha256": "b4d2da0224a86f652de9c4fb4aefb04485e442bca7e1b4b967c2c9acf2b828ee",
+    "thumbnail_size": [
+      300,
+      156
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00093",
+    "name": "Inter Miami CF",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "bc86f1d8e0fc2e7384b6753efda277be59f39596d6a6854f074888f15eed494f",
+    "source_pdf_page": 10,
+    "source_xref": 251,
+    "source_image_rect": [
+      438.302,
+      116.086,
+      601.702,
+      197.946
+    ],
+    "source_printed_caption": "Inter Miami CF",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "561faa5718138c3a69b3fcc6a821155137178d98d39cac253e9f9995c7ac65fa",
+    "display_size": [
+      340,
+      171
+    ],
+    "thumbnail_sha256": "239d0ebea57aebdb95f52adbe8d9cbe8e64f870e2d85ef68bc877d739cc4cc83",
+    "thumbnail_size": [
+      300,
+      151
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00094",
+    "name": "Jacksonville Jaguars (NFL)",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "1db05fb9b0d922b97bf1a2c1da4e935729d9551ac2cf1d595f07ee45f66e45ea",
+    "source_pdf_page": 10,
+    "source_xref": 254,
+    "source_image_rect": [
+      65.212,
+      228.792,
+      233.097,
+      313.107
+    ],
+    "source_printed_caption": "Jacksonville Jaguars (NFL)",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "64b9936a962431a500d3699bb11ebe75d96fc3d7cc61466ebd36ff726afa9a61",
+    "display_size": [
+      344,
+      172
+    ],
+    "thumbnail_sha256": "02d64233560197bea732e1d56260181ffdb102723d2aa1d8ade51272f00aef01",
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00095",
+    "name": "Miami Dolphins (NFL)",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "472fc9c378e40c5fba8f668ce7bd20c8fdc75c75977ed444134d8466a6416da0",
+    "source_pdf_page": 10,
+    "source_xref": 256,
+    "source_image_rect": [
+      248.461,
+      227.623,
+      415.317,
+      313.926
+    ],
+    "source_printed_caption": "Miami Dolphins (NFL)",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "2d57f75ff0bd6b37ec5a1916a06fdb0f33c272a319f2f0b3d177d17f3684d5e0",
+    "display_size": [
+      360,
+      180
+    ],
+    "thumbnail_sha256": "090c03a3994289726fdacf049d01c43a752cc1f6e293b2b1a3df588939c8be1c",
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00096",
+    "name": "Miami Heat (NBA)",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "afa01cfcbe2a5dd1949cef3d281d275a02d7249b85c9f00004ed38d3d7629ceb",
+    "source_pdf_page": 10,
+    "source_xref": 257,
+    "source_image_rect": [
+      438.905,
+      228.008,
+      603.09,
+      313.106
+    ],
+    "source_printed_caption": "Miami Heat (NBA)",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "8215ed9e95e7a85108e9effcee64a03a4e849c533f9a4f860a52171288693120",
+    "display_size": [
+      342,
+      178
+    ],
+    "thumbnail_sha256": "05d1832896585fd1a033518c78458bcb264027e78c0fa9cf0573a50dc91948ba",
+    "thumbnail_size": [
+      300,
+      156
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00097",
+    "name": "Miami Marlins (MLB)",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "4e7fc0abc37c0eb6ff895fa5553c1451db09a3f125b24e0c11c21c1f6021589f",
+    "source_pdf_page": 10,
+    "source_xref": 255,
+    "source_image_rect": [
+      66.135,
+      339.038,
+      233.095,
+      422.717
+    ],
+    "source_printed_caption": "Miami Marlins (MLB)",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "f71e20ca9e7c65bfd75b54a7f0d1b854d1c0e9c9da2c020f48dfdca94f548bfd",
+    "display_size": [
+      359,
+      182
+    ],
+    "thumbnail_sha256": "2df69326852b922e0be22cea6ad663380b9d3f0c9337ca2455094ce000d2c03b",
+    "thumbnail_size": [
+      300,
+      152
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00098",
+    "name": "NASCAR",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "ae5b74484a49756611b670834ca0c65a729eabe5e1b1a2960d5d0c3a4c2c3516",
+    "source_pdf_page": 10,
+    "source_xref": 258,
+    "source_image_rect": [
+      248.359,
+      340.428,
+      415.836,
+      422.255
+    ],
+    "source_printed_caption": "NASCAR",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "b1b8faf7e584926c737898f542f072ea2b408a8e2f030a587800e42a86f3c630",
+    "display_size": [
+      360,
+      172
+    ],
+    "thumbnail_sha256": "0c60637375bfe6310bc5d4b0f4df776e79f6e2662d1a8b8fbe2d81761df4ffa3",
+    "thumbnail_size": [
+      300,
+      143
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00099",
+    "name": "Orlando City Soccer",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "6f3cb67317622785f6ad264c9ccf55e3812029fcb5abf6fd910c3f4819ec1326",
+    "source_pdf_page": 10,
+    "source_xref": 259,
+    "source_image_rect": [
+      437.341,
+      341.131,
+      604.736,
+      421.33
+    ],
+    "source_printed_caption": "Orlando City Soccer",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "f5fa47e55fe81ab5972b88ca27f055c1a5b6cc4c6c19aa71d88631676f903283",
+    "display_size": [
+      349,
+      167
+    ],
+    "thumbnail_sha256": "949a210b9039a3f09a2a989bad81d46cfc441a70a1199d4858b0c68d60622650",
+    "thumbnail_size": [
+      300,
+      144
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00100",
+    "name": "Orlando Magic (NBA)",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "863654f1b0baf84e22db0d79d4a50b891b4c50cfc5e46b9767173986e491cbc8",
+    "source_pdf_page": 10,
+    "source_xref": 248,
+    "source_image_rect": [
+      66.599,
+      452.317,
+      233.559,
+      534.178
+    ],
+    "source_printed_caption": "Orlando Magic (NBA)",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "66763d657af07a19a363407d22d2e84b56a7fd00c740dcd1f697fc620839d592",
+    "display_size": [
+      348,
+      171
+    ],
+    "thumbnail_sha256": "8dfd7fcaa74b0af79033559bfb48374bfdea55de79b26a979050ec173254a5bf",
+    "thumbnail_size": [
+      300,
+      147
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00101",
+    "name": "Play Tennis",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "be4c8962a29bd5936dac8c93b52a9c8655b9573937d7c282872e0a63d32fc146",
+    "source_pdf_page": 10,
+    "source_xref": 244,
+    "source_image_rect": [
+      248.612,
+      452.246,
+      418.555,
+      534.639
+    ],
+    "source_printed_caption": "Play Tennis",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "fe0d6854cb82a310368ad3fdf9617ddf242777d2f5920a9d291b91a13f04f4d5",
+    "display_size": [
+      385,
+      190
+    ],
+    "thumbnail_sha256": "ea121b14c7deb33f2fcdf2509b48e1e903a51deef823143a5c17dea56ca26331",
+    "thumbnail_size": [
+      300,
+      148
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00102",
+    "name": "Police Athletic League",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "d8c39eb4f6ddc55f7fe99ddf7d45bd436f784d16748194d0e2e72b978c2d6488",
+    "source_pdf_page": 10,
+    "source_xref": 245,
+    "source_image_rect": [
+      435.757,
+      452.024,
+      605.681,
+      532.083
+    ],
+    "source_printed_caption": "Police Athletic League",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "bdc25580d4982109297fb8eb15cba3fad3aa25be25318e481a98911b4219da31",
+    "display_size": [
+      386,
+      200
+    ],
+    "thumbnail_sha256": "1ee279dce2194829e8a62b088aa4fbaf13e66d4b08699586e081dcb650faf0fe",
+    "thumbnail_size": [
+      300,
+      155
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00103",
+    "name": "Share the Road",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "ae257f7ab8a6178766fe18f4cd72c65df11473bf61242f7d89b26c25713b3a0b",
+    "source_pdf_page": 10,
+    "source_xref": 246,
+    "source_image_rect": [
+      62.836,
+      567.851,
+      233.971,
+      650.725
+    ],
+    "source_printed_caption": "Share the Road",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "61c4a34d4edcfb268f768164ff240e064a8ac9eb92076ada776eb92071421c13",
+    "display_size": [
+      387,
+      197
+    ],
+    "thumbnail_sha256": "eabe93f47e18e346cc09045436916be28a4946a6fa2234a0a13b24c6da3358cf",
+    "thumbnail_size": [
+      300,
+      153
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00104",
+    "name": "Swim for Life",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "efb87c4742168405ba173b66afe247927b55b1229334aab82a842e367ce09854",
+    "source_pdf_page": 10,
+    "source_xref": 243,
+    "source_image_rect": [
+      250.671,
+      567.015,
+      420.868,
+      650.263
+    ],
+    "source_printed_caption": "Swim for Life",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "a67fef7acbc2cde4cdbf3b9ef8168a8e61695ed03521f31e3d4a994315e6aa26",
+    "display_size": [
+      355,
+      174
+    ],
+    "thumbnail_sha256": "09cc8872379bb342b6e2c595d6dea4af1e97f2dba2dd14dbda1bd4223e7906cf",
+    "thumbnail_size": [
+      300,
+      147
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00105",
+    "name": "Tampa Bay Rays",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "a17802e106cf578ae0279f71fc22a391aae36ed3d13bea2b737ef985be8947e3",
+    "source_pdf_page": 10,
+    "source_xref": 242,
+    "source_image_rect": [
+      436.704,
+      565.424,
+      606.382,
+      650.765
+    ],
+    "source_printed_caption": "Tampa Bay Rays",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "d756f711a01bcc4a8ec4fb3d23db78537585110405de66fa17a86365d108ca66",
+    "display_size": [
+      407,
+      204
+    ],
+    "thumbnail_sha256": "3203e2d0aec2e11474c5c1054925cbd8e890d120c623510160d70e040f371bbb",
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00106",
+    "name": "Tampa Bay Buccaneers (NFL)",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "0c1275653009745a009c130e862a4e3d062abe61e5cd8a39d6ea0e003bb3bbca",
+    "source_pdf_page": 10,
+    "source_xref": 247,
+    "source_image_rect": [
+      67.878,
+      681.712,
+      234.482,
+      763.491
+    ],
+    "source_printed_caption": "Tampa Bay Buccaneers (NFL)",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "5bd4e7c568941a6d70dfa510ceb27c3897870f3075dddd5660f1a2c119dc88c2",
+    "display_size": [
+      347,
+      171
+    ],
+    "thumbnail_sha256": "3d332f750f2331f7107b95313b49fb3811b1130e813c70dc92c8dc2d7ee812be",
+    "thumbnail_size": [
+      300,
+      148
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00107",
+    "name": "Tampa Bay Lightning (NHL)",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "74eddda3bcd3bf4882177423bb5009bb84f37fddbcd5b45c1ac0c5bc1f00d869",
+    "source_pdf_page": 10,
+    "source_xref": 250,
+    "source_image_rect": [
+      250.669,
+      682.175,
+      419.481,
+      763.112
+    ],
+    "source_printed_caption": "Tampa Bay Lightning (NHL)",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "01e3126aa83c164080472dfbd2ff6c84c6bc67a254a00c5f2ff347e312d02d92",
+    "display_size": [
+      346,
+      148
+    ],
+    "thumbnail_sha256": "a78f46da0f1a2dff7b4db15b4ff7898c5410634a67bec170b71dac9e5e3e852a",
+    "thumbnail_size": [
+      300,
+      128
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00108",
+    "name": "U.S. Olympic Spirit",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "8bf5b0ff310921b88e266023dfbd4071765eced2fdfee1450cb9cd8812725cf0",
+    "source_pdf_page": 10,
+    "source_xref": 249,
+    "source_image_rect": [
+      437.981,
+      681.84,
+      605.401,
+      764.79
+    ],
+    "source_printed_caption": "U.S. Olympic Spirit",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "74655886744503a6584dee965fec31ca19e2ddd6bf953be9c4bbd0c5b19822cc",
+    "display_size": [
+      342,
+      176
+    ],
+    "thumbnail_sha256": "1b88c238d0915ef5d68d0a96b985676dbc88a64ae0b70bf89a4d4a99966a6afe",
+    "thumbnail_size": [
+      300,
+      154
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00109",
+    "name": "Agricultural Education",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "411f1ffe90d3088f4d266b5c100f2d399bbea1e094668946a3260001c7e4b3ac",
+    "source_pdf_page": 11,
+    "source_xref": 275,
+    "source_image_rect": [
+      152.457,
+      126.447,
+      324.749,
+      206.467
+    ],
+    "source_printed_caption": "Agricultural Education",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "5d3570409dba7116d2b8d808319d057b3acc334c3c06f46e7297e3776684e6d2",
+    "display_size": [
+      401,
+      196
+    ],
+    "thumbnail_sha256": "c9cbcb6fbf1d959a4f6e31001e372430d381c5f891bc375e7a7bdf55d531ec98",
+    "thumbnail_size": [
+      300,
+      147
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00110",
+    "name": "Agriculture",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "36c4dafe8f812db6c3bf261c0cfebd4677d27069bd5d5a8b4259e9d88006878c",
+    "source_pdf_page": 11,
+    "source_xref": 276,
+    "source_image_rect": [
+      382.419,
+      127.59,
+      550.837,
+      208.029
+    ],
+    "source_printed_caption": "Agriculture",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "a7f2bae2b24ce6ed3480310478446785162cb8815b7cbb5c57b9d2376802cfb3",
+    "display_size": [
+      409,
+      198
+    ],
+    "thumbnail_sha256": "f34c8678b12e6f866a60573841296170637fb7d786c00264ba2f3904a11e1976",
+    "thumbnail_size": [
+      300,
+      145
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00111",
+    "name": "America the Beautiful",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "759c397b0735b6f46dc5d1ebd0f8b13f09cf0da475b0daeaa630f52dd65bef4f",
+    "source_pdf_page": 11,
+    "source_xref": 280,
+    "source_image_rect": [
+      65.775,
+      255.142,
+      233.777,
+      337.257
+    ],
+    "source_printed_caption": "America the Beautiful",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "d0f414fbec0a1f076cfd2e65116f823372630ea7d181869a5545d1954d712fba",
+    "display_size": [
+      350,
+      172
+    ],
+    "thumbnail_sha256": "220233174a5186412a306f4596ef9e294960ecbd4b1c156630e3f651f73fe0cd",
+    "thumbnail_size": [
+      300,
+      147
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00112",
+    "name": "Big Brothers Big Sisters",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "f30170b4553d3d6a072d0e56da29dc5b86d9c5a8ba1a6a08d34db07993e32cfa",
+    "source_pdf_page": 11,
+    "source_xref": 278,
+    "source_image_rect": [
+      250.534,
+      255.142,
+      422.304,
+      337.676
+    ],
+    "source_printed_caption": "Big Brothers Big Sisters",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "6c2ed80bf7ffc8d5eadb19ac8b2751cf0fef5f50bca65a9bb16ab6debf3c4897",
+    "display_size": [
+      359,
+      173
+    ],
+    "thumbnail_sha256": "3e3ccea8dfea859a77b5728e9f502b14cf052c48e5f56fd1d222ba31258da041",
+    "thumbnail_size": [
+      300,
+      145
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00113",
+    "name": "Challenger - Columbia",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "7dd9034a63b14f7390f655497d86cbd596967e3f525ffd17f602e158a357dd42",
+    "source_pdf_page": 11,
+    "source_xref": 279,
+    "source_image_rect": [
+      436.548,
+      254.305,
+      606.645,
+      336.839
+    ],
+    "source_printed_caption": "Challenger - Columbia",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "88da01cfe3a10f8016c68e24fac5b4f078e0fb51d015177d16bdacd3c7693654",
+    "display_size": [
+      355,
+      172
+    ],
+    "thumbnail_sha256": "5c6982dc2b18fa8ad51851599aaa334ac5c769d4fcc336a981d86af41375e0b3",
+    "thumbnail_size": [
+      300,
+      145
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00114",
+    "name": "Choose Life",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "9bd052982f0368dba2befe6832574548eae1747e1e39a71008cb95002e394240",
+    "source_pdf_page": 11,
+    "source_xref": 281,
+    "source_image_rect": [
+      65.357,
+      386.274,
+      236.289,
+      472.999
+    ],
+    "source_printed_caption": "Choose Life",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "46c33b21d416f6aa951aa79288a93b4656e8c52f11a43be45a1a1a8b2d6aaade",
+    "display_size": [
+      356,
+      181
+    ],
+    "thumbnail_sha256": "17f551a0b7cb84cda70445010ee62cc2931973f92d23fcac2fe4a43b946265bd",
+    "thumbnail_size": [
+      300,
+      153
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00115",
+    "name": "End Breast Cancer",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "06f41f461e8e434089819403b33233ee66df55a61674b7d9a351d31e4ff86893",
+    "source_pdf_page": 11,
+    "source_xref": 282,
+    "source_image_rect": [
+      250.115,
+      386.022,
+      421.049,
+      472.16
+    ],
+    "source_printed_caption": "End Breast Cancer",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "904d56bdcb587e912bd33468a951d3c3ec0d1e5881d0ea59b96432e1c323a0e8",
+    "display_size": [
+      399,
+      196
+    ],
+    "thumbnail_sha256": "f29dbff24b3373d4f480a83c32f52674d3039c7e397e48e14553aa1ec3e3b0a5",
+    "thumbnail_size": [
+      300,
+      147
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00116",
+    "name": "Fallen Law Enforcement Officers",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "86bd05ce72af5f63df0255e18c2258e6a713902675419422f4b4e2b10f48f309",
+    "source_pdf_page": 11,
+    "source_xref": 283,
+    "source_image_rect": [
+      436.131,
+      386.275,
+      607.483,
+      470.347
+    ],
+    "source_printed_caption": "Fallen Law Enforcement Oficers",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "6c0345d15cea24b0fc207754367934d750a5cb2bb56709d4435633ab17dc39ff",
+    "display_size": [
+      403,
+      198
+    ],
+    "thumbnail_sha256": "e7226a131cc4a75c0fed85c40bf465858ea58fb0fc300734c685def900e77165",
+    "thumbnail_size": [
+      300,
+      147
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00117",
+    "name": "Family First",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "a58ceeb29daa73f91abdbd2445b1b7b18f410cf7906f093a3ec9496282ac5cd6",
+    "source_pdf_page": 11,
+    "source_xref": 284,
+    "source_image_rect": [
+      65.776,
+      516.989,
+      237.547,
+      602.851
+    ],
+    "source_printed_caption": "Family First",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "f2beca310ef8415d8a71aa68ac32aecc4d66e5bbcfb721faf3bb5f71707e41fa",
+    "display_size": [
+      407,
+      202
+    ],
+    "thumbnail_sha256": "122e6da6f7975731fb972d6373f5ff5cd7886580de510556ea97bc6be49d7203",
+    "thumbnail_size": [
+      300,
+      149
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00118",
+    "name": "Family Values",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "6f9c2d9e7b24daa3c9f532d0425383b419419ebec578cedf14fc02f99e1f585e",
+    "source_pdf_page": 11,
+    "source_xref": 277,
+    "source_image_rect": [
+      249.283,
+      517.066,
+      420.868,
+      601.702
+    ],
+    "source_printed_caption": "Family Values",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "9d71bf222f84b5e712a32f6595f4dc70f1e6677c14c9ec42d38551c4f3d819ef",
+    "display_size": [
+      358,
+      177
+    ],
+    "thumbnail_sha256": "db8f9a42109edfd431e2b4e06e5bfd9d0a149d370fadeca1a23aa4d61afb7366",
+    "thumbnail_size": [
+      300,
+      148
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00119",
+    "name": "Florida Sheriffs Association",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "7f332b51d1d02294f8a672f555c378f4c8de80c8e4bab037ca3bb98884a313ec",
+    "source_pdf_page": 11,
+    "source_xref": 285,
+    "source_image_rect": [
+      435.711,
+      517.826,
+      607.482,
+      602.455
+    ],
+    "source_printed_caption": "Florida Sherifs Association",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "702840a9778792ee5e4af35c332c7fa109c7a72ea2b62bc057a9f89426b21398",
+    "display_size": [
+      400,
+      199
+    ],
+    "thumbnail_sha256": "2a7fc4af84cc58a58ef06fc8085b224ef8042e7792b326fe9157dcf151cca012",
+    "thumbnail_size": [
+      300,
+      149
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00120",
+    "name": "Margaritaville",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "ff37a3725ed64c37fb46ad4c842bdc585f7cca8cff7371c7534a4f5b1c113df1",
+    "source_pdf_page": 13,
+    "source_xref": 338,
+    "source_image_rect": [
+      60.123,
+      120.71,
+      229.01,
+      203.034
+    ],
+    "source_printed_caption": "Margaritaville",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "93263f59a9feec7303b8149adab7f41137fb0418c8fb1bc792282007128f19fa",
+    "display_size": [
+      353,
+      172
+    ],
+    "thumbnail_sha256": "4419fe1e46fda9e35cb01eb2d7da5e46ca4b8571138ae45cac9ba6593a8b6dfe",
+    "thumbnail_size": [
+      300,
+      146
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00121",
+    "name": "Moffitt Cancer Center",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "0f29604b9708c0a44ea156e2aeba356d1c6c890f30a4e21a53a0866b038c72e6",
+    "source_pdf_page": 13,
+    "source_xref": 336,
+    "source_image_rect": [
+      245.854,
+      121.185,
+      417.822,
+      203.034
+    ],
+    "source_printed_caption": "Mofitt Cancer Center",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "df36b70ede42774df95806c653ec40b48383892d869a8f3ff85644c36c8c26ba",
+    "display_size": [
+      400,
+      206
+    ],
+    "thumbnail_sha256": "b403231c820fb3adafb65c0cc6e2459b08a5e0dab4dbaaaa186a74388bbe55c0",
+    "thumbnail_size": [
+      300,
+      155
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00122",
+    "name": "Salutes Firefighters",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "f75e8359a36ba17c22a6fa232ea6412ced2853fc7696c0481ba309d3859e0a97",
+    "source_pdf_page": 13,
+    "source_xref": 346,
+    "source_image_rect": [
+      431.885,
+      121.474,
+      603.634,
+      203.034
+    ],
+    "source_printed_caption": "Salutes Firefighters",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "949a803039367ee01ab4a8d3916674011dcf494d9fb92e7b198b064c7620257b",
+    "display_size": [
+      359,
+      189
+    ],
+    "thumbnail_sha256": "45c1e4f6a66ea009e7219bb4ee8115de69e060a4fd787d66c725d9a7b0282b92",
+    "thumbnail_size": [
+      300,
+      158
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00123",
+    "name": "State of the Arts",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "6642b41f4bd925246e5e896a1fd1ba6d57f1d8a481f4dd91179ebcb262325eda",
+    "source_pdf_page": 13,
+    "source_xref": 345,
+    "source_image_rect": [
+      62.128,
+      244.658,
+      230.508,
+      325.594
+    ],
+    "source_printed_caption": "State of the Arts",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "c62e2893454a24b9741d3173a8b3aaf1fefbfbe43ea2ce7e75de4d3eb9790022",
+    "display_size": [
+      362,
+      176
+    ],
+    "thumbnail_sha256": "6edf2c94c8ae1e8ca4730ff535e7e4cf53c59e8b20f1e69b04ae2d4ff7904b5c",
+    "thumbnail_size": [
+      300,
+      146
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00124",
+    "name": "Stop Child Abuse",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "9cf3f59ff9e596d7ec8df053c8f6260f1de0afe9c2678b836831aef09e3204b8",
+    "source_pdf_page": 13,
+    "source_xref": 344,
+    "source_image_rect": [
+      247.377,
+      244.759,
+      418.554,
+      326.754
+    ],
+    "source_printed_caption": "Stop Child Abuse",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "90bac7791c25a88bff117d5e925e67755272e2f1c4c5f26cb2bd07ece7b879ff",
+    "display_size": [
+      357,
+      171
+    ],
+    "thumbnail_sha256": "48fc4a17132c788c3c47df6d93e4a20b4b22a94a4a76f9daeac9f7e350cf1e3e",
+    "thumbnail_size": [
+      300,
+      144
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00125",
+    "name": "Stop Heart Disease",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "32cd375e3fcb9484a5d5fd91b07d1f1285dedfc3c2b83907050835da1da6f428",
+    "source_pdf_page": 13,
+    "source_xref": 343,
+    "source_image_rect": [
+      432.429,
+      244.196,
+      604.94,
+      328.581
+    ],
+    "source_printed_caption": "Stop Heart Disease",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "3f080f273daaf373be583db688508774360c7bf06ee7281e65b8ce0c70fa8281",
+    "display_size": [
+      358,
+      178
+    ],
+    "thumbnail_sha256": "412ce38d87128f23e7386e9d261c016db1ba27670f0796cbf8befd612c8da953",
+    "thumbnail_size": [
+      300,
+      149
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00126",
+    "name": "Support Autism Programs",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "204e817a214fe1f487928118c2c28a9b49e0c1400b277c4cad7f6317e462c5dc",
+    "source_pdf_page": 13,
+    "source_xref": 334,
+    "source_image_rect": [
+      60.227,
+      377.348,
+      231.245,
+      462.459
+    ],
+    "source_printed_caption": "Support Autism Programs",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "7d0ee192232742b3513bfd96fa522d019940f3860e548ba262f221ad45715751",
+    "display_size": [
+      430,
+      214
+    ],
+    "thumbnail_sha256": "fcd2827523c1b0590b71cc1967c7168c349e03a491d2a3a8543e92d241bcdd75",
+    "thumbnail_size": [
+      300,
+      149
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00127",
+    "name": "Support Education",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "121372c85d80a77df85b22f311481ed067f89e41e057f9d57fdabdb2e1d0cd66",
+    "source_pdf_page": 13,
+    "source_xref": 335,
+    "source_image_rect": [
+      249.756,
+      378.319,
+      420.867,
+      463.114
+    ],
+    "source_printed_caption": "Support Education",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "3967b8cfa130d2099d19f69abe97b6818e2816554fe2da2d530ea194cfaa4847",
+    "display_size": [
+      443,
+      216
+    ],
+    "thumbnail_sha256": "40b20b361132857cb234a282d060888dca7ced6fbe07486694ce4525d0577397",
+    "thumbnail_size": [
+      300,
+      146
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00128",
+    "name": "Support Homeownership For All",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "36d8adeceded48cf8b45bc74a22f0ee53a55dffe4502d4f49d9b674c41dba6a7",
+    "source_pdf_page": 13,
+    "source_xref": 339,
+    "source_image_rect": [
+      433.816,
+      379.671,
+      604.939,
+      462.44
+    ],
+    "source_printed_caption": "Support Homeownership For All",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "61487c5b48d64687542f2cd3e0aae6de9c4ecbc6ea3e57f7876d35962c2f54f5",
+    "display_size": [
+      357,
+      173
+    ],
+    "thumbnail_sha256": "58c99758a985f21970b862090edb99cd9389d393634556319fc41d9f9d7672fd",
+    "thumbnail_size": [
+      300,
+      145
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00129",
+    "name": "Support Law Enforcement",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "26efe7a203c4aa6d52ab861b0f2495e4caf9aa12257ea1b1e6cbd20a85def9fc",
+    "source_pdf_page": 13,
+    "source_xref": 340,
+    "source_image_rect": [
+      61.893,
+      500.465,
+      232.827,
+      586.338
+    ],
+    "source_printed_caption": "Support Law Enforcement",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "cadc4f879032a319fdaca9e0c5b471bf1ab7cb33aaccfac1fe54b0f3f6a910eb",
+    "display_size": [
+      357,
+      180
+    ],
+    "thumbnail_sha256": "028a57625b228e28f60303d3af61c001dfde8a4bd7034158b3336fd8203b3a4f",
+    "thumbnail_size": [
+      300,
+      151
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00130",
+    "name": "Support Scenic Walton",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "81edaaf86a7095184e1f8cf501e9ba81e6e1776435ac5b346102755d54daed49",
+    "source_pdf_page": 13,
+    "source_xref": 342,
+    "source_image_rect": [
+      249.747,
+      501.341,
+      419.942,
+      586.902
+    ],
+    "source_printed_caption": "Support Scenic Walton",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "fa163ae1f4f334ea02e65f08d87fcb713aaece7c0c2f7774bda8dd255f3f84a9",
+    "display_size": [
+      355,
+      179
+    ],
+    "thumbnail_sha256": "67062424b3564bcd21d642b34cf7ab6356f586f0149d2893aaa4bd4a84610429",
+    "thumbnail_size": [
+      300,
+      151
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00131",
+    "name": "United We Stand",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "3ba464e49fbea7c8d2639603b98ce31924ab1166d1196a52643260b434a55c3d",
+    "source_pdf_page": 13,
+    "source_xref": 341,
+    "source_image_rect": [
+      435.206,
+      502.315,
+      604.939,
+      587.364
+    ],
+    "source_printed_caption": "United We Stand",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "424d21c39e0b133389124e48be407fbeae491031a1a671e4041cf3a82b848d13",
+    "display_size": [
+      361,
+      181
+    ],
+    "thumbnail_sha256": "dba88dc173f7f0f626a9a9236f3a1b67bad83c38dfa1590bb4ef8f60d78e3e80",
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-FL-00132",
+    "name": "Visit Our Lights",
+    "source_pdf_url": "https://www.flhsmv.gov/pdf/specialtyplates/Florida%20License%20Plate%20Brochure%20%28Revised%201-2026%29%20reduced%20size.pdf",
+    "source_document_sha256": "d10418d394fe8d95624cdb932627536c258b4f6272786c38bd68a1a04087834a",
+    "source_embedded_image_sha256": "e7f401a2aad76e13132d358eff1efc2605a5a7c4c1edc82cf3483f13e58c494c",
+    "source_pdf_page": 13,
+    "source_xref": 337,
+    "source_image_rect": [
+      60.586,
+      628.988,
+      234.484,
+      712.222
+    ],
+    "source_printed_caption": "Visit Our Lights",
+    "match_basis": "inspected 2026 FLHSMV official sample and positional printed-caption association",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "076c817b7ec22e9ddf38140d792468581aced0f2f93c71bb34d317f607037161",
+    "display_size": [
+      366,
+      183
+    ],
+    "thumbnail_sha256": "0f3c4710e6286ff1396a92c4ddcf347a8672c4bc635ebe98c7281caff7020d01",
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  }
+]
