@@ -18,7 +18,7 @@ PDF_SHAS={"9b3fb1a085866fcbe1205e06a76486b76fa7ed2c7346b0b24b871ffd0e9e91ef",
 OLD_CACHE="lpg-current-images-20261012-akms"
 NEW_CACHE="lpg-current-images-20261026-tx"
 EXCLUDED={"LPG-US-TX-00164","LPG-US-TX-00001","LPG-US-TX-00041",
-          "LPG-US-TX-00150","LPG-US-TX-00152","LPG-US-TX-00153","LPG-US-TX-00163"}
+          "LPG-US-TX-00150","LPG-US-TX-00152","LPG-US-TX-00154","LPG-US-TX-00163"}
 
 def sha(b):return hashlib.sha256(b).hexdigest()
 def norm(s):
