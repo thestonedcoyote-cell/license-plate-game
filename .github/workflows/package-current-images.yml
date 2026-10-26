@@ -1,0 +1,57 @@
+name: Package current source-matched image database
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - data/image-batches/current-package-trigger.json
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Install image validation dependency
+        run: pip install pillow
+      - name: Build portable current-source SQLite snapshot
+        run: |
+          python tools/package_current_images.py --root . --out dist/LPG_Reference_Image_Snapshot_2026_10_26
+      - name: Validate archive, image count, hashes, and SQLite integrity
+        run: |
+          python - <<'PY'
+          import hashlib,json,sqlite3,zipfile,tempfile,pathlib
+          archive=pathlib.Path('dist/LPG_Reference_Image_Snapshot_2026_10_26.zip')
+          assert archive.exists()
+          with zipfile.ZipFile(archive) as z:
+              assert z.testzip() is None
+              with tempfile.TemporaryDirectory() as td:
+                  z.extractall(td)
+                  root=pathlib.Path(td)/'LPG_Reference_Image_Snapshot_2026_10_26'
+                  hashes=json.loads((root/'checksums.json').read_text())
+                  assert len(hashes)>=748, len(hashes)
+                  for item in hashes:
+                      file=(root/item['path']).resolve()
+                      assert file.is_relative_to(root) and file.is_file()
+                      assert hashlib.sha256(file.read_bytes()).hexdigest()==item['sha256']
+                  db=sqlite3.connect(root/'lpg.sqlite')
+                  db.execute('PRAGMA foreign_keys=ON')
+                  assert db.execute('PRAGMA integrity_check').fetchone()[0]=='ok'
+                  assert db.execute('PRAGMA foreign_key_check').fetchall()==[]
+                  assert db.execute('SELECT COUNT(*) FROM plates').fetchone()[0]==1138
+                  assert db.execute('SELECT COUNT(*) FROM app_image_selections').fetchone()[0]==370
+                  assert db.execute('SELECT COUNT(*) FROM derivatives').fetchone()[0]==740
+                  assert db.execute('SELECT COUNT(*) FROM app_image_selections WHERE human_approval!=0').fetchone()[0]==0
+                  print('PASS: SQLite 1138 canonical UIDs, 370 source-matched selections, 740 JPEGs, complete hash inventory')
+          print('ZIP sha256',hashlib.sha256(archive.read_bytes()).hexdigest())
+          PY
+      - name: Store generated package as temporary GitHub Actions artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: lpg-reference-image-database-370-${{ github.run_id }}
+          path: dist/LPG_Reference_Image_Snapshot_2026_10_26.zip
+          retention-days: 14
+          if-no-files-found: error
