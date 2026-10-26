@@ -9,5 +9,8 @@
   "total_target": 502,
   "original_catalog": 1138,
   "output_review_branch": "generated/florida-132-source-images-20261026",
-  "release_policy": "source-matched review branch only; no automatic stable Android release; era and human approval unverified"
+  "release_policy": "source-matched review branch only; no automatic stable Android release; era and human approval unverified",
+  "retry": "2026-10-26-pinned-pymupdf-1.26.7",
+  "retry_reason": "The first runner fetched PyMuPDF 2.0 and changed embedded-image serialized bytes; source PDF and mappings unchanged. Pin reviewed library version and reverify every xref SHA.",
+  "source_commit": "81f72cf6ca6ce6d0c10edfc0e891334c4a1d5916"
 }
