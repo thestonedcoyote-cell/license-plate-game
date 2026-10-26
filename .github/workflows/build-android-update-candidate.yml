@@ -1,0 +1,79 @@
+name: Build unsigned LPG Android update candidate
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - data/android-update-build-trigger.json
+permissions:
+  contents: read
+jobs:
+  release-candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/setup-java@v4
+        with: {distribution: temurin, java-version: '17'}
+      - uses: android-actions/setup-android@v3
+        with:
+          packages: 'platform-tools'
+      - uses: gradle/actions/setup-gradle@v4
+        with: {gradle-version: '8.9'}
+      - name: Verify and stage exact current game source
+        run: |
+          set -euo pipefail
+          python tools/take_out_trash.py --strict
+          python tools/build_runtime.py android-app/app/src/main/assets/www
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          root=Path('android-app/app/src/main/assets/www')
+          js=(root/'data/catalog-images.js').read_text()
+          selections=json.loads(js.removeprefix('globalThis.LPG_CATALOG_IMAGES=').strip().rstrip(';'))
+          assert len(selections)==502
+          assert sum(x.startswith('LPG-US-FL-') for x in selections)==132
+          assert len(list((root/'assets/plates').glob('*.jpg')))==1004
+          print('PASS: 502 source-matched plate examples and 1004 runtime JPEGs staged into native app')
+          PY
+      - name: Install supported Android build tools
+        run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
+      - name: Compile native release candidate without external signing key
+        run: gradle -p android-app :app:assembleRelease --no-daemon
+      - name: Align and inspect candidate APK before local private signing
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          SOURCE=android-app/app/build/outputs/apk/release/app-release-unsigned.apk
+          test -s "$SOURCE"
+          AAPT="$ANDROID_HOME/build-tools/35.0.0/aapt"
+          ALIGN="$ANDROID_HOME/build-tools/35.0.0/zipalign"
+          "$AAPT" dump badging "$SOURCE" | grep -F "package: name='com.thelostharbor.licenseplategame' versionCode='6' versionName='0.6.0-rc1'"
+          "$ALIGN" -f 4 "$SOURCE" dist/license-plate-game-0.6.0-rc1-unsigned-aligned.apk
+          "$ALIGN" -c 4 dist/license-plate-game-0.6.0-rc1-unsigned-aligned.apk
+          cp "$ANDROID_HOME/build-tools/35.0.0/lib/apksigner.jar" dist/apksigner-35.jar
+          python - <<'PY'
+          import zipfile,hashlib,json,pathlib
+          apk=pathlib.Path('dist/license-plate-game-0.6.0-rc1-unsigned-aligned.apk')
+          with zipfile.ZipFile(apk) as z:
+              assert z.testzip() is None
+              asset_names=[n for n in z.namelist() if n.startswith('assets/www/assets/plates/') and n.endswith('.jpg')]
+              assert len(asset_names)==1004, len(asset_names)
+              for n in asset_names:
+                  src=pathlib.Path('android-app/app/src/main/assets/www')/n.removeprefix('assets/www/')
+                  assert hashlib.sha256(z.read(n)).hexdigest()==hashlib.sha256(src.read_bytes()).hexdigest(),n
+              assert 'assets/www/data/catalog-images.js' in z.namelist()
+          print('PASS: 1004 JPEGs included in unsigned aligned native 0.6.0-rc1 APK and byte-identical to staged web source')
+          PY
+          sha256sum dist/license-plate-game-0.6.0-rc1-unsigned-aligned.apk dist/apksigner-35.jar
+      - name: Upload unsigned candidate and public Android signing utility only
+        uses: actions/upload-artifact@v4
+        with:
+          name: lpg-0-6-0-rc1-unsigned-and-signer-${{ github.run_id }}
+          path: |
+            dist/license-plate-game-0.6.0-rc1-unsigned-aligned.apk
+            dist/apksigner-35.jar
+          if-no-files-found: error
+          retention-days: 14
