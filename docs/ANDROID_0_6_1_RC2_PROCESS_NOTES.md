@@ -30,5 +30,13 @@ Private signing data, source originals and end-user device records never enter p
 ## Final recheck
 Verify all 524 original source mappings, 1,048 embedded JPEG hashes, package and versionCode, exact previous certificate, ZIP/signatures and user data on actual Android installation separately.
 
+## Actual build and local signing receipt (2026-10-27)
+- Source update PR #48 merged at `0659f38062b457f1d9f370ce14d0a940e54883d0`; Android debug/app/cloud/audit pull-request checks passed.
+- [Unsigned native build 40596573704](https://github.com/thestonedcoyote-cell/license-plate-game/actions/runs/40596573704) PASS. Exact Android versionCode 7, versionName `0.6.1-rc2`, 524 selected source image records and 1,048 image JPEGs, each checked against staged source.
+- Signed locally using original `lpg-debug.keystore`, **not uploaded to GitHub**, with application ID `com.thelostharbor.licenseplategame`. The signature certificate SHA-256 `6c858b7a667848c1243985743dbc0c315f47636507aec241b042af284b5bcc4b` matches the prior signed versionCode 6 APK.
+- Final APK `license-plate-game-0.6.1-rc2-signed-update.apk` is **29,459,196 bytes**, SHA-256 `97a3faf395fce771cf9ad28a77a5db612e408c2597f0bdc2b454069ac051c1c6`. Verified APK Signature Scheme v2/v3, intact ZIP structure, 1,048 identical image-file contents and exact 524 selected mappings after signing.
+- Signed APK and machine-readable validation report exist as generated conversation attachments, not in the public GitHub repo. A private Library upload was not attempted after the Library reported quota exhaustion earlier in this session; retain prior archives.
+- No stable/latest GitHub update release and no user-confirmed device in-place upgrade/data retention tests. The downloadable APK is an **install-over-existing release candidate**, not a proven stable published update.
+
 ## Completion status
-IN_PROGRESS — candidate source prepared; signing and physical update testing remain execution steps.
+COMPLETE_WITH_EXCEPTIONS — native v7 update candidate compiled, locally signed and cryptographically verified; real Android upgrade/data preservation and stable/latest distribution remain open.
