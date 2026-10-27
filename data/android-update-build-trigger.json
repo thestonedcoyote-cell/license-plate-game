@@ -1,14 +1,16 @@
 {
-  "build": "LPG-ANDROID-0.6.0-rc1-502",
-  "date": "2026-10-26",
+  "build": "LPG-ANDROID-0.6.1-rc2-524",
+  "date": "2026-10-27",
   "catalog_uids": 1138,
-  "matched_plate_designs": 502,
-  "embedded_jpegs": 1004,
+  "matched_plate_designs": 524,
+  "embedded_jpegs": 1048,
   "applicationId": "com.thelostharbor.licenseplategame",
-  "versionCode": 6,
-  "versionName": "0.6.0-rc1",
+  "versionCode": 7,
+  "versionName": "0.6.1-rc2",
   "release_type": "unsigned-aligned APK artifact; local private signing required",
   "previous_signing_certificate_sha256": "6c858b7a667848c1243985743dbc0c315f47636507aec241b042af284b5bcc4b",
   "key_policy": "never include private signing key in GitHub, Actions or public artifacts",
-  "stable_feed_policy": "do not publish stable/latest before physical update acceptance"
+  "stable_feed_policy": "do not publish stable/latest before physical update acceptance",
+  "source_commit": "0659f38062b457f1d9f370ce14d0a940e54883d0",
+  "reason": "Deliver newly integrated 22 Nebraska plate pictures and per-agency image dialog / missing-photo labels in next in-place upgradable Android candidate"
 }
