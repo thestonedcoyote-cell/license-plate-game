@@ -1,0 +1,684 @@
+[
+  {
+    "uid": "LPG-US-NE-00001",
+    "name": "Breast Cancer Awareness",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 16,
+    "source_xref": 136,
+    "source_image_rect": [
+      74.5747,
+      297.6758,
+      218.5747,
+      369.6758
+    ],
+    "source_printed_caption": "Breast Cancer Awareness",
+    "source_embedded_image_sha256": "aa688d8c2cafe2926e528cef370e111aad11ebf25a80e1ceacbb22ae0d971f30",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "ee0fcfd0d41a509b3a42411833f3fe81e0cf80673a31f40f0959e198173eadb0",
+    "thumbnail_sha256": "24bcde84de5a896bb02eb2ad4073a0be703b5bc106c4e7c7fa59f99c45864684",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00002",
+    "name": "Choose Life",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 10,
+    "source_xref": 82,
+    "source_image_rect": [
+      74.5747,
+      172.9863,
+      218.5747,
+      244.9863
+    ],
+    "source_printed_caption": "Choose Life",
+    "source_embedded_image_sha256": "217d09eb4b3044a418b74162696544e21bff31df027148f212601f20dbad31b5",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "738a38452c670ee324ee31fb1e7147cf493c9e1b7132c722274036bb81c24b21",
+    "thumbnail_sha256": "f65e79ee657ab898b78f658a787987f74516af6e67bc155002b480dc5f57021a",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00003",
+    "name": "Creighton University",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 15,
+    "source_xref": 128,
+    "source_image_rect": [
+      67.4248,
+      406.5625,
+      211.4248,
+      478.5625
+    ],
+    "source_printed_caption": "Creighton University",
+    "source_embedded_image_sha256": "580eb0c7ab87bdca5e160084c40b91eeabb5fca07584d5b2a212d136f847a815",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "b2eb10ce04a8c7b7fb6c5e92485365f6eb5e96ad5463f0131603a4988c6eb366",
+    "thumbnail_sha256": "f538168de07b379d3f03f9c7272037c47c60adbd82358fdee09a4d8188911ee5",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00004",
+    "name": "Donate Life",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 12,
+    "source_xref": 99,
+    "source_image_rect": [
+      74.5747,
+      315.1462,
+      218.5747,
+      387.1462
+    ],
+    "source_printed_caption": "Donate Life",
+    "source_embedded_image_sha256": "3acb8fd437fe82d9a9466a4111921f4bc3efb94e87f6eabba3c8246c588f9552",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "b9efbe0ef1d529336836a35873c9db6ff98c5820474145e6fb78ec6143d6ed97",
+    "thumbnail_sha256": "c06d261af7506cc3da7177d228abee54d35a2cfc315c3edf842e01f30694d67d",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00005",
+    "name": "Down Syndrome Awareness",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 12,
+    "source_xref": 100,
+    "source_image_rect": [
+      74.5747,
+      446.7351,
+      218.5747,
+      518.7351
+    ],
+    "source_printed_caption": "Down Syndrome Awareness",
+    "source_embedded_image_sha256": "b32736d2f7dca664ea3e866bade5379b0dedcdcb1f3d7dc4b5073199ae4975f1",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "7e18134ed47ea29aef11184302f520b3b5006a5c2684d1ef5fa835b4bb38abe9",
+    "thumbnail_sha256": "73ffade3c44d52476632d22566f3d6d9b7802940b9415516ff80b89d6ccea4a3",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00006",
+    "name": "Ducks Unlimited",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 15,
+    "source_xref": 123,
+    "source_image_rect": [
+      67.4248,
+      44.6963,
+      211.4248,
+      116.6963
+    ],
+    "source_printed_caption": "Ducks Unlimited Inc.",
+    "source_embedded_image_sha256": "813ee89ec1e0350642c855fb60810fd977e3b3c45579af6d5680f7eab83151c1",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "064ee94b22e9c3091913efb93b7e63a6eb6abd8e288ec0e074933f2ddfd75553",
+    "thumbnail_sha256": "2a1f1c2d02ef5f8691c7b182e78084857bccd7100f0f65c46e7987aae1f1621b",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00007",
+    "name": "Friends of the Union Pacific RR Museum",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 13,
+    "source_xref": 108,
+    "source_image_rect": [
+      74.5747,
+      325.5239,
+      218.5747,
+      397.5239
+    ],
+    "source_printed_caption": "Friends of Union Pacific RR Museum",
+    "source_embedded_image_sha256": "90fbeb3f24056519eaaeebfcadda97afb37f25ad7d9a633c92c5a9526bc562bd",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "7303c481790dc5ec20e35be84ef98584c7c820d61b350eedcf52f045fe81913c",
+    "thumbnail_sha256": "faf9c29dde2fecc85c8105f8b10717b4e1e39b7bd0541ced140c5459f82aa711",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00008",
+    "name": "Greater Omaha Chamber of Commerce",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 14,
+    "source_xref": 116,
+    "source_image_rect": [
+      74.5747,
+      168.3867,
+      218.5747,
+      240.3867
+    ],
+    "source_printed_caption": "Greater Omaha Chamber of Commerce",
+    "source_embedded_image_sha256": "5fad698626f46bad8ae30108e2e1a86e64d2ead50dfab8803f5b09db4fa4968a",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "d7f5fc67eb789a0bc1e27bb2d5639a08478eb19a4982f7313cb09379ca866963",
+    "thumbnail_sha256": "35976c6479fd8c38bb5bcb3a4d22c7ac41e1c645e2febe317a940219dfe102a3",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00009",
+    "name": "Henry Doorly Zoo",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 15,
+    "source_xref": 124,
+    "source_image_rect": [
+      67.4248,
+      154.437,
+      211.4248,
+      226.437
+    ],
+    "source_printed_caption": "Henry Doorly Zoo",
+    "source_embedded_image_sha256": "534bf0090c25fb4fe2ae621d75be9ab683f0e772fea159a989a9e5dbb00a8ed5",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "7aa7a5528512d87f4205494a8cd0985ccaa7986db256fff0ada23129809f78e8",
+    "thumbnail_sha256": "5484a84ec8d577a60ca9c7a351dcdba602c6c73b3b71a503cea5ffa3418deeb2",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00010",
+    "name": "Husker",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 3,
+    "source_xref": 23,
+    "source_image_rect": [
+      74.5747,
+      327.8799,
+      218.5747,
+      399.8799
+    ],
+    "source_printed_caption": "Husker Message",
+    "source_embedded_image_sha256": "2c3fd06e71097852a3a3de2288a7f2b1d82ca58184cb6da679135a027442ba91",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "b2e93656e344895dc534a844d2ae08cc7b9a5528630aa24ba72b8eaabb7ab8b1",
+    "thumbnail_sha256": "0fe7f8bb8bad2c1b9fada6a601edaedbc57ce846d108d7943ec91f991f3c7260",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00011",
+    "name": "Message",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 2,
+    "source_xref": 8,
+    "source_image_rect": [
+      74.5747,
+      215.8462,
+      218.5747,
+      287.8462
+    ],
+    "source_printed_caption": "Message",
+    "source_embedded_image_sha256": "b12acaa9d47b3371b85dad769f50c1358cc5d06ef39914d95e10878a1666c020",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "84f4780c7a72f9c15668260507e9b56e706cafdc20136d320691988d9b648da7",
+    "thumbnail_sha256": "9e701e4fed973e6dfc78e05e6e44430a36c6e3ec7d592cca378331f2e6cfe81a",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00012",
+    "name": "Mountain Lion Conservation",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 16,
+    "source_xref": 134,
+    "source_image_rect": [
+      74.5747,
+      177.5859,
+      218.5747,
+      249.5859
+    ],
+    "source_printed_caption": "Mountain Lion Conservation",
+    "source_embedded_image_sha256": "b5aa8d13b290f3a022460d59b02543d1d7eb21ada5a6d05bfd4c05709bdf76c4",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "21092317e5ef6090120122e5ce89043c751f08fb36b91d68f65ae2bf21dc8ab6",
+    "thumbnail_sha256": "80b07c384f74b59b07eb71abcf5418533fc15cb7570f5a6c60aec3f790e3047c",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00013",
+    "name": "Native American Awareness & History",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 16,
+    "source_xref": 137,
+    "source_image_rect": [
+      74.5747,
+      424.665,
+      218.5747,
+      496.665
+    ],
+    "source_printed_caption": "Native American",
+    "source_embedded_image_sha256": "0c1911715d5db4c84c83486fd5ac9bbc0e727e1281bff0d2be0bd6c92a1b0e52",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "e0f7e05c89b7bb29280b464f556991506a575c09609ec6431912d9358d8407ee",
+    "thumbnail_sha256": "6a5ec7ad53ebe9421fea3c1c1325d5c7e287e639aaea9f234836c2468e707db9",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00014",
+    "name": "NE Cattlemen Research & Education",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 13,
+    "source_xref": 109,
+    "source_image_rect": [
+      74.5747,
+      442.1641,
+      218.5747,
+      514.1641
+    ],
+    "source_printed_caption": "Nebraska Cattlemen Research and Education",
+    "source_embedded_image_sha256": "149df4237385408988ad165e6ebbf0c2b1bf62344682aef11b4cf034f7f50032",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "d602af35722220d4d1369b77a26ba0380d19ab0d18dea2cdeecfafba516b4ed7",
+    "thumbnail_sha256": "e7d564857ac89dbb5fc5eeeb4384f388f839a7f2732f7aad1ed8620c39d9375a",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00015",
+    "name": "NE Corn Growers Association",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 14,
+    "source_xref": 117,
+    "source_image_rect": [
+      74.5747,
+      291.9263,
+      218.5747,
+      363.9263
+    ],
+    "source_printed_caption": "Nebraska Corn Growers Association",
+    "source_embedded_image_sha256": "e6c4ea9482795eec0c58fec33205d906bbef0176cdcd60f09a6f610c64702186",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "500b036ae20612620595bf46f1cb0ebb087d5742eeed1c949f44fd851e3a1580",
+    "thumbnail_sha256": "8b9e9bc3e7d776bab0a80cc7cd2ded6a37c0bfa75b65261441e63d6a8796c2e9",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00016",
+    "name": "NE Serious Injury & Line-of-Duty Death",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 14,
+    "source_xref": 114,
+    "source_image_rect": [
+      74.5747,
+      46.2476,
+      218.5747,
+      118.2476
+    ],
+    "source_printed_caption": "Nebraska Serious Injury & Line-Of-Duty Death Response Team",
+    "source_embedded_image_sha256": "23281b22d66c2eeaea58deaac186b75a8e6f5144fb2de77f6a9a6c2205ae918b",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "4d745023a708cf02bf71fbcfaeccd1adc2af604b1811c2fbee8707fa57a733e7",
+    "thumbnail_sha256": "a33a75116cd9dfcb449b3f41eb414e9177a1b134672ac04a68734fd9f7fc0800",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00017",
+    "name": "Nebraska Center for Nursing Foundation",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 16,
+    "source_xref": 133,
+    "source_image_rect": [
+      74.5747,
+      40.2476,
+      218.5747,
+      112.2476
+    ],
+    "source_printed_caption": "Nebraska Center for Nursing Foundation",
+    "source_embedded_image_sha256": "52116decbfdcf10914e483f32d02fb0f0214f8cb10032b2251630808cfccd8e2",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "7cd7b5d3550be5a4e84041b3049d4b8c146dfd3081b19c248895a9f5ecd26a72",
+    "thumbnail_sha256": "d7a0e05bd42a77b4eaac365d35b536cb0b71ed7c3c0b720781078676618ac43d",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00018",
+    "name": "Nebraska History",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 3,
+    "source_xref": 24,
+    "source_image_rect": [
+      74.5747,
+      458.3188,
+      218.5747,
+      530.3188
+    ],
+    "source_printed_caption": "Nebraska History",
+    "source_embedded_image_sha256": "826fd1f6328f384687b3705020f14633919c0e91eead27c355d7c17d3e019e55",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "c452f83172a430288b99c739df1d6969d83bb0541965282695eaa65ac6171e7f",
+    "thumbnail_sha256": "bdc7b8e84fb3fd7064ce49314722c44e041ab330b2a859cbf6be3b1a1ac0084e",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00019",
+    "name": "Planned Parenthood of the Heartland",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 15,
+    "source_xref": 126,
+    "source_image_rect": [
+      67.4248,
+      277.9765,
+      211.4248,
+      349.9765
+    ],
+    "source_printed_caption": "Planned Parenthood of the Heartland",
+    "source_embedded_image_sha256": "54bd0c2015d98dadc72692e744bede0bf0d658b6f490adbff674d3b34e7a385b",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "e0c6c57d1bbff1cf70fa9872da6283e531a27a9e9b39583d4929aeab80a43fac",
+    "thumbnail_sha256": "2ae27ce6b04203d972ad6ae5859bb3f7495d984597639418a36cca32bcb3d54e",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00020",
+    "name": "Prostate Cancer Awareness",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 13,
+    "source_xref": 105,
+    "source_image_rect": [
+      74.5747,
+      63.0464,
+      218.5747,
+      135.0464
+    ],
+    "source_printed_caption": "Prostate Cancer Awareness",
+    "source_embedded_image_sha256": "24d03aa195997e3bec75f50b4ba45446cf16b22cb7774319ead69f609ed647af",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "06583202c9017b0a6667a549a47efa8353b2295e7a273cd6f5969caf8b152b3a",
+    "thumbnail_sha256": "41bf3e9bf6abe761bf72abc760749ba4f44644ae10eabc28e567b3264444d840",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00021",
+    "name": "Support Our Troops",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 11,
+    "source_xref": 89,
+    "source_image_rect": [
+      74.5747,
+      51.9685,
+      218.5747,
+      123.9685
+    ],
+    "source_printed_caption": "Support Our Troops",
+    "source_embedded_image_sha256": "f7e2dd6d3f4bbd6a9ed0d52807bde588397a401116ed9d903a6970091ed58c33",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "892ed69f2fa46319780f9ef84b04502a8f41cbfbd50b2680cd0fe3455087ccc5",
+    "thumbnail_sha256": "1d5c25d9ec43f69c41816a2322adf146d55bf0ba7f9a4c5295b7b53f0455e200",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  },
+  {
+    "uid": "LPG-US-NE-00022",
+    "name": "UNO",
+    "source_pdf_url": "https://dmv.nebraska.gov/sites/dmv.nebraska.gov/files/doc/dvr/plates/2023_Series_Plates.pdf",
+    "source_document_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+    "source_pdf_page": 14,
+    "source_xref": 119,
+    "source_image_rect": [
+      74.5747,
+      415.4658,
+      218.5747,
+      487.4658
+    ],
+    "source_printed_caption": "University of Nebraska Omaha",
+    "source_embedded_image_sha256": "325d8be862ca1837423a11b5923f361901178dadf9ce6144adc67e1b4a6d0cae",
+    "match_basis": "2023-2029 Nebraska DMV official plate table: direct left-column image and same-row label, visually screened",
+    "match_status": "source_matched",
+    "era_status": "unverified",
+    "human_approval": false,
+    "project_use_basis": "owner_directed_fair_use_reference",
+    "display_sha256": "2d4d7224c686255bb0ba5fc85e29958f6e70c3f49b869b9d9e29939cdd66259d",
+    "thumbnail_sha256": "db5bbca1c5f663082f0e23554430f9f116ec2bf192f2ae0aeffe928461cdcd21",
+    "display_size": [
+      440,
+      220
+    ],
+    "thumbnail_size": [
+      300,
+      150
+    ]
+  }
+]
