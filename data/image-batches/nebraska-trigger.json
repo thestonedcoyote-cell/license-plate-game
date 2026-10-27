@@ -1,0 +1,14 @@
+{
+  "batch_id": "LPG-NE-2023-22-20261027",
+  "source_harvest_run": 40411922074,
+  "source_archive_name": "official-plate-harvest-40411922074",
+  "official_2023_pdf_sha256": "33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82",
+  "review_mapping": "data/image-batches/nebraska-2023-reviewed-20261027.json",
+  "original_catalog_count": 1138,
+  "previous_source_matched": 502,
+  "new_source_matches": 22,
+  "target_source_matched": 524,
+  "pending_ambiguous_uid": "LPG-US-NE-00023",
+  "output_review_branch": "generated/nebraska-22-official-plate-images-20261027",
+  "release_policy": "review PR and CI required; no stable Android update or human approval"
+}
