@@ -1,0 +1,53 @@
+name: Integrate 22 Nebraska official plate samples
+on:
+  push:
+    branches: [main]
+    paths: [data/image-batches/nebraska-trigger.json]
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Install PDF dependencies
+        run: pip install 'pymupdf==1.26.7' 'pillow==12.3.0'
+      - name: Recover exact previous Nebraska DMV research source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 40411922074 --repo "$GITHUB_REPOSITORY" --name official-plate-harvest-40411922074 --dir private-evidence
+          python - <<'PY'
+          import json,pathlib,hashlib
+          m=json.loads(pathlib.Path('private-evidence/manifest.json').read_text())
+          rows=[x for x in m if x['code']=='NE' and x['title']=='Nebraska 2023-2029 License Plates' and x['status']=='downloaded']
+          assert len(rows)==1
+          p=pathlib.Path('private-evidence')/rows[0]['file'].removeprefix('harvest-output/')
+          assert p.is_file()
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='33ad4b77beeef9349b1747aeaf451502548fc08771953b0e08e3c657c2de6f82'
+          pathlib.Path('private-evidence/ne-pdf-path').write_text(str(p))
+          PY
+      - name: Generate source-matched plate JPEGs
+        run: |
+          python tools/integrate_nebraska_manual.py --pdf "$(cat private-evidence/ne-pdf-path)"
+          node --check data/catalog-images.js
+          node --check tests/catalog-images.cjs
+          python tools/take_out_trash.py --strict
+          python tools/build_runtime.py build/web
+          test "$(find build/web/assets/plates -name '*.jpg' | wc -l)" -eq 1048
+      - name: Commit artifacts to review branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c generated/nebraska-22-official-plate-images-20261027
+          git add assets/plates data/catalog-images.js database/image-reconciliation-ne-20261027.json sw.js tests/catalog-images.cjs
+          git diff --cached --quiet && exit 1
+          git commit -m 'Generate 22 official Nebraska sample plate references'
+          git push origin HEAD:refs/heads/generated/nebraska-22-official-plate-images-20261027
