@@ -1,9 +1,9 @@
 {
-  "codes": "MN,NE,AL,CT",
-  "max_sources": 5,
-  "campaign_id": "LPG-IMAGE-OFFICIAL-HIGH-YIELD-04-20261026",
-  "purpose": "Acquire/hashes official Minnesota specialty plate brochure, current and previous Nebraska plate PDFs, Alabama official gallery and Connecticut DMV specialty gallery. Preserve original source binaries, assets, page renders, errors, attribution in private artifact; no automatic UID assignment, era/legal/human approval or stable Android release.",
-  "current_matched": 502,
-  "catalog_total": 1138,
-  "remaining_unmatched": 636
+  "codes": "ID,NJ,MI,WY,ON",
+  "max_sources": 8,
+  "campaign_id": "LPG-IMAGE-OFFICIAL-HIGH-YIELD-05-20261029",
+  "purpose": "Acquire original official Idaho, New Jersey, Michigan, Wyoming and Ontario government plate sample galleries and illustrated manuals. Pinned source URL/status/error and all image hashes; source archival only, no automatic UID matching or era/human approval. Identify Idaho former poster 404 and save successful alternates.",
+  "catalog_size": 1138,
+  "prior_merged_source_matched": 636,
+  "current_remaining": 502
 }
