@@ -298,9 +298,41 @@
     "jurisdiction_id": "US-HI",
     "name": "Hawaii",
     "plate_count": 27,
-    "source_leads": [],
-    "status": "discovery_pending",
-    "fallback_search": "Hawaii official vehicle registration license plate designs government"
+    "source_leads": [
+      {
+        "priority": "3",
+        "jurisdiction": "Hawaii",
+        "code": "HI",
+        "source_kind": "official_gallery",
+        "title": "Hawaii County Official Specialty License Plates",
+        "url": "https://www.vrl.hawaiicounty.gov/motor-vehicle-registration/specialty-license-plates",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official Hawaii County vehicle-registration specialty plate overview",
+        "jurisdiction_id": "US-HI"
+      },
+      {
+        "priority": "3",
+        "jurisdiction": "Hawaii",
+        "code": "HI",
+        "source_kind": "official_gallery",
+        "title": "Hawaii State Office of Veterans Services Plate Examples",
+        "url": "https://dod.hawaii.gov/ovs/benefits-and-services/",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official state military-veteran plate reference source",
+        "jurisdiction_id": "US-HI"
+      }
+    ],
+    "status": "leads_need_retrieval",
+    "fallback_search": "Hawaii official vehicle registration license plate designs government",
+    "source_discovery_date": "2026-10-29"
   },
   {
     "jurisdiction_id": "US-IA",
@@ -343,10 +375,56 @@
         "historical_coverage": "0",
         "local_binary_status": "remote_only",
         "notes": "Official specialty design poster; prior GitHub harvest returned 404 and requires source refresh."
+      },
+      {
+        "priority": "1",
+        "jurisdiction": "Idaho",
+        "code": "ID",
+        "source_kind": "official_gallery",
+        "title": "Idaho DMV License Plate Program Guide",
+        "url": "https://itd.idaho.gov/dmv/registrations-plates-titles/license-plates/",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Current government registration and special-plate guide with standard plate example and link to interactive specialty gallery",
+        "jurisdiction_id": "US-ID"
+      },
+      {
+        "priority": "2",
+        "jurisdiction": "Idaho",
+        "code": "ID",
+        "source_kind": "official_gallery",
+        "title": "Idaho Interactive Specialty Plate Guide",
+        "url": "https://apps.itd.idaho.gov/Apps/Fund/Dealer/InteractivePlateProgramsGuide/LaunchPlateGuide.html",
+        "extraction_mode": "html_gallery",
+        "difficulty": "B",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Current government interactive source; static page scraping may fail due browser script dependency",
+        "jurisdiction_id": "US-ID"
+      },
+      {
+        "priority": "2",
+        "jurisdiction": "Idaho",
+        "code": "ID",
+        "source_kind": "official_gallery",
+        "title": "Idaho Two New Plates July 2026",
+        "url": "https://itd.idaho.gov/news/two-new-idaho-license-plates-available-july-1st-2026/",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Government June 26 2026 announcement including new plate artwork; not proof of earlier variants",
+        "jurisdiction_id": "US-ID"
       }
     ],
     "status": "leads_need_retrieval",
-    "fallback_search": "Idaho official vehicle registration license plate designs government"
+    "fallback_search": "Idaho official vehicle registration license plate designs government",
+    "source_discovery_date": "2026-10-29"
   },
   {
     "jurisdiction_id": "US-IL",
@@ -663,10 +741,26 @@
         "historical_coverage": "0",
         "local_binary_status": "remote_only",
         "notes": "Official dedicated-plate design index; may require individual subpage investigation."
+      },
+      {
+        "priority": "4",
+        "jurisdiction": "New Jersey",
+        "code": "NJ",
+        "source_kind": "official_gallery",
+        "title": "NJDEP Conserve Wildlife Official Plate Example",
+        "url": "https://dep.nj.gov/njfw/conservation/conserve-wildlife-license-plates/",
+        "extraction_mode": "html_gallery",
+        "difficulty": "A",
+        "image_rich": "1",
+        "historical_coverage": "0",
+        "local_binary_status": "remote_only",
+        "notes": "Official state environmental agency conservation plate graphic",
+        "jurisdiction_id": "US-NJ"
       }
     ],
-    "status": "official_leads_discovered_not_harvested",
-    "fallback_search": "New Jersey official vehicle registration license plate designs government"
+    "status": "leads_need_retrieval",
+    "fallback_search": "New Jersey official vehicle registration license plate designs government",
+    "source_discovery_date": "2026-10-29"
   },
   {
     "jurisdiction_id": "US-NM",
