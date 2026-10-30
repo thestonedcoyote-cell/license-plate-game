@@ -1,0 +1,141 @@
+{
+  "batch_id": "LPG-AL-28-2026-10-29",
+  "expected_canonical_uids": 1138,
+  "expected_prior_selected": 608,
+  "selected_count": 28,
+  "source_harvest_run_id": 40411922074,
+  "source_harvest_artifact": "official-plate-harvest-40411922074",
+  "private_archive_library": "libfile_07a572791eb481919902b4e16d6ef7ab",
+  "assets_registry_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+  "source_html_sha256": "322ffe503d3d21c013ec0f006e8b13c3508712bc262398eef3e18f23c62622a0",
+  "source_url": "https://www.revenue.alabama.gov/license-plates/",
+  "known_unresolved": [
+    {
+      "uid": "LPG-US-AL-00017",
+      "name": "Disability Access Parking",
+      "reason": "only official parking placard/decals here, not a matching license plate"
+    },
+    {
+      "uid": "LPG-US-AL-00020",
+      "name": "FORT Fleet",
+      "reason": "official general FLEET sample does not establish exact FORT Fleet identity"
+    }
+  ],
+  "rights_status": "owner_fair_use_reference_not_independent_license",
+  "era_status": "unverified",
+  "human_approval": false,
+  "rows": [
+    {
+      "uid": "LPG-US-AL-00001",
+      "source_filename": "A-Pink-Breast-Cancer-Tag-2025-passenger-2048x1018.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00002",
+      "source_filename": "AL-Audubon-2022-passenger.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00003",
+      "source_filename": "Alabama-Bicentennial-2022-1-scaled-1-2048x1030.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00004",
+      "source_filename": "AL-Cattlemen-2022-approved-passenger.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00005",
+      "source_filename": "AlabamaForestsForever_tag_page.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00006",
+      "source_filename": "Alabama-Gold-Star-Family-Signed-Samples_Page_1-2048x1019.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00007",
+      "source_filename": "AL-Nurses-Foundation-2022.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00008",
+      "source_filename": "Alabama-Space-Tag-Signed-Samples-2025-2048x1012.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00009",
+      "source_filename": "AlabamaTreasureForest_tag_page.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00010",
+      "source_filename": "Albertville-City-Schools-Foundation-image-2048x1032.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00011",
+      "source_filename": "2023-AKA-pass-zeros-06092023-2048x1035.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00012",
+      "source_filename": "200221_AmateurRadio2020_tag_page.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00013",
+      "source_filename": "Apportioned-2027-scaled-1-2048x1038.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00014",
+      "source_filename": "BUS.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00015",
+      "source_filename": "CONSULAR-OFFICIAL-2022-zeros-300x148-1.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00016",
+      "source_filename": "190731_CottonModule_tag_page.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00018",
+      "source_filename": "Farm-truck.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00019",
+      "source_filename": "Forest-Product-Truck.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00021",
+      "source_filename": "190731_MiniTruck_tag_page.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00022",
+      "source_filename": "Motor-Home-1-scaled-1-2048x1019.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00023",
+      "source_filename": "Permanent-Trailer-2022-scaled-1-2048x1027.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00024",
+      "source_filename": "2022-passenger-sample-image-2048x990.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00025",
+      "source_filename": "TAXI.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00026",
+      "source_filename": "Tow-Truck.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00027",
+      "source_filename": "Trailer.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00028",
+      "source_filename": "TRUCK-2021.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00029",
+      "source_filename": "LicensePlate_Standard_VintageVhc.jpg"
+    },
+    {
+      "uid": "LPG-US-AL-00030",
+      "source_filename": "Yard-Truck.jpg"
+    }
+  ]
+}
