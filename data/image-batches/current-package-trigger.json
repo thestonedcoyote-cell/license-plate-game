@@ -1,11 +1,11 @@
 {
-  "campaign_id": "LPG-PORTABLE-502-2026-10-26",
-  "date": "2026-10-26",
+  "campaign_id": "LPG-PORTABLE-697-2026-10-29",
+  "date": "2026-10-29",
   "expected_canonical_uids": 1138,
-  "expected_source_matched_uids": 502,
-  "expected_runtime_jpeg_derivatives": 1004,
-  "source_commit": "e183a995a321b61c1340b14e995a36797edf9283",
-  "reason": "Rebuild current 502 official source-selected runtime reference SQLite archive after Florida image PR #39; archive and hashes checked, original agency PDFs separately private, preserve prior 370 checkpoint.",
+  "expected_source_matched_uids": 697,
+  "expected_runtime_jpeg_derivatives": 1394,
+  "source_commit": "a2f86859de938b75d4f4a312ae5c7f24cbd20c33",
+  "reason": "Refresh complete 1138 UID/697 source-matched/1394 JPEG portable reference archive after verified Nevada Alabama Michigan Ontario image merges. Source originals remain separate; no approval/legal rights claims.",
   "retry": "2026-10-26-duplicate-sha-dedup",
   "retry_reason": "First run 40406834653 surfaced byte-identical display assets under separate UIDs; now build content-addressed assets plus 740 UID-specific runtime_image_files and explicit review issues."
 }
