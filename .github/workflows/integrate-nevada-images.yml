@@ -1,0 +1,69 @@
+name: Integrate 84 Nevada DMV official design samples
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [data/image-batches/nevada-trigger.json]
+permissions:
+  contents: write
+  actions: read
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Install reproducible SVG/raster conversion dependencies
+        run: pip install 'CairoSVG==2.7.1' 'pillow==12.3.0'
+      - name: Recover original official Nevada DMV source archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh run download 40386466698 --repo "$GITHUB_REPOSITORY" --name official-plate-harvest-40386466698 --dir private-evidence
+          test -s private-evidence/NV/Nevada_DMV_License_Plates_html/assets.json
+          test -s private-evidence/NV/Nevada_DMV_License_Plates_html/source.html
+      - name: Generate source-pinned Nevada display and thumbnail images
+        run: |
+          set -euo pipefail
+          python tools/integrate_nevada_gallery.py --root . --evidence-dir private-evidence
+          node --check data/catalog-images.js
+          node --check tests/catalog-images.cjs
+          python tools/take_out_trash.py --strict
+          python tools/build_runtime.py build/web
+          python - <<'PY'
+          import pathlib,json,hashlib
+          root=pathlib.Path('.')
+          js=(root/'data/catalog-images.js').read_text()
+          m=json.loads(js.removeprefix('globalThis.LPG_CATALOG_IMAGES=').strip().rstrip(';'))
+          rec=json.loads((root/'database/image-reconciliation-nv-20261029.json').read_text())
+          assert len(m)==608 and rec['selected_count']==84
+          assert len({r['uid'] for r in rec['rows']})==84
+          assert sum(uid.startswith('LPG-US-NV-') for uid in m)==84
+          assert len(list((root/'assets/plates').glob('*.jpg')))==1216
+          assert len(list((root/'build/web/assets/plates').glob('*.jpg')))==1216
+          for row in rec['rows']:
+              uid=row['uid']
+              assert m[uid]['match_status']=='source_matched'
+              assert m[uid]['era_status']=='unverified' and m[uid]['human_approval'] is False
+              for kind in ('display','thumbnail'):
+                  p=root/'assets/plates'/f'{uid}-{kind}.jpg'
+                  assert hashlib.sha256(p.read_bytes()).hexdigest()==row[f'{kind}_sha256']
+          assert (root/'sw.js').read_text().count('lpg-current-images-20261029-nv84')==1
+          print('PASS: official source-backed 84 Nevada UID mappings, 168 new JPEGs, 608 total selections')
+          PY
+      - name: Commit generated assets to review-only branch
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c generated/nevada-84-source-images-20261029
+          git add assets/plates data/catalog-images.js database/image-reconciliation-nv-20261029.json sw.js tests/catalog-images.cjs
+          git diff --cached --quiet && { echo 'No generated image files'; exit 1; }
+          git commit -m 'Add 84 Nevada official plate samples with original SHA provenance'
+          git push origin HEAD:refs/heads/generated/nevada-84-source-images-20261029
+          echo 'Generated Nevada image review branch; no Android stable release is implied.'
