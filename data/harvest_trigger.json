@@ -1,9 +1,9 @@
 {
-  "codes": "ID,NJ,MI,WY,ON",
-  "max_sources": 8,
-  "campaign_id": "LPG-IMAGE-OFFICIAL-HIGH-YIELD-05-20261029",
-  "purpose": "Acquire original official Idaho, New Jersey, Michigan, Wyoming and Ontario government plate sample galleries and illustrated manuals. Pinned source URL/status/error and all image hashes; source archival only, no automatic UID matching or era/human approval. Identify Idaho former poster 404 and save successful alternates.",
+  "codes": "ID,HI,NJ",
+  "max_sources": 10,
+  "campaign_id": "LPG-IMAGE-OFFICIAL-RECOVERY-ID-HI-NJ-20261029",
+  "purpose": "Retrieve original current Idaho gov plate guide pages/interactive artwork if static assets available; Hawaii County specialty and Hawaii state veterans plate graphics; NJ MVC/DEP plate sample images. Old Idaho poster HTTP404 accepted as source failure. Archive source HTML, media asset file hashes, names/errors. Do not auto-match immutable catalog designs or approve historical era/art/rights.",
   "catalog_size": 1138,
-  "prior_merged_source_matched": 636,
-  "current_remaining": 502
+  "source_matched_prior": 697,
+  "remaining_unmatched_prior": 441
 }
