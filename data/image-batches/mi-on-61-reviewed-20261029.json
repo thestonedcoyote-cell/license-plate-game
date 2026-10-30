@@ -1,0 +1,361 @@
+{
+  "batch_id": "LPG-MI22-ON39-20261029",
+  "harvest_run": 40993449073,
+  "harvest_artifact": "official-plate-harvest-40993449073",
+  "source_original_archive_path": "LPG_Official_ID_NJ_MI_WY_ON_Harvest_2026-10-29.zip",
+  "baseline_source_matched": 636,
+  "canonical_uids": 1138,
+  "selected_count": 61,
+  "target_selected": 697,
+  "target_jpegs": 1394,
+  "agencies": {
+    "standard": {
+      "folder": "MI/Michigan_SOS_Standard_Plate_Options_html",
+      "registry_sha256": "13dddc3c7168defc696a862ac80b8c6be7f8836235bf84a1097a0c79972c8f2d",
+      "html_sha256": "c34bb100445fc9a9b3a1046f0e14eabc07598a40a0f5c2ad57072866eeeb1f0a"
+    },
+    "cause": {
+      "folder": "MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html",
+      "registry_sha256": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+      "html_sha256": "9c7e499ff40bc1d9f5130a4f519fcd9db7eb6cb8a789903ddb21329359d091d5"
+    },
+    "legacy": {
+      "folder": "MI/Michigan_SOS_Legacy_Plate_Options_html",
+      "registry_sha256": "6cc184426d1bf40701f23a85e40878552ff0cc282702ea3120b851f07625d61f",
+      "html_sha256": "0abfa092f82166c9e6afd6753a9c0372ec1d7367571b8c0192860c7d58ae0c3e"
+    },
+    "ontario": {
+      "folder": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html",
+      "registry_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "html_sha256": "27bd9a28397b6059a055734ec5ef5c0f5afcb8fc611ae9a294a2dd7ca6035cd8"
+    }
+  },
+  "special_review": [
+    {
+      "uid": "LPG-CA-ON-00019",
+      "note": "Page title Ontario Association of Fire Chiefs; image alt says Canadian Association of Fire Chiefs. Document source title/alt conflict; no era/human approval."
+    },
+    {
+      "uid": "LPG-CA-ON-00020",
+      "note": "Page list says Ontario Federation of Snowmobile Clubs; image alt shortened to Ontario Snowmobile Club."
+    },
+    {
+      "uid": "LPG-CA-ON-00025",
+      "note": "Image alt empty for Ottawa Redblacks, page source label and visible team emblem confirm."
+    },
+    {
+      "uid": "LPG-CA-ON-00022",
+      "note": "Image alt absent for Ontario Paramedic Association; official HTML listed title and plate icon depict it."
+    }
+  ],
+  "era_status": "unverified",
+  "human_approval": false,
+  "owner_use_basis": "fair_use_reference_not_adjudicated_rights",
+  "rows": [
+    {
+      "uid": "LPG-US-MI-00001",
+      "gallery": "cause",
+      "asset_number": 3
+    },
+    {
+      "uid": "LPG-US-MI-00002",
+      "gallery": "cause",
+      "asset_number": 4
+    },
+    {
+      "uid": "LPG-US-MI-00003",
+      "gallery": "cause",
+      "asset_number": 5
+    },
+    {
+      "uid": "LPG-US-MI-00004",
+      "gallery": "cause",
+      "asset_number": 6
+    },
+    {
+      "uid": "LPG-US-MI-00005",
+      "gallery": "cause",
+      "asset_number": 7
+    },
+    {
+      "uid": "LPG-US-MI-00006",
+      "gallery": "cause",
+      "asset_number": 8
+    },
+    {
+      "uid": "LPG-US-MI-00007",
+      "gallery": "cause",
+      "asset_number": 9
+    },
+    {
+      "uid": "LPG-US-MI-00008",
+      "gallery": "cause",
+      "asset_number": 10
+    },
+    {
+      "uid": "LPG-US-MI-00009",
+      "gallery": "cause",
+      "asset_number": 11
+    },
+    {
+      "uid": "LPG-US-MI-00010",
+      "gallery": "legacy",
+      "asset_number": 4
+    },
+    {
+      "uid": "LPG-US-MI-00011",
+      "gallery": "cause",
+      "asset_number": 12
+    },
+    {
+      "uid": "LPG-US-MI-00012",
+      "gallery": "standard",
+      "asset_number": 4
+    },
+    {
+      "uid": "LPG-US-MI-00013",
+      "gallery": "cause",
+      "asset_number": 13
+    },
+    {
+      "uid": "LPG-US-MI-00014",
+      "gallery": "cause",
+      "asset_number": 14
+    },
+    {
+      "uid": "LPG-US-MI-00015",
+      "gallery": "cause",
+      "asset_number": 15
+    },
+    {
+      "uid": "LPG-US-MI-00016",
+      "gallery": "standard",
+      "asset_number": 3
+    },
+    {
+      "uid": "LPG-US-MI-00017",
+      "gallery": "cause",
+      "asset_number": 16
+    },
+    {
+      "uid": "LPG-US-MI-00018",
+      "gallery": "cause",
+      "asset_number": 17
+    },
+    {
+      "uid": "LPG-US-MI-00019",
+      "gallery": "cause",
+      "asset_number": 18
+    },
+    {
+      "uid": "LPG-US-MI-00020",
+      "gallery": "cause",
+      "asset_number": 19
+    },
+    {
+      "uid": "LPG-US-MI-00021",
+      "gallery": "standard",
+      "asset_number": 5
+    },
+    {
+      "uid": "LPG-US-MI-00022",
+      "gallery": "cause",
+      "asset_number": 20
+    },
+    {
+      "uid": "LPG-CA-ON-00001",
+      "gallery": "ontario",
+      "asset_number": 12
+    },
+    {
+      "uid": "LPG-CA-ON-00002",
+      "gallery": "ontario",
+      "asset_number": 13
+    },
+    {
+      "uid": "LPG-CA-ON-00003",
+      "gallery": "ontario",
+      "asset_number": 14
+    },
+    {
+      "uid": "LPG-CA-ON-00004",
+      "gallery": "ontario",
+      "asset_number": 6
+    },
+    {
+      "uid": "LPG-CA-ON-00005",
+      "gallery": "ontario",
+      "asset_number": 15
+    },
+    {
+      "uid": "LPG-CA-ON-00006",
+      "gallery": "ontario",
+      "asset_number": 7
+    },
+    {
+      "uid": "LPG-CA-ON-00007",
+      "gallery": "ontario",
+      "asset_number": 16
+    },
+    {
+      "uid": "LPG-CA-ON-00008",
+      "gallery": "ontario",
+      "asset_number": 58
+    },
+    {
+      "uid": "LPG-CA-ON-00009",
+      "gallery": "ontario",
+      "asset_number": 8
+    },
+    {
+      "uid": "LPG-CA-ON-00010",
+      "gallery": "ontario",
+      "asset_number": 70
+    },
+    {
+      "uid": "LPG-CA-ON-00011",
+      "gallery": "ontario",
+      "asset_number": 59
+    },
+    {
+      "uid": "LPG-CA-ON-00012",
+      "gallery": "ontario",
+      "asset_number": 52
+    },
+    {
+      "uid": "LPG-CA-ON-00013",
+      "gallery": "ontario",
+      "asset_number": 53
+    },
+    {
+      "uid": "LPG-CA-ON-00014",
+      "gallery": "ontario",
+      "asset_number": 60
+    },
+    {
+      "uid": "LPG-CA-ON-00015",
+      "gallery": "ontario",
+      "asset_number": 9
+    },
+    {
+      "uid": "LPG-CA-ON-00016",
+      "gallery": "ontario",
+      "asset_number": 69
+    },
+    {
+      "uid": "LPG-CA-ON-00017",
+      "gallery": "ontario",
+      "asset_number": 10
+    },
+    {
+      "uid": "LPG-CA-ON-00018",
+      "gallery": "ontario",
+      "asset_number": 48
+    },
+    {
+      "uid": "LPG-CA-ON-00019",
+      "gallery": "ontario",
+      "asset_number": 54
+    },
+    {
+      "uid": "LPG-CA-ON-00020",
+      "gallery": "ontario",
+      "asset_number": 61
+    },
+    {
+      "uid": "LPG-CA-ON-00021",
+      "gallery": "ontario",
+      "asset_number": 62
+    },
+    {
+      "uid": "LPG-CA-ON-00022",
+      "gallery": "ontario",
+      "asset_number": 55
+    },
+    {
+      "uid": "LPG-CA-ON-00023",
+      "gallery": "ontario",
+      "asset_number": 56
+    },
+    {
+      "uid": "LPG-CA-ON-00024",
+      "gallery": "ontario",
+      "asset_number": 5
+    },
+    {
+      "uid": "LPG-CA-ON-00025",
+      "gallery": "ontario",
+      "asset_number": 63
+    },
+    {
+      "uid": "LPG-CA-ON-00026",
+      "gallery": "ontario",
+      "asset_number": 64
+    },
+    {
+      "uid": "LPG-CA-ON-00027",
+      "gallery": "ontario",
+      "asset_number": 57
+    },
+    {
+      "uid": "LPG-CA-ON-00028",
+      "gallery": "ontario",
+      "asset_number": 71
+    },
+    {
+      "uid": "LPG-CA-ON-00029",
+      "gallery": "ontario",
+      "asset_number": 11
+    },
+    {
+      "uid": "LPG-CA-ON-00030",
+      "gallery": "ontario",
+      "asset_number": 65
+    },
+    {
+      "uid": "LPG-CA-ON-00031",
+      "gallery": "ontario",
+      "asset_number": 66
+    },
+    {
+      "uid": "LPG-CA-ON-00032",
+      "gallery": "ontario",
+      "asset_number": 67
+    },
+    {
+      "uid": "LPG-CA-ON-00033",
+      "gallery": "ontario",
+      "asset_number": 68
+    },
+    {
+      "uid": "LPG-CA-ON-00034",
+      "gallery": "ontario",
+      "asset_number": 49
+    },
+    {
+      "uid": "LPG-CA-ON-00035",
+      "gallery": "ontario",
+      "asset_number": 51
+    },
+    {
+      "uid": "LPG-CA-ON-00036",
+      "gallery": "ontario",
+      "asset_number": 72
+    },
+    {
+      "uid": "LPG-CA-ON-00037",
+      "gallery": "ontario",
+      "asset_number": 73
+    },
+    {
+      "uid": "LPG-CA-ON-00038",
+      "gallery": "ontario",
+      "asset_number": 50
+    },
+    {
+      "uid": "LPG-CA-ON-00039",
+      "gallery": "ontario",
+      "asset_number": 74
+    }
+  ]
+}
