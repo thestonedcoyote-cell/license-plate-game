@@ -1,0 +1,364 @@
+{
+  "batch_id": "LPG-NV-84-2026-10-29",
+  "expected_original_catalog_uids": 1138,
+  "expected_prior_source_matches": 524,
+  "selected_count": 84,
+  "source_harvest_run_id": 40386466698,
+  "source_harvest_artifact_name": "official-plate-harvest-40386466698",
+  "archived_original_zip_sha256": "9ff45ee8c88571dba1a14f1ea6f817adc7ea03f119d9739b59d87656d2e97e30",
+  "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+  "archived_source_html_sha256": "b224c08e6fa0c03a4c796cd781c1bfefac76e605719f4e9c9aca27ee6c56bd2d",
+  "source_url": "https://dmv.nv.gov/platesmain.htm",
+  "visual_review": "Manually inspected official plate samples via four contact sheets and cross-referenced 84 canonical names with Nevada DMV headings; 2 alias variants reuse the same exact plate art.",
+  "intentional_aliases": [
+    [
+      "LPG-US-NV-00002",
+      "LPG-US-NV-00006"
+    ],
+    [
+      "LPG-US-NV-00004",
+      "LPG-US-NV-00032"
+    ]
+  ],
+  "era_status": "unverified",
+  "human_approval": false,
+  "rights": "owner_directed_fair_use_reference_not_license_judgment",
+  "rows": [
+    {
+      "uid": "LPG-US-NV-00001",
+      "source_filename": "conserve_wildlife.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00002",
+      "source_filename": "hmn.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00003",
+      "source_filename": "tahoe.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00004",
+      "source_filename": "agriculture.jpg"
+    },
+    {
+      "uid": "LPG-US-NV-00005",
+      "source_filename": "vgk.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00006",
+      "source_filename": "hmn.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00007",
+      "source_filename": "accessible_hmn.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00008",
+      "source_filename": "1982.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00009",
+      "source_filename": "exempt_hmn.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00010",
+      "source_filename": "AF_veteran.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00011",
+      "source_filename": "army_veteran.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00012",
+      "source_filename": "airborne_vet.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00013",
+      "source_filename": "coast_guard_vet.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00014",
+      "source_filename": "marine_vet.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00015",
+      "source_filename": "air_national_guard.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00016",
+      "source_filename": "army_national_vet.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00017",
+      "source_filename": "navy_vet.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00018",
+      "source_filename": "navy_seabees.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00019",
+      "source_filename": "woman_vet.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00020",
+      "source_filename": "disabled_vet.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00021",
+      "source_filename": "disabled_female_vet.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00022",
+      "source_filename": "veteranwhoisdisabled.jpg"
+    },
+    {
+      "uid": "LPG-US-NV-00023",
+      "source_filename": "medal_honor.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00024",
+      "source_filename": "silver_star.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00025",
+      "source_filename": "bronze_star.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00026",
+      "source_filename": "ex_pow.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00027",
+      "source_filename": "fallen_military.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00028",
+      "source_filename": "gold_star_plate.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00029",
+      "source_filename": "pearl_harbor.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00030",
+      "source_filename": "purple_plate_heart.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00031",
+      "source_filename": "national_guard.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00032",
+      "source_filename": "agriculture.jpg"
+    },
+    {
+      "uid": "LPG-US-NV-00033",
+      "source_filename": "animal_appreciation.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00034",
+      "source_filename": "battleship_nevada.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00035",
+      "source_filename": "breast_cancer.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00036",
+      "source_filename": "childhood_cancer.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00037",
+      "source_filename": "children_in_arts.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00038",
+      "source_filename": "citizenship.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00039",
+      "source_filename": "starry_skies.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00040",
+      "source_filename": "desert_conservation.png"
+    },
+    {
+      "uid": "LPG-US-NV-00041",
+      "source_filename": "divine_nine.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00042",
+      "source_filename": "ducksunlimited.jpg"
+    },
+    {
+      "uid": "LPG-US-NV-00043",
+      "source_filename": "forever_strong.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00044",
+      "source_filename": "lv_metro.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00045",
+      "source_filename": "golden_rule.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00046",
+      "source_filename": "hoover_dam.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00047",
+      "source_filename": "hot_august.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00048",
+      "source_filename": "commemorative.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00049",
+      "source_filename": "missing_children.jpg"
+    },
+    {
+      "uid": "LPG-US-NV-00050",
+      "source_filename": "mobmuseum.jpg"
+    },
+    {
+      "uid": "LPG-US-NV-00051",
+      "source_filename": "mt_charleston.jpg"
+    },
+    {
+      "uid": "LPG-US-NV-00052",
+      "source_filename": "bighorns.png"
+    },
+    {
+      "uid": "LPG-US-NV-00053",
+      "source_filename": "nevada_test_site.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00054",
+      "source_filename": "nvcasa.jpg"
+    },
+    {
+      "uid": "LPG-US-NV-00055",
+      "source_filename": "opportunity_village.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00056",
+      "source_filename": "organ_donor.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00057",
+      "source_filename": "pyramid_lake.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00058",
+      "source_filename": "raiders.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00059",
+      "source_filename": "red_rock.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00060",
+      "source_filename": "reno_air_races.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00061",
+      "source_filename": "rodeo.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00062",
+      "source_filename": "STEM.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00063",
+      "source_filename": "support_wildlife.jpg"
+    },
+    {
+      "uid": "LPG-US-NV-00064",
+      "source_filename": "ufc.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00065",
+      "source_filename": "united_we_stand.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00066",
+      "source_filename": "unlv.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00067",
+      "source_filename": "unr.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00068",
+      "source_filename": "classic_vehicle.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00069",
+      "source_filename": "classic_rod.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00070",
+      "source_filename": "old_timer.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00071",
+      "source_filename": "street_rod.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00072",
+      "source_filename": "fire_truck.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00073",
+      "source_filename": "antique_truck.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00074",
+      "source_filename": "retired_military.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00075",
+      "source_filename": "vintage.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00076",
+      "source_filename": "horseless_carriage.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00077",
+      "source_filename": "amateur_radio.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00078",
+      "source_filename": "civil_air_patrol.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00079",
+      "source_filename": "decorated_peace_officer.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00080",
+      "source_filename": "eagle_scout.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00081",
+      "source_filename": "electric.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00082",
+      "source_filename": "hall_of_fame.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00083",
+      "source_filename": "masonic.svg"
+    },
+    {
+      "uid": "LPG-US-NV-00084",
+      "source_filename": "press.svg"
+    }
+  ]
+}
