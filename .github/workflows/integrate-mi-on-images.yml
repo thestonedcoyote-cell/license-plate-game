@@ -1,0 +1,70 @@
+name: Integrate 22 Michigan and 39 Ontario official license plate graphics
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [data/image-batches/mi-on-trigger.json]
+permissions:
+  contents: write
+  actions: read
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Install pinned raster validation dependency
+        run: pip install 'pillow==12.3.0'
+      - name: Recover issuing-agency original Michigan and Ontario art
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh run download 40993449073 --repo "$GITHUB_REPOSITORY" --name official-plate-harvest-40993449073 --dir private-evidence
+          test -s private-evidence/ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/assets.json
+          test -s private-evidence/MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html/assets.json
+          test -s private-evidence/MI/Michigan_SOS_Standard_Plate_Options_html/assets.json
+          test -s private-evidence/MI/Michigan_SOS_Legacy_Plate_Options_html/assets.json
+      - name: Source-verify and generate 61 Michigan/Ontario plate image pairs
+        run: |
+          set -euo pipefail
+          python tools/integrate_michigan_ontario_gallery.py --evidence-dir private-evidence
+          node --check data/catalog-images.js
+          node --check tests/catalog-images.cjs
+          python tools/take_out_trash.py --strict
+          python tools/build_runtime.py build/web
+          python - <<'PY'
+          import hashlib,json,pathlib
+          root=pathlib.Path('.')
+          m=json.loads((root/'data/catalog-images.js').read_text().removeprefix('globalThis.LPG_CATALOG_IMAGES=').strip().rstrip(';'))
+          rec=json.loads((root/'database/image-reconciliation-mi-on-20261029.json').read_text())
+          assert len(m)==697 and len(rec['rows'])==61
+          assert len({x['uid'] for x in rec['rows']})==61
+          assert sum(k.startswith('LPG-US-MI-') for k in m)==22
+          assert sum(k.startswith('LPG-CA-ON-') for k in m)==39
+          assert len(list((root/'assets/plates').glob('*.jpg')))==1394
+          assert len(list((root/'build/web/assets/plates').glob('*.jpg')))==1394
+          assert (root/'sw.js').read_text().count('lpg-current-images-20261029-mion61')==1
+          for row in rec['rows']:
+              uid=row['uid']
+              assert m[uid]['match_status']=='source_matched'
+              assert m[uid]['era_status']=='unverified' and m[uid]['human_approval'] is False
+              for kind in ('display','thumbnail'):
+                  p=root/'assets/plates'/f'{uid}-{kind}.jpg'
+                  assert hashlib.sha256(p.read_bytes()).hexdigest()==row[kind+'_sha256']
+          print('PASS: 22 MI, 39 Ontario, 61 new source-matched plates, 122 JPEGs, 697 total selections')
+          PY
+      - name: Commit reviewed artifacts on separate image branch
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c generated/mi-on-61-official-plate-images-20261029
+          git add assets/plates data/catalog-images.js database/image-reconciliation-mi-on-20261029.json sw.js tests/catalog-images.cjs
+          git diff --cached --quiet && exit 1
+          git commit -m 'Generate 61 official Michigan and Ontario plate design samples'
+          git push origin HEAD:refs/heads/generated/mi-on-61-official-plate-images-20261029
