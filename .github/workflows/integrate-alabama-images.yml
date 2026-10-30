@@ -1,0 +1,67 @@
+name: Integrate 28 Alabama issuing-agency sample plate designs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [data/image-batches/alabama-trigger.json]
+permissions:
+  contents: write
+  actions: read
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Install image validation dependencies
+        run: pip install 'pillow==12.3.0'
+      - name: Restore exact Alabama government gallery evidence
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh run download 40411922074 --repo "$GITHUB_REPOSITORY" --name official-plate-harvest-40411922074 --dir private-evidence
+          test -s private-evidence/AL/Alabama_License_Plates_Archive_html/assets.json
+          test -s private-evidence/AL/Alabama_License_Plates_Archive_html/source.html
+      - name: Integrate 28 visually matched Alabama plate designs
+        run: |
+          set -euo pipefail
+          python tools/integrate_alabama_gallery.py --root . --evidence-dir private-evidence
+          node --check data/catalog-images.js
+          node --check tests/catalog-images.cjs
+          python tools/take_out_trash.py --strict
+          python tools/build_runtime.py build/web
+          python - <<'PY'
+          import pathlib,json,hashlib
+          root=pathlib.Path('.')
+          m=json.loads((root/'data/catalog-images.js').read_text().removeprefix('globalThis.LPG_CATALOG_IMAGES=').strip().rstrip(';'))
+          r=json.loads((root/'database/image-reconciliation-al-20261029.json').read_text())
+          assert len(m)==636 and len(r['rows'])==28
+          assert len({x['uid'] for x in r['rows']})==28
+          assert sum(x.startswith('LPG-US-AL-') for x in m)==28
+          assert len(list((root/'assets/plates').glob('*.jpg')))==1272
+          assert len(list((root/'build/web/assets/plates').glob('*.jpg')))==1272
+          assert (root/'sw.js').read_text().count('lpg-current-images-20261029-al28')==1
+          for row in r['rows']:
+              uid=row['uid']
+              assert m[uid]['match_status']=='source_matched' and m[uid]['human_approval'] is False
+              assert m[uid]['era_status']=='unverified'
+              for kind in ('display','thumbnail'):
+                  p=root/'assets/plates'/f'{uid}-{kind}.jpg'
+                  assert hashlib.sha256(p.read_bytes()).hexdigest()==row[kind+'_sha256']
+          print('PASS: 28 Alabama agency sample plates, 56 new JPGs and 636 total selected UIDs')
+          PY
+      - name: Commit source-matched images on isolated review branch
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c generated/alabama-28-source-images-20261029
+          git add assets/plates data/catalog-images.js database/image-reconciliation-al-20261029.json sw.js tests/catalog-images.cjs
+          git diff --cached --quiet && exit 1
+          git commit -m 'Integrate 28 official Alabama plate samples with source attribution'
+          git push origin HEAD:refs/heads/generated/alabama-28-source-images-20261029
