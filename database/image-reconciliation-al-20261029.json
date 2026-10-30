@@ -1,0 +1,691 @@
+{
+  "new_match_count": 28,
+  "source_matched_total": 636,
+  "unmatched_alabama_catalog_uids": [
+    {
+      "uid": "LPG-US-AL-00017",
+      "name": "Disability Access Parking",
+      "reason": "only official parking placard/decals here, not a matching license plate"
+    },
+    {
+      "uid": "LPG-US-AL-00020",
+      "name": "FORT Fleet",
+      "reason": "official general FLEET sample does not establish exact FORT Fleet identity"
+    }
+  ],
+  "source_registry_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+  "rows": [
+    {
+      "uid": "LPG-US-AL-00001",
+      "name": "A Pink Breast Cancer Tag",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2025/02/A-Pink-Breast-Cancer-Tag-2025-passenger-2048x1018.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0130.jpg",
+      "source_filename": "A-Pink-Breast-Cancer-Tag-2025-passenger-2048x1018.jpg",
+      "source_original_sha256": "158d7a799dfa67476a453141c494e6a55fca355fd838d935507ac32ce498c6b2",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "e516ae1e8af27413a173aaed2950c5635d1b016a9342b2f3ce9c96646e97d509",
+      "thumbnail_sha256": "850e591f92f79eec402abb2b2ab5d7211e42289592011af9f194b86236fd8417",
+      "display_size": [
+        800,
+        398
+      ],
+      "thumbnail_size": [
+        300,
+        149
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00002",
+      "name": "Alabama Audubon",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/AL-Audubon-2022-passenger.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0086.jpg",
+      "source_filename": "AL-Audubon-2022-passenger.jpg",
+      "source_original_sha256": "a1d7dbb7ab7fe2238b927d2a933f793a0cdc3a0d679f2e6f6e5bf58f105af074",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "f413932d0243b5b069458eabca79674a28c1045915c7ac8ace208eaf915551f4",
+      "thumbnail_sha256": "193e3dce5614a632a90407bae6745c289b2aa6b664c76f8e9d3350e127625e99",
+      "display_size": [
+        800,
+        390
+      ],
+      "thumbnail_size": [
+        300,
+        146
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00003",
+      "name": "Alabama Bicentennial",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/Alabama-Bicentennial-2022-1-scaled-1-2048x1030.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0091.jpg",
+      "source_filename": "Alabama-Bicentennial-2022-1-scaled-1-2048x1030.jpg",
+      "source_original_sha256": "84c207cfc26695cbdab020b5837d84eefff3a2c7b8d25ecf0c2874616c9c0d6d",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "bad7baa9af7c1447fa4a9449430ea63ad054f42e38236a1f5285f02f55d3a857",
+      "thumbnail_sha256": "69d8a5871650fee93b8384816fb7f4c22d6767a0c789938256f91170076ae914",
+      "display_size": [
+        800,
+        402
+      ],
+      "thumbnail_size": [
+        300,
+        151
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00004",
+      "name": "Alabama Cattlemen",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/AL-Cattlemen-2022-approved-passenger.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0095.jpg",
+      "source_filename": "AL-Cattlemen-2022-approved-passenger.jpg",
+      "source_original_sha256": "8ba2d1f4c8ecefce29a7278076ce19ed26d1218ae863daa1f31b5c7a87229af1",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "68eeb630db98ec2be68b7b87595cfa48dd7eb1d8ef9e0f2b18c9a715e363fd42",
+      "thumbnail_sha256": "5a00da24d4852cf502b794cbc41c8315eea97332d3420cac703a430d39b3054c",
+      "display_size": [
+        800,
+        391
+      ],
+      "thumbnail_size": [
+        300,
+        147
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00005",
+      "name": "Alabama Forests",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/AlabamaForestsForever_tag_page.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0097.jpg",
+      "source_filename": "AlabamaForestsForever_tag_page.jpg",
+      "source_original_sha256": "44699a92f7a26e35174cf2286e329c6ba2450a1c2d1b3be1a1dafd54cdb52566",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "7587f8b19872ff0719898d44205b94cc2765471a5164d71be2a354963ad5fc41",
+      "thumbnail_sha256": "d39f5d97326606b00930a614f4e7fc7b39b9478ee14fc27126a76da383baa44c",
+      "display_size": [
+        600,
+        300
+      ],
+      "thumbnail_size": [
+        300,
+        150
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00006",
+      "name": "Alabama Gold Star Family",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2025/12/Alabama-Gold-Star-Family-Signed-Samples_Page_1-2048x1019.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0102.jpg",
+      "source_filename": "Alabama-Gold-Star-Family-Signed-Samples_Page_1-2048x1019.jpg",
+      "source_original_sha256": "a6969c3e5563a77a36afb2b0c4e6d722919d8d179b2439f1dcfca62b46918027",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "1322368a2ac45c8bb23a8b28fe19148298658640c114aeed486f2ecdb3750476",
+      "thumbnail_sha256": "1acd99543e9be98e621b41e50ad92d3e02bc0b708530bdaf43433aaff21585be",
+      "display_size": [
+        800,
+        398
+      ],
+      "thumbnail_size": [
+        300,
+        149
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00007",
+      "name": "Alabama Nurses Foundation",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/AL-Nurses-Foundation-2022.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0106.jpg",
+      "source_filename": "AL-Nurses-Foundation-2022.jpg",
+      "source_original_sha256": "98b522ea856b751565a0581a611ef84a97e80a887c51675480ecb04548a68e9a",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "b80fe3753f302956ffba481cc587297e8f190f0ac51ef84e15b2a8f567d024d1",
+      "thumbnail_sha256": "3c13e8f5dd92a881c2dd9d766569dd9ee23e6f2ddedfbc0fb1fa97244396720a",
+      "display_size": [
+        800,
+        393
+      ],
+      "thumbnail_size": [
+        300,
+        147
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00008",
+      "name": "Alabama Space Tag",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2025/07/Alabama-Space-Tag-Signed-Samples-2025-2048x1012.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0111.jpg",
+      "source_filename": "Alabama-Space-Tag-Signed-Samples-2025-2048x1012.jpg",
+      "source_original_sha256": "d777e96efc7342212bf404661ff779eb827ca822710609b0c0839f94018096a1",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "27da10a13296551993c2e0fb92017a95a40c83f58534141ccf848419619101a0",
+      "thumbnail_sha256": "cfd95f0e2267ae741f4f8f83069df70f59f939731ead2e59952bc143b6958cd7",
+      "display_size": [
+        800,
+        395
+      ],
+      "thumbnail_size": [
+        300,
+        148
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00009",
+      "name": "Alabama Treasure Forest Association",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/AlabamaTreasureForest_tag_page.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0113.jpg",
+      "source_filename": "AlabamaTreasureForest_tag_page.jpg",
+      "source_original_sha256": "746548f206a53f805a737be282f37319bda3d01373a3d3bfa3f12707cb222db5",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "28b3894dbcae71be049ab7f7584ffec68c306d498606e0ae9daaf72dd92f8fb0",
+      "thumbnail_sha256": "79889f9e9bf107aeb090582ac188f30ea0ad6752654a1e97c03120a41eba31f4",
+      "display_size": [
+        600,
+        300
+      ],
+      "thumbnail_size": [
+        300,
+        150
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00010",
+      "name": "Albertville City Schools Foundation",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/Albertville-City-Schools-Foundation-image-2048x1032.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0118.jpg",
+      "source_filename": "Albertville-City-Schools-Foundation-image-2048x1032.jpg",
+      "source_original_sha256": "70f38ec62183819af8fccf17fb153552232333f2043604b5c93bd671eab8bd2e",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "1025c79285100fd29ae663311d5c89c269ff41fbbf4c3068a02710c449cb4351",
+      "thumbnail_sha256": "0b2045796660437ff27633009c4b4f77415d804ac69f3972e6fddf2b52422296",
+      "display_size": [
+        800,
+        403
+      ],
+      "thumbnail_size": [
+        300,
+        151
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00011",
+      "name": "Alpha Kappa Alpha Sorority",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2023/07/2023-AKA-pass-zeros-06092023-2048x1035.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0123.jpg",
+      "source_filename": "2023-AKA-pass-zeros-06092023-2048x1035.jpg",
+      "source_original_sha256": "4d7be3dd8e7b3f74f000d3c071b89a609cbc3e68845a0a3eb50bc2884196962b",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "70e42aa2fcf06330c8a792484d61a3b256e292526a09a35fd4c1530c349184c9",
+      "thumbnail_sha256": "73176caae32943f2c648ac84826dd54665d15b441f57c4f74c4b48108d6454bc",
+      "display_size": [
+        800,
+        404
+      ],
+      "thumbnail_size": [
+        300,
+        152
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00012",
+      "name": "Amateur Radio",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/200221_AmateurRadio2020_tag_page.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0125.jpg",
+      "source_filename": "200221_AmateurRadio2020_tag_page.jpg",
+      "source_original_sha256": "2609587afa0bdd2b17b843255dbbb365effbf06bb15f12bf01fc810668384143",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "9744335fb85bd582cc02e06859ff15c702c4d950098362230e216ddf915a33cf",
+      "thumbnail_sha256": "232895f66648cde2e8911d5467a7416cf749a7b5d81b2af12c27daad6762f717",
+      "display_size": [
+        600,
+        300
+      ],
+      "thumbnail_size": [
+        300,
+        150
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00013",
+      "name": "Apportioned",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/Apportioned-2027-scaled-1-2048x1038.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0067.jpg",
+      "source_filename": "Apportioned-2027-scaled-1-2048x1038.jpg",
+      "source_original_sha256": "29050b5a3530ad3af0e4a2d55844ded274fb1559f2f8a34a925f3bcaeaa5b647",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "7e94379c07ac05d707f6a1922b8cc25be3072eb3aecc756fc09b0d5ba36b2530",
+      "thumbnail_sha256": "4571f159215de80e77a0cf98991eb3340fd63c8bf7816f592f9515810bb1a45f",
+      "display_size": [
+        800,
+        405
+      ],
+      "thumbnail_size": [
+        300,
+        152
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00014",
+      "name": "Bus",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/BUS.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0051.jpg",
+      "source_filename": "BUS.jpg",
+      "source_original_sha256": "311196ba74220c0a43d19b1afa0a910ff78ce794d68b0cf4b11459d12c920340",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "f9ac7e97bc2360cb727b4272913240c409be7963b2d83ff097c60ab691d4075a",
+      "thumbnail_sha256": "a7058d4db1d655d1722bcb1368910d25ffaa1256be6273292e6f6804bbe67bd9",
+      "display_size": [
+        800,
+        399
+      ],
+      "thumbnail_size": [
+        300,
+        149
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00015",
+      "name": "Consular Official",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/12/CONSULAR-OFFICIAL-2022-zeros-300x148-1.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0068.jpg",
+      "source_filename": "CONSULAR-OFFICIAL-2022-zeros-300x148-1.jpg",
+      "source_original_sha256": "b1398c31463d9b0c3981cb3421a937d72d0b5221b317178f10a65ee3c7220fd9",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "9260817f94d72a63da6ce022e30dc14f1e7a19bc5621e3a72c84d32843df2708",
+      "thumbnail_sha256": "9260817f94d72a63da6ce022e30dc14f1e7a19bc5621e3a72c84d32843df2708",
+      "display_size": [
+        300,
+        148
+      ],
+      "thumbnail_size": [
+        300,
+        148
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00016",
+      "name": "Cotton Module",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/190731_CottonModule_tag_page.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0043.jpg",
+      "source_filename": "190731_CottonModule_tag_page.jpg",
+      "source_original_sha256": "3ee6ff4562c1d4f22b18f1f426602143085f84ce23f8b35a533b27ec341af7b0",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "25e6ec39e22116dc7d3c0f44ff763acb00dd63f3bcd08b925886425442ec044e",
+      "thumbnail_sha256": "1a7d090a6f6f411e3dbdc7abe99d9f1af3ae068f0b654502747a802625bc603d",
+      "display_size": [
+        600,
+        300
+      ],
+      "thumbnail_size": [
+        300,
+        150
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00018",
+      "name": "Farm",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/Farm-truck.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0047.jpg",
+      "source_filename": "Farm-truck.jpg",
+      "source_original_sha256": "9be32d6a3d45a4558234f3a687cf001b2286194d1ac9057674a1740b624cfafe",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "6f12e62899cef1acdbaafad9a6a1149bca4caf4c1edc4d7c6fe5de94e1bb7c44",
+      "thumbnail_sha256": "2916ee8a8dac61c7698109e00fddcf39d04c6c30ae2eb2919ea875d7f7d493f8",
+      "display_size": [
+        800,
+        394
+      ],
+      "thumbnail_size": [
+        300,
+        148
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00019",
+      "name": "Forest Products",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/Forest-Product-Truck.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0033.jpg",
+      "source_filename": "Forest-Product-Truck.jpg",
+      "source_original_sha256": "b542d18c909858c4350fdba81d9897af170ec8bdb278f63fbfe6fb272768bb1a",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "7acb5c3c87e5591f695b4dace716c3ccece3c7161ef3bcca200badc611440e54",
+      "thumbnail_sha256": "b14f184f64b5f6ab4390d511fd720e59f7cc122b1c6559e5ff6abaed63049303",
+      "display_size": [
+        800,
+        403
+      ],
+      "thumbnail_size": [
+        300,
+        151
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00021",
+      "name": "Mini-truck / LSV",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/190731_MiniTruck_tag_page.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0057.jpg",
+      "source_filename": "190731_MiniTruck_tag_page.jpg",
+      "source_original_sha256": "022ec2d344070d3dc4599ea455fd99a9a99cb91984e875cb2b532931f127716f",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "a45d9bbc2964bee673ad080417414aa58a056946aeec2f592f23d5914b336172",
+      "thumbnail_sha256": "583eee962891f63448e535be69b274ac89a916d0d26bf7f694a8872d1fd5803e",
+      "display_size": [
+        600,
+        300
+      ],
+      "thumbnail_size": [
+        300,
+        150
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00022",
+      "name": "Motor Home",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/Motor-Home-1-scaled-1-2048x1019.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0025.jpg",
+      "source_filename": "Motor-Home-1-scaled-1-2048x1019.jpg",
+      "source_original_sha256": "f535c9e4ccde882c864e8dc9022e9819b891286bd93b0df09c5c5406886092fa",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "833829efaa391b018e2af45440165fa10adffb6391fa411357f2f392ef57266f",
+      "thumbnail_sha256": "eeb4d326206ce7618261f5b04c94110e576095b72250581b70093782dfbadb32",
+      "display_size": [
+        800,
+        398
+      ],
+      "thumbnail_size": [
+        300,
+        149
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00023",
+      "name": "Permanent Trailer",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/Permanent-Trailer-2022-scaled-1-2048x1027.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0062.jpg",
+      "source_filename": "Permanent-Trailer-2022-scaled-1-2048x1027.jpg",
+      "source_original_sha256": "46f08aa3070546c6337e27fbb5a942148be9fc901fefbfad0994f28ac5756255",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "aa7c41bb897417eb8f20913274826474b91eeb3a28cc4532cc7bbc20a68ca5be",
+      "thumbnail_sha256": "2354b878c51bc158421d7259cdfc213d29f7e560406099f74b34cfb526d2a4a8",
+      "display_size": [
+        800,
+        401
+      ],
+      "thumbnail_size": [
+        300,
+        150
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00024",
+      "name": "Standard Passenger",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/04/2022-passenger-sample-image-2048x990.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0016.jpg",
+      "source_filename": "2022-passenger-sample-image-2048x990.jpg",
+      "source_original_sha256": "f4e3332ad012498f01eb372ea190c33d8ad4d94a9ad6fbc4cd4526611adbd7aa",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "a7fe421e992f4978c990d1d55a2c6910387b9f0fc4a738098428eef35610f8b1",
+      "thumbnail_sha256": "94bcaf215dc4d6a4181bb4c845be5f429d4141d6ace2ab64fdcb802555761882",
+      "display_size": [
+        800,
+        387
+      ],
+      "thumbnail_size": [
+        300,
+        145
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00025",
+      "name": "Taxi",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/TAXI.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0055.jpg",
+      "source_filename": "TAXI.jpg",
+      "source_original_sha256": "66a79cf4a7e0ba000bd60f503dcb1b36c778762acabd0fe035f8f6c5bdf0b1b6",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "f0f76597418885fe5bbfc0a5e6712494874df1e8d242b0aa3e7b50466e668619",
+      "thumbnail_sha256": "68a8a463ff4d6865fefdb02f5dc1695eb1dfba9550d43f139ad580836a5338fa",
+      "display_size": [
+        800,
+        403
+      ],
+      "thumbnail_size": [
+        300,
+        151
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00026",
+      "name": "Tow Truck",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/Tow-Truck.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0037.jpg",
+      "source_filename": "Tow-Truck.jpg",
+      "source_original_sha256": "aca29766afda5b1db1b399806a4a23cae1dca880015fd9a33c8ecc9b3a60dc6b",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "4ea68b3a38315885250c2f22f3fd9138f06353204dccb57902e0b512b507b1a8",
+      "thumbnail_sha256": "3cc208338e91b378d2981fad3ee870cb285dcf782b27655c66e8beca6dd03c7e",
+      "display_size": [
+        800,
+        397
+      ],
+      "thumbnail_size": [
+        300,
+        149
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00027",
+      "name": "Trailer",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/Trailer.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0029.jpg",
+      "source_filename": "Trailer.jpg",
+      "source_original_sha256": "81439ea778f311d3f8dc9a00f0b06caaabdcdc21bfc622bc48d92d5141d376ae",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "08a38719ca055d2d98e9b190cf4054959c85bfe8a97a409d253e73c0f954832d",
+      "thumbnail_sha256": "9a0fa917f5fec77cfa584f79ed515aa21c6bcf38cbaca1622f5724499b83ec4d",
+      "display_size": [
+        800,
+        397
+      ],
+      "thumbnail_size": [
+        300,
+        149
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00028",
+      "name": "Truck/Truck Tractor",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/TRUCK-2021.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0020.jpg",
+      "source_filename": "TRUCK-2021.jpg",
+      "source_original_sha256": "48a8881470755af8a88ad592723747276dbae565fa6bf4c5bbae61a7f022dce3",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "07c7ee5dd91aee0a30e6dfd3f3c97ef3b2c242a3398f7dbefdf9888e7fc612f8",
+      "thumbnail_sha256": "72137d2869386dd535bedfe6fe1d5d1d95f076ee35c3567e436065144cb786fd",
+      "display_size": [
+        800,
+        412
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00029",
+      "name": "Vintage Vehicle",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/LicensePlate_Standard_VintageVhc.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0071.jpg",
+      "source_filename": "LicensePlate_Standard_VintageVhc.jpg",
+      "source_original_sha256": "73f2f68195269e16cea443cb860cef1dcce93dc0682a65a48c2d21421bab7786",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "390b99eb61850b22aebcd1e96a6d39668210cd6af93ef6096b99cc2e9d96bd4a",
+      "thumbnail_sha256": "0a2e580659420b04bf283f83f43b8607c26d3b1aca06900180d1e7d4b41d924f",
+      "display_size": [
+        800,
+        404
+      ],
+      "thumbnail_size": [
+        300,
+        152
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-AL-00030",
+      "name": "Yard Truck",
+      "source_page_url": "https://www.revenue.alabama.gov/license-plates/",
+      "direct_asset_url": "https://www.revenue.alabama.gov/wp-content/uploads/2022/02/Yard-Truck.jpg",
+      "original_file": "AL/Alabama_License_Plates_Archive_html/asset_0041.jpg",
+      "source_filename": "Yard-Truck.jpg",
+      "source_original_sha256": "1418561788e4940ed3428bada6456042b0804ca45495f4ff8e5b663891295f9d",
+      "source_archive_assets_manifest_sha256": "dbb980bf693eaffa267ca1fff1bef183a374c97a1f63e03d75ab5ac55a1a87f9",
+      "match_basis": "reviewed original Alabama issuing agency gallery + exact plate depiction",
+      "display_sha256": "062e432d6df48f5f962736ba72309e1190f1bb28f3ab369106469b0acb9595a2",
+      "thumbnail_sha256": "92f2b8994346b56646db5e63430cad3f58f19ff554421182a13b0a389618b64d",
+      "display_size": [
+        800,
+        392
+      ],
+      "thumbnail_size": [
+        300,
+        147
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    }
+  ]
+}
