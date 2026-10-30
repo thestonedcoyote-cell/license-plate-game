@@ -1,0 +1,2033 @@
+{
+  "selected_count": 84,
+  "total_selected": 608,
+  "source_manifest_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+  "intentional_aliases": [
+    [
+      "LPG-US-NV-00002",
+      "LPG-US-NV-00006"
+    ],
+    [
+      "LPG-US-NV-00004",
+      "LPG-US-NV-00032"
+    ]
+  ],
+  "rows": [
+    {
+      "uid": "LPG-US-NV-00001",
+      "name": "Conserve Wildlife",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/conserve_wildlife.svg",
+      "source_filename": "conserve_wildlife.svg",
+      "source_original_sha256": "414a018ec70fd6d31b8c315b46d06606d70a79e13d795992e54b3dc0d46f2d3d",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0048.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "f9e6b31869a1321715788b937222c740295cff962acb51aca1d361f2c62777f8",
+      "thumbnail_sha256": "7cab2330cbb0dcc71cb2c4831f7db3c3ae28119d8ebbdddad9c7c73b057927b6",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00002",
+      "name": "Home Means Nevada",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/hmn.svg",
+      "source_filename": "hmn.svg",
+      "source_original_sha256": "b290058db4c2116fa57a98d14de7a8d26e6201d86890f6204cc4cbc73d587843",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0013.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "352894c11b9d9e9648aa4b05448fa1ef6d02820286034bf00dbf637868a96c47",
+      "thumbnail_sha256": "851862adfb48d38fdf5e773e2d6c99d8007b0df8770c493ae18ff4e68b1b1ae9",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00003",
+      "name": "Lake Tahoe",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/tahoe.svg",
+      "source_filename": "tahoe.svg",
+      "source_original_sha256": "e475d69f692fd4996f6cc1bc83bbce74ce60fc2c88fd6cf7afa96ccd78e7b2fc",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0057.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "f6ed1a57f00c5c918d3897d1c9504f7b4b3097c94f6f92ae05c311c1a32f8850",
+      "thumbnail_sha256": "743b0d61abf9b4d2c309f51116db747d996527c810279d9a172e5e715eccebc5",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00004",
+      "name": "Nevada Agriculture",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/agriculture.jpg",
+      "source_filename": "agriculture.jpg",
+      "source_original_sha256": "d9d41fea28fa42c5147874ebdacd3cdef1cc0bc449016a4fef718a41ae9b86cf",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0040.jpg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "62f387e56743d57483003683f1361b0017376cca3e77b7af2226471eb34d8ed3",
+      "thumbnail_sha256": "f8d21534e7b61a8ed44ab3c09bb256a4537cdc0bc798fcff85955333684004b2",
+      "display_size": [
+        800,
+        400
+      ],
+      "thumbnail_size": [
+        300,
+        150
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00005",
+      "name": "Vegas Golden Knights",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/vgk.svg",
+      "source_filename": "vgk.svg",
+      "source_original_sha256": "c0fff1913ee67704706236d478f036d7dd3d4b809fef35f3d37927ff25dd2752",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0078.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "1de26ea1d77127b2e8e856c579aaa42ecdac246de8e196d27b9290d1b59b8209",
+      "thumbnail_sha256": "8b0f2f69c9b81f77be03d96262c070cff01ca891753723b35cccef88ecdb683b",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00006",
+      "name": "Home Means Nevada (Standard)",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/hmn.svg",
+      "source_filename": "hmn.svg",
+      "source_original_sha256": "b290058db4c2116fa57a98d14de7a8d26e6201d86890f6204cc4cbc73d587843",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0013.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "352894c11b9d9e9648aa4b05448fa1ef6d02820286034bf00dbf637868a96c47",
+      "thumbnail_sha256": "851862adfb48d38fdf5e773e2d6c99d8007b0df8770c493ae18ff4e68b1b1ae9",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00007",
+      "name": "Home Means Nevada (Accessible)",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/accessible_hmn.svg",
+      "source_filename": "accessible_hmn.svg",
+      "source_original_sha256": "a08d891660ecd63ef85f555a3098c58f4d7fbfafcc89fc1c1258d3e2abf240d9",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0015.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "81e2b252bc420a523fe9fb587050261af9cede02d4f0dc088d50b9032c950eef",
+      "thumbnail_sha256": "4e5f6a829a61f025e0a3ebca6f030198c2ad8bee647338ee25e748dd0f4897f7",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00008",
+      "name": "1982 Replica",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/1982.svg",
+      "source_filename": "1982.svg",
+      "source_original_sha256": "b9a38997469f6603da00ad87de19d2df4cfe60b64dff0dc9103da2b8c73798dc",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0016.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "e42ca2d04e4c1ee245809509ff3e167736056c295bdb3f0183f2ff4347f8a5ef",
+      "thumbnail_sha256": "c979acec88e140e6e6d4638a931caf5b07350fc8875efd06cd271d787ccb33e3",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00009",
+      "name": "Home Means Nevada (Exempt)",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/exempt_hmn.svg",
+      "source_filename": "exempt_hmn.svg",
+      "source_original_sha256": "d6cc10b30a9ace31ae81c9af77077d25321992e4fe06e867c59efe9085e9f56e",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0017.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "3a811fda4e68ef9f2040a84cabe6c4a1228f16af0d1852d38878eecf7254b794",
+      "thumbnail_sha256": "cdd68fd84b41b7330b7399d134ffd4509117d805fe4cf4322101023599389b35",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00010",
+      "name": "Air Force Veteran",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/AF_veteran.svg",
+      "source_filename": "AF_veteran.svg",
+      "source_original_sha256": "e2ae9e9cec44b3931c63b000b8a07a0e8c7b6eadc1f71b327120526bbeb9765c",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0018.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "d2e30a16b7191dd6335e0636ad91db1e4a80ea84cac1102ad45df442f311f1f9",
+      "thumbnail_sha256": "1e9efc746d6fd67fb020ec5e4ea770f321c06c032fd62f5a00031f830577d7a2",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00011",
+      "name": "Army Veteran",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/army_veteran.svg",
+      "source_filename": "army_veteran.svg",
+      "source_original_sha256": "24c169eb34d7f54f4b75ec21842959ba45372ad6adae87747e45c3335410b85b",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0019.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "590da495a22605482b7623d1cea60b7903d5ed8f8a61477d49d5c453f4c438cd",
+      "thumbnail_sha256": "3c2fba0a5d6a4367ce5f96bea6f9b6dbd42f6870e3411737b052338b7cc17963",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00012",
+      "name": "Army Airborne Veteran",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/airborne_vet.svg",
+      "source_filename": "airborne_vet.svg",
+      "source_original_sha256": "e55a5057c86bc02c91e141d4b97d1c02f70177da7913368ae25d0d83248ff5a7",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0020.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "9549ae00c56fee1c8c92df2cd9fe435414c3ce096939d3b21473548a581147c6",
+      "thumbnail_sha256": "e28174c96bb157c51ad020373ba4153374af09d11971a07edc74fae06da8ba70",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00013",
+      "name": "Coast Guard Veteran",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/coast_guard_vet.svg",
+      "source_filename": "coast_guard_vet.svg",
+      "source_original_sha256": "63f80afadf3595b1b03d43b051ba7dbe89ec7cac5d81fe1e36dc573ea33ecb0e",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0021.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "b32a49f1293a8cc5a73c55de312f6d6b22fc4d745a57d611806fd07d5a524de4",
+      "thumbnail_sha256": "70bdf5d96c36c515eea41ce55b8c19bc6b2e7245d04efc51f383e064d6030a3e",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00014",
+      "name": "Marine Veteran",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/marine_vet.svg",
+      "source_filename": "marine_vet.svg",
+      "source_original_sha256": "4ceb5ff6ea6f46fb8034fab1919f0c91414d1cc2fb3dc4b015234330e24a9a30",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0022.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "aab224c69bf6c25817c081e3f8ab69d2a93b144482404604e142b849aadd536b",
+      "thumbnail_sha256": "da8b0c8304c24b12dc9fde228225f9b81962ea76c5b9aa0bcd4660bf2468b448",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00015",
+      "name": "Air National Guard Veteran",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/air_national_guard.svg",
+      "source_filename": "air_national_guard.svg",
+      "source_original_sha256": "c7b33c3acc2960d28e1fca94fd871e518666a3e40277dd05bfa43b36738577be",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0023.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "efdbf9b99d94467328ee85647187f47ed3b63628667916bd90d138ad7c60152d",
+      "thumbnail_sha256": "4970b630a869c638406661290ed0ad0a88fc13549675f095b16fa85c76ba1350",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00016",
+      "name": "Army National Guard Veteran",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/army_national_vet.svg",
+      "source_filename": "army_national_vet.svg",
+      "source_original_sha256": "3f912b0674b2d759a3ad3ed6794041324c0411680ea7096720467b3215ce9f12",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0024.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "66226405ebdb3b732ff9dbfbec7186914898f3dda3067eb8f792ff14fecbeeac",
+      "thumbnail_sha256": "b2e3e7154c00dfd89647ff0293aefb4a8b4978e303892278f91fe8b50c1b0280",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00017",
+      "name": "Navy Veteran",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/navy_vet.svg",
+      "source_filename": "navy_vet.svg",
+      "source_original_sha256": "ab6be61bd49d73721fc360497621a60c6e0148a21b80e93016b76a9eabc72ade",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0025.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "3dcbcf4a896f53661b748a98b63d8568c7c99fc4e1272b3c59640c20054d3081",
+      "thumbnail_sha256": "95b66889c244e160433625fd29d4fa6a0ae32dfba1db69b5a8e665f4c932a4d4",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00018",
+      "name": "Navy Seabees Veteran",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/navy_seabees.svg",
+      "source_filename": "navy_seabees.svg",
+      "source_original_sha256": "06c1f8ce750213c22a49eb14740183a33751d312283aa6da31db24ace761ac22",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0026.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "4f54bcd21360b1b86bd40557c9321f1167c44284c50173b0563b1ce0e106d15e",
+      "thumbnail_sha256": "5527422fc4487de697a2b736ad3314a84f7e849ba8d900452f99944fe8b7ea34",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00019",
+      "name": "Woman Veteran",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/woman_vet.svg",
+      "source_filename": "woman_vet.svg",
+      "source_original_sha256": "7bb581854394445b6b4ce10dcd561a192798dd7b63319e152e87c2eef13b6a0a",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0027.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "edc59fd4b085bbd77b8ea2a30e30d8141ca1fb2d3fcd5717eb8d04556e72d932",
+      "thumbnail_sha256": "99a50b87f493110a6666e3077ce1e2086faa3b637d26224158d59f12ab0e612e",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00020",
+      "name": "Disabled Veteran",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/disabled_vet.svg",
+      "source_filename": "disabled_vet.svg",
+      "source_original_sha256": "9469dd4a392ec02c27487deb9f6cbedc5d8ed41b356241514b139abe1664c207",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0028.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "e16ad8f259e799d137c3e3ce4057439b0f5bb06068013d7dd4f0ea3518275099",
+      "thumbnail_sha256": "79f703916aac50436d68330d31f22f9db77d4708f2ceb939f29f61b55d213f06",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00021",
+      "name": "Disabled Female Veteran",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/disabled_female_vet.svg",
+      "source_filename": "disabled_female_vet.svg",
+      "source_original_sha256": "a8232d01a7dd9569d6f357f55464c4fe712e3599e90782616c5de95ce69605b5",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0029.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "d6a59eb01553a34c2023ef35c373163fa180114f9e9e02946ff1b70c89fc91d7",
+      "thumbnail_sha256": "b19c443d5b3cc1991c51b032f9f14c4508a52d49a9d6a9a8236df1f324310ca6",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00022",
+      "name": "Veteran Who is Disabled",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/veteranwhoisdisabled.jpg",
+      "source_filename": "veteranwhoisdisabled.jpg",
+      "source_original_sha256": "351a9f85caa9bf855a98e8d47b964db0761f2fdce71ea41c182de09fa4bcf287",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0030.jpg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "e60d66dab5c0ffde2af9616d852e4079a9392ed4f214bd9bdf17b1e0c0758ee2",
+      "thumbnail_sha256": "5fb5e028462964815e5ea77a5cd47b7ad759859ee2e9697b3547bf2a9e4ce822",
+      "display_size": [
+        800,
+        400
+      ],
+      "thumbnail_size": [
+        300,
+        150
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00023",
+      "name": "Medal of Honor",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/medal_honor.svg",
+      "source_filename": "medal_honor.svg",
+      "source_original_sha256": "a12df62cc29b230103ad77e8e0efa4cc2597d24cb723348915602f7a343daa88",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0031.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "75b9cfbb8745bdd8d871ed09a364a0af49e558954ad1c0f303b07fa580f83fd5",
+      "thumbnail_sha256": "16dbd5318b3e8d40577943c49e67f08d6bea7205a0af6dbc3db38443d51a3316",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00024",
+      "name": "Silver Star",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/silver_star.svg",
+      "source_filename": "silver_star.svg",
+      "source_original_sha256": "73dd2be40281fd0a1953e414d3146bc7067490d7a856acc8e731507389bee245",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0032.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "c0f33f7d31cc9a9677f2ac6243fde3a89d03dd61af8703a4ee013ef711890da5",
+      "thumbnail_sha256": "332b9e74df57cbc19784fb467a4c064a6b2eb7f70a0a16eca06f221bc1cec6a8",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00025",
+      "name": "Bronze Star (with Valor)",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/bronze_star.svg",
+      "source_filename": "bronze_star.svg",
+      "source_original_sha256": "7f2238e096fadd1785b615f5690951de0cd18a97a32efb4cc0eabc865eca5270",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0033.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "84bc46c464fceb5def4e271b333a75738e782bb33265505cda1e05bb2d66c6c8",
+      "thumbnail_sha256": "033101a31851b1b22d3f8df66b8d57decd3850b0e701903896de79ee118392a6",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00026",
+      "name": "Ex-Prisoner of War",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/ex_pow.svg",
+      "source_filename": "ex_pow.svg",
+      "source_original_sha256": "495f78f9de0ef331fe27fe2788ee0630bd94052cca677f337388b23597d037af",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0034.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "1afd24688f085d2304bf0954841677f58ee44297e6f899af840810d886edfdb6",
+      "thumbnail_sha256": "c53263c949749c3007f7be953e003fb032357c67077c00cae1d288f277530aca",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00027",
+      "name": "Fallen Military",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/fallen_military.svg",
+      "source_filename": "fallen_military.svg",
+      "source_original_sha256": "8cff2e54d6e6adac8f77f49de7676e0c13331a1a60b6ebbacdec1c5e4c4e8f70",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0035.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "915f859c40c3b839818620194b9e56469f97b2b1affc724ea567483d078398a4",
+      "thumbnail_sha256": "5db2378587b1dd28ef22ca56e33bccca6b8eb3f6aef30ed543b87b7306ae48eb",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00028",
+      "name": "Gold Star Family",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/gold_star_plate.svg",
+      "source_filename": "gold_star_plate.svg",
+      "source_original_sha256": "5a239ca3a90bfc7729c3ff4f20a247419f2877bc80ad058623b54433038258d0",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0036.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "6c52cac056fc1fd84ff2d03de4b773113b961679655115e0d315616b71dc2779",
+      "thumbnail_sha256": "7105eda5586d556b5e7e42cec28e5000c89d583b11eb1c1769f98acbbc2fa011",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00029",
+      "name": "Pearl Harbor Survivor/Veteran",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/pearl_harbor.svg",
+      "source_filename": "pearl_harbor.svg",
+      "source_original_sha256": "cd3cc97053908f81a5a3a9eac92cda132a9389405891b9bd7886616b33b3d4cb",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0037.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "d0bddf296d0b675d5841f23d039adc4e5fe75c54c81b86a421908c97d651bd6a",
+      "thumbnail_sha256": "0bfbfd32db452f4d471e0e24df6308861c10ac01e1971d12794bff6c183950a6",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00030",
+      "name": "Purple Heart",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/purple_plate_heart.svg",
+      "source_filename": "purple_plate_heart.svg",
+      "source_original_sha256": "27b28ce3e67cd35ad224133d69ec72ea01a1df9d9b67b513216e65413ac8543f",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0038.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "b67a8682d47f9c095330c30af40bd0c9f832fd52f1957c5ad1ea96cc5b2de792",
+      "thumbnail_sha256": "a5cae6c32b72579536beccf21df65d7e2346786c1a6724302f25854f3028c1d6",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00031",
+      "name": "National Guard (Active Duty)",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/national_guard.svg",
+      "source_filename": "national_guard.svg",
+      "source_original_sha256": "2d7e6a9bf9ee4f7acc26833fdde92401559ac8805ee636aef51c4e7176cf69dd",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0039.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "db4eab47036b97a07ae6102ef95692a205b93d4d533d69268df10c0e87431874",
+      "thumbnail_sha256": "cf70f89e5ead85d5779a022f3628e03baf77b7838443892a870739d5c0377d85",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00032",
+      "name": "Agriculture",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/agriculture.jpg",
+      "source_filename": "agriculture.jpg",
+      "source_original_sha256": "d9d41fea28fa42c5147874ebdacd3cdef1cc0bc449016a4fef718a41ae9b86cf",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0040.jpg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "62f387e56743d57483003683f1361b0017376cca3e77b7af2226471eb34d8ed3",
+      "thumbnail_sha256": "f8d21534e7b61a8ed44ab3c09bb256a4537cdc0bc798fcff85955333684004b2",
+      "display_size": [
+        800,
+        400
+      ],
+      "thumbnail_size": [
+        300,
+        150
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00033",
+      "name": "Animal Appreciation",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/animal_appreciation.svg",
+      "source_filename": "animal_appreciation.svg",
+      "source_original_sha256": "7dfe1fdc949d3183aad60abbfeb1aee9733295fd7132fa748e9bfbd079a46466",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0041.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "f370329ae7da9ce096da52452f9a01f300bcca7977186c67ea4f75c447947b57",
+      "thumbnail_sha256": "31e231f3afe7f3ef5c77a9071357e4849724d83f18ba13a08c535cd801083daf",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00034",
+      "name": "Battleship Nevada",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/battleship_nevada.svg",
+      "source_filename": "battleship_nevada.svg",
+      "source_original_sha256": "a526f44cf07edeb8f2b9c301a0f16a9fff22ad0e5237308f16ef0e9103f03de2",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0042.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "22a690ed93cd11e29c53c75b078160a0bdef8f949d7a16d06920ded9860a13f7",
+      "thumbnail_sha256": "7ef5edcc30d7cf4386dc0b6087aee7649e3a1e40f84f69aaa2f2f9562ce147d0",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00035",
+      "name": "Breast Cancer Awareness",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/breast_cancer.svg",
+      "source_filename": "breast_cancer.svg",
+      "source_original_sha256": "a73ca15bfa46eea111f9933faaf185074f0d1e88e7c3d7570d3b9972fc47de4e",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0043.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "25487eb149b7b8890462f2b6408c30f4e707e3c09ec20922a688011e64ac4a18",
+      "thumbnail_sha256": "1ed8aaadc3ed88137814588a071aafd13ad45742a9b9b0981d6cf0026e33a062",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00036",
+      "name": "Childhood Cancer",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/childhood_cancer.svg",
+      "source_filename": "childhood_cancer.svg",
+      "source_original_sha256": "fbf1e3019c211645babacf0bcf3d3b52afdc61419a06b8e96eedb77cfd9f3b6a",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0044.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "a60e52c98c72b80c244e4122f480a5f6af06ad71e47b99237ed35ddf4f89ff04",
+      "thumbnail_sha256": "a6f8bdee9d846e32d776bc1dc2c3a316d0d459ff6d2cdf6d3b066c0f7375551f",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00037",
+      "name": "Children in the Arts",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/children_in_arts.svg",
+      "source_filename": "children_in_arts.svg",
+      "source_original_sha256": "9543f027ecad6b8f4c0ee67db5e89f9a6f6df0a30590265473bd0e9d87f0da8c",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0045.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "44d28522d672c8d06eb27068f581e9cb72deef1d8256878365d2080c7c58e67f",
+      "thumbnail_sha256": "4c06fc5d4bee7901e65d20c69c6101533355fae5055d7047c14f88c711bbcfc1",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00038",
+      "name": "Citizenship Project",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/citizenship.svg",
+      "source_filename": "citizenship.svg",
+      "source_original_sha256": "75477e8458415deb3797762477e8ddc300bf095b03e93ac1f6a709aa3186bee3",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0046.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "f2abf5ffb8969078e36023142bfece758e8069d870840122b0127cf4b06e7a91",
+      "thumbnail_sha256": "1e56e1cbf63da87f9df9d48e3952fd0d40940a85424699d1767157f5c248d37b",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00039",
+      "name": "Friends of Nevada Wilderness \u2014 Starry Skies",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/starry_skies.svg",
+      "source_filename": "starry_skies.svg",
+      "source_original_sha256": "f16d0555209706524054bfe74372ee080dd396d0c1b09e57b315d4d14230ff3e",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0047.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "928171021c49e6c89c5a019dbe26c91b3347b09481533f61542c80f7f2392343",
+      "thumbnail_sha256": "610c771af083ffd52d23daba2bc5538d718818c0ceb4a4a458e327d7bee75e05",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00040",
+      "name": "Desert Conservation",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/desert_conservation.png",
+      "source_filename": "desert_conservation.png",
+      "source_original_sha256": "768d440884a8e57a2eacaacc3ffd0505164fab0c2087589ab327729af75deaeb",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0049.png",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "d8d804085e95a3ed38e7420693293cd5c580ad34fe6573b643bf3496d9eabb28",
+      "thumbnail_sha256": "7d58ff0b64e85a347a17580d8cd494bb5693e4a9263080f23618bc5d25957565",
+      "display_size": [
+        500,
+        245
+      ],
+      "thumbnail_size": [
+        300,
+        147
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00041",
+      "name": "Divine Nine",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/divine_nine.svg",
+      "source_filename": "divine_nine.svg",
+      "source_original_sha256": "956b2c6520ed866fba59c1fe1e13c06ea338ed383f3dbf4fa91e279cd959bcaa",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0050.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "e2cdc53c4dfd2660273bef1fd02fc73cf283957eab443fede82fb0bbf3dc0b71",
+      "thumbnail_sha256": "c9e83bb4ed46e8e992edf12d8674bd03e8d4e0ad957d76a9968953047ccd39c6",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00042",
+      "name": "Ducks Unlimited",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/ducksunlimited.jpg",
+      "source_filename": "ducksunlimited.jpg",
+      "source_original_sha256": "cd5a3d3406a2a805dc55a2f4235ccf3df240b772b315be8cbee8366b31988f1f",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0051.jpg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "ea6d9fbcab5bb48088ae55908ef294d3081e16f29a518d9b9f2a588623cbde89",
+      "thumbnail_sha256": "2cf8f39af0da68d627a2469f9674cf667b85bb536881f143f7ea93c9c7a37f9b",
+      "display_size": [
+        800,
+        400
+      ],
+      "thumbnail_size": [
+        300,
+        150
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00043",
+      "name": "Forever Strong",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/forever_strong.svg",
+      "source_filename": "forever_strong.svg",
+      "source_original_sha256": "c1948c2758b04c200170d47f5ebcbfb7690263dbef4b5edf5b64cc1a835f10bb",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0052.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "ea36f682eefbbe23f8f99fd16d4f42bc0640c611bf59074bcbdad04e990d066c",
+      "thumbnail_sha256": "9dcd5a43fd8a41aab5665e15ec3831792941092d1dc479f85a44eb99b3969d86",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00044",
+      "name": "Friends of Las Vegas Metro PD",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/lv_metro.svg",
+      "source_filename": "lv_metro.svg",
+      "source_original_sha256": "3f4583138328152329563bce280704f1f893b3e81fd37e576a1a7dc0a33b8567",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0053.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "39377fefdbdcc4cc899b85163571aaa131c1e9c4631781b5c39fc1b82c9f4fd8",
+      "thumbnail_sha256": "f4434ee6b9f35c57092224dfc10527dbd178c905db53b8efd43f6181d2eef87f",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00045",
+      "name": "Golden Rule",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/golden_rule.svg",
+      "source_filename": "golden_rule.svg",
+      "source_original_sha256": "5156e5b079ebbd884ea0fa0323ee6aac2a150aeecaeaad35abfe20ae235ff0f0",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0054.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "096e0b13bff59aecd12381bb67b083c0dda8e6b45b5ef29756e2a7822cccb7d8",
+      "thumbnail_sha256": "a3e05b801dc3f17069cc8890685df282ece85ca89dcb11e6baece885c330842b",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00046",
+      "name": "Hoover Dam",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/hoover_dam.svg",
+      "source_filename": "hoover_dam.svg",
+      "source_original_sha256": "d5e0108fdd85c112a59bd623171f3bf817cd5a003c1abb95c38facf399fb091f",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0055.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "e0c61d9f051b426ed48d4e66ddb552921f482f171c3bd3d80f49da978b3e087c",
+      "thumbnail_sha256": "ede6f8f7229bf5304d416220ed44d98eecd9a7f3383b3f05ca5355e0eaacc8b0",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00047",
+      "name": "Hot August Nights",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/hot_august.svg",
+      "source_filename": "hot_august.svg",
+      "source_original_sha256": "65c7065eca64b8778512f126710e771ecec9aa59be3a4daaf1feac543a933f7b",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0056.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "ba57ae1bd97db87b2ea7c33a7c036408535d6474481d18fee9c7b55d803058fd",
+      "thumbnail_sha256": "de71de9888ca7adc5d909a27faee00ab535114649fa3588a4fd0a76baf79ffeb",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00048",
+      "name": "Las Vegas Commemorative",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/commemorative.svg",
+      "source_filename": "commemorative.svg",
+      "source_original_sha256": "4ae524d05cbafa9772c384dcff345936c485b57d8b03bfeea838e754e6ed0a69",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0058.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "7e52d0427f0e5ba9011b0731f07bd8c9f2e42399fedd5aa3d6f358b93f2f034c",
+      "thumbnail_sha256": "9bf4b63366bb76ae6f2c812e30d4fcc89a1c0ebdcd77d490ee87ff9cd8ed250c",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00049",
+      "name": "Missing and Exploited Children",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/missing_children.jpg",
+      "source_filename": "missing_children.jpg",
+      "source_original_sha256": "2ad5722444068eaca769357aeb705626ee641d0b7eac18d34bfbea5f267f5757",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0059.jpg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "4c2de6126e112e03623929f291ffce983c0b9991717f95d882b4b31b99be8bfd",
+      "thumbnail_sha256": "fc996a2789115b54f4aa02fdcdfd2288489e7bbc088252bb2bceb0a1eac902b4",
+      "display_size": [
+        500,
+        255
+      ],
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00050",
+      "name": "Mob Museum",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/mobmuseum.jpg",
+      "source_filename": "mobmuseum.jpg",
+      "source_original_sha256": "e78176f4885ac605b51d9aa5dab438b73ab6e420cf0a887269d059f000606544",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0060.jpg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "89aa3d59f000d9784c9a33f307499f0c30b8b2ccb431f06aacce3a7d4afdbef5",
+      "thumbnail_sha256": "e357d0b23eac940f9b364f6e88751baad9bab51b2dd33c34564c8f754a2fb8a3",
+      "display_size": [
+        800,
+        400
+      ],
+      "thumbnail_size": [
+        300,
+        150
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00051",
+      "name": "Mount Charleston",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/mt_charleston.jpg",
+      "source_filename": "mt_charleston.jpg",
+      "source_original_sha256": "fdd93547b6c38842c40f37849b7331d724f1f45e12eb19545d2e476ce735a8fd",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0061.jpg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "703c42950162bd320cb2d441d29aec49f1a2b7d24e8215ed43433d5ac1084042",
+      "thumbnail_sha256": "2ae670d12a52a696083ea245c1f141198fefeae85ecc76069a88894b101f97db",
+      "display_size": [
+        500,
+        255
+      ],
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00052",
+      "name": "Nevada Bighorns Unlimited",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/bighorns.png",
+      "source_filename": "bighorns.png",
+      "source_original_sha256": "cb355ee80f630329d077bd53178b51a42ec248192093025362cccccf074128f7",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0062.png",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "5170b29f0f764b2b638872b4f5120db30f20fa2513f2430b7a94b3c448eed097",
+      "thumbnail_sha256": "84daee30e15fddcd41e08b488833baf1e7694c754768e8749579dcfafc30a62c",
+      "display_size": [
+        500,
+        256
+      ],
+      "thumbnail_size": [
+        300,
+        154
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00053",
+      "name": "Nevada Test Site",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/nevada_test_site.svg",
+      "source_filename": "nevada_test_site.svg",
+      "source_original_sha256": "2514e6401fa4fbc2cb974e4de82b364921a0e0da3b1d8edfb6eab540e4e66119",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0063.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "a01b91ce4b1a24770384d8ec07dd23cc7920648804422b35a51bbf3acbac9868",
+      "thumbnail_sha256": "d8e3d28443fcc591c35531b7e85cefb36567385099f2758ade3df92366226ea3",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00054",
+      "name": "NV C.A.S.A.",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/nvcasa.jpg",
+      "source_filename": "nvcasa.jpg",
+      "source_original_sha256": "96e0471a6bb012c4f86b74d0b5288a54113c8b458a6cccfbb13f4eacbf2d4015",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0064.jpg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "7894c72ff856c2e20dd287078b7f8af55a7c525c0652ea148b1b12f25c4bd7d0",
+      "thumbnail_sha256": "154cee0986410752829f8c1c8a669a71ccec5860100238d9103703fdbdb3458c",
+      "display_size": [
+        800,
+        400
+      ],
+      "thumbnail_size": [
+        300,
+        150
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00055",
+      "name": "Opportunity Village",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/opportunity_village.svg",
+      "source_filename": "opportunity_village.svg",
+      "source_original_sha256": "38f9f128745732e12534e606387073b978d4a992bd8b85478baaa24eabd90d43",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0065.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "0bbdadd31f07478b0c700f8cea201d9bad5dfd9683ea57205429628fa3bcf31d",
+      "thumbnail_sha256": "935b02496f2bab5751c74d17facc187a35da0bb222440faf4012ee5807d2d62b",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00056",
+      "name": "Organ Donor",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/organ_donor.svg",
+      "source_filename": "organ_donor.svg",
+      "source_original_sha256": "04eb7f08c333c7c153d9b756634e3aeada1308db1aba50019589d4b46b6e6f04",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0066.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "4aba58c77b486c847cf91f743c12de7f4369a9630d642c08c8ecfcec0228df4c",
+      "thumbnail_sha256": "351e18b8aefbe3b4e5dceaa6e69ac588c127a111d17c3bc486d9a497b1a8c924",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00057",
+      "name": "Pyramid Lake",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/pyramid_lake.svg",
+      "source_filename": "pyramid_lake.svg",
+      "source_original_sha256": "dcb94f953727fe674ce60a1cb1371f98956b88fcf3cbef53b76b601a31f7111e",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0067.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "0c277f57bbb3506052d8babe23336c0db914502d4960cf18b37c393c1b843022",
+      "thumbnail_sha256": "e2dd074fcd087457219673ecdf8899e33fb54bd068ab1c7fb07da1f4d9fc7365",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00058",
+      "name": "Raiders",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/raiders.svg",
+      "source_filename": "raiders.svg",
+      "source_original_sha256": "9e4ab098ee90849b769e79a625e100a9060d9525514f7735ec4339342413e707",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0068.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "dd7b7c1c7f56c9f721fdf315df3381c21bcbfb05d184fb8812b15f29fd27da75",
+      "thumbnail_sha256": "dddab2ec4fb21114d9d7a888844b1591fc6be72bb81cc350c81c886f4880c24f",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00059",
+      "name": "Red Rock Canyon",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/red_rock.svg",
+      "source_filename": "red_rock.svg",
+      "source_original_sha256": "bc03931ef1701d834413d85a8c0b766122a9e5b28bbf2f1441961c721dfb16e6",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0069.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "054fc18b02e20e4f315cfff4b8a9db1254d7a15313515677deb1f0d37a117db1",
+      "thumbnail_sha256": "d293182f132e5787911a3c36cf2d9ec6eadf4eb8c8f6a7a18951fcd345e1b84b",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00060",
+      "name": "Reno Air Races",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/reno_air_races.svg",
+      "source_filename": "reno_air_races.svg",
+      "source_original_sha256": "96914a733a7c68e9467a9186558aa265899501258f31b980682e02f7052c82ca",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0070.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "f2038f0e45097b43c1f026f49b8b7f3ca478446d10cb0e8425a1a83bc38eef45",
+      "thumbnail_sha256": "b173252cce41060f34a38bb4fa949560885a30667b3bc4103f8377a2fec6e706",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00061",
+      "name": "Rodeo",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/rodeo.svg",
+      "source_filename": "rodeo.svg",
+      "source_original_sha256": "fbc54a8bff253ca349ad3a85d1a38058f0027d35932346ce5ff27cd0f7afd471",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0071.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "43f4a3e654f2aef4e4b92061feb44cd2603566d85bfa2f942091ea3f3aba5cd9",
+      "thumbnail_sha256": "79618062f455a787fce24534bb0afacea70b71dc5ce3a2b5cc0b0a60a4dc9d8c",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00062",
+      "name": "STEM Education",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/STEM.svg",
+      "source_filename": "STEM.svg",
+      "source_original_sha256": "bac267eb9043cb5359a5a86aa2a0cc6c487036858940c781d68b014e28ea2693",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0072.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "74c76512f19d3a01ed34564f880f69048917a34170b8a39b29ca3608d7c89d8d",
+      "thumbnail_sha256": "d9749a35e346c4c9c10bbd3efe6c352edaacf392cf88a98c5f19c16e0b547626",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00063",
+      "name": "Support Wildlife",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/support_wildlife.jpg",
+      "source_filename": "support_wildlife.jpg",
+      "source_original_sha256": "f53588f067de63126170cd5ae56d01f772b0f761698d261461d1c497ebd96a01",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0073.jpg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "ee409a01c01f49e65d775c6911d5e94867d76cbad6b4d1cc88c69c4e071cfb40",
+      "thumbnail_sha256": "071e144b208009ace4ff7108463a828d4c47b056a463bbb88c1dcd3995dd2066",
+      "display_size": [
+        500,
+        255
+      ],
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00064",
+      "name": "Ultimate Fighting Championship",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/ufc.svg",
+      "source_filename": "ufc.svg",
+      "source_original_sha256": "02c52090fcda6dcc4e203897a32c2674224bf9d56722c48d60fcd49c0a14e0b9",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0074.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "e22003edd9892af47d3e297b5d39cdce2fc0f874cb70ba1f7197df1019b98029",
+      "thumbnail_sha256": "e3c36685fd489262f4fdc7cb9918600bd4be90aa956d96f3c110eb2060cbdbc1",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00065",
+      "name": "United We Stand",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/united_we_stand.svg",
+      "source_filename": "united_we_stand.svg",
+      "source_original_sha256": "429bc5cd71eacdd7d07cb962eb362a3bfcd04f1cb09bbf8e744373cf82ac4d29",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0075.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "bf5955126fe11ad5e74d7f0b1e1600882b1b6562ecc98fe4c48ab35540a3dda2",
+      "thumbnail_sha256": "830ebec1ac71056ad03aa13c1cafe6bdd1bac8533529659c07a19db121913f52",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00066",
+      "name": "UNLV Collegiate",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/unlv.svg",
+      "source_filename": "unlv.svg",
+      "source_original_sha256": "d86384cacca73d5c7508beed7f1251a4756bdde58e652932211004f20c36d779",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0076.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "4badf0b2428d2e6f13e552ae1ed8082ff44b45f27813235b3cb0dd1d365cef76",
+      "thumbnail_sha256": "7aa7d54a55384382ec59065472a96aa025eb28bcdb48e7de29ed416af5a2dfd3",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00067",
+      "name": "UNR Collegiate",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/unr.svg",
+      "source_filename": "unr.svg",
+      "source_original_sha256": "b0db302e660c24a621390516ea8d4249e0ae7ccb472fb41f7f6751a5ce6d7193",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0077.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "7f8a6d49b805578f1c61ce69abbe86d6538c8741d1a1d25356091ee4f8353669",
+      "thumbnail_sha256": "6e4721c9a7478fb08c267211e2118b1f625a0636ce43250cf5870c4f4f126223",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00068",
+      "name": "Classic Vehicle",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/classic_vehicle.svg",
+      "source_filename": "classic_vehicle.svg",
+      "source_original_sha256": "dc2530755ee5f39664064b6cab7c526508fed4f7d326a0df6750eaf424f6f59f",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0081.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "bff66bc7186d5125ed3c68997258c25ca74ee3c2636fe54205edd5b4d3e4b124",
+      "thumbnail_sha256": "681d0dc01476cc730eeef09ee3b55cd86af36434e1188a34b72404dc04c3781d",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00069",
+      "name": "Classic Rod",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/classic_rod.svg",
+      "source_filename": "classic_rod.svg",
+      "source_original_sha256": "4c03ca29d7d9fe63dd41a8bc2f208179c0fb97ed9908ac0805ee87ff194e9be4",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0082.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "2d7be9e932ee45239fdc1b2fb6db2c387a46d94520810d05993892eac5aee53c",
+      "thumbnail_sha256": "7885a4a48cd970b8b15351b4ee33ae6103292481d47ca119e75e2d88e68ab0dc",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00070",
+      "name": "Old Timer",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/old_timer.svg",
+      "source_filename": "old_timer.svg",
+      "source_original_sha256": "3637a15080496c8d49e300e7bd0ed3002bf7eb563f657d11b5dfffbb15e184d4",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0083.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "fb68d46ff0dda842f24af3d142ea4c59f2ac4efb5fa38645b354b90c0c98c5ca",
+      "thumbnail_sha256": "4e424f1d1aaacd27738ae0b86b191af1e27e43cd389fd9298032322072af4297",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00071",
+      "name": "Street Rod",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/street_rod.svg",
+      "source_filename": "street_rod.svg",
+      "source_original_sha256": "6b070c5156afa3fe928f8ae059371b31d0002c22476e78057b6e704f0f38e846",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0084.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "684f30329c8afe93c02e9773e2c884dd34d881e2f2b32f2634d724f1f1681afe",
+      "thumbnail_sha256": "59dc0e74edab5ed76dd160082adf009247934f4fc1c5db1e61697f4343420fd5",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00072",
+      "name": "Fire Truck",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/fire_truck.svg",
+      "source_filename": "fire_truck.svg",
+      "source_original_sha256": "c88ed41cb1bbb4fd69fccba71354b2e418949906a132c1d3706f1762d879a9be",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0085.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "1091dc5fa471fd031580b7ca54259504fdf3f80d191b912f5fe6d46fae9fc350",
+      "thumbnail_sha256": "6bb3ca813b6b4940b2c764536f454ab43b4f054bd7656cfefb651b1e1019d058",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00073",
+      "name": "Antique Truck",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/antique_truck.svg",
+      "source_filename": "antique_truck.svg",
+      "source_original_sha256": "98dda480c0e92aba5a11c557febc938a2d956b4a26f334ba14290dbc7a2d9c7c",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0086.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "2974c466ae341b68a8c74a5ca36c390e7bd0940b322d1eab016021d6007f3eff",
+      "thumbnail_sha256": "ef4412928f2074aa6438656ca72f334c4fd069685cd8e798bded4a415a744409",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00074",
+      "name": "Retired Military",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/retired_military.svg",
+      "source_filename": "retired_military.svg",
+      "source_original_sha256": "9abe58fa5ec12615f50cb2a457b8e858eceace0cb8b50de291edf14c3faae211",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0087.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "531a77c251178eb23e38bf3b5a183c4e364ecfc9b9a8466bc5387d18b46220d0",
+      "thumbnail_sha256": "253abddc90648407934b6d930c4b4d081768bfab646d4d18198f251059917c25",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00075",
+      "name": "Vintage Plates",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/vintage.svg",
+      "source_filename": "vintage.svg",
+      "source_original_sha256": "cff2a7bb9f75646ddb3630213810cfd45317f09986d9dafcbc82df0b0329c972",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0088.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "6fb29a0e792116f28c7ba81e5a77de919371dfa38c7c8e657e256438776e0ac9",
+      "thumbnail_sha256": "18a39bcdab0485dc7e844ad6b52ca4a301b1131e65265ce97893010936051447",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00076",
+      "name": "Horseless Carriage",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/horseless_carriage.svg",
+      "source_filename": "horseless_carriage.svg",
+      "source_original_sha256": "8cd6e412ad72884993b60aeebcb1a1b9c71e1d7bd33edcb0953d4bf5fac25f83",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0089.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "3f66073e0ff7d64862f7da94063a698dd168a90a6fdb671f7c16132f282f439a",
+      "thumbnail_sha256": "ba1d3195340c7b34bcfd75c85543edaf48e0aefaee5a8fc106a04acc47dade8c",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00077",
+      "name": "Amateur Radio Operator",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/amateur_radio.svg",
+      "source_filename": "amateur_radio.svg",
+      "source_original_sha256": "b3a8c012b7350de3979fc124dd0aab7980c936703542f3557d01951d6e2ef26b",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0090.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "c411e251235addf87d87be98bdb9023006d6345d24a9a4a75ad9da9a9dd4d525",
+      "thumbnail_sha256": "1b3476ee812b5d93ae39e139b04d9817230b8033e721a7a77a7d00d8e31e143f",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00078",
+      "name": "Civil Air Patrol",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/civil_air_patrol.svg",
+      "source_filename": "civil_air_patrol.svg",
+      "source_original_sha256": "094c04681a8384f68d91a002084355ac6f9b83d60381b052f5e3859bb1d11ca6",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0091.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "24831bb64b21767c41052a0d1ba38bfeeea4616fdf5e70a7bc6288f7b79e05c1",
+      "thumbnail_sha256": "51fee3f74f2ffae17b7577f766c12c300b227412c7f5a9582ecfd64dd0570ac0",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00079",
+      "name": "Decorated Peace Officer",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/decorated_peace_officer.svg",
+      "source_filename": "decorated_peace_officer.svg",
+      "source_original_sha256": "3f8c82455297477c2b735ffe2d69be210012b02ec3ed68794f81a05d2f78b296",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0092.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "ecdaf1e133d135b044a7bef1424d6a217847d9236da29fb265556aaf2d47e72e",
+      "thumbnail_sha256": "b10130afae69b574999589630b9dc5e7cda0d38748edf3ef28f5ffd3eeecac09",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00080",
+      "name": "Eagle Scout",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/eagle_scout.svg",
+      "source_filename": "eagle_scout.svg",
+      "source_original_sha256": "258557f3fbf43130efb739ad85fe4a89e1358676ee088571073ff59a307342fc",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0093.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "ac7966f197ef02d2f3f6c565aafe1a1727c9340f98eb1112e7a0ccb6d4677fe5",
+      "thumbnail_sha256": "2ce36ee783775629155dc460fe08ce1e97ab2e0243775b6566e9061e6bd7d5fb",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00081",
+      "name": "Electric Vehicle",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/electric.svg",
+      "source_filename": "electric.svg",
+      "source_original_sha256": "afafaed8130a17f8b01359df304cb994dd0269727164a68e74a3108474fd3a91",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0094.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "96481e6761cbada446283c8c7de832403af3b87c8ec7d36db1fd6858314b5623",
+      "thumbnail_sha256": "dcc1d842ef2381cae9dbda33d2d8f02d74784e9ec0ba945fa1e02e2bd4724baf",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00082",
+      "name": "Hall of Fame",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/hall_of_fame.svg",
+      "source_filename": "hall_of_fame.svg",
+      "source_original_sha256": "f5358fa9eb463d096a8e7ff2b0f03982ff0e73f70958cf596e993d4f864cc0e8",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0096.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "ad649cc7440f59d59aadeb05838d4903d03b191139a1621a84baf652d2b4ecb3",
+      "thumbnail_sha256": "71b91a3ecf5d792c38f4a058ed80f46909213fb19092b77d88b4eb9fac5d725e",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00083",
+      "name": "Masonic Lodge Award",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/masonic.svg",
+      "source_filename": "masonic.svg",
+      "source_original_sha256": "57f6802ebdf8e02ad6bc99889a69c8f0b79024fa1be11fd7a889729d79e6cf91",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0097.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "b18e577dcde18b146043a8e84aaf266431920160f49b6a51e1a287c7459fc051",
+      "thumbnail_sha256": "dd90fb46c0d2b9eb4111dc1e9fa2bfab87f39e56bd6cec8c77b11c3b5029e2be",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NV-00084",
+      "name": "Press",
+      "source_page_url": "https://dmv.nv.gov/platesmain.htm",
+      "direct_asset_url": "https://dmv.nv.gov/images/platesmain/press.svg",
+      "source_filename": "press.svg",
+      "source_original_sha256": "6466a8cb22f2e6f8686e0f12b72afccb1d256feb3d72ee015a5ba9cd427e915f",
+      "source_asset_file": "NV/Nevada_DMV_License_Plates_html/asset_0098.svg",
+      "archived_assets_json_sha256": "9a30e69e6f20252368d64f66c331a1977e98969eb303dc9cadc30c508439a8f5",
+      "source_match_basis": "visual plate gallery inspection + exact filename + catalog design name",
+      "display_sha256": "b26195660d20df150af88de10cb97f556d1c6db633d5a6a5d0a18ee7999cf7e3",
+      "thumbnail_sha256": "5c384855bb9a6488a37735438b1224109af3c6e2afe1ed198537976946772d0f",
+      "display_size": [
+        400,
+        190
+      ],
+      "thumbnail_size": [
+        300,
+        143
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    }
+  ]
+}
