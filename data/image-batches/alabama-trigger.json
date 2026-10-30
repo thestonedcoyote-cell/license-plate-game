@@ -1,0 +1,16 @@
+{
+  "batch_id": "LPG-AL-28-20261029",
+  "source_run": 40411922074,
+  "source_artifact": "official-plate-harvest-40411922074",
+  "review": "data/image-batches/alabama-28-reviewed-20261029.json",
+  "existing_source_selections": 608,
+  "additional_source_selections": 28,
+  "total_source_selections": 636,
+  "expected_runtime_jpegs": 1272,
+  "unresolved_catalog_ids": [
+    "LPG-US-AL-00017",
+    "LPG-US-AL-00020"
+  ],
+  "review_branch": "generated/alabama-28-source-images-20261029",
+  "android_release": "none; physical signed update pending"
+}
