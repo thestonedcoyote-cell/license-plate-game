@@ -1,0 +1,13 @@
+{
+  "batch_id": "LPG-NV-84-20261029",
+  "source_run_id": 40386466698,
+  "source_archive": "official-plate-harvest-40386466698",
+  "review_file": "data/image-batches/nevada-84-reviewed-20261029.json",
+  "expected_original_uids": 1138,
+  "expected_previous_source_images": 524,
+  "expected_added_images": 84,
+  "expected_total_source_images": 608,
+  "expected_jpeg_count": 1216,
+  "review_branch": "generated/nevada-84-source-images-20261029",
+  "signing_policy": "No automatic native release or image approval"
+}
