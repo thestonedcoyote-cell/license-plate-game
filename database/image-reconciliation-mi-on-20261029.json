@@ -1,0 +1,1620 @@
+{
+  "selected_count": 61,
+  "michigan_count": 22,
+  "ontario_count": 39,
+  "cumulative_source_matched": 697,
+  "original_gallery_manifest_hashes": {
+    "standard": "13dddc3c7168defc696a862ac80b8c6be7f8836235bf84a1097a0c79972c8f2d",
+    "cause": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+    "legacy": "6cc184426d1bf40701f23a85e40878552ff0cc282702ea3120b851f07625d61f",
+    "ontario": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a"
+  },
+  "source_description_discrepancies": [
+    {
+      "uid": "LPG-CA-ON-00019",
+      "note": "Page title Ontario Association of Fire Chiefs; image alt says Canadian Association of Fire Chiefs. Document source title/alt conflict; no era/human approval."
+    },
+    {
+      "uid": "LPG-CA-ON-00020",
+      "note": "Page list says Ontario Federation of Snowmobile Clubs; image alt shortened to Ontario Snowmobile Club."
+    },
+    {
+      "uid": "LPG-CA-ON-00025",
+      "note": "Image alt empty for Ottawa Redblacks, page source label and visible team emblem confirm."
+    },
+    {
+      "uid": "LPG-CA-ON-00022",
+      "note": "Image alt absent for Ontario Paramedic Association; official HTML listed title and plate icon depict it."
+    }
+  ],
+  "era_status": "unverified",
+  "human_approval": false,
+  "rows": [
+    {
+      "uid": "LPG-US-MI-00001",
+      "name": "Agricultural Heritage",
+      "gallery": "cause",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/special-cause-fundraising-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Special-cause/SpecialCause_AgriculturalHeritage.jpg?rev=36e7a9b08f104e9aacf0030960ed86fd&hash=72295CF13D1F2707B063600CBB8F1AEB&mw=1024",
+      "asset_number": 3,
+      "source_file": "MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html/asset_0003.jpg",
+      "source_original_sha256": "217f9ec8485d9411d17afe5ad7f3874cc187ac5641a3b205becfc805c57b5090",
+      "source_alt_text": "Agricultural Heritage license plate",
+      "archived_gallery_manifest_sha256": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "20abdd554d75c0669ec34de768d0c23343ebfe7cbd6582b6e17334a47b566a66",
+      "thumbnail_sha256": "429bb20d9d2cf948ad938d7af8c260530d265fcfdeda6b08ba9fa376f0148f65",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00002",
+      "name": "Breast Cancer Awareness",
+      "gallery": "cause",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/special-cause-fundraising-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Special-cause/SpecialCause_BreastCancerAwareness.jpg?rev=0b2ae7682e33488a82f270a12a69da73&hash=125B504E78FA7A295F767C8DB03DDCDA&mw=1024",
+      "asset_number": 4,
+      "source_file": "MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html/asset_0004.jpg",
+      "source_original_sha256": "6ba77777b42dd71b8aeed95f0013749ab1760889efee051b20d0ab817aca8165",
+      "source_alt_text": "Breast Cancer Awareness license plate",
+      "archived_gallery_manifest_sha256": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "c7b6857c819c3d3a665b83c76e375a371360f45c9bb96cbfdc39bceb086186a9",
+      "thumbnail_sha256": "0f0441b270aad020729e34bbe6f553f62f3351f323a5b025615bf7aebc7ffc2d",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00003",
+      "name": "Children's Trust Fund",
+      "gallery": "cause",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/special-cause-fundraising-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Special-cause/SpecialCause_ChildrensTrustFund.jpg?rev=6d8325a2135546be80ccad1b09dee59b&hash=3CD12AD753C525158B8E9E7EF2F7341C&mw=1024",
+      "asset_number": 5,
+      "source_file": "MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html/asset_0005.jpg",
+      "source_original_sha256": "e348d09a894b105fb0750ee21ce32b8a529635b264d335e3b697512d48c60370",
+      "source_alt_text": "Children's Trust Fund license plate",
+      "archived_gallery_manifest_sha256": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "22df57a98449bb67db49ac77c1f29b8f326eb59e1ac06124f246d9489f966412",
+      "thumbnail_sha256": "569d1cd9c03ccda9779d065b88859e3d4044b666de08854c940ec1d33834219a",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00004",
+      "name": "Detroit Lions",
+      "gallery": "cause",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/special-cause-fundraising-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Special-cause/SpecialCause_DetroitLions.jpg?rev=570e34be01ba461d9afbfa5949c86207&hash=6017251D4D1A6B5B3173489CD2FB7E7E&mw=1024",
+      "asset_number": 6,
+      "source_file": "MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html/asset_0006.jpg",
+      "source_original_sha256": "ec44f1409375eb40cab68a73ac4e3f592bca69f977db7546f0fd0490d356af80",
+      "source_alt_text": "Detroit Lions license plate",
+      "archived_gallery_manifest_sha256": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "031812867b1a9b0e6f0f8b116420982fa46786c3feed4f76eb4cbe3895a0a5b6",
+      "thumbnail_sha256": "b1e8bd884752f25aef77059f740bb21a4498e47bd56af7d6e1af588d2f6909af",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00005",
+      "name": "Detroit Pistons",
+      "gallery": "cause",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/special-cause-fundraising-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Special-cause/SpecialCause_DetroitPistons.jpg?rev=46b5e61f528e4fd6bb5bd65d7c3386a6&hash=257B8B34C39BE14420166533A491F803&mw=1024",
+      "asset_number": 7,
+      "source_file": "MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html/asset_0007.jpg",
+      "source_original_sha256": "6d807dfe1c4396cd1a1388672e7deff471e831e8f4f07fdcead457ded6116d29",
+      "source_alt_text": "Detroit Pistons license plate",
+      "archived_gallery_manifest_sha256": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "a29600bbfca45399060e2e678d07a24ae93d297abbf47497e9ec1e968328b05a",
+      "thumbnail_sha256": "d92f5a95f7291659e80ba8f226938d9b4c6809149a65360ed1c65805e52b60ec",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00006",
+      "name": "Detroit Red Wings",
+      "gallery": "cause",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/special-cause-fundraising-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Special-cause/SpecialCause_DetroitRedWings.jpg?rev=99c70cb0a2fd47359d5c2e8e125214aa&hash=E87CC7BF296F72FD55721F34793AEF1D&mw=1024",
+      "asset_number": 8,
+      "source_file": "MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html/asset_0008.jpg",
+      "source_original_sha256": "527c114db09791c9b63e948e3d0fb75edea842c2c71a7433bf042817224c999c",
+      "source_alt_text": "Detroit Red Wings license plate",
+      "archived_gallery_manifest_sha256": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "13bade2a1d6b5bee15d0199aacbaf190d2c55df8ab12593d5a15c3f727775ee5",
+      "thumbnail_sha256": "c2f1eaff3b8fbcc1ad02744225cc0ce841245ff619329456e6068c7bf1fb7d1a",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00007",
+      "name": "Detroit Tigers",
+      "gallery": "cause",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/special-cause-fundraising-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Special-cause/SpecialCause_DetroitTigers.jpg?rev=7350661268f44f12a5454a9e0e2291cb&hash=F88892F31217770B2B75E2B253016C66&mw=1024",
+      "asset_number": 9,
+      "source_file": "MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html/asset_0009.jpg",
+      "source_original_sha256": "7a38c0b72a21b51b51407fb8f93288ab556f1afc79c839f24b8eff0105801173",
+      "source_alt_text": "Detroit Tigers license plate",
+      "archived_gallery_manifest_sha256": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "a88413689b96897e98c41d1fa86ea9282fe232e63bb6549c1833ae13ebf91388",
+      "thumbnail_sha256": "00a3f7519ad37421d7d109d56659885946e337a1279e2923bd93bb074338ee0a",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00008",
+      "name": "Donate Life",
+      "gallery": "cause",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/special-cause-fundraising-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Special-cause/SpecialCause_DonateLife.jpg?rev=3e137559b49848f4b269aa0c2adebf39&hash=1B4BBD76348D4FB2BC735998B2CB83A4&mw=1024",
+      "asset_number": 10,
+      "source_file": "MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html/asset_0010.jpg",
+      "source_original_sha256": "84253b4d85555af1c54b5e18d01070fc8b05f3b055b24386bb0b55be78bf4f51",
+      "source_alt_text": "Donate Life license plate",
+      "archived_gallery_manifest_sha256": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "4a1c893b6ba6901bf9329235765104e74ab72ed44d188a25da870ac8361f907d",
+      "thumbnail_sha256": "20048754323a3602a119a0f8415877ac51f7ec4f4ebcc9f3a1c336a5f4c53aaa",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00009",
+      "name": "Ducks Unlimited",
+      "gallery": "cause",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/special-cause-fundraising-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Special-cause/SpecialCause_DucksUnlimited.jpg?rev=dd232608e6db4939a050ef33a06f6fb8&hash=55DFF03C099780C7E1B8A9003F49402B&mw=1024",
+      "asset_number": 11,
+      "source_file": "MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html/asset_0011.jpg",
+      "source_original_sha256": "ab301d9aaba5c2b2f02cd1670b99dd5163b96948891ce5f6b0ed6a08f86baf4e",
+      "source_alt_text": "Ducks Unlimited license plate",
+      "archived_gallery_manifest_sha256": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "a110c8128b0fbeffece044b8d0ac9e46e0747d416fa7d11020a2c8b90cf82ec2",
+      "thumbnail_sha256": "efd50509a26ec545073b0d4c16df3487fc5cd250ceccb6accdda26192f61c869",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00010",
+      "name": "Legacy Blue Michigan",
+      "gallery": "legacy",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/legacy-plate-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Legacy/Legacy_GreatLakes.png?rev=5fc0eb70249044a5baf90283a3377a12&hash=9A29EB24E9BDBEECE34B1868E53BFEC4&mw=1024",
+      "asset_number": 4,
+      "source_file": "MI/Michigan_SOS_Legacy_Plate_Options_html/asset_0004.png",
+      "source_original_sha256": "ad51a8fe20c7bd0bb92b88d2a0ea1822d20158315c2ab313fc95e9c77012ecf7",
+      "source_alt_text": "Legacy blue Michigan license plate",
+      "archived_gallery_manifest_sha256": "6cc184426d1bf40701f23a85e40878552ff0cc282702ea3120b851f07625d61f",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "85b31fa0e905a07888e3bafdbc828c41a3017c0305845fc9718009a04b4e6afd",
+      "thumbnail_sha256": "25472a3133cfb210dca591e6fcc89e7b3c16e39693461c433b3ff7ce327a80b1",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00011",
+      "name": "Lighthouse Preservation",
+      "gallery": "cause",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/special-cause-fundraising-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Special-cause/SpecialCause_LighthousePreservation.jpg?rev=f81571e89abf4ef4b850756810b8854a&hash=DA286217986DC95A00E069A58452D657&mw=1024",
+      "asset_number": 12,
+      "source_file": "MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html/asset_0012.jpg",
+      "source_original_sha256": "5710c16b3914a4ed79a3207e855cb8fc08b890ae25f1a5559e85fcb0248e4ecd",
+      "source_alt_text": "Lighthouse Preservation license plate",
+      "archived_gallery_manifest_sha256": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "e50df2eb35b9662f07649cd6fbdd782b4d3548ab1a68eb04c2bf82bb4083b8e8",
+      "thumbnail_sha256": "703b8381c2e3406a66bd0f24c3bd2f73d0913985f33e95f24bdeec1d482ac59c",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00012",
+      "name": "Mackinac Bridge",
+      "gallery": "standard",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/standard-plate-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Standard/Standard_MacBridge.jpg?rev=1268c6a328334e69a45089ceb17714ac&hash=3F5CB25096579E4D2F4F326FF17ED21D&mw=1024",
+      "asset_number": 4,
+      "source_file": "MI/Michigan_SOS_Standard_Plate_Options_html/asset_0004.jpg",
+      "source_original_sha256": "fcfb85622d4231f6f2ac7f26008cfaef306a9c7e31b0159e85d33b7752f63903",
+      "source_alt_text": "Mackinac Bridge license plate",
+      "archived_gallery_manifest_sha256": "13dddc3c7168defc696a862ac80b8c6be7f8836235bf84a1097a0c79972c8f2d",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "77aab8095be525fa9ad20c0799d568eaa7c06a0c46e4ddf20889a544036fa25a",
+      "thumbnail_sha256": "13a593fd6efee218da663f10877623d40613025ac04baf17029daaf35387dcbb",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00013",
+      "name": "Michigan 4-H",
+      "gallery": "cause",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/special-cause-fundraising-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Special-cause/SpecialCause_4H.jpg?rev=bcfb5369890f4f8a8a35153aebdc3840&hash=CA12A3F52BFB9E3535B9B586DD6810EC&mw=1024",
+      "asset_number": 13,
+      "source_file": "MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html/asset_0013.jpg",
+      "source_original_sha256": "708a089dc18714b6100c6fea114a3f1f633dca11c05f6354f5fbb6e287206af1",
+      "source_alt_text": "Michigan 4H license plate",
+      "archived_gallery_manifest_sha256": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "52239f1ca6d9a72ada1a779f6f05902e37013333fe6ab3880aa7d00e593534d3",
+      "thumbnail_sha256": "4ed60d2b0d6a21a63978bd3c5cae5ec67bee1d9221c704579f6d668e15a9ae7c",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00014",
+      "name": "Olympic Education Center",
+      "gallery": "cause",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/special-cause-fundraising-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Special-cause/SpecialCause_OlympicEducation.jpg?rev=77d64824da0a4ea8af3421a401af8cfa&hash=1F35FBBB8FCE03FCA3EF5C96B8B07EEC&mw=1024",
+      "asset_number": 14,
+      "source_file": "MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html/asset_0014.jpg",
+      "source_original_sha256": "cb5f65b3964c971348029fe2e15a8527e6f7df4ea6e52395c7263cc19122d53f",
+      "source_alt_text": "Olympic Education license plate",
+      "archived_gallery_manifest_sha256": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "bd666255f28afecaffc533549d87987ddbc86f4c05ad7c6dba111e1d90c5f8b0",
+      "thumbnail_sha256": "0bd61472d5a6e7355521a2343f87072ad5780905a7dca44cf0a68ca6d9d14660",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00015",
+      "name": "Patriotic",
+      "gallery": "cause",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/special-cause-fundraising-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Special-cause/SpecialCause_Patriotic.jpg?rev=4f7b8613eb1e4156bf642321097587a4&hash=02A682F862C1ECFBFEAADD5E2FFD4C51&mw=1024",
+      "asset_number": 15,
+      "source_file": "MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html/asset_0015.jpg",
+      "source_original_sha256": "b2adfd181606dd80ecbbc9109fe5748a2b5ae9a6705bfbe19ec5dfdd4386350a",
+      "source_alt_text": "Patriotic license plate",
+      "archived_gallery_manifest_sha256": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "c35f3b260ec4a15a71f8c578ccf59566e79f48582286a151af2dc95042d1424f",
+      "thumbnail_sha256": "4a529da568b224a98cb35d76f9bef8d0547ec10b740eb6372c7a95911e2114c0",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00016",
+      "name": "Pure Michigan",
+      "gallery": "standard",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/standard-plate-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Standard/Standard_PureMichigan.jpg?rev=10270cbd527c4bcf9b674d36d8f25597&hash=234BAF50467C4374E4C7CF5ABE717149&mw=1024",
+      "asset_number": 3,
+      "source_file": "MI/Michigan_SOS_Standard_Plate_Options_html/asset_0003.jpg",
+      "source_original_sha256": "e057623ef91bc07047ebbe73b0ecdd6f00faf539bd82c807c8463ba8fe1dfec6",
+      "source_alt_text": "Pure Michigan license plate",
+      "archived_gallery_manifest_sha256": "13dddc3c7168defc696a862ac80b8c6be7f8836235bf84a1097a0c79972c8f2d",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "c6badb706d2bfdca28e38a6803fb2228b1b4b148e945e4d4b79899ceabc2eb1e",
+      "thumbnail_sha256": "246e3383542ce65bcc5005922ac2cd1a5cc9f1a77b2314f9a5ef1970407cbe14",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00017",
+      "name": "Sickle Cell Awareness",
+      "gallery": "cause",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/special-cause-fundraising-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Special-cause/SpecialCause_SickleCell.png?rev=2755c0107238498389707a65fc5ac2d0&hash=A99EC85CEE670D39AABC166B72A551DE&mw=1024",
+      "asset_number": 16,
+      "source_file": "MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html/asset_0016.png",
+      "source_original_sha256": "21fbe9f9c8797714ef74dbf39b09cceac077fe8e8fdc23f282d2c664cc770f4a",
+      "source_alt_text": "Sickle Cell Awareness Michigan license plate featuring the SCDAAMI.org ribbon logo",
+      "archived_gallery_manifest_sha256": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "8614f2f67c51b0ccc7532581ce6df621a7709d7ea07aa0df4f8afb3ab7f35c75",
+      "thumbnail_sha256": "081ea3a5ab80580ea01180e13022503fe42d8d732b771d0026bbb791d784bba3",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00018",
+      "name": "Support Michigan Veterans",
+      "gallery": "cause",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/special-cause-fundraising-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Special-cause/SpecialCause_SupportMichiganVeterans.jpg?rev=695e9ff6b8b34568bbed18055bcec5f3&hash=C19606128D48D146E7997F6B1A98D157&mw=1024",
+      "asset_number": 17,
+      "source_file": "MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html/asset_0017.jpg",
+      "source_original_sha256": "3b82cc9980ba6fc0a120e080f8e6b51cf3596a28d080bfda2a3a4bd8ed06e77d",
+      "source_alt_text": "Support Michigan Veterans license plate",
+      "archived_gallery_manifest_sha256": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "0aa0b6e8b5826b7d55dfea3287c6b57b020f12ad95f0b5b9d74ce5ead6058fd1",
+      "thumbnail_sha256": "f8033dfae75b190d8a2829c5baefc86b3c379f8cf2a42b3785e0bbc6b39fc57c",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00019",
+      "name": "Veterans Memorial",
+      "gallery": "cause",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/special-cause-fundraising-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Special-cause/SpecialCause_VeteransMemorial.jpg?rev=df97c7d5febd490d870e3a1f35fd0a69&hash=F899B52E2E595126882554319A8B0E87&mw=1024",
+      "asset_number": 18,
+      "source_file": "MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html/asset_0018.jpg",
+      "source_original_sha256": "3486f27f471eca3c33d452d4d52392314e60c66f4979c3b39ecdba7aee18763d",
+      "source_alt_text": "Veterans Memorial license plate",
+      "archived_gallery_manifest_sha256": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "947b018e3e2d969c66c769b9706945328a5ac408f0d5cb9d7c9498d56fc4ba64",
+      "thumbnail_sha256": "854b29e1210b813bec6c526e179bfe8104595fbb6718e1c860326659ef602660",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00020",
+      "name": "Water Quality",
+      "gallery": "cause",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/special-cause-fundraising-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Special-cause/SpecialCause_WaterQuality.jpg?rev=4a4b0642fa7447f39c5136ec3c7f0641&hash=6D519562576A2A8897E376EE494D5D34&mw=1024",
+      "asset_number": 19,
+      "source_file": "MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html/asset_0019.jpg",
+      "source_original_sha256": "fa9f54cd08719c954e5aec6b96e580622a926eafcae091a401529fc00b9ddc35",
+      "source_alt_text": "Water Quality license plate",
+      "archived_gallery_manifest_sha256": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "c8db47e870e6684d0efdae007a9b083f196dc96f318df51771494735cf915c54",
+      "thumbnail_sha256": "990b78b409b3b46e526de9222b06d7104f9f27f7166e4778f1361ecd038495c2",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00021",
+      "name": "Water-Winter Wonderland",
+      "gallery": "standard",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/standard-plate-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Standard/Standard_WaterWinterWonderland.png?rev=274be3731de44498b28401fe7941d47c&hash=12B15D234E0C49ED4A8BFEEF8646333F&mw=1024",
+      "asset_number": 5,
+      "source_file": "MI/Michigan_SOS_Standard_Plate_Options_html/asset_0005.png",
+      "source_original_sha256": "1eb19f6c295e986419547884d3ba73efc3a11334f2f1ed85c1330729a1508572",
+      "source_alt_text": "Water-Winter Wonderland license plate",
+      "archived_gallery_manifest_sha256": "13dddc3c7168defc696a862ac80b8c6be7f8836235bf84a1097a0c79972c8f2d",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "68a7374fcc1678ec85c243b4f584fb4032bb3e2947cd5396f4acb8883eb358a3",
+      "thumbnail_sha256": "9d288654f9b2465d54be1fbad68285f146d7830ceab30b56b9acaf3f9a72be27",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-US-MI-00022",
+      "name": "Wildlife Habitat",
+      "gallery": "cause",
+      "official_source_page": "https://www.michigan.gov/sos/vehicle/license-plates/special-cause-fundraising-options",
+      "direct_asset_url": "https://www.michigan.gov/sos/-/media/Project/Websites/sos/Vehicle/License-plate-images/Special-cause/SpecialCause_WildlifeHabitat.jpg?rev=e3f33e1919844ba0ba3e6c9d945b44e1&hash=7E9D130C38ABFFA1FF2087928162DB10&mw=1024",
+      "asset_number": 20,
+      "source_file": "MI/Michigan_SOS_Special-Cause_Fundraising_Plate_Options_html/asset_0020.jpg",
+      "source_original_sha256": "de33b049e0df9054d8157e7ed29d7db69597093310304df68521f7ee0c3c1a0e",
+      "source_alt_text": "Wildlife Habitat license plate",
+      "archived_gallery_manifest_sha256": "f9505e2c7149153a052662aa4a9323f12dec8dd9916cd26acd01c199ee196682",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "fd033b477adb86d4dfe6bc8489bb8cbfc13349a42fe6d1f0ae02bfdb490a7415",
+      "thumbnail_sha256": "29161d3b836e76c38415daae9604d6d3ee6e5d008d1f1129ea8af0cd04fb7a05",
+      "display_size": [
+        568,
+        320
+      ],
+      "thumbnail_size": [
+        300,
+        169
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00001",
+      "name": "48th Highlanders",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-03/48th_highlanders_english_web_ready_300dpi.png",
+      "asset_number": 12,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0012.png",
+      "source_original_sha256": "e19cccc1caabd986cc48089a847d00ce386d7e576dd33ad3a94d7dcb1a341c80",
+      "source_alt_text": "Illustration of Licence Plate — 48th Highlanders",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "32e1ff404b531ad97bbd77c85ef51464c139172f444ac1e726de628c0e9f7b32",
+      "thumbnail_sha256": "2808094a1e59287cae2efcb8bdc23068da7cc5252c8737891f0926273c214484",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00002",
+      "name": "Army Cadet League of Canada (Ontario)",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-03/army_cadet_english_web_ready_300dpi.png",
+      "asset_number": 13,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0013.png",
+      "source_original_sha256": "8390f2e964081a034966a0839ebbe3be102ff6bd157f0f283b45c6da7a431cd9",
+      "source_alt_text": "Illustration of Licence Plate — Army Cadet League of Canada (Ontario)",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "6418c19e9adb7ea752599fc76c9dcbe4cd52beb027731936b68cb11c1c5466ea",
+      "thumbnail_sha256": "5a939751d6ec201bbbd27e707a4bf0fd77eecdeb6d4ab83b789d7c971cb54e34",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00003",
+      "name": "Association of Canadian Distillers",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-03/canadian_distillers_english_web_ready_300dpi.png",
+      "asset_number": 14,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0014.png",
+      "source_original_sha256": "b4a4130abd20fdd724969b84982164425f265b18d8bd82ec73ec491801baf42a",
+      "source_alt_text": "Illustration of Licence Plate — Association of Canadian Distillers",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "ff17a025165ca97da114a2cc5b368e37c5d9d6686591faadde9bb75bb4751542",
+      "thumbnail_sha256": "801036688252b2fb24beb45a8919a88d767156395fc096f64c3ae4a311d91dc0",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00004",
+      "name": "Breast Cancer Society of Canada",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-03/breast_cancer_society_english_web_ready_300dpi.png",
+      "asset_number": 6,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0006.png",
+      "source_original_sha256": "f8d4da23594ce17d88562f752dad87b25f96cffef8c744555e8632549ffc1241",
+      "source_alt_text": "Illustration of Licence Plate — Breast Cancer Society of Canada",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "38c3d7c5ee96e953e97616659f5cb8ffec24b94767221e5748576908fa90c8a6",
+      "thumbnail_sha256": "6a7172765f854b8323447cfa271900166a47a42c51460bf1ff807ac3d0178d79",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00005",
+      "name": "Canadian Blood Services",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-03/cdn_bloodservices_english.png",
+      "asset_number": 15,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0015.png",
+      "source_original_sha256": "6bdb42079a7ba1642c5bc59e8bbf338d7f8d00187c6799aca6a5f85e23c53f57",
+      "source_alt_text": "Illustration of Licence Plate — Canadian Blood Services",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "44183d3f44b7519ef8dcb1447fdd0b0fa70545ae4d6537b0a1f461c469369ebd",
+      "thumbnail_sha256": "a56cb4c4cc8a4fb4d51d288c87ecdf8b760a8caafd7e51a0fb62c63fb7a6d45c",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00006",
+      "name": "Canadian Tire Jumpstart Charities",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-03/canadian_tire_jumpstart_english_web_ready_300dpi.png",
+      "asset_number": 7,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0007.png",
+      "source_original_sha256": "7a904345f05039fbc12aaa6b7b73d223695c4e56249c614b2ce2037f526d506b",
+      "source_alt_text": "Illustration of Licence Plate — Canadian Tire Jumpstart Charities",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "7c5e90abeab05c3c75ee8c3306d58264fbc12bf409c4637b9f4736217eaaf4ac",
+      "thumbnail_sha256": "d90b3715c08259c6d77aa51051a5da1bf660e57f9a4c411968718b89bc35d10e",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00007",
+      "name": "Elmer the Safety Elephant",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-03/elmer_english_002.png",
+      "asset_number": 16,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0016.png",
+      "source_original_sha256": "1bb9535a2c141e90f5820fc122806c7ff2f3e6054c4227e65373b35a0a86a0c6",
+      "source_alt_text": "Illustration of Licence Plate — Elmer the Safety Elephant",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "c71bfa2c298e16f423a3ae77b1d04ffa44409130489ca80213b02af1556beb8f",
+      "thumbnail_sha256": "91035820a2ef31e87f7b7693f9e1c143a8b02114621dd9afcf05fdd334584a92",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00008",
+      "name": "Equine Canada",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Equine_Canada_ENGLISH_web_ready_300dpi.png",
+      "asset_number": 58,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0058.png",
+      "source_original_sha256": "acbe64a0e33bc703d48f5945148ffcb1e6218738c80f0f470e0634f78cb29490",
+      "source_alt_text": "Illustration of Licence Plate — Equine Canada",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "67243ade5378960aced4e49a3e27436578412405fec87fa74ccdd9f3171f8294",
+      "thumbnail_sha256": "dbdf54c2584d6c80c2e9da9781fb59808908d772d92e32694b12841d0286097d",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00009",
+      "name": "Farley Foundation",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-03/farley_foundation_english_web_ready_300dpi.png",
+      "asset_number": 8,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0008.png",
+      "source_original_sha256": "4af6ff66559f471f96b9d5a60f369faafc6d8d3d9da73b2320196a01a6354466",
+      "source_alt_text": "Illustration of Licence Plate — Farley Foundation",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "7f25f6b8b2451356e9894a0de9c76d37e5446cb1c21c948ce79d7b98f272a731",
+      "thumbnail_sha256": "bb8aef9c8be0ab39cdc9a15e0c4513e402bbc78ba75057fcf7aaf4481f6db768",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00010",
+      "name": "George Brown College",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/George_Brown_College_english_web_ready_300dpi.png",
+      "asset_number": 70,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0070.png",
+      "source_original_sha256": "dc1257ff0e07570ecb3f61957b1cca94f44d8510daa1a26709ac3f0ce4c808ce",
+      "source_alt_text": "Illustration of Licence Plate — George Brown College",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "1a7b1404ab7ce9aec66b7b3ea0e24fc5ea4b1b3e0bec2b27f93b75cfbc2d71fe",
+      "thumbnail_sha256": "0aa24ddda4ed1c5192979be4e34bd4ebf287b1fb53fbeecda925cdf3c21909c4",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00011",
+      "name": "Hamilton Tiger-Cats",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Tiger-Cats_GOTEAM_english_300dpi.png",
+      "asset_number": 59,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0059.png",
+      "source_original_sha256": "f55a9ce6f758a7cc1c2f3efb23bc8276b14d37d6638d970608c58c8a386ecac6",
+      "source_alt_text": "Illustration of Licence Plate — Hamilton Tiger-Cats",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "6bed4d544cf5cc7793cb4e4ccbdd54a5935b228c118dc9b32dd1638ad667cedb",
+      "thumbnail_sha256": "e0f1a3054841a10bb5d0510bf093317e87f3f0e10195926ed97e1ffdbb23aa6f",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00012",
+      "name": "Heart",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Heart_english_web_ready_300dpi.png",
+      "asset_number": 52,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0052.png",
+      "source_original_sha256": "a49e2ef9b53e5c37007ecbfff109478c276299f86432834e0e84f0b1214f7d35",
+      "source_alt_text": "Illustration of Licence Plate — Heart",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "16cdfc3cf59b0527d4ce73d3efa7a60b1749a25dc9cf31168af65cdbd6c7523e",
+      "thumbnail_sha256": "316e5418fb5a0c33cf709f5735ba6dc6505fa92509725afa8d73ec0acc7a59de",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00013",
+      "name": "I Heart",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/IHeart_english_web_ready_300dpi.png",
+      "asset_number": 53,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0053.png",
+      "source_original_sha256": "7927049dd860e48969a4840fb864c32bc2b90393e0f844114550963e7328fa0a",
+      "source_alt_text": "Illustration of Licence Plate — I Heart",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "3a0ec12725dcc9bcc53193d6a1a16018f3caf7aef01829801a9a598ba92722b5",
+      "thumbnail_sha256": "5f364a2270c6b5e0d4fbbff6e97d40a8b05e5f2c95588bfe3af271b5bfe45cbf",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00014",
+      "name": "International Ch’ang-Hon Taekwon-Do Federation",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/international_Taekwon-Do_english_web_ready_300dpi.png",
+      "asset_number": 60,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0060.png",
+      "source_original_sha256": "ae71f6010c22ed54569864d9dd5559ec3b1e000ffe3a889fcb715f8b4256366a",
+      "source_alt_text": "Illustration of Licence Plate — International Ch’ang-Hon Taekwon-Do Federation",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "d9389ce10a36dff162984eae222a36b9ff81ce67526b8c9c1852e9dd07328558",
+      "thumbnail_sha256": "bed84d5baf194f69fa4c812edb3fbebb34bcf73c1e3670bb4a555a6c1c42f209",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00015",
+      "name": "Kinsmen Club of Goderich",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-03/kinsmen_club_english_web_ready_300dpi.png",
+      "asset_number": 9,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0009.png",
+      "source_original_sha256": "ebe995f41e0ab76892077da4bf1e5cce89f4044519b201e983a2e9c50f547198",
+      "source_alt_text": "Illustration of Licence Plate — Kinsmen Club of Goderich",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "e03b25d86255f1d4f493d2c701736fb6a3ea0833bf80d09a722d1ad879a3a120",
+      "thumbnail_sha256": "3874902a7ed450d91f946653610e131c978a3c315eaace89af18ac103626b10d",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00016",
+      "name": "Lakehead University",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Lakehead_University_english_web_ready_300dpi.png",
+      "asset_number": 69,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0069.png",
+      "source_original_sha256": "9a10bfb2f098946a84544814c49b09907155a5d289874b1a9ae23721ca32bcb4",
+      "source_alt_text": "Illustration of Licence Plate — Lakehead University",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "0f2befc88802c4d90c3d1d2a497f2db0e8732a1bbbc185438b59727594ad0ef4",
+      "thumbnail_sha256": "068a18be86ca342283a05885f48c6470fb84aa6a87074d02adc5771cfe9ca93e",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00017",
+      "name": "MADD Canada",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-03/madd_english_web_ready_300dpi.png",
+      "asset_number": 10,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0010.png",
+      "source_original_sha256": "7404d537793c598006b7e9ed768753c39d3cedd19e535286117f90de105c107b",
+      "source_alt_text": "Illustration of Licence Plate — MADD Canada (Mothers Against Drunk Driving)",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "830f63cbdda5ed2f08d336f73cd5f58c7f8e4f1c421c533f17fc83af52fc4263",
+      "thumbnail_sha256": "0d2fea8cafbbab297a0ff9a0c4b23b0f9cca54ae5d332cce45c55c7eefdc7c9f",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00018",
+      "name": "Nishnawbe Aski Nation",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Nation_Nishnawbe_english_web_ready_300dpi.png",
+      "asset_number": 48,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0048.png",
+      "source_original_sha256": "c35c1b3187672561382b79990e190f01c5bf3d2be90eeb7cdb9081f9768819ac",
+      "source_alt_text": "Illustration of Licence Plate — Nishnawbe Aski Nation",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "9acd26434b7fe48754c7a970475eec2b8d2dd45db2a53fe26dc5d4d006620370",
+      "thumbnail_sha256": "6777eb0330710c64277a29ecfc1ad3b61bc5dc2f789b33eb5c2d9e211f1dcd82",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00019",
+      "name": "Ontario Association of Fire Chiefs",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Canadian_Association_of_Fire_Chiefs%20_english_web_ready_300dpi.png",
+      "asset_number": 54,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0054.png",
+      "source_original_sha256": "8769721ea1d4fa6f86b180d2a298619cf5f44422f2a93a933f6caf083ffa1b2d",
+      "source_alt_text": "Illustration of Licence Plate — Canadian Association of Fire Chiefs",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "bea915c8948d9295b8b7f841e187fd16af00dbbc541e8ee09109905fc5bd47e0",
+      "thumbnail_sha256": "99fed8978a26433b7dc97c3353e1581c3dadc86bf24f93dccb202b88e7e04ec8",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00020",
+      "name": "Ontario Federation of Snowmobile Clubs",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Ontario_Snowmobile_Club_english_web_ready_300dpi.png",
+      "asset_number": 61,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0061.png",
+      "source_original_sha256": "83e71bba51d8fa64d6a4eee2547b3431135b02ebc86fa5b34eac851f31d55ee2",
+      "source_alt_text": "Illustration of Licence Plate — Ontario Snowmobile Club",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "5389573fb9b1b8d1bb4047843b1e110280022b5c7bcb62274798568a013de510",
+      "thumbnail_sha256": "121bc5bd0d18116f7611bfd323b41b4b839b67fd52f641497df24d8466f228e9",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00021",
+      "name": "Ontario Lacrosse Association",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Association_Lacrosse_de_l%27Ontario_ENGLISH_web%20ready_300dpi.png",
+      "asset_number": 62,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0062.png",
+      "source_original_sha256": "a1914a18e7c8cb1d3af8cbbb940400e96dd7f3c3fe9b0392dc48323bb4e33808",
+      "source_alt_text": "Illustration of Licence Plate — Association Lacrosse de l'Ontario",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "0c391d7392b7aba27dd15a558cc3c70c9ab8a8cd577465cac2043398048a14d2",
+      "thumbnail_sha256": "561a2f1b86c467542f85e04eaaa979fba1ec3a029a1db4a8fb48e7bd89fb6c5e",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00022",
+      "name": "Ontario Paramedic Association",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Ontario_Paramedic_Association%20_english_web_ready_300dpi.png",
+      "asset_number": 55,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0055.png",
+      "source_original_sha256": "3fb8eeaf6408b35654da1fbcd53653f4628f3226c1355bb797cf85f1fdd8407b",
+      "source_alt_text": "",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "9d9a498c641d3d68b3bffbd3646f8546eb3b27aa0713d70275f062ae61e77ab4",
+      "thumbnail_sha256": "a4c0cf46d473ff1691a75a3f6771a54be6bc07c2fa823ac93ed873ce8ad377d8",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00023",
+      "name": "Ontario Professional Fire Fighter Association",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Ontario_Professional_Fire_Fighter_english_web_ready_300dpi.png",
+      "asset_number": 56,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0056.png",
+      "source_original_sha256": "9916679f2166b69332e4d9dcea3f03f07d2161ca5a77b99fb2e098794667ed62",
+      "source_alt_text": "Illustration of Licence Plate — Ontario Professional Fire Fighter",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "f710922bf5ee70b42aa7c7c963ffedc20901c6c8b4929ddf93fa14c432b1564a",
+      "thumbnail_sha256": "a4051c7083276934b142cdddeaf1bf5a9a167c597818cd1613e328d34264abfa",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00024",
+      "name": "Ontario Square and Round Dance Federation",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-03/ontario_square_and_round_dance_english_web_ready_300dpi.png",
+      "asset_number": 5,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0005.png",
+      "source_original_sha256": "837ac4e28f42b26f2ebb350fa69fa8402aca4c6230568ec70c00f10658c20c73",
+      "source_alt_text": "Illustration of Licence Plate — Ontario Square and Round Dance Federation",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "7d6b0105d42ad2d8b70f36dadb2df7829d54e50171d34303538ddfbe082f107a",
+      "thumbnail_sha256": "6401d864d18d8c4cf902345fedbcc9538233be2f4190dd789afa251fc0f6c9a6",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00025",
+      "name": "Ottawa Redblacks",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Ottawa_Redblacks_GOTEAM_english_300dpi.png",
+      "asset_number": 63,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0063.png",
+      "source_original_sha256": "25d83e0c459b7c2d4c620d00353c5fd753faba60d424e7d5c6905cb7d5dc97bc",
+      "source_alt_text": "",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "d581231f83624043d40db530b2dd89f43279b9051b7f04648b1f061411d55cd1",
+      "thumbnail_sha256": "1b1975a1c0da4a9c81e00a79c8f6a8c25e8b6a940d2f59057fb307640e4f6bc5",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00026",
+      "name": "Ottawa Senators",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Ottawa_Senators_GOTEAM_english_300dpi.png",
+      "asset_number": 64,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0064.png",
+      "source_original_sha256": "511104a3a7a984856c64a09beedd7dc461639a2e24f98583d2ab723f13d94680",
+      "source_alt_text": "Illustration of Licence Plate — Ottawa Senators",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "79061e26000aa8a29123b3851d828f6d662f36de654dfc7801719bef0f616fff",
+      "thumbnail_sha256": "83b262cbdfebc5bc2496808431659b48bc4c6c56f2ba49d6ebfeb9a436b5bb56",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00027",
+      "name": "Professional Engineers Ontario",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Professional_Engineers_of_Ontario%20_english_web_ready_300dpi.png",
+      "asset_number": 57,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0057.png",
+      "source_original_sha256": "b98161f6b0e7fd1ec8767c43db68d7b7a14520bf16b0cd36a341dd9f0d7c6e66",
+      "source_alt_text": "Illustration of Licence Plate — Professional Engineers of Ontario",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "06963504394765923f97c009daf903c01ee17567a05946f1e71c05d80744745f",
+      "thumbnail_sha256": "650029787488d9cd4e8646fffb076ad25c1d66b3f4484ce828dda883c207cdea",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00028",
+      "name": "Queen's University",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Queen%27s_University_english_web_ready_300dpi.png",
+      "asset_number": 71,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0071.png",
+      "source_original_sha256": "86f0a0db1814a7b867e9dc83b368499ba862829920f67355cfcb999638f862c9",
+      "source_alt_text": "Illustration of Licence Plate — Queen’s University",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "f499d7d6710177f0c743c72c99ed747e2b1d70ac52fcb8df4dbff617c854598e",
+      "thumbnail_sha256": "1ddbbf4c866bca5aafd912654a92171f8692afa4c49fdea92e3946713f4b251c",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00029",
+      "name": "St. John Ambulance",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-03/st_john_ambulance_english_web_ready_300dpi.png",
+      "asset_number": 11,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0011.png",
+      "source_original_sha256": "1b247d03049a0546c8d9f3a4a6bccb33614b8418654748634adb42864ec77366",
+      "source_alt_text": "Illustration of Licence Plate — St. John Ambulance",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "1c396a62ba801d252710d103b7bb243cd5a85c55aee692c4a5c1bbb8c56d6eb7",
+      "thumbnail_sha256": "eecb467296c1245def5fcfe94e7414fb28587f6015b1217305b7eb0c24afb130",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00030",
+      "name": "Toronto Argonauts",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Argonauts_de_Toronto_GOTEAM_english_300dpi.png",
+      "asset_number": 65,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0065.png",
+      "source_original_sha256": "4b4150b84e7bac5e92c53a2f2c63aed0089d1ad31dc910272c81ff994d5d9493",
+      "source_alt_text": "Illustration of Licence Plate — Toronto Argonauts",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "3396b36e05111d5657cfbc65af52f62e44876f8d7482b99eec392f0ce8e643a7",
+      "thumbnail_sha256": "e0678d576bd2ea6a26b61f772e3e1e407e774a42485c24314c41f96b26461ca7",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00031",
+      "name": "Toronto Blue Jays",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Blue_Jays_de_Toronto_GOTEAM_english_300dpi.png",
+      "asset_number": 66,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0066.png",
+      "source_original_sha256": "fb83b144f30ef34577a339a3f1f513dd15cc472d327b7a633cbaaddeb262d452",
+      "source_alt_text": "Illustration of Licence Plate — Toronto Blue Jays",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "f8d8102e707311967fe1912f5777efd8ad6b824c66f64877fe1c2c3e352d585b",
+      "thumbnail_sha256": "11d44af21d634e80236085299ced3255861b2e2b7c4ddfec4f2f3696880e367b",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00032",
+      "name": "Toronto Maple Leafs",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Maple_Leafs_de_Toronto_GOTEAM_english_300dpi.png",
+      "asset_number": 67,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0067.png",
+      "source_original_sha256": "090d92c2abe1033ed6e609553b7704618f72ef48b8bd5ee185670bd45bf605ad",
+      "source_alt_text": "Illustration of Licence Plate — Toronto Maple Leafs",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "132719f1c67709522032a713cd1474abc27cc930981e8e310284b2dc228fadfa",
+      "thumbnail_sha256": "7ed659b0542d7e1052227081d468675c7ba7459be4e7a37282eae4b5a17c1d43",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00033",
+      "name": "Toronto Raptors",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Raptors_de_Toronto_GOTEAM_english_300dpi.png",
+      "asset_number": 68,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0068.png",
+      "source_original_sha256": "e24e25b8a255674fe7d7cf7bdb55dafe1a4b1db42e68e862e2379c670b2149aa",
+      "source_alt_text": "Illustration of Licence Plate — Toronto Raptors",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "9b2b2bd657e8836de55b131245074bdd173f54524520246d6c2ea075245caace",
+      "thumbnail_sha256": "c7a88f7cc0d0310cb44de37f2435bd9dbe8cd758b5c35a55bee5c0ff507a0ed4",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00034",
+      "name": "Trillium",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Trill_english_web_ready_300dpi.png",
+      "asset_number": 49,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0049.png",
+      "source_original_sha256": "0dc40f8fae4404fdb3258b1d6e8f0390e5f7267b50b61e939d6a63a1cf072959",
+      "source_alt_text": "Illustration of Licence Plate — Trillium",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "f5ad4f5f2083e844e90410fd6568734096f269b94375f4debe499cb3cfba817c",
+      "thumbnail_sha256": "2ed136c8aa0ef6318693854b95618bf16033caf00a61814f0ba8989e9c32401a",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00035",
+      "name": "United Empire Loyalists' Association of Canada",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/United_Empire_Loyalist_english_web_ready_300dpi.png",
+      "asset_number": 51,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0051.png",
+      "source_original_sha256": "ca3b70cf2962964939ae8b414f320b60e61e28355eb98f0b4dc333e4ed80a09a",
+      "source_alt_text": "Illustration of Licence Plate — United Empire Loyalist",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "5230e0990de3054d7099e4996df06d41b336fd5dbd1d94be4a00eeab3a90c642",
+      "thumbnail_sha256": "6508cc6447658cd8eea7f82d19107121ca43240c5627af8a73a835e10cff7f56",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00036",
+      "name": "University of Toronto",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/University_of_Toronto_english_web_ready_300dpi.png",
+      "asset_number": 72,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0072.png",
+      "source_original_sha256": "94ae022b16c87572c0be2b75037487e2b0359694cee2de0119018f281bbd7e37",
+      "source_alt_text": "Illustration of Licence Plate — University of Toronto",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "175e0cf36779d817112c6bf44cd97d3930ed720844356c40dc3d21b4deda849a",
+      "thumbnail_sha256": "841c3a27274ca3a51464940a120eab58fd8dc09e9ee2ef350cfc4713f177a052",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00037",
+      "name": "University of Waterloo",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/University_of_Waterloo_english_web_ready_300dpi.png",
+      "asset_number": 73,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0073.png",
+      "source_original_sha256": "baf7aa48dc7b71a48e83235266b39220a969f03f7fb263e2660f2c2c8da95ae7",
+      "source_alt_text": "Illustration of Licence Plate — University of Waterloo",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "784b5fc5383d4aa0243833f164de3f575a7f541d29fc0f181458488d61658f93",
+      "thumbnail_sha256": "e2b5a26bce1163e7d9e670a72ac2e272a06e1e86f0a257f7f9d643725b77004b",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00038",
+      "name": "Veteran",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Veteran_english_web_ready_300dpi_1.png",
+      "asset_number": 50,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0050.png",
+      "source_original_sha256": "9e0f2494afd58b5b7b1fc7c39dd2622628c76e1dee3111bf18e6cef414c0949d",
+      "source_alt_text": "Illustration of Licence Plate — Veteran - Passenger",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "22ca071f11605411a0fbf28346936ac00a7ebeeb56ea15cda8fdef6411b942ec",
+      "thumbnail_sha256": "5cf552ee704c311793f7cb1ccb91885b973665bcd23e348e906bdef9375175e2",
+      "display_size": [
+        360,
+        181
+      ],
+      "thumbnail_size": [
+        300,
+        151
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    },
+    {
+      "uid": "LPG-CA-ON-00039",
+      "name": "Wilfrid Laurier University",
+      "gallery": "ontario",
+      "official_source_page": "https://www.ontario.ca/page/choose-licence-plate-graphic",
+      "direct_asset_url": "https://www.ontario.ca/files/2026-05/Wilfrid%20Laurier%20University_ENGLISH_web%20ready_300dpi%201.png",
+      "asset_number": 74,
+      "source_file": "ON/ServiceOntario_Choose_a_Licence_Plate_Graphic_html/asset_0074.png",
+      "source_original_sha256": "609687ad9796ff65ad075a3c6146b1838a0dd4cd67a5fa3985c0e173c57d9297",
+      "source_alt_text": "Illustration of Licence Plate — Wilfrid Laurier University",
+      "archived_gallery_manifest_sha256": "e9d515d95851ea3654ea225988f2273ca8610d3cc752123c25010e723d16ef3a",
+      "match_basis": "Official state/province plate graphic indexed by archived issuing-agency HTML with visible plate sample and catalog name",
+      "display_sha256": "5e86f2cd4a567057f9481e26cdcfda8c737a11a0da396ac5ba889416360c5b8b",
+      "thumbnail_sha256": "678631b95f6fbfd3d63acae1277d063ac0e9a6fe1ccd85a947fea10abb32c9c8",
+      "display_size": [
+        360,
+        186
+      ],
+      "thumbnail_size": [
+        300,
+        155
+      ],
+      "era_status": "unverified",
+      "human_approval": false,
+      "match_status": "source_matched"
+    }
+  ]
+}
