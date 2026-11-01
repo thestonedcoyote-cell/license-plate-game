@@ -1,0 +1,108 @@
+{
+  "record_type": "official_source_to_catalog_candidate_crosswalk",
+  "reviewed_utc": "2026-10-31",
+  "source_policy": "Official text establishes design-name leads only; zero source-image matches or SHA-256 values are asserted.",
+  "status": "source_leads_only",
+  "candidate_count": 9,
+  "entries": [
+    {
+      "uid": "LPG-US-ID-00001",
+      "catalog_name": "Scenic Idaho",
+      "official_url": "https://itd.idaho.gov/dmv/registrations-plates-titles/license-plates/",
+      "verification_note": "Official text explicitly names scenic standard plate; image candidate must be separately extracted and hashed",
+      "source_image_url": null,
+      "original_sha256": null,
+      "match_status": "unverified",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-ID-00003",
+      "catalog_name": "Agriculture — Harvest the Future",
+      "official_url": "https://apps.itd.idaho.gov/Apps/MediaManagerMVC/pressrelease/Preview/12930",
+      "verification_note": "June 26 2026 issuing-agency release identifies July 1 updated Agriculture artwork; don't conflate older variants",
+      "source_image_url": null,
+      "original_sha256": null,
+      "match_status": "unverified",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-ID-00033",
+      "catalog_name": "White & Black Standard",
+      "official_url": "https://apps.itd.idaho.gov/Apps/MediaManagerMVC/pressrelease/Preview/12930",
+      "verification_note": "June 26 2026 issuing-agency release identifies new white-and-black standard plate",
+      "source_image_url": null,
+      "original_sha256": null,
+      "match_status": "unverified",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-ID-00032",
+      "catalog_name": "America 250",
+      "official_url": "https://apps.itd.idaho.gov/Apps/MediaManagerMVC/PressRelease/Preview/12851",
+      "verification_note": "April 16 2026 issuing-agency release confirms named plate; obtain exact illustration",
+      "source_image_url": null,
+      "original_sha256": null,
+      "match_status": "unverified",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-DC-00007",
+      "catalog_name": "Pride Lives Here",
+      "official_url": "https://dmv.dc.gov/zh-hant/node/1765411",
+      "verification_note": "February 4 2025 DMV release explicitly says sample artwork appears on page",
+      "source_image_url": null,
+      "original_sha256": null,
+      "match_status": "unverified",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-DC-00014",
+      "catalog_name": "We Demand Statehood",
+      "official_url": "https://dmv.dc.gov/zh-hant/node/1765411",
+      "verification_note": "February 4 2025 DMV release explicitly says sample artwork appears on page",
+      "source_image_url": null,
+      "original_sha256": null,
+      "match_status": "unverified",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00001",
+      "catalog_name": "Agriculture",
+      "official_url": "https://www.nj.gov/mvc/vehicles/dedicated.htm",
+      "verification_note": "MVC dedicated-plate index names this design; obtain actual design artwork from individual page",
+      "source_image_url": null,
+      "original_sha256": null,
+      "match_status": "unverified",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00010",
+      "catalog_name": "Conserve Wildlife",
+      "official_url": "https://dep.nj.gov/njfw/conservation/conserve-wildlife-license-plates/",
+      "verification_note": "NJ environmental issuing-agency illustration lead; variant verification required",
+      "source_image_url": null,
+      "original_sha256": null,
+      "match_status": "unverified",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00035",
+      "catalog_name": "USS New Jersey Battleship",
+      "official_url": "https://www.nj.gov/mvc/vehicles/dedicated.htm",
+      "verification_note": "MVC lists named design; image still unverified",
+      "source_image_url": null,
+      "original_sha256": null,
+      "match_status": "unverified",
+      "era_status": "unverified",
+      "human_approval": false
+    }
+  ]
+}
