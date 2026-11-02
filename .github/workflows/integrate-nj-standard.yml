@@ -1,0 +1,75 @@
+name: Integrate source-verified New Jersey standard plate
+on:
+  push:
+    branches: [research/nj-standard-integration-20261102]
+    paths:
+      - '.github/workflows/integrate-nj-standard.yml'
+      - 'tools/integrate_nj_standard.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Install pinned image rendering dependency
+        run: python -m pip install 'pillow==12.3.0'
+      - name: Retrieve the previously preserved private government-source harvest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh run download 40993449073 --repo "$GITHUB_REPOSITORY" --name official-plate-harvest-40993449073 --dir private-evidence
+          test -s private-evidence/NJ/New_Jersey_MVC_Standard_Plates_html/asset_0001.jpg
+          test -s private-evidence/NJ/New_Jersey_MVC_Standard_Plates_html/source.html
+          test -s private-evidence/NJ/New_Jersey_MVC_Standard_Plates_html/assets.json
+      - name: Validate original SHA, map immutable UID, and derive JPEGs
+        run: |
+          set -euo pipefail
+          python tools/integrate_nj_standard.py --evidence-dir private-evidence
+          node --check data/catalog-images.js
+          node --check tests/catalog-images.cjs
+      - name: Strict static checks and staged web image verification
+        run: |
+          set -euo pipefail
+          python tools/take_out_trash.py --strict
+          python tools/build_runtime.py build/web
+          python - <<'PY'
+          import json,hashlib,pathlib
+          p=pathlib.Path('.')
+          entries=json.loads((p/'data/catalog-images.js').read_text().removeprefix('globalThis.LPG_CATALOG_IMAGES=').strip().rstrip(';'))
+          record=json.loads((p/'database/image-reconciliation-nj-standard-20261102.json').read_text())
+          uid='LPG-US-NJ-00028'
+          assert len(entries)==698 and uid in entries
+          assert len(list((p/'assets/plates').glob('*.jpg')))==1396
+          assert len(list((p/'build/web/assets/plates').glob('*.jpg')))==1396
+          assert entries[uid]['source_sha256']==record['source_original_sha256']
+          assert entries[uid]['match_status']=='source_matched'
+          assert entries[uid]['era_status']=='unverified'
+          assert entries[uid]['human_approval'] is False
+          for kind in ('display','thumbnail'):
+              for folder in ('assets/plates','build/web/assets/plates'):
+                  path=p/folder/f'{uid}-{kind}.jpg'
+                  assert path.is_file() and path.stat().st_size>1000
+                  assert hashlib.sha256(path.read_bytes()).hexdigest()==record[f'{kind}_sha256']
+          assert (p/'sw.js').read_text().count('lpg-current-images-20261102-njstandard1')==1
+          print('PASS: 698 mapped UIDs; 1396 JPEGs; original and derived SHA-256 pinned; era and human approval unverified')
+          PY
+      - name: Publish generated derivatives to review branch only
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c generated/nj-standard-1-source-image-20261102
+          git add tools/integrate_nj_standard.py .github/workflows/integrate-nj-standard.yml
+          git add assets/plates data/catalog-images.js database/image-reconciliation-nj-standard-20261102.json sw.js tests/catalog-images.cjs docs/CURRENT_IMAGE_CAMPAIGN_QUEUE.md
+          git diff --cached --quiet && { echo 'No reviewed images generated'; exit 1; }
+          git commit -m 'Integrate one official New Jersey standard plate sample'
+          git push origin HEAD:refs/heads/generated/nj-standard-1-source-image-20261102
+          echo 'Generated a review branch only. No Android build was installed or replaced.'
