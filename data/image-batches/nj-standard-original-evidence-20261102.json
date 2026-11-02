@@ -1,0 +1,21 @@
+{
+  "record_type": "verified_government_original_source_asset",
+  "reviewed_utc": "2026-11-02",
+  "uid": "LPG-US-NJ-00028",
+  "catalog_name": "Standard New Jersey",
+  "source_page_url": "https://www.nj.gov/mvc/vehicles/standplates.htm",
+  "source_image_url": "https://www.nj.gov/mvc/images/standard.jpg",
+  "original_archive": "LPG_Official_ID_NJ_MI_WY_ON_Harvest_2026-10-29.zip",
+  "archive_member": "NJ/New_Jersey_MVC_Standard_Plates_html/asset_0001.jpg",
+  "original_sha256": "2612d12671decb4702ddd0876ded5a881e1707b9cdadfbc6797593caba712ccd",
+  "original_bytes": 701105,
+  "original_width_px": 3678,
+  "original_height_px": 1872,
+  "source_alt_text": "Standard Plate Example",
+  "source_identity_status": "agency_label_matches_catalog_design",
+  "image_integration_status": "not_integrated",
+  "match_status": "unverified",
+  "era_status": "unverified",
+  "human_approval": false,
+  "notes": "Source original bytes were read from preserved archive and SHA-256 independently recomputed. No derivative or runtime mapping has been published. Requires explicit visual review and standard image integration pipeline before counting."
+}
