@@ -1,0 +1,101 @@
+{
+  "selected_count": 3,
+  "baseline_source_matched": 698,
+  "total_source_matched": 701,
+  "remaining": 437,
+  "private_archive_library_file_id": "libfile_812c83d5016c8191961afd6e0845b08b",
+  "era_status": "unverified",
+  "human_approval": false,
+  "rows": [
+    {
+      "uid": "LPG-US-ID-00001",
+      "name": "Scenic Idaho",
+      "jurisdiction_id": "US-ID",
+      "government_page_url": "https://itd.idaho.gov/dmv/registrations-plates-titles/license-plates/",
+      "government_image_url": "https://itd.idaho.gov/wp-content/uploads/2025/03/Idaho_Sample-High-Res-1024x536.jpeg",
+      "source_alt_text": "An Idaho license plate that says Idaho on it.",
+      "source_visual_identity_basis": "Red/white/blue Scenic Idaho mountain silhouette, FAMOUS POTATOES and SAMP sample (official standard-plate example).",
+      "original_archive_run": 41486647380,
+      "original_archive_artifact": "official-plate-harvest-41486647380",
+      "original_archive_member": "ID/Idaho_DMV_License_Plate_Program_Guide_html/asset_0002.jpeg",
+      "source_html_sha256": "56cd6ab8cbbbc67cce73cda91f1481578981aa9528d5f89e2a9789b0c0e2fcd8",
+      "source_asset_registry_sha256": "bd9c680e71456160d781a132f148ec3559672d4122cd09c3cdfc966adf66c2ee",
+      "source_original_sha256": "d271de9aff6654caf9cff0f2471484ff9195dee3fc1a7d35560140b514da18ec",
+      "source_bytes": 148965,
+      "display_sha256": "09008175e0c0d94aee6379ae54bdb7fb07dc6695c07fd079ab3f227088aaa17d",
+      "thumbnail_sha256": "2fdc4dfc0b76d2164edd056e51ad9ac2bd456780f089bb01c0b81049d6e119ad",
+      "display_size": [
+        800,
+        419
+      ],
+      "thumbnail_size": [
+        300,
+        157
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-ID-00003",
+      "name": "Agriculture — Harvest the Future",
+      "jurisdiction_id": "US-ID",
+      "government_page_url": "https://itd.idaho.gov/news/two-new-idaho-license-plates-available-july-1st-2026/",
+      "government_image_url": "https://itd.idaho.gov/wp-content/uploads/2026/06/image-1-1024x515.png",
+      "source_alt_text": "Idaho plate with sunrise, mountains, fields, cows, wheat, and potatoes, with “Harvest the Future” on a yellow banner.",
+      "source_visual_identity_basis": "Illustrated fields, cattle, crops, mountains and yellow HARVEST THE FUTURE banner, specifically the 2026 variant.",
+      "original_archive_run": 41486647380,
+      "original_archive_artifact": "official-plate-harvest-41486647380",
+      "original_archive_member": "ID/Idaho_Two_New_Plates_July_2026_html/asset_0003.png",
+      "source_html_sha256": "7bc4b84e31386d474b8a9a567809d04e94eb8774bd33e87253b25329880fa7a4",
+      "source_asset_registry_sha256": "891c1154f935d4d02a8e4289a1672682a1bceaddec4dc17f9e33ef08323342d9",
+      "source_original_sha256": "72b4602e2bf41ac9008ef58f972e4a58738b346382a0ac22a9980b53f348413b",
+      "source_bytes": 167781,
+      "display_sha256": "5362cb353d3fcb1b0e4622b6e493236200746119adc9bcae5f1d137d33b3daf4",
+      "thumbnail_sha256": "cd3e278a848c843da1678c126f1b9715179acd1f94fe2592d4b577c261213b23",
+      "display_size": [
+        800,
+        402
+      ],
+      "thumbnail_size": [
+        300,
+        151
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-ID-00033",
+      "name": "White & Black Standard",
+      "jurisdiction_id": "US-ID",
+      "government_page_url": "https://itd.idaho.gov/news/two-new-idaho-license-plates-available-july-1st-2026/",
+      "government_image_url": "https://itd.idaho.gov/wp-content/uploads/2026/06/WhiteBlack-e1782405776923.png",
+      "source_alt_text": "Idaho plate template with “IDAHO” at top and six black zeros centered on a white background.",
+      "source_visual_identity_basis": "Minimal black IDAHO lettering and dark serial zeros on white plate, the 2026 white-and-black option.",
+      "original_archive_run": 41486647380,
+      "original_archive_artifact": "official-plate-harvest-41486647380",
+      "original_archive_member": "ID/Idaho_Two_New_Plates_July_2026_html/asset_0004.png",
+      "source_html_sha256": "7bc4b84e31386d474b8a9a567809d04e94eb8774bd33e87253b25329880fa7a4",
+      "source_asset_registry_sha256": "891c1154f935d4d02a8e4289a1672682a1bceaddec4dc17f9e33ef08323342d9",
+      "source_original_sha256": "f677cc9f90a7827e35f327660e3a66624f5908781175f76517420f530fb0220c",
+      "source_bytes": 25019,
+      "display_sha256": "b4c47b5b25f10f5143eef680f226bfbc15881e480ef23760db221a2d173ae379",
+      "thumbnail_sha256": "546d0a1e359d70c0dafcd2164ddc98137d7c479688a1fc401862527f582ba85a",
+      "display_size": [
+        501,
+        255
+      ],
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    }
+  ]
+}
