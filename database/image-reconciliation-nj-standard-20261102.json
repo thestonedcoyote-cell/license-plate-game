@@ -1,0 +1,30 @@
+{
+  "uid": "LPG-US-NJ-00028",
+  "catalog_name": "Standard New Jersey",
+  "official_source_page": "https://www.nj.gov/mvc/vehicles/standplates.htm",
+  "direct_asset_url": "https://www.nj.gov/mvc/images/standard.jpg",
+  "original_archive_run": 40993449073,
+  "original_archive_artifact": "official-plate-harvest-40993449073",
+  "archive_member": "NJ/New_Jersey_MVC_Standard_Plates_html/asset_0001.jpg",
+  "official_page_html_sha256": "adc5b136a9adefbee48defc7513d090c4f3e002f6ae3681e35edb579b6a47eaf",
+  "official_asset_registry_sha256": "cae973d3e18c4cfb80bfecc366f1701cd24a77a9511eeb5d5eeebcead2f41130",
+  "source_original_sha256": "2612d12671decb4702ddd0876ded5a881e1707b9cdadfbc6797593caba712ccd",
+  "original_bytes": 701105,
+  "source_alt_text": "Standard Plate Example",
+  "visual_identity_basis": "Source artwork has New Jersey / SAM·PLE / Garden State yellow-gradient passenger design; matches standard catalog design, not a specialty plate",
+  "match_status": "source_matched",
+  "era_status": "unverified",
+  "human_approval": false,
+  "commercial_rights_approval": false,
+  "display_sha256": "9b35fa78c215ba3ed78def37b99bbef40d7b0bdc98f733f8d5dba7b2f5f408aa",
+  "thumbnail_sha256": "1b53e09e38b21299adae62f4f1384b1640dbdfe5d6984cf800a540baddf27848",
+  "display_size": [
+    800,
+    407
+  ],
+  "thumbnail_size": [
+    300,
+    153
+  ],
+  "source_date": "2026-10-29"
+}

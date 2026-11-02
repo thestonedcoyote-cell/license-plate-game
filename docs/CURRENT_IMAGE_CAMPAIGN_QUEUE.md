@@ -1,10 +1,11 @@
 # License Plate Game — source-image completion campaign
 
-**Verified October 29, 2026.** 1,138 immutable canonical design UIDs is the goal. The scheduled `LPG Image Completion` automation (task ID `6ae403e314b0819197579d5378fe3987`) will continue daily until all 1,138 have source-matched images and Pages reflects the result. Refresh live GitHub main, not just this note, before changes.
+**Verified November 2, 2026.** 1,138 immutable canonical design UIDs is the goal. The scheduled `LPG Image Completion` automation (task ID `6ae403e314b0819197579d5378fe3987`) will continue daily until all 1,138 have source-matched images and Pages reflects the result. Refresh live GitHub main, not just this note, before changes.
 
 ## Current truth
-- **697 / 1,138 source-matched plate image examples (61.25%)**. **441 UIDs remain unresolved**. **1,394** public display/thumbnail JPG files, all source SHA links present.
-- Image matches by place: WA 54, OR 19, AK 41, MS 35, TX 157, CA 33, WI 31, FL 132, NE 22, NV 84, AL 28, MI 22, CA-ON 39.
+- **2026-11-02 NJ standard:** one archived MVC official sample (Garden State) visibly matched to LPG-US-NJ-00028; source SHA-256 pinned, display/thumbnail hashes recorded, era/human approval unverified. This is one source-matched design only, not a rights or era endorsement.
+- **698 / 1,138 source-matched plate image examples (61.25%)**. **440 UIDs remain unresolved**. **1,396** public display/thumbnail JPG files, all source SHA links present.
+- Image matches by place: WA 54, OR 19, AK 41, MS 35, TX 157, CA 33, WI 31, FL 132, NE 22, NV 84, AL 28, MI 22, CA-ON 39, NJ 1.
 - Exact source-image integration PRs: NV [#51](https://github.com/thestonedcoyote-cell/license-plate-game/pull/51), Alabama [#53](https://github.com/thestonedcoyote-cell/license-plate-game/pull/53), Michigan/Ontario [#56](https://github.com/thestonedcoyote-cell/license-plate-game/pull/56), all four PR checks passed and post-merge Pages run `40994709178` passed for the 697 snapshot.
 - Some UIDs are legitimate aliases reusing identical physical sample art. Three content-duplicate cases are recorded in portable SQLite issues; **do not call these independent design/era approvals**.
 - All 697 image entries remain `match_status=source_matched`, `era_status=unverified`, `human_approval=false`. Issuing-agency artwork origin and owner's project fair-use reference rationale are not a legal licensing decision, and plate issue-era attribution remains open.
@@ -19,7 +20,7 @@
 | Jurisdiction | Unmatched catalog IDs | Source status |
 | --- | ---: | --- |
 | Idaho | 68 | Old illustrated state poster URL HTTP 404, official interactive guide at apps.itd.idaho.gov requires scripted browser/deep source retrieval |
-| New Jersey | 38 | NJ MVC official dedication index exists but earlier harvest did not capture full plate graphics, follow official dedicated individual subpages and state agency samples |
+| New Jersey | 37 | NJ MVC official dedication index exists but earlier harvest did not capture full plate graphics, follow official dedicated individual subpages and state agency samples |
 | Hawaii | 27 | No vetted official gallery registry; county DMV and state veteran/organization plate pages are research leads |
 | Wyoming | 21 | Official WYDOT gallery downloaded only a few assets; follow detailed official subpages |
 | Washington | 18 | Supplement original issuing-agency DOL plate pages and earlier variants |
@@ -33,7 +34,7 @@
 | North Dakota | 12 | Agency source discovery needed |
 | Virginia | 11 | Agency source discovery needed |
 
-Remaining **441** distributed across more jurisdictions including Texas 7 unresolved, Alabama 2 intentionally excluded, and Indiana 7 after the original two-image official page harvest. All source leads require direct validation; no missing artwork should be fabricated.
+Remaining **440** distributed across more jurisdictions including Texas 7 unresolved, Alabama 2 intentionally excluded, and Indiana 7 after the original two-image official page harvest. All source leads require direct validation; no missing artwork should be fabricated.
 
 ## Execution order
 1. **P1 Idaho + New Jersey + Hawaii:** Find current issuing-agency galleries or PDFs/interactive source data; do not rely on dead poster links. When available, acquire raw originals, page context and SHA-256 and preserve privately.
