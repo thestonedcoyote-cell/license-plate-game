@@ -1,9 +1,10 @@
 {
-  "codes": "ID,HI,NJ",
-  "max_sources": 10,
-  "campaign_id": "LPG-IMAGE-OFFICIAL-RECOVERY-ID-HI-NJ-20261029",
-  "purpose": "Retrieve original current Idaho gov plate guide pages/interactive artwork if static assets available; Hawaii County specialty and Hawaii state veterans plate graphics; NJ MVC/DEP plate sample images. Old Idaho poster HTTP404 accepted as source failure. Archive source HTML, media asset file hashes, names/errors. Do not auto-match immutable catalog designs or approve historical era/art/rights.",
+  "codes": "ID",
+  "max_sources": 8,
+  "campaign_id": "LPG-IDAHO-OFFICIAL-PLATE-SOURCE-HARVEST-20261102",
+  "purpose": "Source-only harvest for 68 unmatched Idaho UIDs: official DMV plate guide, interactive specialty guide, and dated 2026 two-new-plates illustration page. Preserve HTML, original media assets, labels and SHA-256 in private Actions artifact. Record legacy poster 404 or access failures as failures; no UID source matching until source and exact art visually checked. No public original art or rights/era/human approval asserted.",
   "catalog_size": 1138,
-  "source_matched_prior": 697,
-  "remaining_unmatched_prior": 441
+  "source_matched_prior": 698,
+  "remaining_unmatched_prior": 440,
+  "prior_trigger_campaign": "LPG-IMAGE-OFFICIAL-RECOVERY-ID-HI-NJ-20261029"
 }
