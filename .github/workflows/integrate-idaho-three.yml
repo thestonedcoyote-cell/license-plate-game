@@ -1,0 +1,57 @@
+name: Idaho three source art integration
+on:
+  push:
+    branches: [research/idaho-three-plate-images-20261102]
+    paths: ['.github/workflows/integrate-idaho-three.yml', 'tools/integrate_idaho_three.py']
+permissions:
+  contents: write
+  actions: read
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - run: pip install 'pillow==12.3.0'
+      - name: Recover original government image sources from existing harvest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41486647380 --repo "$GITHUB_REPOSITORY" --name official-plate-harvest-41486647380 --dir private-evidence
+      - name: Validate and generate 3 plate images
+        run: |
+          python tools/integrate_idaho_three.py --evidence-dir private-evidence
+          node --check data/catalog-images.js
+          node --check tests/catalog-images.cjs
+          python tools/take_out_trash.py --strict
+          python tools/build_runtime.py build/web
+      - name: Verify output
+        run: |
+          python - <<'PY'
+          import pathlib,json,hashlib
+          root=pathlib.Path('.')
+          m=json.loads((root/'data/catalog-images.js').read_text().removeprefix('globalThis.LPG_CATALOG_IMAGES=').strip().rstrip(';'))
+          r=json.loads((root/'database/image-reconciliation-idaho-three-20261102.json').read_text())
+          assert len(m)==701 and len(r['rows'])==3
+          assert len(list((root/'assets/plates').glob('*.jpg')))==1402
+          assert len(list((root/'build/web/assets/plates').glob('*.jpg')))==1402
+          for row in r['rows']:
+              uid=row['uid']
+              assert m[uid]['source_sha256']==row['source_original_sha256']
+              assert m[uid]['era_status']=='unverified' and m[uid]['human_approval'] is False
+              for kind in ('display','thumbnail'):
+                  path=root/'assets/plates'/f'{uid}-{kind}.jpg'
+                  assert hashlib.sha256(path.read_bytes()).hexdigest()==row[kind+'_sha256']
+          print('Idaho three original source matches and derived JPEGs passed')
+          PY
+      - name: Preserve reviewed output in independent branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c generated/idaho-3-official-plate-images-20261102
+          git add .github/workflows/integrate-idaho-three.yml tools/integrate_idaho_three.py
+          git add assets/plates data/catalog-images.js database/image-reconciliation-idaho-three-20261102.json docs/CURRENT_IMAGE_CAMPAIGN_QUEUE.md sw.js tests/catalog-images.cjs
+          git commit -m 'Integrate three original Idaho license plate examples'
+          git push origin HEAD:refs/heads/generated/idaho-3-official-plate-images-20261102
