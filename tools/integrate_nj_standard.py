@@ -65,7 +65,7 @@ def integrate(root: Path, evidence: Path) -> dict:
             "downloaded", PAGE, ASSET, "Standard Plate Example", ORIGINAL_SHA,
             "harvest-output/" + ORIGINAL):
         raise ValueError("Official asset link, identity label or original hash mismatch")
-    if ASSET.encode()[-len(b"/mvc/images/standard.jpg"):] not in html:
+    if b'<img src="../images/standard.jpg" alt="Standard Plate Example"' not in html:
         raise ValueError("Preserved official page does not link the referenced plate image")
     raw = (evidence / ORIGINAL).read_bytes()
     if len(raw) != 701105 or sha(raw) != ORIGINAL_SHA:
