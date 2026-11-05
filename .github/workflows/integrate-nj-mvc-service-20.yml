@@ -1,0 +1,77 @@
+name: Integrate 20 official New Jersey MVC service-organization plate designs
+on:
+  push:
+    branches: [research/nj-mvc-service-20-images-20261104]
+    paths: ['.github/workflows/integrate-nj-mvc-service-20.yml', 'tools/integrate_nj_mvc_service_20.py']
+permissions:
+  contents: write
+  actions: read
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Install reproducible image rendering library
+        run: pip install 'pillow==12.3.0'
+      - name: Recover archived official NJ MVC source artwork
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh run download 41963778195 --repo "$GITHUB_REPOSITORY" --name official-nj-mvc-organizational-source-gallery --dir private-evidence
+          test -s private-evidence/NJ/NJ_MVC_Service_Organizations_Plates_html/source.html
+          test -s private-evidence/NJ/NJ_MVC_Service_Organizations_Plates_html/assets.json
+      - name: Verify agency source hashes and integrate exactly 20 immutable NJ UIDs
+        run: |
+          set -euo pipefail
+          python tools/integrate_nj_mvc_service_20.py --evidence-dir private-evidence
+          node --check data/catalog-images.js
+          node --check tests/catalog-images.cjs
+      - name: Strict repository and staged output checks
+        run: |
+          set -euo pipefail
+          python tools/take_out_trash.py --strict
+          python tools/build_runtime.py build/web
+          python - <<'PY'
+          import json,hashlib,pathlib
+          p=pathlib.Path('.')
+          m=json.loads((p/'data/catalog-images.js').read_text().removeprefix('globalThis.LPG_CATALOG_IMAGES=').strip().rstrip(';'))
+          r=json.loads((p/'database/image-reconciliation-nj-mvc-service-20261104.json').read_text())
+          cfg=json.loads((p/'data/image-batches/nj-mvc-service-20-reviewed-20261104.json').read_text())
+          assert len(m)==738 and r['selected_count']==20 and len(r['rows'])==20
+          assert len({x['uid'] for x in r['rows']})==20
+          assert r['official_registry_sha256']==cfg['official_asset_registry_sha256']
+          assert len(list((p/'assets/plates').glob('*.jpg')))==1476
+          assert len(list((p/'build/web/assets/plates').glob('*.jpg')))==1476
+          assert sum(uid.startswith('LPG-US-NJ-') for uid in m)==38
+          assert (p/'sw.js').read_text().count('lpg-current-images-20261104-njservice20')==1
+          for x in r['rows']:
+              uid=x['uid'];rec=m[uid]
+              assert rec['source_sha256']==x['source_original_sha256']
+              assert rec['match_status']=='source_matched' and rec['era_status']=='unverified'
+              assert rec['human_approval'] is False
+              for kind in ('display','thumbnail'):
+                  for d in ('assets/plates','build/web/assets/plates'):
+                      path=p/d/f'{uid}-{kind}.jpg'
+                      assert path.is_file() and path.stat().st_size>1000
+                      assert hashlib.sha256(path.read_bytes()).hexdigest()==x[kind+'_sha256']
+          print('PASS: 20 original official NJ GIFs, 40 derivatives, 738 total, 400 remaining, NJ fully source-matched')
+          PY
+      - name: Publish generated derivative images on review branch only
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c generated/nj-mvc-service-20-source-images-20261104
+          git add .github/workflows/integrate-nj-mvc-service-20.yml tools/integrate_nj_mvc_service_20.py
+          git add data/image-batches/nj-mvc-service-20-reviewed-20261104.json
+          git add assets/plates data/catalog-images.js database/image-reconciliation-nj-mvc-service-20261104.json docs/CURRENT_IMAGE_CAMPAIGN_QUEUE.md sw.js tests/catalog-images.cjs
+          git diff --cached --quiet && { echo 'No new source-matched images'; exit 1; }
+          git commit -m 'Integrate remaining 20 official New Jersey MVC service plate examples'
+          git push origin HEAD:refs/heads/generated/nj-mvc-service-20-source-images-20261104
+          echo 'Only source-derived JPEGs and provenance metadata were committed, not private originals.'
