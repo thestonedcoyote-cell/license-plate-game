@@ -1,0 +1,635 @@
+{
+  "selected_count": 20,
+  "baseline_source_matched": 718,
+  "source_matched_total": 738,
+  "remaining": 400,
+  "jurisdiction": "US-NJ",
+  "official_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+  "source_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+  "private_library_archive_id": "libfile_6115422589ac8191987c2eefe051841d",
+  "harvest_run": 41963778195,
+  "era_status": "unverified",
+  "human_approval": false,
+  "rows": [
+    {
+      "uid": "LPG-US-NJ-00002",
+      "name": "Airborne",
+      "source_label": "Airborne",
+      "visual_plate_rim": "AIRBORNE",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/Airborne.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "c500ccb531813fa031f300b36d69dc99df52fd302684377f72e538bcf00a2601",
+      "source_original_bytes": 206428,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0001.gif",
+      "original_size": [
+        3678,
+        1872
+      ],
+      "display_sha256": "8428ad10edf979e53c1e152c972f491afbcae1bf45c1f5dea964f31405157a39",
+      "display_size": [
+        800,
+        407
+      ],
+      "thumbnail_sha256": "6ba32bb8a6ef2d43daa90f0a0c4e43a26485cf32d371bf14a5713d92d98ed340",
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00003",
+      "name": "American Legion",
+      "source_label": "American Legion",
+      "visual_plate_rim": "AMERICAN LEGION",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/American_Legion.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "3a9dea09af1a65b0bfe96060befc29e6f1fc93de4514de51f9a424b894661f02",
+      "source_original_bytes": 179074,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0002.gif",
+      "original_size": [
+        1450,
+        713
+      ],
+      "display_sha256": "fe43e2922ac56eeaae0c4d506c0bf019108df1ca1c047741498d40f3152fb377",
+      "display_size": [
+        800,
+        393
+      ],
+      "thumbnail_sha256": "3e9095dea728de0656583a1a10c195587c2c3eade2cb407655128b86895ed194",
+      "thumbnail_size": [
+        300,
+        148
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00004",
+      "name": "AMVETS",
+      "source_label": "AMVETS",
+      "visual_plate_rim": "AMVETS",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/Amvets.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "2c43eca8f8d746d2866a20eac3c19a441fef3e4dc77e0d2339508b3e80e2e03b",
+      "source_original_bytes": 252273,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0003.gif",
+      "original_size": [
+        3678,
+        1872
+      ],
+      "display_sha256": "d87f0421dce3e82551cf36bf6945d2cec3cf73b178750c8cabc816e2f148e6d5",
+      "display_size": [
+        800,
+        407
+      ],
+      "thumbnail_sha256": "9b3e3a4b0eb4006c7523ce44eb3441345638ba399d7747b7b09d0a1643614e66",
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00007",
+      "name": "Civil Air Patrol",
+      "source_label": "Civil Air Patrol",
+      "visual_plate_rim": "CIVIL AIR PATROL",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/Civil_Air_Patrol.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "167090c19607fd1887507794808a0734f37d13e2447c411fbea15e0d92eb88a2",
+      "source_original_bytes": 233725,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0004.gif",
+      "original_size": [
+        3678,
+        1872
+      ],
+      "display_sha256": "1a2e2408488b5dfa14a3d6db3b1a25d95d23128f4d555ef5f015f1fcf40dae37",
+      "display_size": [
+        800,
+        407
+      ],
+      "thumbnail_sha256": "f2cbf0884a79e6bc94ab3793c257a29e5456c8b57a91e698e30bb14cb51f33d9",
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00034",
+      "name": "USCG Auxiliary",
+      "source_label": "Coast Guard Auxiliary",
+      "visual_plate_rim": "USCG AUXILIARY",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/Coast_Guard_Auxiliary.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "8b8dad8fe05a6b07e7472723340afad2b9897425829be1a1df3051d9b5f42ced",
+      "source_original_bytes": 204427,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0005.gif",
+      "original_size": [
+        3678,
+        1872
+      ],
+      "display_sha256": "3beca6de666e3f96b218c3d75fad2e5694d6ae516692b746eb85f53fe823b451",
+      "display_size": [
+        800,
+        407
+      ],
+      "thumbnail_sha256": "fcaa193e803056355ff5880af4b9ef0ae9920c8ea97fcd7f4f4981d07820dd19",
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00017",
+      "name": "Leatherneck",
+      "source_label": "Marine Corps League",
+      "visual_plate_rim": "LEATHERNECK",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/Marine_Corps_League.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "480e7ce90b88a4c9a89500522c56b94ed44219d7c47ea0279cc285c5d01a5477",
+      "source_original_bytes": 36989,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0006.gif",
+      "original_size": [
+        624,
+        310
+      ],
+      "display_sha256": "b6d7b64d90ce65f1c9fdc87dbf03191113b08d24b11f5cbc5849f176872a010b",
+      "display_size": [
+        624,
+        310
+      ],
+      "thumbnail_sha256": "6a4ebc679c161388aa016bc6aebe49c846bce3a44bfe6b0f74b2c5358314c72a",
+      "thumbnail_size": [
+        300,
+        149
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00020",
+      "name": "Merchant Marine",
+      "source_label": "Merchant Marine",
+      "visual_plate_rim": "Merchant Marine",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/Merchant_Marines_Standard.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "92dd8aacdc2168c9d9e9c7bab5ce83ef26110a2c2c61e6e4bce406d80136ca39",
+      "source_original_bytes": 184362,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0007.gif",
+      "original_size": [
+        3678,
+        1872
+      ],
+      "display_sha256": "33a2b4008ff74ed3afdcb14a224ab2483d8b5e5628b47ed7a04904a381f0a85f",
+      "display_size": [
+        800,
+        407
+      ],
+      "thumbnail_sha256": "40487f13f1f0c3308af8009a760f67e28957e479a8c19b0f6e56c576f3e34a27",
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00014",
+      "name": "Kings Point",
+      "source_label": "Merchant Marines Academy",
+      "visual_plate_rim": "USMMA",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/Merchant_Marines_Academy.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "5f996af88f62a4fa2813c109c7d06e91434db64f00b0880f638ecfeaec3b94cb",
+      "source_original_bytes": 270761,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0008.gif",
+      "original_size": [
+        3678,
+        1872
+      ],
+      "display_sha256": "e955b2e461b7b9ef79eca718fa1c6b8e5176cb29d0d631cc475d8b8fcbb2fb8b",
+      "display_size": [
+        800,
+        407
+      ],
+      "thumbnail_sha256": "67770694e64d40a55c4299a4d53cf3ab26adc4ebd7c3f94e79d2a93050a81d4f",
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00024",
+      "name": "Pearl Harbor 41",
+      "source_label": "Pearl Harbor Survivors",
+      "visual_plate_rim": "PEARL HARBOR 41",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/Pearl_Harbor_Survivor.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "f693789bda7e5858c4a5aaae717cb06da81ffc7d7a360796374b9875db8f1fcb",
+      "source_original_bytes": 224725,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0009.gif",
+      "original_size": [
+        3678,
+        1872
+      ],
+      "display_sha256": "8d3de1b2c77d54287d4e4b599c308642f79d6a0ae9d4398bf4cdd8e1091c8593",
+      "display_size": [
+        800,
+        407
+      ],
+      "thumbnail_sha256": "7188aa54fc57814ee3b36a527872aca7bf46aabc6ed15b4e55d57acf06be3aee",
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00008",
+      "name": "Combat Wounded",
+      "source_label": "Purple Hearts",
+      "visual_plate_rim": "COMBAT WOUNDED",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/Purple_Heart.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "92a968f08a6e0702ea9c1095947d9f5e5c537a7a8b76c3ed62afaab2d01f0e00",
+      "source_original_bytes": 135152,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0010.gif",
+      "original_size": [
+        1401,
+        705
+      ],
+      "display_sha256": "7a331b364bd28a97f4e84df48be0dfd212d4e26a22497e36d06a83867dbdd306",
+      "display_size": [
+        800,
+        403
+      ],
+      "thumbnail_sha256": "5be0d0292aa4904516c95a13c60fa8c3e439fc6a80f2e7e8a3d75c52cac02c0f",
+      "thumbnail_size": [
+        300,
+        151
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00027",
+      "name": "Silent Service",
+      "source_label": "Submarine Veterans",
+      "visual_plate_rim": "SILENT SERVICE",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/Submarine_Veterans.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "7efc406e6300a512238d6462664df8921d8aae1658653083769bfafde8b45662",
+      "source_original_bytes": 236123,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0011.gif",
+      "original_size": [
+        3678,
+        1872
+      ],
+      "display_sha256": "5d6030f59c59a87cad80448b3d8261e1fdc54d628a54982d7d60a45b99355102",
+      "display_size": [
+        800,
+        407
+      ],
+      "thumbnail_sha256": "6620e9fe26b0c85c0c3426b9cedd59147a5df03e8a446304fa71557621b82765",
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00029",
+      "name": "Tin Can Sailors",
+      "source_label": "Tin Can Sailors",
+      "visual_plate_rim": "TIN CAN SAILORS",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/Tin_Can_Sailors.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "275141ed7a76d6d67798cbea655d784074d6700a6ca142d5bd83cf220fffcaa3",
+      "source_original_bytes": 207131,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0012.gif",
+      "original_size": [
+        3678,
+        1872
+      ],
+      "display_sha256": "1ec4f963f3a139c0df4068fa69d01118bd79dde5ccd7526af081f6687fd7cfc2",
+      "display_size": [
+        800,
+        407
+      ],
+      "thumbnail_sha256": "83cfb1d08bbc4e75adac64ddccfafcc41b009b62ea45aa4d50d65dd64ea23e53",
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00036",
+      "name": "VFW of the US",
+      "source_label": "Veterans of Foreign Wars",
+      "visual_plate_rim": "VFW OF THE US",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/Veterans_Of_Foreign_Wars_VFW.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "9646bacca17243206c6d224041f6cbb32527c0d347c654321ed765e826547c27",
+      "source_original_bytes": 263819,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0013.gif",
+      "original_size": [
+        3678,
+        1872
+      ],
+      "display_sha256": "b83b875ccf9a2b546d84815a7a642951e056c16218baf74655f766c4303182fc",
+      "display_size": [
+        800,
+        407
+      ],
+      "thumbnail_sha256": "2d139d6d474d1315048fad70e686c500b00aeaca826927d54dcfa96372e40070",
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00037",
+      "name": "Vietnam Vets",
+      "source_label": "Vietnam Veterans",
+      "visual_plate_rim": "VIETNAM VETS",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/NJ_Vietnam_Veterans.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "6cd9437e2985daa9f2a4fd828d5b8a8ad70c5d190e8b84dc9eee7acb44484ca6",
+      "source_original_bytes": 213103,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0014.gif",
+      "original_size": [
+        3678,
+        1872
+      ],
+      "display_sha256": "230684774c3ecbfb368f7296dd7169bde5adaaee89dff6f091faa95257ba196b",
+      "display_size": [
+        800,
+        407
+      ],
+      "thumbnail_sha256": "ff380c01b6d6573793b6f4925c2b23b2dee5c52faf8deb1b184818c131f9962a",
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00033",
+      "name": "USAF Retired",
+      "source_label": "Retired Air Force",
+      "visual_plate_rim": "USAF RETIRED",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/Air_Force_Retired.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "f6f4fb8214cda1690cb43b59407f0fb3edf55c1f124d9e75ac02d96902d9354b",
+      "source_original_bytes": 231672,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0015.gif",
+      "original_size": [
+        3678,
+        1872
+      ],
+      "display_sha256": "5df3203907bd014fb074a0be32593c9e9188be0bc0e561207505b5fa66d851a5",
+      "display_size": [
+        800,
+        407
+      ],
+      "thumbnail_sha256": "670dc5078a883073341e428a27c598069ad62ab730f7346e23a39d6f730191e9",
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00031",
+      "name": "U.S. Army Retired",
+      "source_label": "Retired U.S. Army",
+      "visual_plate_rim": "U.S. ARMY RETIRED",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/Retired_US_Army.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "50d636bf7918afdaf3f0fdf5e88870a7a6fac42513b69a895077fe3d6fa055ef",
+      "source_original_bytes": 173434,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0016.gif",
+      "original_size": [
+        3678,
+        1872
+      ],
+      "display_sha256": "9fa79ea8bb9c353a8cbeb1e2aff145c146b355626cefbd529360576e869430ef",
+      "display_size": [
+        800,
+        407
+      ],
+      "thumbnail_sha256": "43225dac86e5ec15a221bae144be24523379003407ea233675c4c4607226f878",
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00012",
+      "name": "Disabled American Veterans",
+      "source_label": "Disabled Veterans",
+      "visual_plate_rim": "Disabled American Veterans",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/Disabled_AmVets.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "e1c97ac1b6cf7464ebe963a002550c9e22ff83c9ebe963ac6a9c0d510d931ed3",
+      "source_original_bytes": 269288,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0017.gif",
+      "original_size": [
+        3678,
+        1872
+      ],
+      "display_sha256": "25d6447b3c93101dd89a73c3f5ac669b32a01c6dc517f3685211f7fc6df38d90",
+      "display_size": [
+        800,
+        407
+      ],
+      "thumbnail_sha256": "343e69e0295159b3ddd577874fd4bfde9f7cac8ef57e67d7e0279546e777d4ce",
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00038",
+      "name": "West Point",
+      "source_label": "West Point",
+      "visual_plate_rim": "West Point",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/West_Point.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "5aedc1927bfa238d4f4803cf1f144607a359121e62c4e758930a6a12ed543581",
+      "source_original_bytes": 247550,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0018.gif",
+      "original_size": [
+        3678,
+        1872
+      ],
+      "display_sha256": "c2435ec5fb487c171a923cbbae79806fadf7869e1569491f6dd66caece724108",
+      "display_size": [
+        800,
+        407
+      ],
+      "thumbnail_sha256": "79e963544cde87f669d6089a60d5188c9d20a08dfcf5b656e4e47d85e19ea77f",
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00015",
+      "name": "Lakehurst Navy",
+      "source_label": "Lakehurst Navy",
+      "visual_plate_rim": "Navy Lakehurst",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/Lakehurst_Navy.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "e84d9deb1edbf337f929f0d4e4eb322396ad5c683d1fd75f0fd025d6970ccf70",
+      "source_original_bytes": 243270,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0019.gif",
+      "original_size": [
+        3678,
+        1872
+      ],
+      "display_sha256": "63c565546e71c0c7d8fa958a881e4a29a49287c393cbb6c75660d63c1c9197f2",
+      "display_size": [
+        800,
+        407
+      ],
+      "thumbnail_sha256": "3c6d1185bab798aa19c00f25d6ba9654a13426ed123f19f3fb09c08f996dbfa4",
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00021",
+      "name": "Navy League",
+      "source_label": "Navy League",
+      "visual_plate_rim": "Navy League",
+      "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+      "direct_asset_url": "https://www.nj.gov/mvc/images/Navy_League.gif",
+      "archived_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+      "archived_source_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+      "source_original_sha256": "5be5f7ebb2bc6ec2f47e8df389b46326caa27ddf62608e8b439d4295f34be2ad",
+      "source_original_bytes": 228430,
+      "source_asset_archive_member": "NJ/NJ_MVC_Service_Organizations_Plates_html/asset_0020.gif",
+      "original_size": [
+        3678,
+        1872
+      ],
+      "display_sha256": "cd44b04d27793cb4eba903dceb84d680e6d45e404e425f76890e622fd25faad8",
+      "display_size": [
+        800,
+        407
+      ],
+      "thumbnail_sha256": "b789407e902dbdaf19797ba4e82511ef8125de91c54ce7cd8ea2911b39d0df81",
+      "thumbnail_size": [
+        300,
+        153
+      ],
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    }
+  ]
+}
