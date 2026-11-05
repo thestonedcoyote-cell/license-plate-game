@@ -1,0 +1,50 @@
+name: Harvest official New Jersey MVC plate PDF artwork
+on:
+  push:
+    branches: [research/nj-mvc-pdf-artwork-harvest-20261104]
+    paths: ['.github/workflows/harvest-nj-mvc-pdfs.yml', 'data/harvest_nj_mvc_pdfs.csv']
+permissions:
+  contents: read
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Install official PDF extraction dependencies
+        run: pip install 'requests==2.32.5' 'pymupdf==1.26.5' 'pillow==12.3.0' 'beautifulsoup4==4.14.2'
+      - name: Acquire government originals and extract rendered pages and embedded plate artwork
+        run: |
+          set -euo pipefail
+          python tools/harvest_official_assets.py --manifest data/harvest_nj_mvc_pdfs.csv --output harvest-output --codes NJ --max-sources 2
+          python - <<'PY'
+          import json,pathlib,hashlib
+          p=pathlib.Path('harvest-output')
+          m=json.loads((p/'manifest.json').read_text())
+          print('Source harvest statuses:',[(r['title'],r['status'],r.get('error','')) for r in m])
+          assert len(m)==2 and all(r['status']=='downloaded' for r in m), 'One or more official PDF downloads failed'
+          assert all(r.get('extracted') for r in m), 'PDF extraction produced no page/image records'
+          for r in m:
+              raw=p/r['file'].removeprefix('harvest-output/')
+              if not raw.is_file():raw=pathlib.Path(r['file'])
+              assert raw.is_file() and hashlib.sha256(raw.read_bytes()).hexdigest()==r['sha256']
+          print('Both MVC PDF originals acquired and original source SHA-256 verified')
+          PY
+      - name: Record evidence constraints
+        if: always()
+        run: |
+          cat > harvest-output/NJ_PDF_EVIDENCE_NOTES.md <<'EOF'
+          # NJ MVC original PDF harvest
+          The originals are source evidence; embedded designs must be visually matched one-to-one to immutable UIDs before integration.
+          Form revision dates are not plate issue-era approvals. Sports plate statements are not proof of extractable illustrations.
+          No source file in this artifact carries commercial-rights approval.
+          EOF
+      - name: Preserve evidence as short-retention Actions artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: official-nj-mvc-pdf-sources
+          path: harvest-output/
+          retention-days: 14
