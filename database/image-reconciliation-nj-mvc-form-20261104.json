@@ -1,0 +1,523 @@
+{
+  "selected_count": 17,
+  "baseline_source_matched": 701,
+  "source_matched_total": 718,
+  "remaining": 420,
+  "government_pdf_original_sha256": "9d6a73ed7e56b741af5ab7ccb1f11f44de575dada9103372a885a841ac8ffe67",
+  "private_library_archive": "libfile_33529bf051ac819190e84b7e5c26d76c",
+  "historic_sports_plate_art_count_unmatched": 12,
+  "era_status": "unverified",
+  "human_approval": false,
+  "rows": [
+    {
+      "uid": "LPG-US-NJ-00001",
+      "name": "Agriculture",
+      "source_page_url": "https://nj.gov/mvc/pdf/vehicles/SPU-100D.pdf",
+      "source_original_pdf_sha256": "9d6a73ed7e56b741af5ab7ccb1f11f44de575dada9103372a885a841ac8ffe67",
+      "pdf_page": 1,
+      "pdf_xref": 379,
+      "official_form_label": "Agriculture",
+      "original_image_sha256": "cecfc470ac5fd62e11df73c656154fe64366cff14edfebb74406a76ed7c9ddb9",
+      "original_image_bytes": 5124,
+      "original_image_size": [
+        129,
+        63
+      ],
+      "display_sha256": "1b0953e5b2cfc66e1061d48e1b61613cff54b80539dea6a24247d00cb063868c",
+      "display_size": [
+        129,
+        63
+      ],
+      "thumbnail_sha256": "1b0953e5b2cfc66e1061d48e1b61613cff54b80539dea6a24247d00cb063868c",
+      "thumbnail_size": [
+        129,
+        63
+      ],
+      "low_resolution_original": true,
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00005",
+      "name": "Animal Friendly",
+      "source_page_url": "https://nj.gov/mvc/pdf/vehicles/SPU-100D.pdf",
+      "source_original_pdf_sha256": "9d6a73ed7e56b741af5ab7ccb1f11f44de575dada9103372a885a841ac8ffe67",
+      "pdf_page": 1,
+      "pdf_xref": 376,
+      "official_form_label": "Animal Friendly",
+      "original_image_sha256": "f8e0f7f775a4449642ec9166b64752583c867c6f133de34e37166fe02fd4866b",
+      "original_image_bytes": 4836,
+      "original_image_size": [
+        129,
+        64
+      ],
+      "display_sha256": "6da61f5bd83ad6b73b84582ba074f6532841f7570ac38516b8bbb6252fa4382c",
+      "display_size": [
+        129,
+        64
+      ],
+      "thumbnail_sha256": "6da61f5bd83ad6b73b84582ba074f6532841f7570ac38516b8bbb6252fa4382c",
+      "thumbnail_size": [
+        129,
+        64
+      ],
+      "low_resolution_original": true,
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00035",
+      "name": "USS New Jersey Battleship",
+      "source_page_url": "https://nj.gov/mvc/pdf/vehicles/SPU-100D.pdf",
+      "source_original_pdf_sha256": "9d6a73ed7e56b741af5ab7ccb1f11f44de575dada9103372a885a841ac8ffe67",
+      "pdf_page": 1,
+      "pdf_xref": 380,
+      "official_form_label": "Battleship",
+      "original_image_sha256": "a1dc6bddc0bc2a5355359bd18818f5b3ef462bee9d3d9c828767a58e3f079943",
+      "original_image_bytes": 4776,
+      "original_image_size": [
+        129,
+        62
+      ],
+      "display_sha256": "07156d14571937aa5c7fd15d5067ce6e5125bf2c6d4ebf8ca37fc97e09c6a7a7",
+      "display_size": [
+        129,
+        62
+      ],
+      "thumbnail_sha256": "07156d14571937aa5c7fd15d5067ce6e5125bf2c6d4ebf8ca37fc97e09c6a7a7",
+      "thumbnail_size": [
+        129,
+        62
+      ],
+      "low_resolution_original": true,
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00006",
+      "name": "Baymen's Heritage",
+      "source_page_url": "https://nj.gov/mvc/pdf/vehicles/SPU-100D.pdf",
+      "source_original_pdf_sha256": "9d6a73ed7e56b741af5ab7ccb1f11f44de575dada9103372a885a841ac8ffe67",
+      "pdf_page": 1,
+      "pdf_xref": 381,
+      "official_form_label": "Baymen’s Heritage",
+      "original_image_sha256": "2c1bfb670ba67bc066c07325497bbbe45bb14fdfb00f9493cdb102b989a64232",
+      "original_image_bytes": 4796,
+      "original_image_size": [
+        129,
+        64
+      ],
+      "display_sha256": "80d2825063247498b434e19d94bfcc46f87597b87bc052c1a45338b4a5e8cb10",
+      "display_size": [
+        129,
+        64
+      ],
+      "thumbnail_sha256": "80d2825063247498b434e19d94bfcc46f87597b87bc052c1a45338b4a5e8cb10",
+      "thumbnail_size": [
+        129,
+        64
+      ],
+      "low_resolution_original": true,
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00009",
+      "name": "Conquer Cancer",
+      "source_page_url": "https://nj.gov/mvc/pdf/vehicles/SPU-100D.pdf",
+      "source_original_pdf_sha256": "9d6a73ed7e56b741af5ab7ccb1f11f44de575dada9103372a885a841ac8ffe67",
+      "pdf_page": 1,
+      "pdf_xref": 382,
+      "official_form_label": "Conquer Cancer",
+      "original_image_sha256": "01512d457fc18a21701c42ccdaa6ee1d3f20d15b5563bd084e0f5017fc810778",
+      "original_image_bytes": 5020,
+      "original_image_size": [
+        130,
+        63
+      ],
+      "display_sha256": "2ccd385ef6f1f3b2594c19b9e965421c47bcb11afaf4b2135edecc83b7b6fa7f",
+      "display_size": [
+        130,
+        63
+      ],
+      "thumbnail_sha256": "2ccd385ef6f1f3b2594c19b9e965421c47bcb11afaf4b2135edecc83b7b6fa7f",
+      "thumbnail_size": [
+        130,
+        63
+      ],
+      "low_resolution_original": true,
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00011",
+      "name": "Deborah Heart & Lung",
+      "source_page_url": "https://nj.gov/mvc/pdf/vehicles/SPU-100D.pdf",
+      "source_original_pdf_sha256": "9d6a73ed7e56b741af5ab7ccb1f11f44de575dada9103372a885a841ac8ffe67",
+      "pdf_page": 1,
+      "pdf_xref": 383,
+      "official_form_label": "Deborah Heart & Lung",
+      "original_image_sha256": "989c7f233b625cd3976036225d1301c195ff0b81c363bd5cae717273e62d9308",
+      "original_image_bytes": 4652,
+      "original_image_size": [
+        129,
+        61
+      ],
+      "display_sha256": "cdfd1eac59cb67c82c1ccae2127dde485188212615d8c308be7448d87e371a98",
+      "display_size": [
+        129,
+        61
+      ],
+      "thumbnail_sha256": "cdfd1eac59cb67c82c1ccae2127dde485188212615d8c308be7448d87e371a98",
+      "thumbnail_size": [
+        129,
+        61
+      ],
+      "low_resolution_original": true,
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00016",
+      "name": "Law Enforcement Memorial",
+      "source_page_url": "https://nj.gov/mvc/pdf/vehicles/SPU-100D.pdf",
+      "source_original_pdf_sha256": "9d6a73ed7e56b741af5ab7ccb1f11f44de575dada9103372a885a841ac8ffe67",
+      "pdf_page": 1,
+      "pdf_xref": 384,
+      "official_form_label": "Fallen Law Enforcement",
+      "original_image_sha256": "888110322c227fcc3fccfe66be55ae51f58c8add6a0436f3ba25d7a3f6c0140b",
+      "original_image_bytes": 4368,
+      "original_image_size": [
+        129,
+        60
+      ],
+      "display_sha256": "9608f8e9f3aa6c4939d9ba823afb78c5569188dda73f923926c4e5a3fd43f3a3",
+      "display_size": [
+        129,
+        60
+      ],
+      "thumbnail_sha256": "9608f8e9f3aa6c4939d9ba823afb78c5569188dda73f923926c4e5a3fd43f3a3",
+      "thumbnail_size": [
+        129,
+        60
+      ],
+      "low_resolution_original": true,
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00013",
+      "name": "Discover NJ History",
+      "source_page_url": "https://nj.gov/mvc/pdf/vehicles/SPU-100D.pdf",
+      "source_original_pdf_sha256": "9d6a73ed7e56b741af5ab7ccb1f11f44de575dada9103372a885a841ac8ffe67",
+      "pdf_page": 1,
+      "pdf_xref": 385,
+      "official_form_label": "Historic Preservation",
+      "original_image_sha256": "cf2030002768fcd73146082ff3ad68eaf97ceea7b6ab62d79910ffe7c43b261b",
+      "original_image_bytes": 4748,
+      "original_image_size": [
+        130,
+        66
+      ],
+      "display_sha256": "07e82b41ced3fc7b61a0186f003939ac9ffc9ce155e1b0e6821e5b80bb098855",
+      "display_size": [
+        130,
+        66
+      ],
+      "thumbnail_sha256": "07e82b41ced3fc7b61a0186f003939ac9ffc9ce155e1b0e6821e5b80bb098855",
+      "thumbnail_size": [
+        130,
+        66
+      ],
+      "low_resolution_original": true,
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00018",
+      "name": "Liberty State Park",
+      "source_page_url": "https://nj.gov/mvc/pdf/vehicles/SPU-100D.pdf",
+      "source_original_pdf_sha256": "9d6a73ed7e56b741af5ab7ccb1f11f44de575dada9103372a885a841ac8ffe67",
+      "pdf_page": 1,
+      "pdf_xref": 364,
+      "official_form_label": "Liberty Park",
+      "original_image_sha256": "8d084b35e67fde94de33c1960b8dffdb94b17bf5d0dce20082a2dc67c68b3db1",
+      "original_image_bytes": 4836,
+      "original_image_size": [
+        135,
+        64
+      ],
+      "display_sha256": "7f0e09377e769647404049ec0422a174d0387f1ff21b206562d5b8ad26328000",
+      "display_size": [
+        135,
+        64
+      ],
+      "thumbnail_sha256": "7f0e09377e769647404049ec0422a174d0387f1ff21b206562d5b8ad26328000",
+      "thumbnail_size": [
+        135,
+        64
+      ],
+      "low_resolution_original": true,
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00019",
+      "name": "Meadowlands",
+      "source_page_url": "https://nj.gov/mvc/pdf/vehicles/SPU-100D.pdf",
+      "source_original_pdf_sha256": "9d6a73ed7e56b741af5ab7ccb1f11f44de575dada9103372a885a841ac8ffe67",
+      "pdf_page": 1,
+      "pdf_xref": 365,
+      "official_form_label": "Meadowlands",
+      "original_image_sha256": "228f2bab0ba1abe98bcd7dad40e7bb7ef6341a78a6cb4b5a7dbb95e823fa49f3",
+      "original_image_bytes": 4820,
+      "original_image_size": [
+        134,
+        64
+      ],
+      "display_sha256": "39b8193d0d9c6238ed70acfe2d01e67f241b913cf67db77f4d348c332f914911",
+      "display_size": [
+        134,
+        64
+      ],
+      "thumbnail_sha256": "39b8193d0d9c6238ed70acfe2d01e67f241b913cf67db77f4d348c332f914911",
+      "thumbnail_size": [
+        134,
+        64
+      ],
+      "low_resolution_original": true,
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00022",
+      "name": "Olympic Spirit",
+      "source_page_url": "https://nj.gov/mvc/pdf/vehicles/SPU-100D.pdf",
+      "source_original_pdf_sha256": "9d6a73ed7e56b741af5ab7ccb1f11f44de575dada9103372a885a841ac8ffe67",
+      "pdf_page": 1,
+      "pdf_xref": 366,
+      "official_form_label": "Olympic",
+      "original_image_sha256": "e4badcbb79800eaeb3a1015c1e154919fb79825c32e55b8e9ca313a9a4cf063b",
+      "original_image_bytes": 4696,
+      "original_image_size": [
+        135,
+        62
+      ],
+      "display_sha256": "8695e36eea4ea47d29a5e6b3c8629f586d34b2538b88c48080654d6cb0167dd2",
+      "display_size": [
+        135,
+        62
+      ],
+      "thumbnail_sha256": "8695e36eea4ea47d29a5e6b3c8629f586d34b2538b88c48080654d6cb0167dd2",
+      "thumbnail_size": [
+        135,
+        62
+      ],
+      "low_resolution_original": true,
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00023",
+      "name": "Organ Donor",
+      "source_page_url": "https://nj.gov/mvc/pdf/vehicles/SPU-100D.pdf",
+      "source_original_pdf_sha256": "9d6a73ed7e56b741af5ab7ccb1f11f44de575dada9103372a885a841ac8ffe67",
+      "pdf_page": 1,
+      "pdf_xref": 367,
+      "official_form_label": "Organ Donor",
+      "original_image_sha256": "7ad3ba7d6299f4fff93c37e2fba3eab138168f739cf1775dd1070f94ed8e8f20",
+      "original_image_bytes": 5104,
+      "original_image_size": [
+        135,
+        63
+      ],
+      "display_sha256": "3ea670e9dc9252f45b7ffe1923529c3c14e6f6b4bd6017e0d04e87cc16a5a82e",
+      "display_size": [
+        135,
+        63
+      ],
+      "thumbnail_sha256": "3ea670e9dc9252f45b7ffe1923529c3c14e6f6b4bd6017e0d04e87cc16a5a82e",
+      "thumbnail_size": [
+        135,
+        63
+      ],
+      "low_resolution_original": true,
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00025",
+      "name": "Pinelands",
+      "source_page_url": "https://nj.gov/mvc/pdf/vehicles/SPU-100D.pdf",
+      "source_original_pdf_sha256": "9d6a73ed7e56b741af5ab7ccb1f11f44de575dada9103372a885a841ac8ffe67",
+      "pdf_page": 1,
+      "pdf_xref": 368,
+      "official_form_label": "Pinelands",
+      "original_image_sha256": "e4a5593d302b14d017d0965a5bb572e385f97f58e79e010c6d104a80b6d2748e",
+      "original_image_bytes": 5120,
+      "original_image_size": [
+        135,
+        63
+      ],
+      "display_sha256": "3404d743792517eb741a980349df0112dd1b4eaaf817f535e1ef55af40cfb382",
+      "display_size": [
+        135,
+        63
+      ],
+      "thumbnail_sha256": "3404d743792517eb741a980349df0112dd1b4eaaf817f535e1ef55af40cfb382",
+      "thumbnail_size": [
+        135,
+        63
+      ],
+      "low_resolution_original": true,
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00030",
+      "name": "Treasure our Trees",
+      "source_page_url": "https://nj.gov/mvc/pdf/vehicles/SPU-100D.pdf",
+      "source_original_pdf_sha256": "9d6a73ed7e56b741af5ab7ccb1f11f44de575dada9103372a885a841ac8ffe67",
+      "pdf_page": 1,
+      "pdf_xref": 369,
+      "official_form_label": "Shade Tree",
+      "original_image_sha256": "2c5e901e66485e5ce90bb057f8a1ddd88a811c61d5e599f01f4c66eefb4c645b",
+      "original_image_bytes": 5344,
+      "original_image_size": [
+        134,
+        67
+      ],
+      "display_sha256": "d16c9ecaae1282f1dff22fd778db6ca14c96de7bf20d7433ed67297b92b7f318",
+      "display_size": [
+        134,
+        67
+      ],
+      "thumbnail_sha256": "d16c9ecaae1282f1dff22fd778db6ca14c96de7bf20d7433ed67297b92b7f318",
+      "thumbnail_size": [
+        134,
+        67
+      ],
+      "low_resolution_original": true,
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00026",
+      "name": "Shore to Please",
+      "source_page_url": "https://nj.gov/mvc/pdf/vehicles/SPU-100D.pdf",
+      "source_original_pdf_sha256": "9d6a73ed7e56b741af5ab7ccb1f11f44de575dada9103372a885a841ac8ffe67",
+      "pdf_page": 1,
+      "pdf_xref": 371,
+      "official_form_label": "Shore",
+      "original_image_sha256": "f98ac3df983386e51e6e0307a134f8156e7ff703c6c53791b13b9877a8186114",
+      "original_image_bytes": 3193,
+      "original_image_size": [
+        105,
+        39
+      ],
+      "display_sha256": "6cffd0fa33311bd33621cc83cbb8bc2e13830c303243ab8525661663cf3762ea",
+      "display_size": [
+        105,
+        39
+      ],
+      "thumbnail_sha256": "6cffd0fa33311bd33621cc83cbb8bc2e13830c303243ab8525661663cf3762ea",
+      "thumbnail_size": [
+        105,
+        39
+      ],
+      "low_resolution_original": true,
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00032",
+      "name": "United We Stand",
+      "source_page_url": "https://nj.gov/mvc/pdf/vehicles/SPU-100D.pdf",
+      "source_original_pdf_sha256": "9d6a73ed7e56b741af5ab7ccb1f11f44de575dada9103372a885a841ac8ffe67",
+      "pdf_page": 1,
+      "pdf_xref": 373,
+      "official_form_label": "United We Stand",
+      "original_image_sha256": "38098e6683c556229b6dd5282186a5ed92e46a7d43e80dfd2f0fc56d6dcd009f",
+      "original_image_bytes": 3665,
+      "original_image_size": [
+        107,
+        52
+      ],
+      "display_sha256": "0c0821d107497ebbc5121261f5753e9cbd2e78fc888ec409ebb464d01de84745",
+      "display_size": [
+        107,
+        52
+      ],
+      "thumbnail_sha256": "0c0821d107497ebbc5121261f5753e9cbd2e78fc888ec409ebb464d01de84745",
+      "thumbnail_size": [
+        107,
+        52
+      ],
+      "low_resolution_original": true,
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00010",
+      "name": "Conserve Wildlife",
+      "source_page_url": "https://nj.gov/mvc/pdf/vehicles/SPU-100D.pdf",
+      "source_original_pdf_sha256": "9d6a73ed7e56b741af5ab7ccb1f11f44de575dada9103372a885a841ac8ffe67",
+      "pdf_page": 1,
+      "pdf_xref": 375,
+      "official_form_label": "Wildlife Eagle",
+      "original_image_sha256": "8a86050d92453cf8c090e607face1f9fde78e894e83140e1c6cba2eb67dd9db4",
+      "original_image_bytes": 3403,
+      "original_image_size": [
+        107,
+        42
+      ],
+      "display_sha256": "38a2795b22091fcb67418e4632ab8a0a4d931f523cb7764ae04bf83d8f306c12",
+      "display_size": [
+        107,
+        42
+      ],
+      "thumbnail_sha256": "38a2795b22091fcb67418e4632ab8a0a4d931f523cb7764ae04bf83d8f306c12",
+      "thumbnail_size": [
+        107,
+        42
+      ],
+      "low_resolution_original": true,
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false,
+      "commercial_rights_approval": false
+    }
+  ]
+}
