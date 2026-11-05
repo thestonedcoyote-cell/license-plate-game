@@ -1,0 +1,45 @@
+name: Harvest NJ MVC organizational license plate artwork
+on:
+  push:
+    branches: [research/nj-mvc-service-org-art-harvest-20261104]
+    paths: ['.github/workflows/harvest-nj-mvc-organizations.yml', 'data/harvest_nj_mvc_organizations.csv']
+permissions:
+  contents: read
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Install original-art archiving libraries
+        run: pip install 'requests==2.32.5' 'pillow==12.3.0' 'beautifulsoup4==4.14.2'
+      - name: Archive only the three reviewed official MVC source galleries
+        run: |
+          set -euo pipefail
+          python tools/harvest_official_assets.py --manifest data/harvest_nj_mvc_organizations.csv --output harvest-output --codes NJ --max-sources 3 --max-html-assets 160
+          python - <<'PY'
+          import json,pathlib
+          rows=json.loads(pathlib.Path('harvest-output/manifest.json').read_text())
+          print('Official pages:',[(x.get('title'),x.get('status')) for x in rows])
+          print('Downloaded originals:',sum(sum(r.get('status')=='downloaded' for r in x.get('gallery',{}).get('records',[])) for x in rows))
+          assert len(rows)==3 and any(x.get('status')=='downloaded' for x in rows)
+          PY
+      - name: Preserve partial failures and source/rights caveat
+        if: always()
+        run: |
+          mkdir -p harvest-output
+          cat > harvest-output/PROCESS_NOTES_NJ_ORG.md <<'EOF'
+          # New Jersey MVC organizational plate acquisition
+          Preserve original agency page HTML, source URL, image bytes, alt text, dimensions and SHA-256, plus all access failures.
+          An image download is not a catalog design match. Any one-to-one UID needs design-specific visual verification.
+          Do not claim an image era, human signoff or commercial-rights approval.
+          EOF
+      - name: Preserve unmodified source evidence artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: official-nj-mvc-organizational-source-gallery
+          path: harvest-output/
+          retention-days: 14
