@@ -1,0 +1,219 @@
+{
+  "batch_id": "LPG-NJ-MVC-SERVICE-20-20261104",
+  "agency": "New Jersey Motor Vehicle Commission",
+  "source_page_url": "https://www.nj.gov/mvc/vehicles/serviceorg.htm",
+  "official_html_sha256": "1dd51208dcdacbca997dcfeb05ed763fb2cc8617caf2eaec899bc6b8a51b7691",
+  "official_asset_registry_sha256": "61ea9c190bcbdb7a28015288459d0014be201e05c05508ac4eb0fec308bb3bd0",
+  "source_gallery_folder": "NJ/NJ_MVC_Service_Organizations_Plates_html",
+  "harvest_run_id": 41963778195,
+  "harvest_artifact": "official-nj-mvc-organizational-source-gallery",
+  "private_source_archive_library_file_id": "libfile_6115422589ac8191987c2eefe051841d",
+  "original_gif_count": 20,
+  "baseline_source_matched": 718,
+  "selected_count": 20,
+  "target_source_matched": 738,
+  "remaining_after": 400,
+  "selection_method": "Exact official MVC alt label plus visual inspection of each unmodified government GIF original and printed bottom-rim design name; aliases (e.g., USMMA/Kings Point) explicitly recorded. No human signoff, era or rights approval asserted.",
+  "rows": [
+    {
+      "uid": "LPG-US-NJ-00002",
+      "catalog_name": "Airborne",
+      "source_asset_number": 1,
+      "official_page_alt_text": "Airborne",
+      "visually_checked_bottom_rim_text": "AIRBORNE",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00003",
+      "catalog_name": "American Legion",
+      "source_asset_number": 2,
+      "official_page_alt_text": "American Legion",
+      "visually_checked_bottom_rim_text": "AMERICAN LEGION",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00004",
+      "catalog_name": "AMVETS",
+      "source_asset_number": 3,
+      "official_page_alt_text": "AMVETS",
+      "visually_checked_bottom_rim_text": "AMVETS",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00007",
+      "catalog_name": "Civil Air Patrol",
+      "source_asset_number": 4,
+      "official_page_alt_text": "Civil Air Patrol",
+      "visually_checked_bottom_rim_text": "CIVIL AIR PATROL",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00034",
+      "catalog_name": "USCG Auxiliary",
+      "source_asset_number": 5,
+      "official_page_alt_text": "Coast Guard Auxiliary",
+      "visually_checked_bottom_rim_text": "USCG AUXILIARY",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00017",
+      "catalog_name": "Leatherneck",
+      "source_asset_number": 6,
+      "official_page_alt_text": "Marine Corps League",
+      "visually_checked_bottom_rim_text": "LEATHERNECK",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00020",
+      "catalog_name": "Merchant Marine",
+      "source_asset_number": 7,
+      "official_page_alt_text": "Merchant Marine",
+      "visually_checked_bottom_rim_text": "Merchant Marine",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00014",
+      "catalog_name": "Kings Point",
+      "source_asset_number": 8,
+      "official_page_alt_text": "Merchant Marines Academy",
+      "visually_checked_bottom_rim_text": "USMMA",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00024",
+      "catalog_name": "Pearl Harbor 41",
+      "source_asset_number": 9,
+      "official_page_alt_text": "Pearl Harbor Survivors",
+      "visually_checked_bottom_rim_text": "PEARL HARBOR 41",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00008",
+      "catalog_name": "Combat Wounded",
+      "source_asset_number": 10,
+      "official_page_alt_text": "Purple Hearts",
+      "visually_checked_bottom_rim_text": "COMBAT WOUNDED",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00027",
+      "catalog_name": "Silent Service",
+      "source_asset_number": 11,
+      "official_page_alt_text": "Submarine Veterans",
+      "visually_checked_bottom_rim_text": "SILENT SERVICE",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00029",
+      "catalog_name": "Tin Can Sailors",
+      "source_asset_number": 12,
+      "official_page_alt_text": "Tin Can Sailors",
+      "visually_checked_bottom_rim_text": "TIN CAN SAILORS",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00036",
+      "catalog_name": "VFW of the US",
+      "source_asset_number": 13,
+      "official_page_alt_text": "Veterans of Foreign Wars",
+      "visually_checked_bottom_rim_text": "VFW OF THE US",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00037",
+      "catalog_name": "Vietnam Vets",
+      "source_asset_number": 14,
+      "official_page_alt_text": "Vietnam Veterans",
+      "visually_checked_bottom_rim_text": "VIETNAM VETS",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00033",
+      "catalog_name": "USAF Retired",
+      "source_asset_number": 15,
+      "official_page_alt_text": "Retired Air Force",
+      "visually_checked_bottom_rim_text": "USAF RETIRED",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00031",
+      "catalog_name": "U.S. Army Retired",
+      "source_asset_number": 16,
+      "official_page_alt_text": "Retired U.S. Army",
+      "visually_checked_bottom_rim_text": "U.S. ARMY RETIRED",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00012",
+      "catalog_name": "Disabled American Veterans",
+      "source_asset_number": 17,
+      "official_page_alt_text": "Disabled Veterans",
+      "visually_checked_bottom_rim_text": "Disabled American Veterans",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00038",
+      "catalog_name": "West Point",
+      "source_asset_number": 18,
+      "official_page_alt_text": "West Point",
+      "visually_checked_bottom_rim_text": "West Point",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00015",
+      "catalog_name": "Lakehurst Navy",
+      "source_asset_number": 19,
+      "official_page_alt_text": "Lakehurst Navy",
+      "visually_checked_bottom_rim_text": "Navy Lakehurst",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    },
+    {
+      "uid": "LPG-US-NJ-00021",
+      "catalog_name": "Navy League",
+      "source_asset_number": 20,
+      "official_page_alt_text": "Navy League",
+      "visually_checked_bottom_rim_text": "Navy League",
+      "match_status": "source_matched",
+      "era_status": "unverified",
+      "human_approval": false
+    }
+  ]
+}
