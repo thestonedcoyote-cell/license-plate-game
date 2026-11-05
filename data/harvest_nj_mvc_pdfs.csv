@@ -1,0 +1,3 @@
+priority,jurisdiction,code,source_kind,title,url,extraction_mode,difficulty,image_rich,historical_coverage,local_binary_status,notes,jurisdiction_id
+1,New Jersey,NJ,bulk_pdf,NJ MVC Dedicated Plate Form SP-100D,https://nj.gov/mvc/pdf/vehicles/SPU-100D.pdf,bulk_pdf,A,1,1,pending,Official form R10/16 with 17 labeled plate images; preserve full original and extract per-image source,US-NJ
+2,New Jersey,NJ,bulk_pdf,NJ MVC Annual Report 2010,https://www.nj.gov/mvc/pdf/about/annual_2010.pdf,bulk_pdf,B,1,1,pending,Historical annual report; images and designs require separate identification and cannot imply current availability,US-NJ
