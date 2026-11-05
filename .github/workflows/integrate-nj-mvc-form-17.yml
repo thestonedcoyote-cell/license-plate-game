@@ -1,0 +1,77 @@
+name: Integrate 17 NJ MVC form source-matched plate designs
+on:
+  push:
+    branches: [research/nj-mvc-dedicated-17-images-20261104]
+    paths: ['.github/workflows/integrate-nj-mvc-form-17.yml', 'tools/integrate_nj_mvc_form_17.py']
+permissions:
+  contents: write
+  actions: read
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Install pinned source-extraction and image-rendering libraries
+        run: pip install 'pymupdf==1.26.5' 'pillow==12.3.0'
+      - name: Recover original NJ MVC PDF and extracted source images
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh run download 41962692253 --repo "$GITHUB_REPOSITORY" --name official-nj-mvc-pdf-sources --dir private-evidence
+          test -s private-evidence/NJ/NJ_MVC_Dedicated_Plate_Form_SP-100D.pdf
+          test -s private-evidence/NJ/NJ_MVC_Annual_Report_2010.pdf
+          test -s private-evidence/manifest.json
+      - name: Independently hash and verify 17 original source plate designs; render 34 JPEGs
+        run: |
+          set -euo pipefail
+          python tools/integrate_nj_mvc_form_17.py --evidence-dir private-evidence
+          node --check data/catalog-images.js
+          node --check tests/catalog-images.cjs
+      - name: Validate immutable image selections, archived source hashes and offline files
+        run: |
+          set -euo pipefail
+          python tools/take_out_trash.py --strict
+          python tools/build_runtime.py build/web
+          python - <<'PY'
+          import hashlib,json,pathlib
+          p=pathlib.Path('.')
+          a=json.loads((p/'data/catalog-images.js').read_text().removeprefix('globalThis.LPG_CATALOG_IMAGES=').strip().rstrip(';'))
+          r=json.loads((p/'database/image-reconciliation-nj-mvc-form-20261104.json').read_text())
+          batch=json.loads((p/'data/image-batches/nj-mvc-dedicated-17-reviewed-20261104.json').read_text())
+          assert len(a)==718 and len(r['rows'])==17 and r['selected_count']==17
+          assert len({x['uid'] for x in r['rows']})==17
+          assert len(list((p/'assets/plates').glob('*.jpg')))==1436
+          assert len(list((p/'build/web/assets/plates').glob('*.jpg')))==1436
+          assert sum(uid.startswith('LPG-US-NJ-') for uid in a)==18
+          assert (p/'sw.js').read_text().count('lpg-current-images-20261104-njmvc17')==1
+          assert r['government_pdf_original_sha256']==batch['official_pdf_source_sha256']
+          for x in r['rows']:
+              uid=x['uid'];rec=a[uid]
+              assert rec['match_status']=='source_matched' and rec['era_status']=='unverified'
+              assert rec['human_approval'] is False and rec['source_sha256']==x['original_image_sha256']
+              for kind in ('display','thumbnail'):
+                  for folder in ('assets/plates','build/web/assets/plates'):
+                      path=p/folder/f'{uid}-{kind}.jpg'
+                      assert path.is_file()
+                      assert hashlib.sha256(path.read_bytes()).hexdigest()==x[kind+'_sha256']
+          print('PASS: 17 NJ source matches, 34 reproducible JPEG files, 718 total designs, 420 remaining')
+          PY
+      - name: Publish verified derivatives on independent review branch only
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c generated/nj-mvc-17-dedicated-plate-images-20261104
+          git add .github/workflows/integrate-nj-mvc-form-17.yml tools/integrate_nj_mvc_form_17.py
+          git add data/image-batches/nj-mvc-dedicated-17-reviewed-20261104.json
+          git add assets/plates data/catalog-images.js database/image-reconciliation-nj-mvc-form-20261104.json docs/CURRENT_IMAGE_CAMPAIGN_QUEUE.md sw.js tests/catalog-images.cjs
+          git diff --cached --quiet && { echo 'No image derivatives produced'; exit 1; }
+          git commit -m 'Add 17 NJ MVC original PDF source-matched plate designs'
+          git push origin HEAD:refs/heads/generated/nj-mvc-17-dedicated-plate-images-20261104
+          echo 'Original government PDF and extracted source assets are not committed or published.'
