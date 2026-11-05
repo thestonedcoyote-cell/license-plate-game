@@ -3,13 +3,14 @@
 **Verified November 2, 2026.** 1,138 immutable canonical design UIDs is the goal. The scheduled `LPG Image Completion` automation (task ID `6ae403e314b0819197579d5378fe3987`) will continue daily until all 1,138 have source-matched images and Pages reflects the result. Refresh live GitHub main, not just this note, before changes.
 
 ## Current truth
+- **2026-11-04 NJ MVC +17:** Official dedicated-plate form provides 17 source-matched original image objects (source PDF, image xref, page label, exact SHA-256). NJ now 18 mapped, 20 unresolved. Archive preserved privately; no human review or issue era approved.
 - **2026-11-02 Idaho +3:** archived ITD original source files from Actions run 41486647380, independently matched and SHA-pinned for Scenic Idaho, 2026 Harvest the Future Agriculture, and 2026 White & Black standard; original page/registry SHA-pinned. Legacy plate poster source still 404, interactive guide static page contains no downloaded imagery. Idaho remaining 65. Era/human and commercial rights remain unverified; originals retained privately (Library source archive libfile_812c83d5016c8191961afd6e0845b08b).
 - **2026-11-02 NJ standard:** one archived MVC official sample (Garden State) visibly matched to LPG-US-NJ-00028; source SHA-256 pinned, display/thumbnail hashes recorded, era/human approval unverified. This is one source-matched design only, not a rights or era endorsement.
-- **701 / 1,138 source-matched plate image examples (61.60%)**. **437 UIDs remain unresolved**. **1,402** public display/thumbnail JPG files, all source SHA links present.
-- Image matches by place: WA 54, OR 19, AK 41, MS 35, TX 157, CA 33, WI 31, FL 132, NE 22, NV 84, AL 28, MI 22, CA-ON 39, NJ 1, ID 3.
+- **718 / 1,138 source-matched plate image examples (63.09%)**. **420 UIDs remain unresolved**. **1,436** public display/thumbnail JPG files, all source SHA links present.
+- Image matches by place: WA 54, OR 19, AK 41, MS 35, TX 157, CA 33, WI 31, FL 132, NE 22, NV 84, AL 28, MI 22, CA-ON 39, NJ 18, ID 3.
 - Exact source-image integration PRs: NV [#51](https://github.com/thestonedcoyote-cell/license-plate-game/pull/51), Alabama [#53](https://github.com/thestonedcoyote-cell/license-plate-game/pull/53), Michigan/Ontario [#56](https://github.com/thestonedcoyote-cell/license-plate-game/pull/56), all four PR checks passed and post-merge Pages run `40994709178` passed for the 697 snapshot.
 - Some UIDs are legitimate aliases reusing identical physical sample art. Three content-duplicate cases are recorded in portable SQLite issues; **do not call these independent design/era approvals**.
-- All 701 current image entries remain `match_status=source_matched`, `era_status=unverified`, `human_approval=false`. Issuing-agency artwork origin and owner's project fair-use reference rationale are not a legal licensing decision, and plate issue-era attribution remains open.
+- All 718 current image entries remain `match_status=source_matched`, `era_status=unverified`, `human_approval=false`. Issuing-agency artwork origin and owner's project fair-use reference rationale are not a legal licensing decision, and plate issue-era attribution remains open.
 
 ## Portable database and original evidence
 - **Current SQLite/JPG runtime archive** `LPG_Reference_Image_Snapshot_2026_10_29_697.zip`; private Library `libfile_49cdcafc528c81919e38066a6abda87b`; SHA256 `be2efec2e7cad85a7e315188e645cb6b5a881e3acfd04265b362fdb41a58e4be` (32,404,836 bytes). Integrity checks PASSED: 1,138 canonical catalog IDs, 697 selected images, 1,394 UID-indexed JPEG paths, 694 content-unique published assets, 3 explicitly flagged shared image issues, all SQLite FKs clean, ZIP contents/hashes verified. Does **not** contain original government PDF/HTML/image evidence binaries.
@@ -21,7 +22,7 @@
 | Jurisdiction | Unmatched catalog IDs | Source status |
 | --- | ---: | --- |
 | Idaho | 65 | Old illustrated state poster URL HTTP 404, official interactive guide at apps.itd.idaho.gov requires scripted browser/deep source retrieval |
-| New Jersey | 37 | NJ MVC official dedication index exists but earlier harvest did not capture full plate graphics, follow official dedicated individual subpages and state agency samples |
+| New Jersey | 20 | NJ MVC official dedication index exists but earlier harvest did not capture full plate graphics, follow official dedicated individual subpages and state agency samples |
 | Hawaii | 27 | No vetted official gallery registry; county DMV and state veteran/organization plate pages are research leads |
 | Wyoming | 21 | Official WYDOT gallery downloaded only a few assets; follow detailed official subpages |
 | Washington | 18 | Supplement original issuing-agency DOL plate pages and earlier variants |
@@ -35,7 +36,7 @@
 | North Dakota | 12 | Agency source discovery needed |
 | Virginia | 11 | Agency source discovery needed |
 
-Remaining **437** distributed across more jurisdictions including Texas 7 unresolved, Alabama 2 intentionally excluded, and Indiana 7 after the original two-image official page harvest. All source leads require direct validation; no missing artwork should be fabricated.
+Remaining **420** distributed across more jurisdictions including Texas 7 unresolved, Alabama 2 intentionally excluded, and Indiana 7 after the original two-image official page harvest. All source leads require direct validation; no missing artwork should be fabricated.
 
 ## Execution order
 1. **P1 Idaho + New Jersey + Hawaii:** Find current issuing-agency galleries or PDFs/interactive source data; do not rely on dead poster links. When available, acquire raw originals, page context and SHA-256 and preserve privately.
@@ -48,8 +49,8 @@ Remaining **437** distributed across more jurisdictions including Texas 7 unreso
 ## Absolute completion criterion
 Do not claim all 1,138 plate images completed until `data/catalog-images.js` has 1,138 distinct immutable UIDs, each correctly matched to a verifiable source and original asset SHA, 2,276 valid web/offline image files, successful repository CI and confirmed Pages deployment. Stop the daily completion task only when this is independently verified.
 
-## November 2 follow-up: official NJ MVC PDF artwork leads (not yet matched)
+## November 2-4 follow-up: official NJ MVC PDF artwork
 - NJ MVC [SP-100D dedicated-plate application](https://nj.gov/mvc/pdf/vehicles/SPU-100D.pdf) includes **17 labeled plate illustrations** on the selection page: Agriculture, Animal Friendly, Battleship, Baymen's Heritage, Conquer Cancer, Deborah Heart & Lung, Fallen Law Enforcement, Historic Preservation, Liberty Park, Meadowlands, Olympic, Organ Donor, Pinelands, Shade Tree, Shore, United We Stand, Wildlife Eagle. This is a **government-hosted multi-design original document lead**, not 17 verified UID matches. Retrieve the PDF bytes, SHA-256 pin original, inspect actual rendered artwork and map only exact catalog identities. The PDF's form revision is R10/16; this does **not** prove each plate's issuance era.
-- NJ MVC [2010 annual report](https://www.nj.gov/mvc/pdf/about/annual_2010.pdf) **text** reports the announcement of 12 NASCAR plate designs and separately names Devils, Nets, 76ers, Knicks, Phillies, Mets, Yankees, Eagles, Jets and Giants plates. A grid of actual plate artwork is **not verified**. Treat as historical textual evidence; no PDF source hash, illustration count, issue-era approval or design mapping is claimed.
+- NJ MVC [2010 annual report](https://www.nj.gov/mvc/pdf/about/annual_2010.pdf) **text** reports the announcement of 12 NASCAR plate designs and separately names Devils, Nets, 76ers, Knicks, Phillies, Mets, Yankees, Eagles, Jets and Giants plates. The downloaded PDF has 12 actual sports-plate illustrations on PDF page 10. These are source-pinned historical evidence only; no current catalog UID corresponds to a sports plate, so zero are integrated.
 - NJ MVC [organizational plate pages](https://www.nj.gov/mvc/vehicles/organizational.htm) link service, alumni and community plate families, with some rendered examples. Check the exact sample image source and catalog identities before counting.
-- **Status:** Research leads only. 0 newly integrated UIDs from these documents; existing 701/1,138 and 437 unresolved unchanged. No original PDF SHA or derivative JPG was verified in this follow-up.
+- **2026-11-04 completed source matches:** 17 dedicated plate images integrated with original PDF SHA-256 9d6a73ed7e56b741af5ab7ccb1f11f44de575dada9103372a885a841ac8ffe67 and individually recorded embedded JPEG source hashes. 718 of 1138 mapped; 420 remain. The historical annual report SHA-256 is 1138083ba3139e75e09b8f287247ef4560a699d4a128425173fbd14bf438210b. Private source archive Library libfile_33529bf051ac819190e84b7e5c26d76c. Source image quality is low-resolution (100-135px wide); dates, final human approval and commercial rights remain unverified.
