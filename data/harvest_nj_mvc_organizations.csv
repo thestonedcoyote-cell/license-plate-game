@@ -1,0 +1,4 @@
+priority,jurisdiction,code,source_kind,title,url,extraction_mode,difficulty,image_rich,historical_coverage,local_binary_status,notes,jurisdiction_id
+1,New Jersey,NJ,official_gallery,NJ MVC Service Organizations Plates,https://www.nj.gov/mvc/vehicles/serviceorg.htm,html_gallery,A,1,1,pending,Official MVC page lists 20 unmatched organization designs; source plate images must be separately verified,US-NJ
+2,New Jersey,NJ,official_gallery,NJ MVC Community Organizations Plates,https://www.nj.gov/mvc/vehicles/community.htm,html_gallery,A,1,1,pending,Official related sample artwork for research; do not add non-catalog UIDs,US-NJ
+3,New Jersey,NJ,official_gallery,NJ MVC Alumni Organizations Plates,https://www.nj.gov/mvc/vehicles/alumni.htm,html_gallery,A,1,1,pending,Official related artwork; map only exact catalog design identities,US-NJ
